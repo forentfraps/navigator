@@ -1,0 +1,76 @@
+{
+  "number": "",
+  "title": "Воронеж — Старый Оскол",
+  "short_title": "Воронеж — Старый Оскол",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 61702,
+    "title": "ИП Платонов Д.Б.",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_10_f9623369t9624017_114",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно, кроме сб, вс",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Воронеж, Центральный автовокзал",
+        "short_title": null,
+        "popular_title": "Центральный автовокзал",
+        "code": "s9623369",
+        "codes": {
+          "yandex": "s9623369"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 08:20:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Старый Оскол, автовокзал",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9624017",
+        "codes": {
+          "yandex": "s9624017"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 10:20:00",
+      "duration": 7200.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "08:20"
+}

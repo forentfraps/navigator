@@ -1,0 +1,79 @@
+{
+  "uid": "FS-7916_250604_c62655_12",
+  "number": "FS 7916",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "19:20",
+  "start_date": "2025-06-04",
+  "days": "ср, пт с 04.06 по 29.08",
+  "except_days": "",
+  "title": "Стамбул — Караганды",
+  "short_title": "Стамбул — Караганды",
+  "carrier": {
+    "code": 62655,
+    "title": "FlyArystan",
+    "codes": {
+      "sirena": null,
+      "iata": "FS",
+      "icao": null
+    }
+  },
+  "vehicle": "Airbus А320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Новый аэропорт Стамбул",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600421",
+        "codes": {
+          "yandex": "s9600421",
+          "iata": "IST",
+          "sirena": "ИСТ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-06-04 19:20:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Сары-Арка",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623799",
+        "codes": {
+          "yandex": "s9623799",
+          "iata": "KGF",
+          "sirena": "КГД"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-06-05 02:30:00",
+      "stop_time": null,
+      "duration": 18600,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

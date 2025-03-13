@@ -1,0 +1,79 @@
+{
+  "uid": "FS-7154_250313_c62655_12",
+  "number": "FS 7154",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "18:15",
+  "start_date": "2025-03-13",
+  "days": "13, 20, 27 марта",
+  "except_days": "",
+  "title": "Семей — Алматы",
+  "short_title": "Семей — Алматы",
+  "carrier": {
+    "code": 62655,
+    "title": "FlyArystan",
+    "codes": {
+      "sirena": null,
+      "iata": "FS",
+      "icao": null
+    }
+  },
+  "vehicle": "Airbus А320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Семей",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623654",
+        "codes": {
+          "yandex": "s9623654",
+          "iata": "PLX",
+          "sirena": "СПЛ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-13 18:15:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Алматы",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600392",
+        "codes": {
+          "yandex": "s9600392",
+          "iata": "ALA",
+          "sirena": "АЛА"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-13 20:05:00",
+      "stop_time": null,
+      "duration": 6600,
+      "terminal": "0"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

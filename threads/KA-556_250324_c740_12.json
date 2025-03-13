@@ -1,0 +1,81 @@
+{
+  "uid": "KA-556_250324_c740_12",
+  "number": "KA 556",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "10:40",
+  "start_date": "2025-03-12",
+  "days": "пн, ср, пт, вс по 28.03",
+  "except_days": "",
+  "title": "Москва — Ош",
+  "short_title": "Москва — Ош",
+  "carrier": {
+    "code": 740,
+    "title": "Аэро Номад Эйрлайнс",
+    "codes": {
+      "sirena": null,
+      "iata": "KA",
+      "icao": "ANK"
+    }
+  },
+  "vehicle": "Airbus А320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Внуково",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600215",
+        "codes": {
+          "yandex": "s9600215",
+          "esr": "180701",
+          "iata": "VKO",
+          "sirena": "ВНК",
+          "express": "2000714"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-12 10:40:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "A"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ош",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623570",
+        "codes": {
+          "yandex": "s9623570",
+          "iata": "OSS",
+          "sirena": "ОШШ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-12 18:00:00",
+      "stop_time": null,
+      "duration": 15600,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

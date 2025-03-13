@@ -1,0 +1,139 @@
+{
+  "number": "",
+  "title": "Иркутск — Слюдянка",
+  "short_title": "Иркутск — Слюдянка",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 58629,
+    "title": "ООО Партнерство \"Баргузин\"",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_1_f9623373t9845202_382",
+  "vehicle": "Типовая схема (13 мест)",
+  "transport_subtype": {
+    "title": "Автобус",
+    "code": "bus",
+    "color": "#ff0000"
+  },
+  "days": "только 7, 8, 9, 10 апреля",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Иркутск",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623373",
+        "codes": {
+          "yandex": "s9623373"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-04-07 15:40:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Шелехов, автостанция",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9854962",
+        "codes": {
+          "yandex": "s9854962"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-04-07 16:10:00",
+      "arrival": "2025-04-07 16:09:00",
+      "duration": 1800.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Култук",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9845201",
+        "codes": {
+          "yandex": "s9845201"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-04-07 17:30:00",
+      "arrival": "2025-04-07 17:29:00",
+      "duration": 6600.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Култук, кафе \"Черемушки\"",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9874495",
+        "codes": {
+          "yandex": "s9874495"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-04-07 17:34:00",
+      "arrival": "2025-04-07 17:33:00",
+      "duration": 6840.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Слюдянка, автостанция",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9845202",
+        "codes": {
+          "yandex": "s9845202"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-04-07 17:40:00",
+      "duration": 7200.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-04-07",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "15:40"
+}

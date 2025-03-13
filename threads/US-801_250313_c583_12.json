@@ -1,0 +1,79 @@
+{
+  "uid": "US-801_250313_c583_12",
+  "number": "US 801",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "18:15",
+  "start_date": "2025-03-13",
+  "days": "пн, чт, пт, вс по 30.05",
+  "except_days": "",
+  "title": "Ташкент — Бухара",
+  "short_title": "Ташкент — Бухара",
+  "carrier": {
+    "code": 583,
+    "title": "US Airways",
+    "codes": {
+      "sirena": null,
+      "iata": "US",
+      "icao": "AWE"
+    }
+  },
+  "vehicle": "ATR 72",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Ташкент",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600397",
+        "codes": {
+          "yandex": "s9600397",
+          "iata": "TAS",
+          "sirena": "ТАС"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-13 18:15:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "3"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Бухара",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623554",
+        "codes": {
+          "yandex": "s9623554",
+          "iata": "BHK",
+          "sirena": "БУА"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-13 19:45:00",
+      "stop_time": null,
+      "duration": 5400,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

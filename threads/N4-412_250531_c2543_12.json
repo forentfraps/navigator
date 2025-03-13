@@ -1,0 +1,79 @@
+{
+  "uid": "N4-412_250531_c2543_12",
+  "number": "N4 412",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "06:15",
+  "start_date": "2025-05-31",
+  "days": "сб с 31.05 по 20.09",
+  "except_days": "",
+  "title": "Казань — Сочи",
+  "short_title": "Казань — Сочи",
+  "carrier": {
+    "code": 2543,
+    "title": "Nordwind",
+    "codes": {
+      "sirena": "КЛ",
+      "iata": "N4",
+      "icao": "NWS"
+    }
+  },
+  "vehicle": "Airbus А321",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Казань",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600379",
+        "codes": {
+          "yandex": "s9600379",
+          "iata": "KZN",
+          "sirena": "ККЗ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-05-31 06:15:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "1"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Сочи",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623547",
+        "codes": {
+          "yandex": "s9623547",
+          "iata": "AER",
+          "sirena": "СОЧ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-05-31 09:40:00",
+      "stop_time": null,
+      "duration": 12300,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

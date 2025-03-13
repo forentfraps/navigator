@@ -1,0 +1,488 @@
+{
+    "date": null,
+    "station": {
+        "type": "station",
+        "title": "Болычево",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9740312",
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+    },
+    "event": "departure",
+    "pagination": {
+        "total": 18,
+        "limit": 250,
+        "offset": 0
+    },
+    "schedule": [
+        {
+            "thread": {
+                "number": "22",
+                "title": "Волоколамск — Карачарово",
+                "short_title": "Волоколамск — Карачарово",
+                "express_type": null,
+                "transport_type": "bus",
+                "carrier": null,
+                "uid": "22_1_f9741897t9740822_44",
+                "vehicle": null,
+                "transport_subtype": {
+                    "title": null,
+                    "code": null,
+                    "color": null
+                }
+            },
+            "is_fuzzy": false,
+            "platform": "",
+            "terminal": null,
+            "days": "ежедневно",
+            "except_days": null,
+            "stops": "",
+            "departure": "05:49",
+            "arrival": "05:48"
+        },
+        {
+            "thread": {
+                "number": "22",
+                "title": "Карачарово — Город",
+                "short_title": "Карачарово — Город",
+                "express_type": null,
+                "transport_type": "bus",
+                "carrier": {
+                    "code": 1836,
+                    "title": "ГУП МО \"МОСТРАНСАВТО\"",
+                    "codes": {
+                        "sirena": null,
+                        "iata": null,
+                        "icao": null
+                    }
+                },
+                "uid": "22_0_9740822_4",
+                "vehicle": null,
+                "transport_subtype": {
+                    "title": "Автобус",
+                    "code": "bus",
+                    "color": "#ff0000"
+                }
+            },
+            "is_fuzzy": false,
+            "platform": "",
+            "terminal": null,
+            "days": "ежедневно",
+            "except_days": null,
+            "stops": "",
+            "departure": "06:11",
+            "arrival": "06:10"
+        },
+        {
+            "thread": {
+                "number": "22",
+                "title": "Лисавино — Город",
+                "short_title": "Лисавино — Город",
+                "express_type": null,
+                "transport_type": "bus",
+                "carrier": {
+                    "code": 1836,
+                    "title": "ГУП МО \"МОСТРАНСАВТО\"",
+                    "codes": {
+                        "sirena": null,
+                        "iata": null,
+                        "icao": null
+                    }
+                },
+                "uid": "22_0_9736987_4",
+                "vehicle": null,
+                "transport_subtype": {
+                    "title": "Автобус",
+                    "code": "bus",
+                    "color": "#ff0000"
+                }
+            },
+            "is_fuzzy": false,
+            "platform": "",
+            "terminal": null,
+            "days": "ежедневно",
+            "except_days": null,
+            "stops": "",
+            "departure": "07:14",
+            "arrival": "07:13"
+        },
+        {
+            "thread": {
+                "number": "22",
+                "title": "Волоколамск — Карачарово",
+                "short_title": "Волоколамск — Карачарово",
+                "express_type": null,
+                "transport_type": "bus",
+                "carrier": null,
+                "uid": "22_4_f9741897t9740822_44",
+                "vehicle": null,
+                "transport_subtype": {
+                    "title": null,
+                    "code": null,
+                    "color": null
+                }
+            },
+            "is_fuzzy": false,
+            "platform": "",
+            "terminal": null,
+            "days": "ежедневно",
+            "except_days": null,
+            "stops": "",
+            "departure": "09:08",
+            "arrival": "09:07"
+        },
+        {
+            "thread": {
+                "number": "22",
+                "title": "Карачарово — Волоколамск",
+                "short_title": "Карачарово — Волоколамск",
+                "express_type": null,
+                "transport_type": "bus",
+                "carrier": null,
+                "uid": "22_2_f9740822t9741897_44",
+                "vehicle": null,
+                "transport_subtype": {
+                    "title": null,
+                    "code": null,
+                    "color": null
+                }
+            },
+            "is_fuzzy": false,
+            "platform": "",
+            "terminal": null,
+            "days": "ежедневно",
+            "except_days": null,
+            "stops": "",
+            "departure": "09:28",
+            "arrival": "09:27"
+        },
+        {
+            "thread": {
+                "number": "22",
+                "title": "Волоколамск — Карачарово",
+                "short_title": "Волоколамск — Карачарово",
+                "express_type": null,
+                "transport_type": "bus",
+                "carrier": null,
+                "uid": "22_2_f9741897t9740822_44",
+                "vehicle": null,
+                "transport_subtype": {
+                    "title": null,
+                    "code": null,
+                    "color": null
+                }
+            },
+            "is_fuzzy": false,
+            "platform": "",
+            "terminal": null,
+            "days": "ежедневно",
+            "except_days": null,
+            "stops": "",
+            "departure": "10:58",
+            "arrival": "10:57"
+        },
+        {
+            "thread": {
+                "number": "22",
+                "title": "Карачарово — Волоколамск",
+                "short_title": "Карачарово — Волоколамск",
+                "express_type": null,
+                "transport_type": "bus",
+                "carrier": null,
+                "uid": "22_0_f9740822t9741897_44",
+                "vehicle": null,
+                "transport_subtype": {
+                    "title": null,
+                    "code": null,
+                    "color": null
+                }
+            },
+            "is_fuzzy": false,
+            "platform": "",
+            "terminal": null,
+            "days": "ежедневно",
+            "except_days": null,
+            "stops": "",
+            "departure": "11:16",
+            "arrival": "11:15"
+        },
+        {
+            "thread": {
+                "number": "22",
+                "title": "Волоколамск / кольцевой",
+                "short_title": "Волоколамск / кольцевой",
+                "express_type": null,
+                "transport_type": "bus",
+                "carrier": null,
+                "uid": "22_2_f9741897t9741897_44",
+                "vehicle": null,
+                "transport_subtype": {
+                    "title": null,
+                    "code": null,
+                    "color": null
+                }
+            },
+            "is_fuzzy": false,
+            "platform": "",
+            "terminal": null,
+            "days": "ежедневно",
+            "except_days": null,
+            "stops": "",
+            "departure": "12:29",
+            "arrival": "12:28"
+        },
+        {
+            "thread": {
+                "number": "22",
+                "title": "Волоколамск / кольцевой",
+                "short_title": "Волоколамск / кольцевой",
+                "express_type": null,
+                "transport_type": "bus",
+                "carrier": null,
+                "uid": "22_2_f9741897t9741897_44",
+                "vehicle": null,
+                "transport_subtype": {
+                    "title": null,
+                    "code": null,
+                    "color": null
+                }
+            },
+            "is_fuzzy": false,
+            "platform": "",
+            "terminal": null,
+            "days": "ежедневно",
+            "except_days": null,
+            "stops": "",
+            "departure": "12:59",
+            "arrival": "12:58"
+        },
+        {
+            "thread": {
+                "number": "22",
+                "title": "Волоколамск / кольцевой",
+                "short_title": "Волоколамск / кольцевой",
+                "express_type": null,
+                "transport_type": "bus",
+                "carrier": null,
+                "uid": "22_0_f9741897t9741897_44",
+                "vehicle": null,
+                "transport_subtype": {
+                    "title": null,
+                    "code": null,
+                    "color": null
+                }
+            },
+            "is_fuzzy": false,
+            "platform": "",
+            "terminal": null,
+            "days": "ежедневно",
+            "except_days": null,
+            "stops": "",
+            "departure": "14:20",
+            "arrival": "14:19"
+        },
+        {
+            "thread": {
+                "number": "22",
+                "title": "Волоколамск / кольцевой",
+                "short_title": "Волоколамск / кольцевой",
+                "express_type": null,
+                "transport_type": "bus",
+                "carrier": null,
+                "uid": "22_0_f9741897t9741897_44",
+                "vehicle": null,
+                "transport_subtype": {
+                    "title": null,
+                    "code": null,
+                    "color": null
+                }
+            },
+            "is_fuzzy": false,
+            "platform": "",
+            "terminal": null,
+            "days": "ежедневно",
+            "except_days": null,
+            "stops": "",
+            "departure": "14:59",
+            "arrival": "14:58"
+        },
+        {
+            "thread": {
+                "number": "22",
+                "title": "Волоколамск / кольцевой",
+                "short_title": "Волоколамск / кольцевой",
+                "express_type": null,
+                "transport_type": "bus",
+                "carrier": null,
+                "uid": "22_1_f9741897t9741897_44",
+                "vehicle": null,
+                "transport_subtype": {
+                    "title": null,
+                    "code": null,
+                    "color": null
+                }
+            },
+            "is_fuzzy": false,
+            "platform": "",
+            "terminal": null,
+            "days": "ежедневно",
+            "except_days": null,
+            "stops": "",
+            "departure": "15:21",
+            "arrival": "15:20"
+        },
+        {
+            "thread": {
+                "number": "22",
+                "title": "Волоколамск / кольцевой",
+                "short_title": "Волоколамск / кольцевой",
+                "express_type": null,
+                "transport_type": "bus",
+                "carrier": null,
+                "uid": "22_1_f9741897t9741897_44",
+                "vehicle": null,
+                "transport_subtype": {
+                    "title": null,
+                    "code": null,
+                    "color": null
+                }
+            },
+            "is_fuzzy": false,
+            "platform": "",
+            "terminal": null,
+            "days": "ежедневно",
+            "except_days": null,
+            "stops": "",
+            "departure": "16:00",
+            "arrival": "15:59"
+        },
+        {
+            "thread": {
+                "number": "22",
+                "title": "Волоколамск — Карачарово",
+                "short_title": "Волоколамск — Карачарово",
+                "express_type": null,
+                "transport_type": "bus",
+                "carrier": null,
+                "uid": "22_3_f9741897t9740822_44",
+                "vehicle": null,
+                "transport_subtype": {
+                    "title": null,
+                    "code": null,
+                    "color": null
+                }
+            },
+            "is_fuzzy": false,
+            "platform": "",
+            "terminal": null,
+            "days": "ежедневно",
+            "except_days": null,
+            "stops": "",
+            "departure": "17:26",
+            "arrival": "17:25"
+        },
+        {
+            "thread": {
+                "number": "22",
+                "title": "Карачарово — Волоколамск",
+                "short_title": "Карачарово — Волоколамск",
+                "express_type": null,
+                "transport_type": "bus",
+                "carrier": null,
+                "uid": "22_1_f9740822t9741897_44",
+                "vehicle": null,
+                "transport_subtype": {
+                    "title": null,
+                    "code": null,
+                    "color": null
+                }
+            },
+            "is_fuzzy": false,
+            "platform": "",
+            "terminal": null,
+            "days": "ежедневно",
+            "except_days": null,
+            "stops": "",
+            "departure": "17:44",
+            "arrival": "17:43"
+        },
+        {
+            "thread": {
+                "number": "22",
+                "title": "Болычево — Волоколамск",
+                "short_title": "Болычево — Волоколамск",
+                "express_type": null,
+                "transport_type": "bus",
+                "carrier": null,
+                "uid": "22_0_f9740312t9741897_44",
+                "vehicle": null,
+                "transport_subtype": {
+                    "title": null,
+                    "code": null,
+                    "color": null
+                }
+            },
+            "is_fuzzy": false,
+            "platform": "",
+            "terminal": null,
+            "days": "ежедневно",
+            "except_days": null,
+            "stops": "",
+            "departure": "19:05",
+            "arrival": null
+        },
+        {
+            "thread": {
+                "number": "22",
+                "title": "Волоколамск / кольцевой",
+                "short_title": "Волоколамск / кольцевой",
+                "express_type": null,
+                "transport_type": "bus",
+                "carrier": null,
+                "uid": "22_3_f9741897t9741897_44",
+                "vehicle": null,
+                "transport_subtype": {
+                    "title": null,
+                    "code": null,
+                    "color": null
+                }
+            },
+            "is_fuzzy": false,
+            "platform": "",
+            "terminal": null,
+            "days": "ежедневно",
+            "except_days": null,
+            "stops": "",
+            "departure": "20:02",
+            "arrival": "20:01"
+        },
+        {
+            "thread": {
+                "number": "22",
+                "title": "Волоколамск / кольцевой",
+                "short_title": "Волоколамск / кольцевой",
+                "express_type": null,
+                "transport_type": "bus",
+                "carrier": null,
+                "uid": "22_3_f9741897t9741897_44",
+                "vehicle": null,
+                "transport_subtype": {
+                    "title": null,
+                    "code": null,
+                    "color": null
+                }
+            },
+            "is_fuzzy": false,
+            "platform": "",
+            "terminal": null,
+            "days": "ежедневно",
+            "except_days": null,
+            "stops": "",
+            "departure": "20:39",
+            "arrival": "20:38"
+        }
+    ],
+    "interval_schedule": []
+}

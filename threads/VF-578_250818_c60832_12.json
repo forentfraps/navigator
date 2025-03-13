@@ -1,0 +1,79 @@
+{
+  "uid": "VF-578_250818_c60832_12",
+  "number": "VF 578",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "16:35",
+  "start_date": "2025-04-14",
+  "days": "14, 19, 26 апреля, 3, 12, 19, 24, 31 мая, 2, 7, 9, 14, 16, 21, 23, 28, 30 июня, 5, 7, 14 июля, …",
+  "except_days": "",
+  "title": "Баку — Анкара",
+  "short_title": "Баку — Анкара",
+  "carrier": {
+    "code": 60832,
+    "title": "Ajet",
+    "codes": {
+      "sirena": null,
+      "iata": "VF",
+      "icao": "TKJ"
+    }
+  },
+  "vehicle": "Boeing 737",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "им. Гейдара Алиева",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600387",
+        "codes": {
+          "yandex": "s9600387",
+          "iata": "GYD",
+          "sirena": "БАК"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-04-14 16:35:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "1"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Эсенбога",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600434",
+        "codes": {
+          "yandex": "s9600434",
+          "iata": "ESB",
+          "sirena": "ЕСБ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-04-14 18:10:00",
+      "stop_time": null,
+      "duration": 9300,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

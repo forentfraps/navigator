@@ -1,0 +1,391 @@
+{
+  "number": "",
+  "title": "Воронеж — Поворино",
+  "short_title": "Воронеж — Поворино",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 60409,
+    "title": "ИП Саютин С.Н.",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_0_f9623369t9637050_114",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Воронеж, Центральный автовокзал",
+        "short_title": null,
+        "popular_title": "Центральный автовокзал",
+        "code": "s9623369",
+        "codes": {
+          "yandex": "s9623369"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 14:30:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Рогачевка",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9761834",
+        "codes": {
+          "yandex": "s9761834"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 15:00:00",
+      "arrival": "2025-03-13 14:59:00",
+      "duration": 1800.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Красный Лиман 2-й",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9761862",
+        "codes": {
+          "yandex": "s9761862"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 15:31:00",
+      "arrival": "2025-03-13 15:30:00",
+      "duration": 3660.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Александровка",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9761861",
+        "codes": {
+          "yandex": "s9761861"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 15:38:00",
+      "arrival": "2025-03-13 15:37:00",
+      "duration": 4080.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Васильевка",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9761858",
+        "codes": {
+          "yandex": "s9761858"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 16:03:00",
+      "arrival": "2025-03-13 16:02:00",
+      "duration": 5580.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Николаевка",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9761857",
+        "codes": {
+          "yandex": "s9761857"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 16:16:00",
+      "arrival": "2025-03-13 16:15:00",
+      "duration": 6360.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Анна, автостанция",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9633964",
+        "codes": {
+          "yandex": "s9633964"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 16:46:00",
+      "arrival": "2025-03-13 16:36:00",
+      "duration": 8160.0,
+      "stop_time": 600,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Хлебородное",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9761891",
+        "codes": {
+          "yandex": "s9761891"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 17:07:00",
+      "arrival": "2025-03-13 17:06:00",
+      "duration": 9420.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Архангельское",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9651769",
+        "codes": {
+          "yandex": "s9651769"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 17:27:00",
+      "arrival": "2025-03-13 17:26:00",
+      "duration": 10620.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Новомакарово",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9654532",
+        "codes": {
+          "yandex": "s9654532"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 17:47:00",
+      "arrival": "2025-03-13 17:46:00",
+      "duration": 11820.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Листопадовка",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9637048",
+        "codes": {
+          "yandex": "s9637048"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 18:09:00",
+      "arrival": "2025-03-13 18:08:00",
+      "duration": 13140.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Красовка",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9761892",
+        "codes": {
+          "yandex": "s9761892"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 18:13:00",
+      "arrival": "2025-03-13 18:12:00",
+      "duration": 13380.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ключики",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9833242",
+        "codes": {
+          "yandex": "s9833242"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 18:21:00",
+      "arrival": "2025-03-13 18:20:00",
+      "duration": 13860.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Бирючий",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9833241",
+        "codes": {
+          "yandex": "s9833241"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 18:23:00",
+      "arrival": "2025-03-13 18:22:00",
+      "duration": 13980.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Верхний Карачан",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9651799",
+        "codes": {
+          "yandex": "s9651799"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 18:36:00",
+      "arrival": "2025-03-13 18:35:00",
+      "duration": 14760.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Рождественское",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9835001",
+        "codes": {
+          "yandex": "s9835001"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 19:20:00",
+      "arrival": "2025-03-13 19:19:00",
+      "duration": 17400.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Поворино",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9637050",
+        "codes": {
+          "yandex": "s9637050"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 19:30:00",
+      "duration": 18000.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "14:30"
+}

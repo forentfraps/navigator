@@ -1,0 +1,79 @@
+{
+  "uid": "HY-507_251031_c35_12",
+  "number": "HY 507",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "17:15",
+  "start_date": "2025-03-14",
+  "days": "вт, пт по 08.08, кроме 18.03",
+  "except_days": "",
+  "title": "Ташкент — Урумчи",
+  "short_title": "Ташкент — Урумчи",
+  "carrier": {
+    "code": 35,
+    "title": "Uzbekistan Airways",
+    "codes": {
+      "sirena": "ХИ",
+      "iata": "HY",
+      "icao": "UZB"
+    }
+  },
+  "vehicle": "Airbus А320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Ташкент",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600397",
+        "codes": {
+          "yandex": "s9600397",
+          "iata": "TAS",
+          "sirena": "ТАС"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-14 17:15:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "2"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Урумчи",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623665",
+        "codes": {
+          "yandex": "s9623665",
+          "iata": "URC",
+          "sirena": "УРЧ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-14 22:40:00",
+      "stop_time": null,
+      "duration": 8700,
+      "terminal": "3"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

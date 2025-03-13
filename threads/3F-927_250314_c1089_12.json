@@ -1,0 +1,79 @@
+{
+  "uid": "3F-927_250314_c1089_12",
+  "number": "3F 927",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "17:00",
+  "start_date": "2025-03-14",
+  "days": "14, 17, 21, 24, 28 марта",
+  "except_days": "",
+  "title": "Ереван — Париж",
+  "short_title": "Ереван — Париж",
+  "carrier": {
+    "code": 1089,
+    "title": "FLYONE Armenia",
+    "codes": {
+      "sirena": null,
+      "iata": "3F",
+      "icao": null
+    }
+  },
+  "vehicle": "Airbus А320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Звартноц",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600369",
+        "codes": {
+          "yandex": "s9600369",
+          "iata": "EVN",
+          "sirena": "ЗВР"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-14 17:00:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Шарль де Голль",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600413",
+        "codes": {
+          "yandex": "s9600413",
+          "iata": "CDG",
+          "sirena": "ЦДГ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-14 19:20:00",
+      "stop_time": null,
+      "duration": 19200,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

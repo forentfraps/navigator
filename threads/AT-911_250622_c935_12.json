@@ -1,0 +1,79 @@
+{
+  "uid": "AT-911_250622_c935_12",
+  "number": "AT 911",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "18:00",
+  "start_date": "2025-04-13",
+  "days": "13 апреля, 22, 29 июня",
+  "except_days": "",
+  "title": "Стамбул — Касабланка",
+  "short_title": "Стамбул — Касабланка",
+  "carrier": {
+    "code": 935,
+    "title": "Royal Air Maroc",
+    "codes": {
+      "sirena": null,
+      "iata": "AT",
+      "icao": "RAM"
+    }
+  },
+  "vehicle": "Boeing 737-800",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Новый аэропорт Стамбул",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600421",
+        "codes": {
+          "yandex": "s9600421",
+          "iata": "IST",
+          "sirena": "ИСТ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-04-13 18:00:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "им. Мохаммеда V",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9628436",
+        "codes": {
+          "yandex": "s9628436",
+          "iata": "CMN",
+          "sirena": "ЦМН"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-04-13 21:10:00",
+      "stop_time": null,
+      "duration": 18600,
+      "terminal": "2"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

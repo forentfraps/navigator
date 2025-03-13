@@ -1,0 +1,311 @@
+{
+  "number": "126М",
+  "title": "Москва — Череповец",
+  "short_title": "Москва — Череповец",
+  "express_type": null,
+  "transport_type": "train",
+  "carrier": {
+    "code": 112,
+    "title": "РЖД/ФПК",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "126M_0_2",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "13, 15, 17, 19, 21, 23, 25, 27, 29, 31 марта, 2, 4, 6, 8, 10, 12, 16, 18, 20, 22 апреля, …",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Москва (Ярославский вокзал)",
+        "short_title": "М-Ярославск.",
+        "popular_title": "Ярославский вокзал",
+        "code": "s2000002",
+        "codes": {
+          "yandex": "s2000002",
+          "esr": "195506",
+          "express": "2000002"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 20:20:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Сергиев Посад",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601389",
+        "codes": {
+          "yandex": "s9601389",
+          "esr": "236305",
+          "express": "2000753"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 21:33:00",
+      "arrival": "2025-03-13 21:31:00",
+      "duration": 4380.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Александров-1",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601547",
+        "codes": {
+          "yandex": "s9601547",
+          "esr": "237007",
+          "express": "2000920"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 22:07:00",
+      "arrival": "2025-03-13 22:05:00",
+      "duration": 6420.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ростов-Ярославский",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9604148",
+        "codes": {
+          "yandex": "s9604148",
+          "esr": "314307",
+          "express": "2010226"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 23:22:00",
+      "arrival": "2025-03-13 23:20:00",
+      "duration": 10920.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ярославль-Главный",
+        "short_title": "",
+        "popular_title": "Ярославль-Главный",
+        "code": "s9603934",
+        "codes": {
+          "yandex": "s9603934",
+          "esr": "310005",
+          "sirena": "ЯРЖ",
+          "express": "2010001"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-14 00:35:00",
+      "arrival": "2025-03-14 00:05:00",
+      "duration": 15300.0,
+      "stop_time": 1800,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Данилов",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9604244",
+        "codes": {
+          "yandex": "s9604244",
+          "esr": "311101",
+          "express": "2010324"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-14 02:15:00",
+      "arrival": "2025-03-14 01:41:00",
+      "duration": 21300.0,
+      "stop_time": 2040,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Грязовец",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9604109",
+        "codes": {
+          "yandex": "s9604109",
+          "esr": "303209",
+          "express": "2010186"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-14 03:37:00",
+      "arrival": "2025-03-14 03:35:00",
+      "duration": 26220.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Вологда-1",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9603962",
+        "codes": {
+          "yandex": "s9603962",
+          "esr": "300107",
+          "express": "2010030"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-14 05:20:00",
+      "arrival": "2025-03-14 04:20:00",
+      "duration": 32400.0,
+      "stop_time": 3600,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Кипелово",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9604098",
+        "codes": {
+          "yandex": "s9604098",
+          "esr": "301805",
+          "express": "2010175"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-14 06:26:00",
+      "arrival": "2025-03-14 06:24:00",
+      "duration": 36360.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Чебсара",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9604367",
+        "codes": {
+          "yandex": "s9604367",
+          "esr": "302009",
+          "express": "2010802"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-14 06:56:00",
+      "arrival": "2025-03-14 06:54:00",
+      "duration": 38160.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Шексна",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9604095",
+        "codes": {
+          "yandex": "s9604095",
+          "esr": "302102",
+          "express": "2010172"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-14 07:17:00",
+      "arrival": "2025-03-14 07:14:00",
+      "duration": 39420.0,
+      "stop_time": 180,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Череповец-1",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9604211",
+        "codes": {
+          "yandex": "s9604211",
+          "esr": "302304",
+          "express": "2010290"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": null,
+      "arrival": "2025-03-14 08:00:00",
+      "duration": 42000.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "20:20"
+}

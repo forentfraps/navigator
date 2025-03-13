@@ -1,0 +1,78 @@
+{
+  "uid": "KU-125_250605_c745_12",
+  "number": "KU 125",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "09:50",
+  "start_date": "2025-06-05",
+  "days": "чт, сб, вс с 05.06 по 14.09",
+  "except_days": "",
+  "title": "Эль-Кувейт — Сараево",
+  "short_title": "Эль-Кувейт — Сараево",
+  "carrier": {
+    "code": 745,
+    "title": "Kuwait Airways",
+    "codes": {
+      "sirena": null,
+      "iata": "KU",
+      "icao": "KAC"
+    }
+  },
+  "vehicle": "Airbus A320 NEO",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Кувейт",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9631552",
+        "codes": {
+          "yandex": "s9631552",
+          "iata": "KWI",
+          "sirena": "КВИ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-06-05 09:50:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "4"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Батмир",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623702",
+        "codes": {
+          "yandex": "s9623702",
+          "iata": "SJJ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-06-05 13:35:00",
+      "stop_time": null,
+      "duration": 17100,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

@@ -1,0 +1,79 @@
+{
+  "uid": "TK-1671_250331_c680_12",
+  "number": "TK 1671",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "07:10",
+  "start_date": "2025-03-31",
+  "days": "пн, вт, чт, сб с 31.03 по 28.08",
+  "except_days": "",
+  "title": "Стамбул — Кельн",
+  "short_title": "Стамбул — Кельн",
+  "carrier": {
+    "code": 680,
+    "title": "Turkish Airlines",
+    "codes": {
+      "sirena": null,
+      "iata": "TK",
+      "icao": "THY"
+    }
+  },
+  "vehicle": "Airbus A320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Новый аэропорт Стамбул",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600421",
+        "codes": {
+          "yandex": "s9600421",
+          "iata": "IST",
+          "sirena": "ИСТ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-31 07:10:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Кельн-Бонн",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600405",
+        "codes": {
+          "yandex": "s9600405",
+          "iata": "CGN",
+          "sirena": "ЦГН"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-31 09:30:00",
+      "stop_time": null,
+      "duration": 12000,
+      "terminal": "2"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

@@ -1,0 +1,79 @@
+{
+  "uid": "KU-502_250326_c745_12",
+  "number": "KU 502",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "11:30",
+  "start_date": "2025-03-12",
+  "days": "12, 21, 26, 28 марта",
+  "except_days": "",
+  "title": "Бейрут — Эль-Кувейт",
+  "short_title": "Бейрут — Эль-Кувейт",
+  "carrier": {
+    "code": 745,
+    "title": "Kuwait Airways",
+    "codes": {
+      "sirena": null,
+      "iata": "KU",
+      "icao": "KAC"
+    }
+  },
+  "vehicle": "Airbus A330-800neo Passenger",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Бейрут",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623595",
+        "codes": {
+          "yandex": "s9623595",
+          "iata": "BEY",
+          "sirena": "БЕУ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-12 11:30:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Кувейт",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9631552",
+        "codes": {
+          "yandex": "s9631552",
+          "iata": "KWI",
+          "sirena": "КВИ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-12 16:00:00",
+      "stop_time": null,
+      "duration": 12600,
+      "terminal": "4"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

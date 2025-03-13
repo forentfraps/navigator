@@ -1,0 +1,79 @@
+{
+  "uid": "SU-1306_250312_c26_12",
+  "number": "SU 1306",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "00:55",
+  "start_date": "2025-03-13",
+  "days": "ежедневно по 30.03, кроме 19.03, 23.03",
+  "except_days": "",
+  "title": "Москва — Новосибирск",
+  "short_title": "Москва — Новосибирск",
+  "carrier": {
+    "code": 26,
+    "title": "Аэрофлот",
+    "codes": {
+      "sirena": "СУ",
+      "iata": "SU",
+      "icao": "AFL"
+    }
+  },
+  "vehicle": "Airbus A320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Шереметьево",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600213",
+        "codes": {
+          "yandex": "s9600213",
+          "iata": "SVO",
+          "sirena": "ШРМ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-13 00:55:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "B"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Толмачёво",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600374",
+        "codes": {
+          "yandex": "s9600374",
+          "iata": "OVB",
+          "sirena": "ТЛЧ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-13 09:05:00",
+      "stop_time": null,
+      "duration": 15000,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

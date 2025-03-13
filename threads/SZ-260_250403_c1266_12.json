@@ -1,0 +1,79 @@
+{
+  "uid": "SZ-260_250403_c1266_12",
+  "number": "SZ 260",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "16:05",
+  "start_date": "2025-04-03",
+  "days": "чт с 03.04 по 28.08",
+  "except_days": "",
+  "title": "Сургут — Худжанд",
+  "short_title": "Сургут — Худжанд",
+  "carrier": {
+    "code": 1266,
+    "title": "Сомон Эйр",
+    "codes": {
+      "sirena": "4Й",
+      "iata": "SZ",
+      "icao": "SMR"
+    }
+  },
+  "vehicle": "Boeing 737-800",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Сургут",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623563",
+        "codes": {
+          "yandex": "s9623563",
+          "iata": "SGC",
+          "sirena": "СУР"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-04-03 16:05:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Худжанд",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623565",
+        "codes": {
+          "yandex": "s9623565",
+          "iata": "LBD",
+          "sirena": "ХДТ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-04-03 19:35:00",
+      "stop_time": null,
+      "duration": 12600,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

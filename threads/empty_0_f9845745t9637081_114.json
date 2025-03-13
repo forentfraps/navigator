@@ -1,0 +1,160 @@
+{
+  "number": "",
+  "title": "Москва — Шацк",
+  "short_title": "Москва — Шацк",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 57872,
+    "title": "ООО \"СЛАВЯНСКИЙ ЭКСПРЕСС\"",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_0_f9845745t9637081_114",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "пт, сб, вс",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Москва, автовокзал Южные ворота",
+        "short_title": null,
+        "popular_title": "Автовокзал Южные ворота",
+        "code": "s9845745",
+        "codes": {
+          "yandex": "s9845745"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 06:45:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "ТЦ «Реал»",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9743564",
+        "codes": {
+          "yandex": "s9743564"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 07:10:00",
+      "arrival": "2025-03-14 07:09:00",
+      "duration": 1500.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Рязань, Автовокзал Центральный",
+        "short_title": "",
+        "popular_title": "Автовокзал Центральный",
+        "code": "s9623418",
+        "codes": {
+          "yandex": "s9623418"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 10:15:00",
+      "arrival": "2025-03-14 10:10:00",
+      "duration": 12600.0,
+      "stop_time": 300,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Шилово",
+        "short_title": "",
+        "popular_title": "Автостанция Шилово",
+        "code": "s9637801",
+        "codes": {
+          "yandex": "s9637801"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 12:30:00",
+      "arrival": "2025-03-14 12:25:00",
+      "duration": 20700.0,
+      "stop_time": 300,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Путятино",
+        "short_title": null,
+        "popular_title": "Кассовый пункт Путятино",
+        "code": "s9746255",
+        "codes": {
+          "yandex": "s9746255"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 13:10:00",
+      "arrival": "2025-03-14 13:05:00",
+      "duration": 23100.0,
+      "stop_time": 300,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Шацк",
+        "short_title": "",
+        "popular_title": "Автовокзал Шацк",
+        "code": "s9637081",
+        "codes": {
+          "yandex": "s9637081"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-14 13:45:00",
+      "duration": 25200.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-14",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "06:45"
+}

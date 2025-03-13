@@ -1,0 +1,81 @@
+{
+  "uid": "HY-603_250314_c35_12",
+  "number": "HY 603",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "07:20",
+  "start_date": "2025-03-14",
+  "days": "вт, пт, сб, вс по 29.03",
+  "except_days": "",
+  "title": "Ташкент — Москва",
+  "short_title": "Ташкент — Москва",
+  "carrier": {
+    "code": 35,
+    "title": "Uzbekistan Airways",
+    "codes": {
+      "sirena": "ХИ",
+      "iata": "HY",
+      "icao": "UZB"
+    }
+  },
+  "vehicle": "Boeing 787-900",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Ташкент",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600397",
+        "codes": {
+          "yandex": "s9600397",
+          "iata": "TAS",
+          "sirena": "ТАС"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-14 07:20:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "2"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Домодедово",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600216",
+        "codes": {
+          "yandex": "s9600216",
+          "esr": "193114",
+          "iata": "DME",
+          "sirena": "ДМД",
+          "express": "2001305"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-14 09:40:00",
+      "stop_time": null,
+      "duration": 15600,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

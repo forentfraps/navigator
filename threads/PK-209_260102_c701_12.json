@@ -1,0 +1,78 @@
+{
+  "uid": "PK-209_260102_c701_12",
+  "number": "PK 209",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "21:50",
+  "start_date": "2026-01-02",
+  "days": "2, 5 января",
+  "except_days": "",
+  "title": "Абу-Даби — Сиялкот",
+  "short_title": "Абу-Даби — Сиялкот",
+  "carrier": {
+    "code": 701,
+    "title": "Pakistan International Airlines",
+    "codes": {
+      "sirena": null,
+      "iata": "PK",
+      "icao": "PIA"
+    }
+  },
+  "vehicle": "Airbus А320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Абу-Даби",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9624402",
+        "codes": {
+          "yandex": "s9624402",
+          "iata": "AUH",
+          "sirena": "АУХ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2026-01-02 21:50:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "A"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Сиялкот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9629283",
+        "codes": {
+          "yandex": "s9629283",
+          "iata": "SKT"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2026-01-03 01:45:00",
+      "stop_time": null,
+      "duration": 10500,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

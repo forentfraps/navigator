@@ -1,0 +1,100 @@
+{
+  "uid": "XC-6008_250329_c60868_12",
+  "number": "XC 6008",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "04:40",
+  "start_date": "2025-03-29",
+  "days": "29 марта",
+  "except_days": "",
+  "title": "Тегеран — Анталья",
+  "short_title": "Тегеран — Анталья",
+  "carrier": {
+    "code": 60868,
+    "title": "Corendon Airlines",
+    "codes": {
+      "sirena": null,
+      "iata": "XC",
+      "icao": "CAI"
+    }
+  },
+  "vehicle": "Boeing 737-800",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "имени Имама Хомейни",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600447",
+        "codes": {
+          "yandex": "s9600447",
+          "iata": "IKA"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-29 04:40:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Кайсери",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9631159",
+        "codes": {
+          "yandex": "s9631159",
+          "iata": "ASR"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-29 07:15:00",
+      "arrival": "2025-03-29 06:45:00",
+      "stop_time": 1800,
+      "duration": 11100,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Анталья",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623581",
+        "codes": {
+          "yandex": "s9623581",
+          "iata": "AYT",
+          "sirena": "АЯТ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-29 08:35:00",
+      "stop_time": null,
+      "duration": 15900,
+      "terminal": "2"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

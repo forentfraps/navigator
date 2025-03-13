@@ -1,0 +1,78 @@
+{
+  "uid": "G9-390_250315_c351_12",
+  "number": "G9 390",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "07:30",
+  "start_date": "2025-03-12",
+  "days": "12, 15, 19, 22, 26, 29 марта",
+  "except_days": "",
+  "title": "Шарджа — Салала",
+  "short_title": "Шарджа — Салала",
+  "carrier": {
+    "code": 351,
+    "title": "Air Arabia",
+    "codes": {
+      "sirena": null,
+      "iata": "G9",
+      "icao": "ABY"
+    }
+  },
+  "vehicle": "Airbus А320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Шарджа",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623802",
+        "codes": {
+          "yandex": "s9623802",
+          "iata": "SHJ",
+          "sirena": "СХЙ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-12 07:30:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Салала",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9630352",
+        "codes": {
+          "yandex": "s9630352",
+          "iata": "SLL"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-12 09:15:00",
+      "stop_time": null,
+      "duration": 6300,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

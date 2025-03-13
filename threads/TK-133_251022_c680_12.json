@@ -1,0 +1,78 @@
+{
+  "uid": "TK-133_251022_c680_12",
+  "number": "TK 133",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "07:50",
+  "start_date": "2025-04-02",
+  "days": "пн, ср, пт с 02.04 по 29.08",
+  "except_days": "",
+  "title": "Стамбул — Хьюстон",
+  "short_title": "Стамбул — Хьюстон",
+  "carrier": {
+    "code": 680,
+    "title": "Turkish Airlines",
+    "codes": {
+      "sirena": null,
+      "iata": "TK",
+      "icao": "THY"
+    }
+  },
+  "vehicle": "Boeing 787-900",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Новый аэропорт Стамбул",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600421",
+        "codes": {
+          "yandex": "s9600421",
+          "iata": "IST",
+          "sirena": "ИСТ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-04-02 07:50:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Джордж Буш",
+        "short_title": "",
+        "popular_title": null,
+        "code": "s9631024",
+        "codes": {
+          "yandex": "s9631024",
+          "iata": "IAH"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-04-02 12:40:00",
+      "stop_time": null,
+      "duration": 46200,
+      "terminal": "D"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

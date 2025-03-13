@@ -1,0 +1,79 @@
+{
+  "uid": "US-302_250315_c583_12",
+  "number": "US 302",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "09:15",
+  "start_date": "2025-03-15",
+  "days": "сб по 31.05",
+  "except_days": "",
+  "title": "Самарканд — Ташкент",
+  "short_title": "Самарканд — Ташкент",
+  "carrier": {
+    "code": 583,
+    "title": "US Airways",
+    "codes": {
+      "sirena": null,
+      "iata": "US",
+      "icao": "AWE"
+    }
+  },
+  "vehicle": "ATR 72",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Самарканд",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623553",
+        "codes": {
+          "yandex": "s9623553",
+          "iata": "SKD",
+          "sirena": "СКД"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-15 09:15:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ташкент",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600397",
+        "codes": {
+          "yandex": "s9600397",
+          "iata": "TAS",
+          "sirena": "ТАС"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-15 10:15:00",
+      "stop_time": null,
+      "duration": 3600,
+      "terminal": "3"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

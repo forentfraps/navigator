@@ -1,0 +1,78 @@
+{
+  "uid": "IX-394_250313_c1590_12",
+  "number": "IX 394",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "12:55",
+  "start_date": "2025-03-13",
+  "days": "ежедневно, кроме вт, сб по 10.08",
+  "except_days": "",
+  "title": "Эль-Кувейт — Кожикоде",
+  "short_title": "Эль-Кувейт — Кожикоде",
+  "carrier": {
+    "code": 1590,
+    "title": "Air india express",
+    "codes": {
+      "sirena": null,
+      "iata": "IX",
+      "icao": null
+    }
+  },
+  "vehicle": "Airbus A320 NEO",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Кувейт",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9631552",
+        "codes": {
+          "yandex": "s9631552",
+          "iata": "KWI",
+          "sirena": "КВИ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-13 12:55:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "1"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Кожикоде",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9625579",
+        "codes": {
+          "yandex": "s9625579",
+          "iata": "CCJ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-13 20:25:00",
+      "stop_time": null,
+      "duration": 18000,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

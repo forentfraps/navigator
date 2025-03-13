@@ -1,0 +1,160 @@
+{
+  "number": "",
+  "title": "Новокузнецк — Кемерово",
+  "short_title": "Новокузнецк — Кемерово",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 63643,
+    "title": "Кемеровская автоколонна №1237 ГП КО",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_15_f9657201t9623379_168",
+  "vehicle": "НЕФАЗ-5299-0000017-42 М (44), ах26042",
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Новокузнецк, автовокзал",
+        "short_title": null,
+        "popular_title": "Автовокзал Новокузнецк",
+        "code": "s9657201",
+        "codes": {
+          "yandex": "s9657201"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 19:50:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Белово, автовокзал",
+        "short_title": null,
+        "popular_title": "Автовокзал Белово",
+        "code": "s9657036",
+        "codes": {
+          "yandex": "s9657036"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 21:50:00",
+      "arrival": "2025-03-13 21:40:00",
+      "duration": 7200.0,
+      "stop_time": 600,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Полысаево",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9657232",
+        "codes": {
+          "yandex": "s9657232"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 22:21:00",
+      "arrival": "2025-03-13 22:20:00",
+      "duration": 9060.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ленинск-Кузнецкий, автовокзал",
+        "short_title": null,
+        "popular_title": "Автовокзал Ленинск-Кузнецкий",
+        "code": "s9657171",
+        "codes": {
+          "yandex": "s9657171"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 22:45:00",
+      "arrival": "2025-03-13 22:35:00",
+      "duration": 10500.0,
+      "stop_time": 600,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Кемерово, аэропорт",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9848421",
+        "codes": {
+          "yandex": "s9848421"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 23:51:00",
+      "arrival": "2025-03-13 23:50:00",
+      "duration": 14460.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Кемерово, автовокзал",
+        "short_title": null,
+        "popular_title": "автовокзал Кемерово",
+        "code": "s9623379",
+        "codes": {
+          "yandex": "s9623379"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-14 00:01:00",
+      "duration": 15060.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "19:50"
+}

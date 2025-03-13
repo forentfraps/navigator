@@ -1,0 +1,79 @@
+{
+  "uid": "VF-215_250815_c60832_12",
+  "number": "VF 215",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "00:25",
+  "start_date": "2025-06-06",
+  "days": "6, 13, 15, 20, 22, 27, 29 июня, 4, 11, 18, 20, 25 июля, 1, 8, 15, 17, 22, 24, 29, 31 августа",
+  "except_days": "",
+  "title": "Стамбул — Эр-Рияд",
+  "short_title": "Стамбул — Эр-Рияд",
+  "carrier": {
+    "code": 60832,
+    "title": "Ajet",
+    "codes": {
+      "sirena": null,
+      "iata": "VF",
+      "icao": "TKJ"
+    }
+  },
+  "vehicle": "Boeing 737-800",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Сабиха Гёкчен",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600420",
+        "codes": {
+          "yandex": "s9600420",
+          "iata": "SAW",
+          "sirena": "СБХ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-06-06 00:25:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Кинг Халид",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9630318",
+        "codes": {
+          "yandex": "s9630318",
+          "iata": "RUH",
+          "sirena": "РУХ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-06-06 04:40:00",
+      "stop_time": null,
+      "duration": 15300,
+      "terminal": "3"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

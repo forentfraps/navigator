@@ -1,0 +1,550 @@
+{
+  "date": null,
+  "station": {
+    "type": "station",
+    "title": "Аэропорт Гагарин",
+    "short_title": "",
+    "popular_title": "",
+    "code": "s9872703",
+    "station_type": "stop",
+    "station_type_name": "остановочный пункт",
+    "transport_type": "train"
+  },
+  "event": "departure",
+  "pagination": {
+    "total": 16,
+    "limit": 100,
+    "offset": 0
+  },
+  "schedule": [
+    {
+      "thread": {
+        "number": "6472",
+        "title": "Тарханы — Саратов-2",
+        "short_title": "Тарханы — Саратов-2",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 2547,
+          "title": "Саратовская пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6472_1_9605839_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "06:21",
+      "arrival": "06:20"
+    },
+    {
+      "thread": {
+        "number": "6303",
+        "title": "Карамыш — Тарханы",
+        "short_title": "Карамыш — Тарханы",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 2547,
+          "title": "Саратовская пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6303_0_9605846_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "вт, ср, чт, вс",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "08:31",
+      "arrival": "08:30"
+    },
+    {
+      "thread": {
+        "number": "6047",
+        "title": "Овражная — Тарханы",
+        "short_title": "Овражная — Тарханы",
+        "express_type": "express",
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 2547,
+          "title": "Саратовская пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6047_0_9605849_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "ускоренный (по обычным пригородным билетам)",
+          "code": "skor",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "пн, пт, сб",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "08:32",
+      "arrival": "08:31"
+    },
+    {
+      "thread": {
+        "number": "6167/6168",
+        "title": "Балаково — Саратов-1-Пасс.",
+        "short_title": "Балаково — Саратов-1-Пасс.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 2547,
+          "title": "Саратовская пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6167x6168_1_9605909_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "Липовский, Зоринский, Сокурский Тракт, Трофимовский-1, Молодёжная, Площадь Ленина, Саратов-1-Пасс.",
+      "departure": "08:41",
+      "arrival": "08:40"
+    },
+    {
+      "thread": {
+        "number": "6475",
+        "title": "Анисовка — Тарханы",
+        "short_title": "Анисовка — Тарханы",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 2547,
+          "title": "Саратовская пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6475_0_9605916_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "09:01",
+      "arrival": "09:00"
+    },
+    {
+      "thread": {
+        "number": "6003",
+        "title": "Саратов-1-Пасс. — Тарханы",
+        "short_title": "Саратов-1-Пасс. — Тарханы",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 2547,
+          "title": "Саратовская пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6003_1_9623135_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "263 км, Тарханы",
+      "departure": "10:07",
+      "arrival": "10:05"
+    },
+    {
+      "thread": {
+        "number": "6004",
+        "title": "Тарханы — Саратов-1-Пасс.",
+        "short_title": "Тарханы — Саратов-1-Пасс.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 2547,
+          "title": "Саратовская пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6004_1_9605839_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "Сокурский Тракт, Трофимовский-1, Площадь Ленина, Саратов-1-Пасс.",
+      "departure": "10:53",
+      "arrival": "10:51"
+    },
+    {
+      "thread": {
+        "number": "6048",
+        "title": "Тарханы — Овражная",
+        "short_title": "Тарханы — Овражная",
+        "express_type": "express",
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 2547,
+          "title": "Саратовская пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6048_0_9605839_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "ускоренный (по обычным пригородным билетам)",
+          "code": "skor",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "чт, пт, вс",
+      "except_days": null,
+      "stops": "кроме: 132 км",
+      "departure": "16:15",
+      "arrival": "16:14"
+    },
+    {
+      "thread": {
+        "number": "6316",
+        "title": "Тарханы — Карамыш",
+        "short_title": "Тарханы — Карамыш",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 2547,
+          "title": "Саратовская пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6316_0_9605839_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "пн, вт, ср, сб",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "16:50",
+      "arrival": "16:49"
+    },
+    {
+      "thread": {
+        "number": "6118",
+        "title": "Тарханы — Анисовка",
+        "short_title": "Тарханы — Анисовка",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 2547,
+          "title": "Саратовская пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6118_1_9605839_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "17:06",
+      "arrival": "17:05"
+    },
+    {
+      "thread": {
+        "number": "6005",
+        "title": "Саратов-1-Пасс. — Тарханы",
+        "short_title": "Саратов-1-Пасс. — Тарханы",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 2547,
+          "title": "Саратовская пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6005_1_9623135_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "Вязовка, Вторая Расловка, 259 км, Тарханы",
+      "departure": "18:31",
+      "arrival": "18:29"
+    },
+    {
+      "thread": {
+        "number": "6165/6166",
+        "title": "Саратов-1-Пасс. — Балаково",
+        "short_title": "Саратов-1-Пасс. — Балаково",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 2547,
+          "title": "Саратовская пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6165x6166_1_9623135_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "Тарханы, далее везде, кроме: Булгаковка, Шиханы, Терса",
+      "departure": "18:54",
+      "arrival": "18:53"
+    },
+    {
+      "thread": {
+        "number": "6006",
+        "title": "Тарханы — Саратов-1-Пасс.",
+        "short_title": "Тарханы — Саратов-1-Пасс.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 2547,
+          "title": "Саратовская пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6006_1_9605839_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "Сокурский Тракт, Трофимовский-1, Площадь Ленина, Саратов-1-Пасс.",
+      "departure": "19:31",
+      "arrival": "19:29"
+    },
+    {
+      "thread": {
+        "number": "6325",
+        "title": "Карамыш — Тарханы",
+        "short_title": "Карамыш — Тарханы",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 2547,
+          "title": "Саратовская пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6325_0_9605846_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "19:42",
+      "arrival": "19:41"
+    },
+    {
+      "thread": {
+        "number": "6009",
+        "title": "Саратов-1-Пасс. — Тарханы",
+        "short_title": "Саратов-1-Пасс. — Тарханы",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 2547,
+          "title": "Саратовская пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6009_1_9623135_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "259 км, Тарханы",
+      "departure": "20:50",
+      "arrival": "20:48"
+    },
+    {
+      "thread": {
+        "number": "6010",
+        "title": "Тарханы — Саратов-1-Пасс.",
+        "short_title": "Тарханы — Саратов-1-Пасс.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 2547,
+          "title": "Саратовская пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6010_1_9605839_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "Сокурский Тракт, Трофимовский-1, Площадь Ленина, Саратов-1-Пасс.",
+      "departure": "21:46",
+      "arrival": "21:44"
+    }
+  ],
+  "interval_schedule": []
+}

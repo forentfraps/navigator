@@ -1,0 +1,139 @@
+{
+  "number": "",
+  "title": "Краснодар — Ставрополь",
+  "short_title": "Краснодар — Ставрополь",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 65375,
+    "title": "Ставрополь ИП Зайцев С.Н.",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_1_f9623281t9623298_691",
+  "vehicle": "Форд-Транз_18м",
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "только 8, 9, 10, 18, 20, 21 марта",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Краснодар-1 (Центральный автовокзал)",
+        "short_title": null,
+        "popular_title": "Центральный автовокзал",
+        "code": "s9623281",
+        "codes": {
+          "yandex": "s9623281"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-18 15:20:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Новоалександровск, автостанция",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9637744",
+        "codes": {
+          "yandex": "s9637744"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-18 17:46:00",
+      "arrival": "2025-03-18 17:45:00",
+      "duration": 8760.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Новотроицкая, автостанция",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9654903",
+        "codes": {
+          "yandex": "s9654903"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-18 18:21:00",
+      "arrival": "2025-03-18 18:20:00",
+      "duration": 10860.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Изобильный",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9637747",
+        "codes": {
+          "yandex": "s9637747"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-18 18:41:00",
+      "arrival": "2025-03-18 18:40:00",
+      "duration": 12060.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ставрополь, автовокзал",
+        "short_title": "",
+        "popular_title": "Центральный автовокзал",
+        "code": "s9623298",
+        "codes": {
+          "yandex": "s9623298"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-18 19:45:00",
+      "duration": 15900.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-18",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "15:20"
+}

@@ -1,0 +1,76 @@
+{
+  "number": "111",
+  "title": "Широкий Буерак - Балаково",
+  "short_title": "Широкий Буерак - Балаково",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 64466,
+    "title": "ИП Егорова М.Ю.",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_9_f9669728t9623933_551",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно по 06.04",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Широкий Буерак",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9669728",
+        "codes": {
+          "yandex": "s9669728"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 16:00:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Балаково, автостанция",
+        "short_title": "",
+        "popular_title": "Балаковская автостанция",
+        "code": "s9623933",
+        "codes": {
+          "yandex": "s9623933"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 16:40:00",
+      "duration": 2400.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "16:00"
+}

@@ -1,0 +1,76 @@
+{
+  "number": "249",
+  "title": "Саратов, ж.д. вокзал - Парк покорителей Космоса",
+  "short_title": "Саратов, ж.д. вокзал - Парк покорителей Космоса",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 67391,
+    "title": "ООО \"Викомп-Авто\"",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_3_f9866938t9888057_551",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно по 06.04",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Саратов, Ж/Д вокзал",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9866938",
+        "codes": {
+          "yandex": "s9866938"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 09:00:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Парк покорителей космоса",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9888057",
+        "codes": {
+          "yandex": "s9888057"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 10:30:00",
+      "duration": 5400.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "09:00"
+}

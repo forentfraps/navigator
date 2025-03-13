@@ -1,0 +1,79 @@
+{
+  "uid": "JU-116_250331_c737_12",
+  "number": "JU 116",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "00:40",
+  "start_date": "2025-03-31",
+  "days": "пн, чт, сб с 31.03 по 28.08",
+  "except_days": "",
+  "title": "Белград — София",
+  "short_title": "Белград — София",
+  "carrier": {
+    "code": 737,
+    "title": "Air Serbia",
+    "codes": {
+      "sirena": null,
+      "iata": "JU",
+      "icao": "JAT"
+    }
+  },
+  "vehicle": "ATR 72",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Белград",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623578",
+        "codes": {
+          "yandex": "s9623578",
+          "iata": "BEG",
+          "sirena": "БГА"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-31 00:40:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "2"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "София",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623579",
+        "codes": {
+          "yandex": "s9623579",
+          "iata": "SOF",
+          "sirena": "СОФ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-31 02:55:00",
+      "stop_time": null,
+      "duration": 4500,
+      "terminal": "2"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

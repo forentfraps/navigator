@@ -1,0 +1,218 @@
+{
+  "number": "7114/7112",
+  "title": "Белгород — Воронеж-1",
+  "short_title": "Белгород — Воронеж-1",
+  "express_type": "express",
+  "transport_type": "suburban",
+  "carrier": {
+    "code": 2541,
+    "title": "ППК \"Черноземье\"",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "7114x7112_0_9605027_g25_4",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": "ускоренный (по обычным пригородным билетам)",
+    "code": "skor",
+    "color": "#CC6600"
+  },
+  "days": "сб",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Белгород",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9605027",
+        "codes": {
+          "yandex": "s9605027",
+          "esr": "434509",
+          "express": "2014370"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-15 06:53:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Прохоровка",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9605039",
+        "codes": {
+          "yandex": "s9605039",
+          "esr": "435003",
+          "express": "2014382"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-15 07:32:00",
+      "arrival": "2025-03-15 07:31:00",
+      "duration": 2340.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ржава",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9605036",
+        "codes": {
+          "yandex": "s9605036",
+          "esr": "435107",
+          "express": "2014379"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-15 07:52:00",
+      "arrival": "2025-03-15 07:51:00",
+      "duration": 3540.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Кривецкая",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9605001",
+        "codes": {
+          "yandex": "s9605001",
+          "esr": "437808",
+          "express": "2014342"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-15 08:17:00",
+      "arrival": "2025-03-15 08:16:00",
+      "duration": 5040.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Губкин-Пасс.",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9605448",
+        "codes": {
+          "yandex": "s9605448",
+          "esr": "437949",
+          "express": "2014963"
+        },
+        "station_type": "stop",
+        "station_type_name": "остановочный пункт",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-15 08:50:00",
+      "arrival": "2025-03-15 08:49:00",
+      "duration": 7020.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Старый Оскол",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s2014340",
+        "codes": {
+          "yandex": "s2014340",
+          "esr": "438506",
+          "express": "2014340"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-15 09:16:00",
+      "arrival": "2025-03-15 09:15:00",
+      "duration": 8580.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Касторная-Новая",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9605487",
+        "codes": {
+          "yandex": "s9605487",
+          "esr": "595401",
+          "express": "2015391"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-15 10:01:00",
+      "arrival": "2025-03-15 10:00:00",
+      "duration": 11280.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Воронеж-1",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s2014001",
+        "codes": {
+          "yandex": "s2014001",
+          "esr": "596506",
+          "express": "2014001"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": null,
+      "arrival": "2025-03-15 11:08:00",
+      "duration": 15300.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-15",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "06:53"
+}

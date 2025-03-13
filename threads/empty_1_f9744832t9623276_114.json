@@ -1,0 +1,118 @@
+{
+  "number": "",
+  "title": "Москва, автовокзал Красногвардейский — Белгород, автовокзал",
+  "short_title": "Москва, автовокзал Красногвардейский — Белгород, автовокзал",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 9957,
+    "title": "ИП Дубенский Александр Васильевич",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_1_f9744832t9623276_114",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Москва, автовокзал Красногвардейский",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9744832",
+        "codes": {
+          "yandex": "s9744832"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 20:45:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Старый Оскол, автовокзал",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9624017",
+        "codes": {
+          "yandex": "s9624017"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 05:00:00",
+      "arrival": "2025-03-14 04:59:00",
+      "duration": 29700.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Чернянка",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9761878",
+        "codes": {
+          "yandex": "s9761878"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 06:01:00",
+      "arrival": "2025-03-14 06:00:00",
+      "duration": 33360.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Белгород, автовокзал",
+        "short_title": "",
+        "popular_title": "Автовокзал Белгород",
+        "code": "s9623276",
+        "codes": {
+          "yandex": "s9623276"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-14 07:30:00",
+      "duration": 38700.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "20:45"
+}

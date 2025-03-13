@@ -1,0 +1,78 @@
+{
+  "uid": "XC-1830_250628_c60868_12",
+  "number": "XC 1830",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "03:05",
+  "start_date": "2025-06-28",
+  "days": "28 июня",
+  "except_days": "",
+  "title": "Балыкесир — Кельн",
+  "short_title": "Балыкесир — Кельн",
+  "carrier": {
+    "code": 60868,
+    "title": "Corendon Airlines",
+    "codes": {
+      "sirena": null,
+      "iata": "XC",
+      "icao": "CAI"
+    }
+  },
+  "vehicle": "Boeing 737-800",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Эдремит-Корфез",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9624633",
+        "codes": {
+          "yandex": "s9624633",
+          "iata": "EDO"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-06-28 03:05:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Кельн-Бонн",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600405",
+        "codes": {
+          "yandex": "s9600405",
+          "iata": "CGN",
+          "sirena": "ЦГН"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-06-28 05:20:00",
+      "stop_time": null,
+      "duration": 11700,
+      "terminal": "2"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

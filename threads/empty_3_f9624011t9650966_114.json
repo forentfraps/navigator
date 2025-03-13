@@ -1,0 +1,160 @@
+{
+  "number": "",
+  "title": "Нижний Тагил — Красноуральск",
+  "short_title": "Нижний Тагил — Красноуральск",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 62762,
+    "title": "ИП Яковенко А.В. г.Кушва",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_3_f9624011t9650966_114",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно, кроме сб, вс",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Нижний Тагил, автовокзал",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9624011",
+        "codes": {
+          "yandex": "s9624011"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 11:25:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Отделение Совхоза Горноуральский",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9839034",
+        "codes": {
+          "yandex": "s9839034"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 11:57:00",
+      "arrival": "2025-03-13 11:56:00",
+      "duration": 1920.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Малая Лая, поворот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9650964",
+        "codes": {
+          "yandex": "s9650964"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 12:03:00",
+      "arrival": "2025-03-13 12:02:00",
+      "duration": 2280.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Кушва",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9650892",
+        "codes": {
+          "yandex": "s9650892"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 12:33:00",
+      "arrival": "2025-03-13 12:28:00",
+      "duration": 4080.0,
+      "stop_time": 300,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Верхняя Тура",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9650965",
+        "codes": {
+          "yandex": "s9650965"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 12:55:00",
+      "arrival": "2025-03-13 12:53:00",
+      "duration": 5400.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Красноуральск",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9650966",
+        "codes": {
+          "yandex": "s9650966"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 13:23:00",
+      "duration": 7080.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "11:25"
+}

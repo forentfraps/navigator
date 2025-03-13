@@ -1,0 +1,79 @@
+{
+  "uid": "YK-777_250330_c140_12",
+  "number": "YK 777",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "19:30",
+  "start_date": "2025-03-30",
+  "days": "вс с 30.03 по 24.08",
+  "except_days": "",
+  "title": "Ош — Иркутск",
+  "short_title": "Ош — Иркутск",
+  "carrier": {
+    "code": 140,
+    "title": "Avia Traffic Company",
+    "codes": {
+      "sirena": "ТФ",
+      "iata": "YK",
+      "icao": "AVJ"
+    }
+  },
+  "vehicle": "Boeing 737-300",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Ош",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623570",
+        "codes": {
+          "yandex": "s9623570",
+          "iata": "OSS",
+          "sirena": "ОШШ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-30 19:30:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Иркутск",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600174",
+        "codes": {
+          "yandex": "s9600174",
+          "iata": "IKT",
+          "sirena": "ИКТ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-31 01:40:00",
+      "stop_time": null,
+      "duration": 15000,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

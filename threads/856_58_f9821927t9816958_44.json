@@ -1,0 +1,109 @@
+{
+  "number": "856",
+  "title": "Москва (м. Тушинская) — Красногорск (Ильинский бульвар)",
+  "short_title": "Москва (м. Тушинская) — Красногорск (Ильинский бульвар)",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": null,
+  "uid": "856_58_f9821927t9816958_44",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно, кроме сб, вс",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "м. Тушинская",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9821927",
+        "codes": {
+          "yandex": "s9821927"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 00:05:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Сходненский тупик",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9808165",
+        "codes": {
+          "yandex": "s9808165"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 00:07:00",
+      "arrival": "2025-03-13 00:06:00",
+      "duration": 120.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Павшинский бульвар",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9816957",
+        "codes": {
+          "yandex": "s9816957"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 00:18:00",
+      "arrival": "2025-03-13 00:17:00",
+      "duration": 780.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ильинский бульвар",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9816958",
+        "codes": {
+          "yandex": "s9816958"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 00:20:00",
+      "duration": 900.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "00:05"
+}

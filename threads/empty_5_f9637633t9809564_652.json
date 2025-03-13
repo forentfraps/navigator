@@ -1,0 +1,97 @@
+{
+  "number": "",
+  "title": "Клинцы - Красная Гора (бронирование обязательно)",
+  "short_title": "Клинцы - Красная Гора (бронирование обязательно)",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 62568,
+    "title": "ИП Грибанов Дмитрий Викторович",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_5_f9637633t9809564_652",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно по 17.05",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Клинцы, автостанция",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9637633",
+        "codes": {
+          "yandex": "s9637633"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 07:20:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Гордеевка",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9809567",
+        "codes": {
+          "yandex": "s9809567"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 08:05:00",
+      "arrival": "2025-03-13 07:59:00",
+      "duration": 2700.0,
+      "stop_time": 360,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Красная Гора",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9809564",
+        "codes": {
+          "yandex": "s9809564"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 08:35:00",
+      "duration": 4500.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "07:20"
+}

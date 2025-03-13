@@ -1,0 +1,139 @@
+{
+  "number": "",
+  "title": "Ростов-на-Дону — Кагальницкая",
+  "short_title": "Ростов-на-Дону — Кагальницкая",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 66761,
+    "title": "Общество с ограниченной ответственностью \"ЭКСПРЕСССЕРВИС\"",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_3_f9868264t9804454_168",
+  "vehicle": "FORD (18), в245те161",
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Ростов-на-Дону, Главный автовокзал",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9868264",
+        "codes": {
+          "yandex": "s9868264"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 09:55:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Мокрый Батай",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9804556",
+        "codes": {
+          "yandex": "s9804556"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 10:21:00",
+      "arrival": "2025-03-13 10:20:00",
+      "duration": 1560.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "СНТ \"Природа\", поворот",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9883463",
+        "codes": {
+          "yandex": "s9883463"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 10:26:00",
+      "arrival": "2025-03-13 10:25:00",
+      "duration": 1860.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Кировская",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9804555",
+        "codes": {
+          "yandex": "s9804555"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 10:36:00",
+      "arrival": "2025-03-13 10:35:00",
+      "duration": 2460.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Кагальницкая",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9804454",
+        "codes": {
+          "yandex": "s9804454"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 10:45:00",
+      "duration": 3000.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "09:55"
+}

@@ -1,0 +1,79 @@
+{
+  "uid": "S7-5072_250324_c23_12",
+  "number": "S7 5072",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "21:00",
+  "start_date": "2025-03-14",
+  "days": "пн, пт, вс по 28.03",
+  "except_days": "",
+  "title": "Оренбург — Новосибирск",
+  "short_title": "Оренбург — Новосибирск",
+  "carrier": {
+    "code": 23,
+    "title": "S7 Airlines",
+    "codes": {
+      "sirena": "С7",
+      "iata": "S7",
+      "icao": null
+    }
+  },
+  "vehicle": "Embraer 170",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "имени Ю. А. Гагарина",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623408",
+        "codes": {
+          "yandex": "s9623408",
+          "iata": "REN",
+          "sirena": "ОНГ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-14 21:00:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Толмачёво",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600374",
+        "codes": {
+          "yandex": "s9600374",
+          "iata": "OVB",
+          "sirena": "ТЛЧ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-15 01:45:00",
+      "stop_time": null,
+      "duration": 9900,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

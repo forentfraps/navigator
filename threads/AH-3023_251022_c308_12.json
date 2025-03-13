@@ -1,0 +1,78 @@
+{
+  "uid": "AH-3023_251022_c308_12",
+  "number": "AH 3023",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "04:30",
+  "start_date": "2025-03-12",
+  "days": "14, 16, 19, 21, 23, 26, 28, 29, 30 марта, 1, 2, 4, 6, 8, 9, 11, 13, 15, 16, 18 апреля, …",
+  "except_days": "",
+  "title": "Стамбул — Константина",
+  "short_title": "Стамбул — Константина",
+  "carrier": {
+    "code": 308,
+    "title": "Air Algerie",
+    "codes": {
+      "sirena": null,
+      "iata": "AH",
+      "icao": "DAH"
+    }
+  },
+  "vehicle": "Boeing 737-800",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Новый аэропорт Стамбул",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600421",
+        "codes": {
+          "yandex": "s9600421",
+          "iata": "IST",
+          "sirena": "ИСТ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-12 04:30:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Айн-Эль-Бэй",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9632113",
+        "codes": {
+          "yandex": "s9632113",
+          "iata": "CZL"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-12 05:30:00",
+      "stop_time": null,
+      "duration": 10800,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

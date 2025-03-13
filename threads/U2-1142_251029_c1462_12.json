@@ -1,0 +1,78 @@
+{
+  "uid": "U2-1142_251029_c1462_12",
+  "number": "U2 1142",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "10:20",
+  "start_date": "2025-10-29",
+  "days": "29 октября, 1, 5, 8 ноября",
+  "except_days": "",
+  "title": "Салоники — Базель",
+  "short_title": "Салоники — Базель",
+  "carrier": {
+    "code": 1462,
+    "title": "Easyjet",
+    "codes": {
+      "sirena": null,
+      "iata": "U2",
+      "icao": null
+    }
+  },
+  "vehicle": "Airbus А320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Салоники",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623699",
+        "codes": {
+          "yandex": "s9623699",
+          "iata": "SKG",
+          "sirena": "СКГ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-10-29 10:20:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Мюлуз-Фрайбург",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600433",
+        "codes": {
+          "yandex": "s9600433",
+          "iata": "BSL"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-10-29 11:55:00",
+      "stop_time": null,
+      "duration": 9300,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

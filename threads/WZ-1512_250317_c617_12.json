@@ -1,0 +1,79 @@
+{
+  "uid": "WZ-1512_250317_c617_12",
+  "number": "WZ 1512",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "04:20",
+  "start_date": "2025-03-17",
+  "days": "17, 24 марта",
+  "except_days": "",
+  "title": "Ташкент — Казань",
+  "short_title": "Ташкент — Казань",
+  "carrier": {
+    "code": 617,
+    "title": "Red Wings",
+    "codes": {
+      "sirena": "ИН",
+      "iata": "WZ",
+      "icao": "RWZ"
+    }
+  },
+  "vehicle": "Сухой Суперджет 100",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Ташкент",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600397",
+        "codes": {
+          "yandex": "s9600397",
+          "iata": "TAS",
+          "sirena": "ТАС"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-17 04:20:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "2"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Казань",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600379",
+        "codes": {
+          "yandex": "s9600379",
+          "iata": "KZN",
+          "sirena": "ККЗ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-17 05:40:00",
+      "stop_time": null,
+      "duration": 12000,
+      "terminal": "1"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

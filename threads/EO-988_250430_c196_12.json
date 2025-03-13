@@ -1,0 +1,79 @@
+{
+  "uid": "EO-988_250430_c196_12",
+  "number": "EO 988",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "14:00",
+  "start_date": "2025-04-30",
+  "days": "ср, вс с 30.04 по 28.05",
+  "except_days": "",
+  "title": "Махачкала — Иваново",
+  "short_title": "Махачкала — Иваново",
+  "carrier": {
+    "code": 196,
+    "title": "Ikar",
+    "codes": {
+      "sirena": "ЕО",
+      "iata": "EO",
+      "icao": "KAR"
+    }
+  },
+  "vehicle": "Embraer 190",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Уйташ",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623330",
+        "codes": {
+          "yandex": "s9623330",
+          "iata": "MCX",
+          "sirena": "МХЛ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-04-30 14:00:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Иваново",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600176",
+        "codes": {
+          "yandex": "s9600176",
+          "iata": "IWA",
+          "sirena": "ИВВ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-04-30 17:10:00",
+      "stop_time": null,
+      "duration": 11400,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

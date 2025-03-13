@@ -1,0 +1,79 @@
+{
+  "uid": "A4-6184_250702_c60780_12",
+  "number": "A4 6184",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "14:00",
+  "start_date": "2025-07-02",
+  "days": "ср с 02.07 по 27.08",
+  "except_days": "",
+  "title": "Киров — Минеральные Воды",
+  "short_title": "Киров — Минеральные Воды",
+  "carrier": {
+    "code": 60780,
+    "title": "Азимут",
+    "codes": {
+      "sirena": "А4",
+      "iata": "A4",
+      "icao": null
+    }
+  },
+  "vehicle": "Сухой Суперджет 100",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Победилово",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600181",
+        "codes": {
+          "yandex": "s9600181",
+          "iata": "KVX",
+          "sirena": "КИО"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-07-02 14:00:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Минеральные Воды",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623558",
+        "codes": {
+          "yandex": "s9623558",
+          "iata": "MRV",
+          "sirena": "МРВ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-07-02 17:00:00",
+      "stop_time": null,
+      "duration": 10800,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

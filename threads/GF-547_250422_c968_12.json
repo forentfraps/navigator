@@ -1,0 +1,79 @@
+{
+  "uid": "GF-547_250422_c968_12",
+  "number": "GF 547",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "00:01",
+  "start_date": "2025-03-31",
+  "days": "31 марта, 1, 2, 3, 4, 5, 6, 8, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20, 22, 23 апреля, …",
+  "except_days": "",
+  "title": "Абу-Даби — Манама",
+  "short_title": "Абу-Даби — Манама",
+  "carrier": {
+    "code": 968,
+    "title": "Gulf Air",
+    "codes": {
+      "sirena": null,
+      "iata": "GF",
+      "icao": "GBA"
+    }
+  },
+  "vehicle": "Airbus А320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Абу-Даби",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9624402",
+        "codes": {
+          "yandex": "s9624402",
+          "iata": "AUH",
+          "sirena": "АУХ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-31 00:01:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "A"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Бахрейн",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9634356",
+        "codes": {
+          "yandex": "s9634356",
+          "iata": "BAH",
+          "sirena": "БХЕ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-31 00:15:00",
+      "stop_time": null,
+      "duration": 4440,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

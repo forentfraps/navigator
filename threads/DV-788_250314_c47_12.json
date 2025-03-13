@@ -1,0 +1,79 @@
+{
+  "uid": "DV-788_250314_c47_12",
+  "number": "DV 788",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "10:40",
+  "start_date": "2025-03-14",
+  "days": "14, 17, 21, 24, 28 марта",
+  "except_days": "",
+  "title": "Актобе — Астана",
+  "short_title": "Актобе — Астана",
+  "carrier": {
+    "code": 47,
+    "title": "SCAT",
+    "codes": {
+      "sirena": "ДН",
+      "iata": "DV",
+      "icao": "VSV"
+    }
+  },
+  "vehicle": "Boeing 737-800",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Актобе",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623835",
+        "codes": {
+          "yandex": "s9623835",
+          "iata": "AKX",
+          "sirena": "АКХ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-14 10:40:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Нурсултан Назарбаев",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623556",
+        "codes": {
+          "yandex": "s9623556",
+          "iata": "NQZ",
+          "sirena": "АКЛ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-14 12:05:00",
+      "stop_time": null,
+      "duration": 5100,
+      "terminal": "2"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

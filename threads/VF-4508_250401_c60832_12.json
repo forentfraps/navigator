@@ -1,0 +1,77 @@
+{
+  "uid": "VF-4508_250401_c60832_12",
+  "number": "VF 4508",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "16:50",
+  "start_date": "2025-04-01",
+  "days": "вт, сб с 01.04 по 26.08",
+  "except_days": "",
+  "title": "Бурса — Эрзурум",
+  "short_title": "Бурса — Эрзурум",
+  "carrier": {
+    "code": 60832,
+    "title": "Ajet",
+    "codes": {
+      "sirena": null,
+      "iata": "VF",
+      "icao": "TKJ"
+    }
+  },
+  "vehicle": "Boeing 737-800",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Енишехир",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9628329",
+        "codes": {
+          "yandex": "s9628329",
+          "iata": "YEI"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-04-01 16:50:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Эрзурум",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9624713",
+        "codes": {
+          "yandex": "s9624713",
+          "iata": "ERZ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-04-01 18:30:00",
+      "stop_time": null,
+      "duration": 6000,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

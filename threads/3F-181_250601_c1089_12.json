@@ -1,0 +1,79 @@
+{
+  "uid": "3F-181_250601_c1089_12",
+  "number": "3F 181",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "08:30",
+  "start_date": "2025-06-01",
+  "days": "чт, вс с 01.06 по 23.10",
+  "except_days": "",
+  "title": "Ереван — Ираклион",
+  "short_title": "Ереван — Ираклион",
+  "carrier": {
+    "code": 1089,
+    "title": "FLYONE Armenia",
+    "codes": {
+      "sirena": null,
+      "iata": "3F",
+      "icao": null
+    }
+  },
+  "vehicle": "Airbus А320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Звартноц",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600369",
+        "codes": {
+          "yandex": "s9600369",
+          "iata": "EVN",
+          "sirena": "ЗВР"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-06-01 08:30:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Н.Казантзакис",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623917",
+        "codes": {
+          "yandex": "s9623917",
+          "iata": "HER",
+          "sirena": "ИРА"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-06-01 10:30:00",
+      "stop_time": null,
+      "duration": 10800,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

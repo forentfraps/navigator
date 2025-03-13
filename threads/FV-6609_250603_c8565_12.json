@@ -1,0 +1,79 @@
+{
+  "uid": "FV-6609_250603_c8565_12",
+  "number": "FV 6609",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "21:05",
+  "start_date": "2025-06-03",
+  "days": "вт, чт, сб с 03.06 по 30.09",
+  "except_days": "",
+  "title": "Сочи — Екатеринбург",
+  "short_title": "Сочи — Екатеринбург",
+  "carrier": {
+    "code": 8565,
+    "title": "Россия",
+    "codes": {
+      "sirena": "ФВ",
+      "iata": "FV",
+      "icao": null
+    }
+  },
+  "vehicle": "Boeing 737-900",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Сочи",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623547",
+        "codes": {
+          "yandex": "s9623547",
+          "iata": "AER",
+          "sirena": "СОЧ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-06-03 21:05:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Кольцово",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600370",
+        "codes": {
+          "yandex": "s9600370",
+          "iata": "SVX",
+          "sirena": "ЕКБ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-06-04 02:55:00",
+      "stop_time": null,
+      "duration": 13800,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

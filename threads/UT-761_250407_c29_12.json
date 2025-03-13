@@ -1,0 +1,78 @@
+{
+  "uid": "UT-761_250407_c29_12",
+  "number": "UT 761",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "03:05",
+  "start_date": "2025-04-07",
+  "days": "7, 14, 21 апреля",
+  "except_days": "",
+  "title": "Тюмень — Дубай",
+  "short_title": "Тюмень — Дубай",
+  "carrier": {
+    "code": 29,
+    "title": "ЮТэйр",
+    "codes": {
+      "sirena": "ЮТ",
+      "iata": "UT",
+      "icao": "UTA"
+    }
+  },
+  "vehicle": "Boeing 737-800",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Рощино",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600384",
+        "codes": {
+          "yandex": "s9600384",
+          "iata": "TJM",
+          "sirena": "РЩН"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-04-07 03:05:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Аль-Мактум",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9656689",
+        "codes": {
+          "yandex": "s9656689",
+          "iata": "DWC"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-04-07 07:35:00",
+      "stop_time": null,
+      "duration": 19800,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

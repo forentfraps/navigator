@@ -1,0 +1,109 @@
+{
+  "number": "397",
+  "title": "Москва (м. Лесопарковая) — Оболенск",
+  "short_title": "Москва (м. Лесопарковая) — Оболенск",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": null,
+  "uid": "397_0_f9744864t9745995_44",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "м. Лесопарковая",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9744864",
+        "codes": {
+          "yandex": "s9744864"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 09:30:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Сквер им. Чехова",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9742755",
+        "codes": {
+          "yandex": "s9742755"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 10:25:00",
+      "arrival": "2025-03-13 10:24:00",
+      "duration": 3300.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Фабрика «Пролетарий»",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9739073",
+        "codes": {
+          "yandex": "s9739073"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 10:40:00",
+      "arrival": "2025-03-13 10:39:00",
+      "duration": 4200.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Оболенск",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9745995",
+        "codes": {
+          "yandex": "s9745995"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 11:05:00",
+      "duration": 5700.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "09:30"
+}

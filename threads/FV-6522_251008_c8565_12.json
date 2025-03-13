@@ -1,0 +1,78 @@
+{
+  "uid": "FV-6522_251008_c8565_12",
+  "number": "FV 6522",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "09:30",
+  "start_date": "2025-04-02",
+  "days": "2, 9, 11, 16, 18, 23, 25, 30 апреля, 2, 7, 9, 14, 16, 21, 23, 28, 30 мая, 4, 6, 8 июня, …",
+  "except_days": "",
+  "title": "Костанай — Москва",
+  "short_title": "Костанай — Москва",
+  "carrier": {
+    "code": 8565,
+    "title": "Россия",
+    "codes": {
+      "sirena": "ФВ",
+      "iata": "FV",
+      "icao": null
+    }
+  },
+  "vehicle": "Сухой Суперджет 100",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Костанай",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9876559",
+        "codes": {
+          "yandex": "s9876559",
+          "sirena": "КТН"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-04-02 09:30:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Шереметьево",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600213",
+        "codes": {
+          "yandex": "s9600213",
+          "iata": "SVO",
+          "sirena": "ШРМ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-04-02 10:25:00",
+      "stop_time": null,
+      "duration": 10500,
+      "terminal": "C"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

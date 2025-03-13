@@ -1,0 +1,78 @@
+{
+  "uid": "TK-4998_250406_c680_12",
+  "number": "TK 4998",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "11:25",
+  "start_date": "2025-04-06",
+  "days": "6 апреля",
+  "except_days": "",
+  "title": "Стамбул — Ширнак",
+  "short_title": "Стамбул — Ширнак",
+  "carrier": {
+    "code": 680,
+    "title": "Turkish Airlines",
+    "codes": {
+      "sirena": null,
+      "iata": "TK",
+      "icao": "THY"
+    }
+  },
+  "vehicle": "Boeing 737-800",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Новый аэропорт Стамбул",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600421",
+        "codes": {
+          "yandex": "s9600421",
+          "iata": "IST",
+          "sirena": "ИСТ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-04-06 11:25:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ширнак",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9821667",
+        "codes": {
+          "yandex": "s9821667",
+          "iata": "NKT"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-04-06 13:45:00",
+      "stop_time": null,
+      "duration": 8400,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

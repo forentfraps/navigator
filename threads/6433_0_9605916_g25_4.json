@@ -1,0 +1,1022 @@
+{
+  "number": "6433",
+  "title": "Анисовка — Аткарск",
+  "short_title": "Анисовка — Аткарск",
+  "express_type": null,
+  "transport_type": "suburban",
+  "carrier": {
+    "code": 2547,
+    "title": "Саратовская пригородная пассажирская компания",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "6433_0_9605916_g25_4",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": "Пригородный поезд",
+    "code": "suburban",
+    "color": "#CC6600"
+  },
+  "days": "ежедневно",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Анисовка",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9605916",
+        "codes": {
+          "yandex": "s9605916",
+          "esr": "625501",
+          "express": "2020872"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 06:25:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Приволжский",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9606036",
+        "codes": {
+          "yandex": "s9606036",
+          "esr": "625446",
+          "express": "2020994"
+        },
+        "station_type": "stop",
+        "station_type_name": "остановочный пункт",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 06:30:00",
+      "arrival": "2025-03-13 06:29:00",
+      "duration": 300.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Сазанка",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9606052",
+        "codes": {
+          "yandex": "s9606052",
+          "esr": "625431",
+          "express": "2021032"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 06:34:00",
+      "arrival": "2025-03-13 06:33:00",
+      "duration": 540.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Лодочная база",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9605698",
+        "codes": {
+          "yandex": "s9605698",
+          "esr": "625450",
+          "express": "2020147"
+        },
+        "station_type": "stop",
+        "station_type_name": "остановочный пункт",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 06:41:00",
+      "arrival": "2025-03-13 06:40:00",
+      "duration": 960.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Правобережный",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9605915",
+        "codes": {
+          "yandex": "s9605915",
+          "esr": "625427",
+          "express": "2020871"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 06:44:00",
+      "arrival": "2025-03-13 06:43:00",
+      "duration": 1140.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Увек",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9606035",
+        "codes": {
+          "yandex": "s9606035",
+          "esr": "625412",
+          "express": "2020993"
+        },
+        "station_type": "stop",
+        "station_type_name": "остановочный пункт",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 06:47:00",
+      "arrival": "2025-03-13 06:46:00",
+      "duration": 1320.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Князевка",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9605913",
+        "codes": {
+          "yandex": "s9605913",
+          "esr": "625408",
+          "express": "2020869"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 06:53:00",
+      "arrival": "2025-03-13 06:52:00",
+      "duration": 1680.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Лесопильный",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9606034",
+        "codes": {
+          "yandex": "s9606034",
+          "esr": "620527",
+          "express": "2020992"
+        },
+        "station_type": "stop",
+        "station_type_name": "остановочный пункт",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 06:58:00",
+      "arrival": "2025-03-13 06:57:00",
+      "duration": 1980.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Радужный",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9606074",
+        "codes": {
+          "yandex": "s9606074",
+          "esr": "620315",
+          "express": "2021105"
+        },
+        "station_type": "stop",
+        "station_type_name": "остановочный пункт",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 07:04:00",
+      "arrival": "2025-03-13 07:03:00",
+      "duration": 2340.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Зуборезный",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9605748",
+        "codes": {
+          "yandex": "s9605748",
+          "esr": "620323",
+          "express": "2020384"
+        },
+        "station_type": "stop",
+        "station_type_name": "остановочный пункт",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 07:09:00",
+      "arrival": "2025-03-13 07:08:00",
+      "duration": 2640.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Саратов-3",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9605663",
+        "codes": {
+          "yandex": "s9605663",
+          "esr": "620300",
+          "express": "2020105"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 07:13:00",
+      "arrival": "2025-03-13 07:12:00",
+      "duration": 2880.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Астраханский переезд",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9605699",
+        "codes": {
+          "yandex": "s9605699",
+          "esr": "620086",
+          "express": "2020148"
+        },
+        "station_type": "stop",
+        "station_type_name": "остановочный пункт",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 07:19:00",
+      "arrival": "2025-03-13 07:18:00",
+      "duration": 3240.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Депо (Локомотивное депо)",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9605662",
+        "codes": {
+          "yandex": "s9605662",
+          "esr": "620052",
+          "express": "2020104"
+        },
+        "station_type": "stop",
+        "station_type_name": "остановочный пункт",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 07:24:00",
+      "arrival": "2025-03-13 07:22:00",
+      "duration": 3540.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Саратов-1-Пасс.",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623135",
+        "codes": {
+          "yandex": "s9623135",
+          "esr": "620004",
+          "express": "2020000"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 07:36:00",
+      "arrival": "2025-03-13 07:28:00",
+      "duration": 4260.0,
+      "stop_time": 480,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Вагонное Депо",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9606079",
+        "codes": {
+          "yandex": "s9606079",
+          "esr": "620067",
+          "express": "2022000"
+        },
+        "station_type": "stop",
+        "station_type_name": "остановочный пункт",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 07:42:00",
+      "arrival": "2025-03-13 07:41:00",
+      "duration": 4620.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Студенческий Городок",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9605691",
+        "codes": {
+          "yandex": "s9605691",
+          "esr": "620014",
+          "express": "2020140"
+        },
+        "station_type": "stop",
+        "station_type_name": "остановочный пункт",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 07:45:00",
+      "arrival": "2025-03-13 07:44:00",
+      "duration": 4800.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Площадь Ленина",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9605692",
+        "codes": {
+          "yandex": "s9605692",
+          "esr": "620029",
+          "express": "2020141"
+        },
+        "station_type": "stop",
+        "station_type_name": "остановочный пункт",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 07:49:00",
+      "arrival": "2025-03-13 07:47:00",
+      "duration": 5040.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Молодёжная",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9605693",
+        "codes": {
+          "yandex": "s9605693",
+          "esr": "620033",
+          "express": "2020142"
+        },
+        "station_type": "stop",
+        "station_type_name": "остановочный пункт",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 07:52:00",
+      "arrival": "2025-03-13 07:51:00",
+      "duration": 5220.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Трофимовский-1",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9605624",
+        "codes": {
+          "yandex": "s9605624",
+          "esr": "620103",
+          "express": "2020065"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 07:56:00",
+      "arrival": "2025-03-13 07:55:00",
+      "duration": 5460.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Завод Контакт",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9605697",
+        "codes": {
+          "yandex": "s9605697",
+          "esr": "623648",
+          "express": "2020146"
+        },
+        "station_type": "stop",
+        "station_type_name": "остановочный пункт",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 08:01:00",
+      "arrival": "2025-03-13 08:00:00",
+      "duration": 5760.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Поливановка",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9606033",
+        "codes": {
+          "yandex": "s9606033",
+          "esr": "623614",
+          "express": "2020991"
+        },
+        "station_type": "stop",
+        "station_type_name": "остановочный пункт",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 08:08:00",
+      "arrival": "2025-03-13 08:07:00",
+      "duration": 6180.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "841 км",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9605782",
+        "codes": {
+          "yandex": "s9605782",
+          "esr": "623629",
+          "express": "2020708"
+        },
+        "station_type": "stop",
+        "station_type_name": "остановочный пункт",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 08:12:00",
+      "arrival": "2025-03-13 08:11:00",
+      "duration": 6420.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Жасминная",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9605912",
+        "codes": {
+          "yandex": "s9605912",
+          "esr": "623600",
+          "express": "2020868"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 08:19:00",
+      "arrival": "2025-03-13 08:17:00",
+      "duration": 6840.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "837 км",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9606032",
+        "codes": {
+          "yandex": "s9606032",
+          "esr": "623563",
+          "express": "2020990"
+        },
+        "station_type": "stop",
+        "station_type_name": "остановочный пункт",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 08:23:00",
+      "arrival": "2025-03-13 08:22:00",
+      "duration": 7080.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Докторовка",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9606062",
+        "codes": {
+          "yandex": "s9606062",
+          "esr": "623559",
+          "express": "2021059"
+        },
+        "station_type": "stop",
+        "station_type_name": "остановочный пункт",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 08:29:00",
+      "arrival": "2025-03-13 08:28:00",
+      "duration": 7440.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Курдюм",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9605813",
+        "codes": {
+          "yandex": "s9605813",
+          "esr": "623544",
+          "express": "2020769"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 08:35:00",
+      "arrival": "2025-03-13 08:34:00",
+      "duration": 7800.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "824 км",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9605998",
+        "codes": {
+          "yandex": "s9605998",
+          "esr": "623534",
+          "express": "2020955"
+        },
+        "station_type": "stop",
+        "station_type_name": "остановочный пункт",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 08:42:00",
+      "arrival": "2025-03-13 08:41:00",
+      "duration": 8220.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "822 км",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9606031",
+        "codes": {
+          "yandex": "s9606031",
+          "esr": "623578",
+          "express": "2020989"
+        },
+        "station_type": "stop",
+        "station_type_name": "остановочный пункт",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 08:46:00",
+      "arrival": "2025-03-13 08:45:00",
+      "duration": 8460.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "819 км",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9605764",
+        "codes": {
+          "yandex": "s9605764",
+          "esr": "623525",
+          "express": "2020453"
+        },
+        "station_type": "stop",
+        "station_type_name": "остановочный пункт",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 08:50:00",
+      "arrival": "2025-03-13 08:49:00",
+      "duration": 8700.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Светлый (816 км)",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9606030",
+        "codes": {
+          "yandex": "s9606030",
+          "esr": "623510",
+          "express": "2020988"
+        },
+        "station_type": "stop",
+        "station_type_name": "остановочный пункт",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 08:54:00",
+      "arrival": "2025-03-13 08:53:00",
+      "duration": 8940.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Татищево",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9605812",
+        "codes": {
+          "yandex": "s9605812",
+          "esr": "623506",
+          "express": "2020768"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 08:58:00",
+      "arrival": "2025-03-13 08:57:00",
+      "duration": 9180.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "809 км",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9605781",
+        "codes": {
+          "yandex": "s9605781",
+          "esr": "623489",
+          "express": "2020707"
+        },
+        "station_type": "stop",
+        "station_type_name": "остановочный пункт",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 09:06:00",
+      "arrival": "2025-03-13 09:05:00",
+      "duration": 9660.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Никольский",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9605604",
+        "codes": {
+          "yandex": "s9605604",
+          "esr": "623421",
+          "express": "2020045"
+        },
+        "station_type": "stop",
+        "station_type_name": "остановочный пункт",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 09:12:00",
+      "arrival": "2025-03-13 09:11:00",
+      "duration": 10020.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "802 км",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9605794",
+        "codes": {
+          "yandex": "s9605794",
+          "esr": "623474",
+          "express": "2020720"
+        },
+        "station_type": "stop",
+        "station_type_name": "остановочный пункт",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 09:17:00",
+      "arrival": "2025-03-13 09:16:00",
+      "duration": 10320.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "800 км",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9605780",
+        "codes": {
+          "yandex": "s9605780",
+          "esr": "623468",
+          "express": "2020706"
+        },
+        "station_type": "stop",
+        "station_type_name": "остановочный пункт",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 09:21:00",
+      "arrival": "2025-03-13 09:20:00",
+      "duration": 10560.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "799 км",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9605779",
+        "codes": {
+          "yandex": "s9605779",
+          "esr": "623455",
+          "express": "2020705"
+        },
+        "station_type": "stop",
+        "station_type_name": "остановочный пункт",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 09:25:00",
+      "arrival": "2025-03-13 09:24:00",
+      "duration": 10800.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Евдокимовский",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9605570",
+        "codes": {
+          "yandex": "s9605570",
+          "esr": "623417",
+          "express": "2020011"
+        },
+        "station_type": "stop",
+        "station_type_name": "остановочный пункт",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 09:30:00",
+      "arrival": "2025-03-13 09:29:00",
+      "duration": 11100.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "794 км",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9730678",
+        "codes": {
+          "yandex": "s9730678",
+          "esr": "865"
+        },
+        "station_type": "stop",
+        "station_type_name": "остановочный пункт",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 09:34:00",
+      "arrival": "2025-03-13 09:33:00",
+      "duration": 11340.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Кологривовка",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9605811",
+        "codes": {
+          "yandex": "s9605811",
+          "esr": "623493",
+          "express": "2020767"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 09:38:00",
+      "arrival": "2025-03-13 09:37:00",
+      "duration": 11580.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "781 км",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9606070",
+        "codes": {
+          "yandex": "s9606070",
+          "esr": "623440",
+          "express": "2021072"
+        },
+        "station_type": "stop",
+        "station_type_name": "остановочный пункт",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 09:48:00",
+      "arrival": "2025-03-13 09:47:00",
+      "duration": 12180.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "774 км",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9606029",
+        "codes": {
+          "yandex": "s9606029",
+          "esr": "608898",
+          "express": "2020987"
+        },
+        "station_type": "stop",
+        "station_type_name": "остановочный пункт",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 09:54:00",
+      "arrival": "2025-03-13 09:53:00",
+      "duration": 12540.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Красавка",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9605897",
+        "codes": {
+          "yandex": "s9605897",
+          "esr": "608811",
+          "express": "2020853"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 09:59:00",
+      "arrival": "2025-03-13 09:58:00",
+      "duration": 12840.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Аткарск",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9605834",
+        "codes": {
+          "yandex": "s9605834",
+          "esr": "608807",
+          "express": "2020790"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 10:05:00",
+      "duration": 13200.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "06:25"
+}

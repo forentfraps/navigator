@@ -1,0 +1,79 @@
+{
+  "uid": "EW-2667_250405_c482_12",
+  "number": "EW 2667",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "11:20",
+  "start_date": "2025-04-05",
+  "days": "сб с 05.04 по 30.08",
+  "except_days": "",
+  "title": "Ларнака — Штутгарт",
+  "short_title": "Ларнака — Штутгарт",
+  "carrier": {
+    "code": 482,
+    "title": "Eurowings",
+    "codes": {
+      "sirena": null,
+      "iata": "EW",
+      "icao": "EWG"
+    }
+  },
+  "vehicle": "Airbus A319",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Ларнака",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623584",
+        "codes": {
+          "yandex": "s9623584",
+          "iata": "LCA",
+          "sirena": "ЛРК"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-04-05 11:20:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Штутгарт",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9625992",
+        "codes": {
+          "yandex": "s9625992",
+          "iata": "STR",
+          "sirena": "ШТР"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-04-05 14:20:00",
+      "stop_time": null,
+      "duration": 14400,
+      "terminal": "3"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

@@ -1,0 +1,241 @@
+{
+  "number": "7027",
+  "title": "Калуга-1 — Москва (Киевский вокзал)",
+  "short_title": "Калуга-1 — М-Киевская",
+  "express_type": "express",
+  "transport_type": "suburban",
+  "carrier": {
+    "code": 153,
+    "title": "Центральная пригородная пассажирская компания",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "7027_0_2000345_g25_4",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": "фирменный экспресс (билеты c указанием мест)",
+    "code": "firmex",
+    "color": "#CC6600"
+  },
+  "days": "по выходным",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Калуга-1",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s2000345",
+        "codes": {
+          "yandex": "s2000345",
+          "esr": "188205",
+          "express": "2000345"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-15 17:35:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Муратовка",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601008",
+        "codes": {
+          "yandex": "s9601008",
+          "esr": "188718",
+          "express": "2000343"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-15 17:52:00",
+      "arrival": "2025-03-15 17:51:00",
+      "duration": 1020.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Малоярославец",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601002",
+        "codes": {
+          "yandex": "s9601002",
+          "esr": "183907",
+          "express": "2000336"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-15 18:31:00",
+      "arrival": "2025-03-15 18:30:00",
+      "duration": 3360.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Обнинское",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601907",
+        "codes": {
+          "yandex": "s9601907",
+          "esr": "183704",
+          "express": "2001375"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-15 18:46:00",
+      "arrival": "2025-03-15 18:44:00",
+      "duration": 4260.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Балабаново",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601347",
+        "codes": {
+          "yandex": "s9601347",
+          "esr": "183606",
+          "express": "2000695"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-15 18:55:00",
+      "arrival": "2025-03-15 18:54:00",
+      "duration": 4800.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Нара",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601137",
+        "codes": {
+          "yandex": "s9601137",
+          "esr": "183305",
+          "express": "2000475"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-15 19:14:00",
+      "arrival": "2025-03-15 19:13:00",
+      "duration": 5940.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Апрелевка",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601102",
+        "codes": {
+          "yandex": "s9601102",
+          "esr": "181009",
+          "express": "2000440"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-15 19:35:00",
+      "arrival": "2025-03-15 19:34:00",
+      "duration": 7200.0,
+      "stop_time": 60,
+      "platform": "7 путь",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Аминьевская",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9879631",
+        "codes": {
+          "yandex": "s9879631",
+          "esr": "180237",
+          "express": "2001145"
+        },
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-15 19:59:00",
+      "arrival": "2025-03-15 19:58:00",
+      "duration": 8640.0,
+      "stop_time": 60,
+      "platform": "4 путь",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Москва (Киевский вокзал)",
+        "short_title": "М-Киевская",
+        "popular_title": "Киевский вокзал",
+        "code": "s2000007",
+        "codes": {
+          "yandex": "s2000007",
+          "esr": "198103",
+          "express": "2000007"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": null,
+      "arrival": "2025-03-15 20:10:00",
+      "duration": 9300.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-15",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "17:35"
+}

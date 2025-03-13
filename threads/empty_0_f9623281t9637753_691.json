@@ -1,0 +1,244 @@
+{
+  "number": "",
+  "title": "Краснодар — Мостовской",
+  "short_title": "Краснодар — Мостовской",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 65307,
+    "title": "Лабинск ИП Шаповалов О.Н.",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_0_f9623281t9637753_691",
+  "vehicle": "Киа Гранд_43м",
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "только 8, 9, 10, 18, 20, 21 марта",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Краснодар-1 (Центральный автовокзал)",
+        "short_title": null,
+        "popular_title": "Центральный автовокзал",
+        "code": "s9623281",
+        "codes": {
+          "yandex": "s9623281"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-18 14:06:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Новолабинская",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9808999",
+        "codes": {
+          "yandex": "s9808999"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-18 15:48:00",
+      "arrival": "2025-03-18 15:47:00",
+      "duration": 6120.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Тенгинская",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9809000",
+        "codes": {
+          "yandex": "s9809000"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-18 16:00:00",
+      "arrival": "2025-03-18 15:59:00",
+      "duration": 6840.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Воздвиженская, трасса",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9879682",
+        "codes": {
+          "yandex": "s9879682"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-18 16:11:00",
+      "arrival": "2025-03-18 16:10:00",
+      "duration": 7500.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Темиргоевская",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9809002",
+        "codes": {
+          "yandex": "s9809002"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-18 16:23:00",
+      "arrival": "2025-03-18 16:22:00",
+      "duration": 8220.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Курганинск",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9654686",
+        "codes": {
+          "yandex": "s9654686"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-18 17:26:00",
+      "arrival": "2025-03-18 17:25:00",
+      "duration": 12000.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Родниковская, трасса",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9854197",
+        "codes": {
+          "yandex": "s9854197"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-18 17:51:00",
+      "arrival": "2025-03-18 17:50:00",
+      "duration": 13500.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Лабинск",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9637206",
+        "codes": {
+          "yandex": "s9637206"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-18 18:23:00",
+      "arrival": "2025-03-18 18:18:00",
+      "duration": 15420.0,
+      "stop_time": 300,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Засовская, центр",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9854373",
+        "codes": {
+          "yandex": "s9854373"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-18 18:55:00",
+      "arrival": "2025-03-18 18:54:00",
+      "duration": 17340.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Мостовской",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9637753",
+        "codes": {
+          "yandex": "s9637753"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-18 19:01:00",
+      "duration": 17700.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-18",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "14:06"
+}

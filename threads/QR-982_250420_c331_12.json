@@ -1,0 +1,79 @@
+{
+  "uid": "QR-982_250420_c331_12",
+  "number": "QR 982",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "20:00",
+  "start_date": "2025-03-30",
+  "days": "30, 31 марта, 1, 2, 4, 6, 7, 8, 9, 10, 12, 14, 15, 16, 18, 19, 20, 21, 22, 23 апреля, …",
+  "except_days": "",
+  "title": "Доха — Ханой",
+  "short_title": "Доха — Ханой",
+  "carrier": {
+    "code": 331,
+    "title": "Qatar Airways",
+    "codes": {
+      "sirena": null,
+      "iata": "QR",
+      "icao": "QTR"
+    }
+  },
+  "vehicle": "Boeing 787-900",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Доха",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9624025",
+        "codes": {
+          "yandex": "s9624025",
+          "iata": "DOH",
+          "sirena": "ДОХ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-30 20:00:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Нойбей",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9625047",
+        "codes": {
+          "yandex": "s9625047",
+          "iata": "HAN",
+          "sirena": "ХАО"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-31 07:15:00",
+      "stop_time": null,
+      "duration": 26100,
+      "terminal": "2"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

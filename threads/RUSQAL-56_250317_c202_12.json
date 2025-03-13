@@ -1,0 +1,123 @@
+{
+  "uid": "RUSQAL-56_250317_c202_12",
+  "number": "ЯЛ 56",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "09:20",
+  "start_date": "2025-03-12",
+  "days": "пн, ср по 13.08",
+  "except_days": "",
+  "title": "Салехард — Мыс Каменный",
+  "short_title": "Салехард — Мыс Каменный",
+  "carrier": {
+    "code": 202,
+    "title": "АК Ямал",
+    "codes": {
+      "sirena": "ЯЛ",
+      "iata": null,
+      "icao": null
+    }
+  },
+  "vehicle": "Ми-8/Ми-17",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Салехард",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623576",
+        "codes": {
+          "yandex": "s9623576",
+          "iata": "SLY",
+          "sirena": "СХД"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-12 09:20:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Яр-Сале",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623670",
+        "codes": {
+          "yandex": "s9623670",
+          "sirena": "ЯРС"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-12 10:25:00",
+      "arrival": "2025-03-12 10:20:00",
+      "stop_time": 300,
+      "duration": 3900,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Новый Порт",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623671",
+        "codes": {
+          "yandex": "s9623671",
+          "sirena": "НПТ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-12 11:10:00",
+      "arrival": "2025-03-12 11:05:00",
+      "stop_time": 300,
+      "duration": 6600,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Мыс Каменный",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623672",
+        "codes": {
+          "yandex": "s9623672",
+          "iata": "YMK",
+          "sirena": "МКМ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-12 11:35:00",
+      "stop_time": null,
+      "duration": 8100,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

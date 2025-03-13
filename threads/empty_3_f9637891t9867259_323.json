@@ -1,0 +1,475 @@
+{
+  "number": "",
+  "title": "Пучеж - Кандаурово",
+  "short_title": "Пучеж - Кандаурово",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 61155,
+    "title": "МУП \"Трансремсервис\"",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_3_f9637891t9867259_323",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "только 22 марта, 12, 26 апреля, 10, 24 мая",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Пучеж",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9637891",
+        "codes": {
+          "yandex": "s9637891"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-22 12:00:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Дом Культуры",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9878469",
+        "codes": {
+          "yandex": "s9878469"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-22 12:02:00",
+      "arrival": "2025-03-22 12:01:00",
+      "duration": 120.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Почта",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9878470",
+        "codes": {
+          "yandex": "s9878470"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-22 12:04:00",
+      "arrival": "2025-03-22 12:03:00",
+      "duration": 240.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Поликлиника",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9878471",
+        "codes": {
+          "yandex": "s9878471"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-22 12:06:00",
+      "arrival": "2025-03-22 12:05:00",
+      "duration": 360.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Заречная улица",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9878472",
+        "codes": {
+          "yandex": "s9878472"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-22 12:08:00",
+      "arrival": "2025-03-22 12:07:00",
+      "duration": 480.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Лихуниха",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9867225",
+        "codes": {
+          "yandex": "s9867225"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-22 12:10:00",
+      "arrival": "2025-03-22 12:09:00",
+      "duration": 600.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Илья-Высоково, поворот",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9870423",
+        "codes": {
+          "yandex": "s9870423"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-22 12:12:00",
+      "arrival": "2025-03-22 12:11:00",
+      "duration": 720.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Гусаринки",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9867233",
+        "codes": {
+          "yandex": "s9867233"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-22 12:14:00",
+      "arrival": "2025-03-22 12:13:00",
+      "duration": 840.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Поползуха",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9863616",
+        "codes": {
+          "yandex": "s9863616"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-22 12:16:00",
+      "arrival": "2025-03-22 12:15:00",
+      "duration": 960.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Шубино",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9834021",
+        "codes": {
+          "yandex": "s9834021"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-22 12:18:00",
+      "arrival": "2025-03-22 12:17:00",
+      "duration": 1080.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Губинская",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9867231",
+        "codes": {
+          "yandex": "s9867231"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-22 12:20:00",
+      "arrival": "2025-03-22 12:19:00",
+      "duration": 1200.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ильинское",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9870428",
+        "codes": {
+          "yandex": "s9870428"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-22 12:22:00",
+      "arrival": "2025-03-22 12:21:00",
+      "duration": 1320.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Кораблёво",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9867229",
+        "codes": {
+          "yandex": "s9867229"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-22 12:24:00",
+      "arrival": "2025-03-22 12:23:00",
+      "duration": 1440.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Лужинки",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9867228",
+        "codes": {
+          "yandex": "s9867228"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-22 12:30:00",
+      "arrival": "2025-03-22 12:25:00",
+      "duration": 1800.0,
+      "stop_time": 300,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Кораблёво",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9867229",
+        "codes": {
+          "yandex": "s9867229"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-22 12:34:00",
+      "arrival": "2025-03-22 12:33:00",
+      "duration": 2040.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ильинское",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9870428",
+        "codes": {
+          "yandex": "s9870428"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-22 12:36:00",
+      "arrival": "2025-03-22 12:35:00",
+      "duration": 2160.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Губинская",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9867231",
+        "codes": {
+          "yandex": "s9867231"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-22 12:38:00",
+      "arrival": "2025-03-22 12:37:00",
+      "duration": 2280.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Шубино",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9834021",
+        "codes": {
+          "yandex": "s9834021"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-22 12:40:00",
+      "arrival": "2025-03-22 12:39:00",
+      "duration": 2400.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Войново",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9867255",
+        "codes": {
+          "yandex": "s9867255"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-22 12:42:00",
+      "arrival": "2025-03-22 12:41:00",
+      "duration": 2520.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Баскино",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9834020",
+        "codes": {
+          "yandex": "s9834020"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-22 12:45:00",
+      "arrival": "2025-03-22 12:44:00",
+      "duration": 2700.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Кандаурово",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9867259",
+        "codes": {
+          "yandex": "s9867259"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-22 12:50:00",
+      "duration": 3000.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-22",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "12:00"
+}

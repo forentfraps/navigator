@@ -1,0 +1,76 @@
+{
+  "number": "",
+  "title": "Кемерово — Промышленная",
+  "short_title": "Кемерово — Промышленная",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 63643,
+    "title": "Кемеровская автоколонна №1237 ГП КО",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_15_f9623379t9803167_168",
+  "vehicle": "НЕФАЗ 5299-10-08 М (44+34), ах608 42",
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Кемерово, автовокзал",
+        "short_title": null,
+        "popular_title": "автовокзал Кемерово",
+        "code": "s9623379",
+        "codes": {
+          "yandex": "s9623379"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 11:00:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Промышленная, автостанция",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9803167",
+        "codes": {
+          "yandex": "s9803167"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 12:10:00",
+      "duration": 4200.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "11:00"
+}

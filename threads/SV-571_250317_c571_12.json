@@ -1,0 +1,79 @@
+{
+  "uid": "SV-571_250317_c571_12",
+  "number": "SV 571",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "16:25",
+  "start_date": "2025-03-12",
+  "days": "17, 19, 24, 26, 29 марта, 26, 27, 28, 29, 30, 31 октября, 1, 2, 3, 4, 5, 6, 7, 8, 9 ноября, …",
+  "except_days": "",
+  "title": "Абу-Даби — Джидда",
+  "short_title": "Абу-Даби — Джидда",
+  "carrier": {
+    "code": 571,
+    "title": "Saudi Arabian Airlines",
+    "codes": {
+      "sirena": null,
+      "iata": "SV",
+      "icao": "SVA"
+    }
+  },
+  "vehicle": "Airbus А320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Абу-Даби",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9624402",
+        "codes": {
+          "yandex": "s9624402",
+          "iata": "AUH",
+          "sirena": "АУХ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-12 16:25:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "A"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Джидда",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623900",
+        "codes": {
+          "yandex": "s9623900",
+          "iata": "JED",
+          "sirena": "ДЖД"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-12 18:40:00",
+      "stop_time": null,
+      "duration": 11700,
+      "terminal": "1"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

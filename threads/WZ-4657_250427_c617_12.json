@@ -1,0 +1,79 @@
+{
+  "uid": "WZ-4657_250427_c617_12",
+  "number": "WZ 4657",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "22:25",
+  "start_date": "2025-04-27",
+  "days": "вс с 27.04 по 21.09",
+  "except_days": "",
+  "title": "Нижний Новгород — Стамбул",
+  "short_title": "Нижний Новгород — Стамбул",
+  "carrier": {
+    "code": 617,
+    "title": "Red Wings",
+    "codes": {
+      "sirena": "ИН",
+      "iata": "WZ",
+      "icao": "RWZ"
+    }
+  },
+  "vehicle": "Сухой Суперджет 100",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Стригино",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623052",
+        "codes": {
+          "yandex": "s9623052",
+          "iata": "GOJ",
+          "sirena": "НЖС"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-04-27 22:25:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Новый аэропорт Стамбул",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600421",
+        "codes": {
+          "yandex": "s9600421",
+          "iata": "IST",
+          "sirena": "ИСТ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-04-28 03:25:00",
+      "stop_time": null,
+      "duration": 18000,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

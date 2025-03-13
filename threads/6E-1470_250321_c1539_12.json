@@ -1,0 +1,78 @@
+{
+  "uid": "6E-1470_250321_c1539_12",
+  "number": "6E 1470",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "08:25",
+  "start_date": "2025-03-21",
+  "days": "21, 24, 26, 28 марта",
+  "except_days": "",
+  "title": "Абу-Даби — Кочин",
+  "short_title": "Абу-Даби — Кочин",
+  "carrier": {
+    "code": 1539,
+    "title": "Indigo Air",
+    "codes": {
+      "sirena": null,
+      "iata": "6E",
+      "icao": null
+    }
+  },
+  "vehicle": "Airbus A320 NEO",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Абу-Даби",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9624402",
+        "codes": {
+          "yandex": "s9624402",
+          "iata": "AUH",
+          "sirena": "АУХ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-21 08:25:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "A"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Кочин",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9625531",
+        "codes": {
+          "yandex": "s9625531",
+          "iata": "COK"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-21 13:45:00",
+      "stop_time": null,
+      "duration": 13800,
+      "terminal": "3"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

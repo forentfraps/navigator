@@ -1,0 +1,97 @@
+{
+  "number": "604",
+  "title": "Балтай - Саратов",
+  "short_title": "Балтай - Саратов",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 60607,
+    "title": "ИП Новиков М.В.",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_14_f9831825t9623424_551",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно по 06.04",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Балтай",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9831825",
+        "codes": {
+          "yandex": "s9831825"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 06:45:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Базарный Карабулак, КП",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9886254",
+        "codes": {
+          "yandex": "s9886254"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 07:20:00",
+      "arrival": "2025-03-13 07:19:00",
+      "duration": 2100.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Саратов, автовокзал",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623424",
+        "codes": {
+          "yandex": "s9623424"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 09:25:00",
+      "duration": 9600.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "06:45"
+}

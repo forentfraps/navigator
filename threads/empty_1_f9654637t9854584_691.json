@@ -1,0 +1,139 @@
+{
+  "number": "",
+  "title": "Ейск — Копанская",
+  "short_title": "Ейск — Копанская",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 65359,
+    "title": "Ейск ООО \"ТРАНСРЕЙС\"",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_1_f9654637t9854584_691",
+  "vehicle": "Паз-32054_42 м",
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Ейск",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9654637",
+        "codes": {
+          "yandex": "s9654637"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 10:25:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Комсомолец",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9854586",
+        "codes": {
+          "yandex": "s9854586"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 10:57:00",
+      "arrival": "2025-03-13 10:56:00",
+      "duration": 1920.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Октябрьский",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9854585",
+        "codes": {
+          "yandex": "s9854585"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 11:23:00",
+      "arrival": "2025-03-13 11:22:00",
+      "duration": 3480.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ясенская",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9808613",
+        "codes": {
+          "yandex": "s9808613"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 12:01:00",
+      "arrival": "2025-03-13 12:00:00",
+      "duration": 5760.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Копанская",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9854584",
+        "codes": {
+          "yandex": "s9854584"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 12:31:00",
+      "duration": 7560.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "10:25"
+}

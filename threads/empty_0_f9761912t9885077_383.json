@@ -1,0 +1,181 @@
+{
+  "number": "256",
+  "title": "Волово — Ивановка",
+  "short_title": "Волово — Ивановка",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 67182,
+    "title": "Воловское АТП АО",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_0_f9761912t9885077_383",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно, кроме вт, сб",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Волово, автостанция",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9761912",
+        "codes": {
+          "yandex": "s9761912"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 15:50:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Нижнее Большое",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9761913",
+        "codes": {
+          "yandex": "s9761913"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 15:57:00",
+      "arrival": "2025-03-13 15:56:00",
+      "duration": 420.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Зеленый Луг",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9875929",
+        "codes": {
+          "yandex": "s9875929"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 16:07:00",
+      "arrival": "2025-03-13 16:06:00",
+      "duration": 1020.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Васильевка",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9761914",
+        "codes": {
+          "yandex": "s9761914"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 16:11:00",
+      "arrival": "2025-03-13 16:10:00",
+      "duration": 1260.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Набережное, ж/д станция",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9879452",
+        "codes": {
+          "yandex": "s9879452"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 16:24:00",
+      "arrival": "2025-03-13 16:23:00",
+      "duration": 2040.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Большовка",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9885078",
+        "codes": {
+          "yandex": "s9885078"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 16:32:00",
+      "arrival": "2025-03-13 16:31:00",
+      "duration": 2520.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ивановка",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9885077",
+        "codes": {
+          "yandex": "s9885077"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 16:38:00",
+      "duration": 2880.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "15:50"
+}

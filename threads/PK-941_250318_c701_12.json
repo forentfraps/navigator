@@ -1,0 +1,78 @@
+{
+  "uid": "PK-941_250318_c701_12",
+  "number": "PK 941",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "15:10",
+  "start_date": "2025-03-18",
+  "days": "18 марта",
+  "except_days": "",
+  "title": "Исламабад — Джидда",
+  "short_title": "Исламабад — Джидда",
+  "carrier": {
+    "code": 701,
+    "title": "Pakistan International Airlines",
+    "codes": {
+      "sirena": null,
+      "iata": "PK",
+      "icao": "PIA"
+    }
+  },
+  "vehicle": "Airbus А320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Исламабад",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9634163",
+        "codes": {
+          "yandex": "s9634163",
+          "iata": "ISB"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-18 15:10:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Джидда",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623900",
+        "codes": {
+          "yandex": "s9623900",
+          "iata": "JED",
+          "sirena": "ДЖД"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-18 19:00:00",
+      "stop_time": null,
+      "duration": 21000,
+      "terminal": "H"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

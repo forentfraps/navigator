@@ -1,0 +1,102 @@
+{
+  "uid": "A4-6212_250704_c60780_12",
+  "number": "A4 6212",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "17:20",
+  "start_date": "2025-07-04",
+  "days": "пт с 04.07 по 29.08",
+  "except_days": "",
+  "title": "Сургут — Минеральные Воды",
+  "short_title": "Сургут — Минеральные Воды",
+  "carrier": {
+    "code": 60780,
+    "title": "Азимут",
+    "codes": {
+      "sirena": "А4",
+      "iata": "A4",
+      "icao": null
+    }
+  },
+  "vehicle": "Сухой Суперджет 100",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Сургут",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623563",
+        "codes": {
+          "yandex": "s9623563",
+          "iata": "SGC",
+          "sirena": "СУР"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-07-04 17:20:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Чебоксары",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623358",
+        "codes": {
+          "yandex": "s9623358",
+          "iata": "CSY",
+          "sirena": "ЧБЕ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-07-04 18:55:00",
+      "arrival": "2025-07-04 17:55:00",
+      "stop_time": 3600,
+      "duration": 12900,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Минеральные Воды",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623558",
+        "codes": {
+          "yandex": "s9623558",
+          "iata": "MRV",
+          "sirena": "МРВ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-07-04 21:50:00",
+      "stop_time": null,
+      "duration": 23400,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

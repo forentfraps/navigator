@@ -1,0 +1,77 @@
+{
+  "uid": "XY-717_250325_c1484_12",
+  "number": "XY 717",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "19:40",
+  "start_date": "2025-03-11",
+  "days": "11, 16, 18, 23, 25 марта",
+  "except_days": "",
+  "title": "Даммам — Джизан",
+  "short_title": "Даммам — Джизан",
+  "carrier": {
+    "code": 1484,
+    "title": "FlyNAS",
+    "codes": {
+      "sirena": null,
+      "iata": "XY",
+      "icao": null
+    }
+  },
+  "vehicle": "Airbus A320 NEO",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Кинг Фахд",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9624502",
+        "codes": {
+          "yandex": "s9624502",
+          "iata": "DMM"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-11 19:40:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Джизан",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9625279",
+        "codes": {
+          "yandex": "s9625279",
+          "iata": "GIZ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-11 22:10:00",
+      "stop_time": null,
+      "duration": 9000,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

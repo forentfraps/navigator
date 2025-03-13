@@ -1,0 +1,79 @@
+{
+  "uid": "U6-2413_250524_c30_12",
+  "number": "U6 2413",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "09:30",
+  "start_date": "2025-05-24",
+  "days": "сб с 24.05 по 18.10",
+  "except_days": "",
+  "title": "Сочи — Бишкек",
+  "short_title": "Сочи — Бишкек",
+  "carrier": {
+    "code": 30,
+    "title": "Уральские авиалинии",
+    "codes": {
+      "sirena": "У6",
+      "iata": "U6",
+      "icao": null
+    }
+  },
+  "vehicle": "Airbus А320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Сочи",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623547",
+        "codes": {
+          "yandex": "s9623547",
+          "iata": "AER",
+          "sirena": "СОЧ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-05-24 09:30:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Манас",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623580",
+        "codes": {
+          "yandex": "s9623580",
+          "iata": "FRU",
+          "sirena": "БИШ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-05-24 16:25:00",
+      "stop_time": null,
+      "duration": 14100,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

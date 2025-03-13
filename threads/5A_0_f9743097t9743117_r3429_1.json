@@ -1,0 +1,193 @@
+{
+  "number": "5А",
+  "title": "Ступино (Улица Калинина) — Ступино (Ступино, ж/д вокзал)",
+  "short_title": "Ступино (Улица Калинина) — Ступино (Ступино, ж/д вокзал)",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": null,
+  "uid": "5A_0_f9743097t9743117_r3429_1",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "13, 14, 17, 18, 19, 20, 21, 24, 25, 26, 27, 28, 31 марта, 1, 2, 3, 4, 7, 8, 9 апреля, …",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Улица Калинина",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9743097",
+        "codes": {
+          "yandex": "s9743097"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 05:00:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Школа № 5",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9743107",
+        "codes": {
+          "yandex": "s9743107"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 05:01:00",
+      "arrival": "2025-03-13 05:00:00",
+      "duration": 60.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Универсам",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9743096",
+        "codes": {
+          "yandex": "s9743096"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 05:02:00",
+      "arrival": "2025-03-13 05:01:00",
+      "duration": 120.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Школа №9",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9743111",
+        "codes": {
+          "yandex": "s9743111"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 05:04:00",
+      "arrival": "2025-03-13 05:03:00",
+      "duration": 240.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Таможня",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9743116",
+        "codes": {
+          "yandex": "s9743116"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 05:06:00",
+      "arrival": "2025-03-13 05:05:00",
+      "duration": 360.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "ПАТП",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9743115",
+        "codes": {
+          "yandex": "s9743115"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 05:07:00",
+      "arrival": "2025-03-13 05:06:00",
+      "duration": 420.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "СМК",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9743114",
+        "codes": {
+          "yandex": "s9743114"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 05:08:00",
+      "arrival": "2025-03-13 05:07:00",
+      "duration": 480.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ступино, ж/д вокзал",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9743117",
+        "codes": {
+          "yandex": "s9743117"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 05:10:00",
+      "duration": 600.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "05:00"
+}

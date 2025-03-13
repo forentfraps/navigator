@@ -1,0 +1,79 @@
+{
+  "uid": "HY-421_250909_c35_12",
+  "number": "HY 421",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "01:25",
+  "start_date": "2025-04-01",
+  "days": "1, 4, 8, 11, 15, 18, 25 апреля, 2, 9, 13, 16, 23, 30 мая, 3, 6, 10, 24, 27 июня, 1, 4 июля, …",
+  "except_days": "",
+  "title": "Ташкент — Дели",
+  "short_title": "Ташкент — Дели",
+  "carrier": {
+    "code": 35,
+    "title": "Uzbekistan Airways",
+    "codes": {
+      "sirena": "ХИ",
+      "iata": "HY",
+      "icao": "UZB"
+    }
+  },
+  "vehicle": "Boeing 767-300",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Ташкент",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600397",
+        "codes": {
+          "yandex": "s9600397",
+          "iata": "TAS",
+          "sirena": "ТАС"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-04-01 01:25:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "2"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "им. Индиры Ганди",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623598",
+        "codes": {
+          "yandex": "s9623598",
+          "iata": "DEL",
+          "sirena": "ДЛИ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-04-01 04:55:00",
+      "stop_time": null,
+      "duration": 10800,
+      "terminal": "3"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

@@ -1,0 +1,78 @@
+{
+  "uid": "OU-319_250509_c2037_12",
+  "number": "OU 319",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "16:15",
+  "start_date": "2025-05-09",
+  "days": "пт с 09.05 по 03.10",
+  "except_days": "",
+  "title": "Бухарест — Сплит",
+  "short_title": "Бухарест — Сплит",
+  "carrier": {
+    "code": 2037,
+    "title": "Croatia Airlines",
+    "codes": {
+      "sirena": null,
+      "iata": "OU",
+      "icao": "CTN"
+    }
+  },
+  "vehicle": "DeHavilland Dash 8 Q400",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Отопени",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600438",
+        "codes": {
+          "yandex": "s9600438",
+          "iata": "OTP"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-05-09 16:15:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Сплит",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623769",
+        "codes": {
+          "yandex": "s9623769",
+          "iata": "SPU",
+          "sirena": "СПИ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-05-09 17:10:00",
+      "stop_time": null,
+      "duration": 6900,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

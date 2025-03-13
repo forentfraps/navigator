@@ -1,0 +1,79 @@
+{
+  "uid": "TK-2841_251026_c680_12",
+  "number": "TK 2841",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "04:15",
+  "start_date": "2025-10-26",
+  "days": "ежедневно с 26.10",
+  "except_days": "",
+  "title": "Трабзон — Стамбул",
+  "short_title": "Трабзон — Стамбул",
+  "carrier": {
+    "code": 680,
+    "title": "Turkish Airlines",
+    "codes": {
+      "sirena": null,
+      "iata": "TK",
+      "icao": "THY"
+    }
+  },
+  "vehicle": "Airbus А320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Трабзон",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9630625",
+        "codes": {
+          "yandex": "s9630625",
+          "iata": "TZX",
+          "sirena": "ТЗЬ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-10-26 04:15:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Новый аэропорт Стамбул",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600421",
+        "codes": {
+          "yandex": "s9600421",
+          "iata": "IST",
+          "sirena": "ИСТ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-10-26 06:25:00",
+      "stop_time": null,
+      "duration": 7800,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

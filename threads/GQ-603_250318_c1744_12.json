@@ -1,0 +1,79 @@
+{
+  "uid": "GQ-603_250318_c1744_12",
+  "number": "GQ 603",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "19:50",
+  "start_date": "2025-03-12",
+  "days": "18, 19, 25, 26 марта, 27, 28, 29, 30 октября, 3, 4, 5, 6, 10, 11, 12, 13, 17, 18, 19, 20 ноября, …",
+  "except_days": "",
+  "title": "Ларнака — Афины",
+  "short_title": "Ларнака — Афины",
+  "carrier": {
+    "code": 1744,
+    "title": "Sky express",
+    "codes": {
+      "sirena": null,
+      "iata": "GQ",
+      "icao": null
+    }
+  },
+  "vehicle": "Airbus A320 NEO",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Ларнака",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623584",
+        "codes": {
+          "yandex": "s9623584",
+          "iata": "LCA",
+          "sirena": "ЛРК"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-12 19:50:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Элефтериос Веницелос",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600431",
+        "codes": {
+          "yandex": "s9600431",
+          "iata": "ATH",
+          "sirena": "АТХ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-12 21:35:00",
+      "stop_time": null,
+      "duration": 6300,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

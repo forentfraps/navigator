@@ -1,0 +1,79 @@
+{
+  "uid": "5W-7013_250330_c57751_12",
+  "number": "5W 7013",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "06:20",
+  "start_date": "2025-03-30",
+  "days": "ежедневно с 30.03 по 27.08",
+  "except_days": "",
+  "title": "Абу-Даби — Ереван",
+  "short_title": "Абу-Даби — Ереван",
+  "carrier": {
+    "code": 57751,
+    "title": "Wizz Air Abu Dhabi",
+    "codes": {
+      "sirena": null,
+      "iata": "5W",
+      "icao": "WAZ"
+    }
+  },
+  "vehicle": "Airbus A320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Абу-Даби",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9624402",
+        "codes": {
+          "yandex": "s9624402",
+          "iata": "AUH",
+          "sirena": "АУХ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-30 06:20:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "0"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Звартноц",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600369",
+        "codes": {
+          "yandex": "s9600369",
+          "iata": "EVN",
+          "sirena": "ЗВР"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-30 09:45:00",
+      "stop_time": null,
+      "duration": 12300,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

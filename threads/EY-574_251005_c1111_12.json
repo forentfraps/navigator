@@ -1,0 +1,78 @@
+{
+  "uid": "EY-574_251005_c1111_12",
+  "number": "EY 574",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "22:40",
+  "start_date": "2025-04-06",
+  "days": "6, 9, 12, 13, 14, 16, 17, 19, 21, 23, 24, 25, 26, 27, 30 апреля, 1, 2, 3, 4, 5 мая, …",
+  "except_days": "",
+  "title": "Даммам — Абу-Даби",
+  "short_title": "Даммам — Абу-Даби",
+  "carrier": {
+    "code": 1111,
+    "title": "Etihad Airways",
+    "codes": {
+      "sirena": null,
+      "iata": "EY",
+      "icao": "EFL"
+    }
+  },
+  "vehicle": "Airbus A320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Кинг Фахд",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9624502",
+        "codes": {
+          "yandex": "s9624502",
+          "iata": "DMM"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-04-06 22:40:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Абу-Даби",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9624402",
+        "codes": {
+          "yandex": "s9624402",
+          "iata": "AUH",
+          "sirena": "АУХ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-04-07 01:00:00",
+      "stop_time": null,
+      "duration": 4800,
+      "terminal": "A"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

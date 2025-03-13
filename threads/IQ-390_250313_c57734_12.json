@@ -1,0 +1,79 @@
+{
+  "uid": "IQ-390_250313_c57734_12",
+  "number": "IQ 390",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "13:40",
+  "start_date": "2025-03-13",
+  "days": "13, 19, 20, 26, 27, 30, 31 марта, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13 апреля, …",
+  "except_days": "",
+  "title": "Жезказган — Астана",
+  "short_title": "Жезказган — Астана",
+  "carrier": {
+    "code": 57734,
+    "title": "Qazaq Air",
+    "codes": {
+      "sirena": null,
+      "iata": "IQ",
+      "icao": "QAZ"
+    }
+  },
+  "vehicle": "DeHavilland Dash 8 Q400",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Жезказган",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9631734",
+        "codes": {
+          "yandex": "s9631734",
+          "iata": "DZN",
+          "sirena": "ДЗН"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-13 13:40:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Нурсултан Назарбаев",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623556",
+        "codes": {
+          "yandex": "s9623556",
+          "iata": "NQZ",
+          "sirena": "АКЛ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-13 14:50:00",
+      "stop_time": null,
+      "duration": 4200,
+      "terminal": "2"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

@@ -1,0 +1,76 @@
+{
+  "number": "",
+  "title": "Слуцк - Несвиж (бронирование обязательно)",
+  "short_title": "Слуцк - Несвиж (бронирование обязательно)",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 66990,
+    "title": "ООО БалансСтарт",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_0_f9637967t9759216_677",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "сб по 22.03, кроме 04.01",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Слуцк",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9637967",
+        "codes": {
+          "yandex": "s9637967"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-15 12:00:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Несвиж",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9759216",
+        "codes": {
+          "yandex": "s9759216"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-15 13:30:00",
+      "duration": 5400.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-15",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "12:00"
+}

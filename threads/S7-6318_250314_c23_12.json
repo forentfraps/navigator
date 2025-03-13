@@ -1,0 +1,79 @@
+{
+  "uid": "S7-6318_250314_c23_12",
+  "number": "S7 6318",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "16:40",
+  "start_date": "2025-03-14",
+  "days": "14, 21, 28 марта",
+  "except_days": "",
+  "title": "Ош — Иркутск",
+  "short_title": "Ош — Иркутск",
+  "carrier": {
+    "code": 23,
+    "title": "S7 Airlines",
+    "codes": {
+      "sirena": "С7",
+      "iata": "S7",
+      "icao": null
+    }
+  },
+  "vehicle": "Boeing 737-800",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Ош",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623570",
+        "codes": {
+          "yandex": "s9623570",
+          "iata": "OSS",
+          "sirena": "ОШШ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-14 16:40:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Иркутск",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600174",
+        "codes": {
+          "yandex": "s9600174",
+          "iata": "IKT",
+          "sirena": "ИКТ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-14 22:50:00",
+      "stop_time": null,
+      "duration": 15000,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

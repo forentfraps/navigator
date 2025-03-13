@@ -1,0 +1,78 @@
+{
+  "uid": "PC-2991_250919_c845_12",
+  "number": "PC 2991",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "14:45",
+  "start_date": "2025-09-19",
+  "days": "пн, пт с 19.09 по 24.10",
+  "except_days": "",
+  "title": "Трабзон — Газиантеп",
+  "short_title": "Трабзон — Газиантеп",
+  "carrier": {
+    "code": 845,
+    "title": "Pegasus",
+    "codes": {
+      "sirena": null,
+      "iata": "PC",
+      "icao": null
+    }
+  },
+  "vehicle": "Airbus А320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Трабзон",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9630625",
+        "codes": {
+          "yandex": "s9630625",
+          "iata": "TZX",
+          "sirena": "ТЗЬ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-09-19 14:45:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Газиантеп",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9630912",
+        "codes": {
+          "yandex": "s9630912",
+          "iata": "GZT"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-09-19 16:00:00",
+      "stop_time": null,
+      "duration": 4500,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

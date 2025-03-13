@@ -1,0 +1,79 @@
+{
+  "uid": "J9-251_250322_c1503_12",
+  "number": "J9 251",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "09:00",
+  "start_date": "2025-03-22",
+  "days": "22, 27 марта, 31 октября, 7, 14, 21, 28 ноября",
+  "except_days": "",
+  "title": "Эль-Кувейт — Амман",
+  "short_title": "Эль-Кувейт — Амман",
+  "carrier": {
+    "code": 1503,
+    "title": "Jazeera Airways",
+    "codes": {
+      "sirena": null,
+      "iata": "J9",
+      "icao": null
+    }
+  },
+  "vehicle": "Airbus А320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Кувейт",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9631552",
+        "codes": {
+          "yandex": "s9631552",
+          "iata": "KWI",
+          "sirena": "КВИ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-22 09:00:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "5"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Квин Алия",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600423",
+        "codes": {
+          "yandex": "s9600423",
+          "iata": "AMM",
+          "sirena": "АМН"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-22 11:20:00",
+      "stop_time": null,
+      "duration": 8400,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

@@ -1,0 +1,118 @@
+{
+  "number": "6276",
+  "title": "Санкт-Петербург - Смоленск",
+  "short_title": "Санкт-Петербург - Смоленск",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 2641,
+    "title": "ECOLINES",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_0_f9637148t9623429_1",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно по 31.05",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Санкт-Петербург, автовокзал на Обводном канале",
+        "short_title": null,
+        "popular_title": "Автовокзал на Обводном канале",
+        "code": "s9637148",
+        "codes": {
+          "yandex": "s9637148"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 19:00:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Псков, автовокзал",
+        "short_title": "",
+        "popular_title": "Автовокзал Псков",
+        "code": "s9623413",
+        "codes": {
+          "yandex": "s9623413"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 23:25:00",
+      "arrival": "2025-03-13 23:20:00",
+      "duration": 15900.0,
+      "stop_time": 300,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Невель, автостанция",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9637844",
+        "codes": {
+          "yandex": "s9637844"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 02:35:00",
+      "arrival": "2025-03-14 02:30:00",
+      "duration": 27300.0,
+      "stop_time": 300,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Смоленск, автовокзал",
+        "short_title": null,
+        "popular_title": "Автовокзал Смоленск",
+        "code": "s9623429",
+        "codes": {
+          "yandex": "s9623429"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-14 07:30:00",
+      "duration": 45000.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "19:00"
+}

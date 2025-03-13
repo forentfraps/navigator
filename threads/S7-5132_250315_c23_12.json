@@ -1,0 +1,80 @@
+{
+  "uid": "S7-5132_250315_c23_12",
+  "number": "S7 5132",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "19:50",
+  "start_date": "2025-03-11",
+  "days": "11, 15, 18, 22, 25, 29 марта",
+  "except_days": "",
+  "title": "Волгоград — Новосибирск",
+  "short_title": "Волгоград — Новосибирск",
+  "carrier": {
+    "code": 23,
+    "title": "S7 Airlines",
+    "codes": {
+      "sirena": "С7",
+      "iata": "S7",
+      "icao": null
+    }
+  },
+  "vehicle": "Embraer 170",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Гумрак",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600177",
+        "codes": {
+          "yandex": "s9600177",
+          "esr": "892",
+          "iata": "VOG",
+          "sirena": "ВГГ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-11 19:50:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "C2"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Толмачёво",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600374",
+        "codes": {
+          "yandex": "s9600374",
+          "iata": "OVB",
+          "sirena": "ТЛЧ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-12 03:40:00",
+      "stop_time": null,
+      "duration": 13800,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

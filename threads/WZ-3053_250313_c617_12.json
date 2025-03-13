@@ -1,0 +1,80 @@
+{
+  "uid": "WZ-3053_250313_c617_12",
+  "number": "WZ 3053",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "01:00",
+  "start_date": "2025-03-13",
+  "days": "13, 23 марта",
+  "except_days": "",
+  "title": "Самара — Пхукет",
+  "short_title": "Самара — Пхукет",
+  "carrier": {
+    "code": 617,
+    "title": "Red Wings",
+    "codes": {
+      "sirena": "ИН",
+      "iata": "WZ",
+      "icao": "RWZ"
+    }
+  },
+  "vehicle": "Boeing 777-200",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Курумоч",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600380",
+        "codes": {
+          "yandex": "s9600380",
+          "esr": "453",
+          "iata": "KUF",
+          "sirena": "СКЧ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-13 01:00:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Пхукет",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623774",
+        "codes": {
+          "yandex": "s9623774",
+          "iata": "HKT",
+          "sirena": "ХКТ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-13 12:20:00",
+      "stop_time": null,
+      "duration": 30000,
+      "terminal": "I"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

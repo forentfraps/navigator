@@ -1,0 +1,78 @@
+{
+  "uid": "QR-506_250330_c331_12",
+  "number": "QR 506",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "19:15",
+  "start_date": "2025-03-30",
+  "days": "чт, вс с 30.03 по 24.08",
+  "except_days": "",
+  "title": "Доха — Тируванантапура",
+  "short_title": "Доха — Тируванантапура",
+  "carrier": {
+    "code": 331,
+    "title": "Qatar Airways",
+    "codes": {
+      "sirena": null,
+      "iata": "QR",
+      "icao": "QTR"
+    }
+  },
+  "vehicle": "Boeing 787-800",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Доха",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9624025",
+        "codes": {
+          "yandex": "s9624025",
+          "iata": "DOH",
+          "sirena": "ДОХ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-30 19:15:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Международный аэропорт Тривандрум",
+        "short_title": "",
+        "popular_title": "Тривандрум",
+        "code": "s9626160",
+        "codes": {
+          "yandex": "s9626160",
+          "iata": "TRV"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-31 02:25:00",
+      "stop_time": null,
+      "duration": 16800,
+      "terminal": "2"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

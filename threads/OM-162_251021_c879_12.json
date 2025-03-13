@@ -1,0 +1,78 @@
+{
+  "uid": "OM-162_251021_c879_12",
+  "number": "OM 162",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "14:10",
+  "start_date": "2025-10-07",
+  "days": "вт, чт, вс с 07.10 по 23.10",
+  "except_days": "",
+  "title": "Стамбул — Улан-Батор",
+  "short_title": "Стамбул — Улан-Батор",
+  "carrier": {
+    "code": 879,
+    "title": "Mongolian Airlines",
+    "codes": {
+      "sirena": null,
+      "iata": "OM",
+      "icao": "MGL"
+    }
+  },
+  "vehicle": "Boeing 787",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Новый аэропорт Стамбул",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600421",
+        "codes": {
+          "yandex": "s9600421",
+          "iata": "IST",
+          "sirena": "ИСТ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-10-07 14:10:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Чингисхан",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9876884",
+        "codes": {
+          "yandex": "s9876884",
+          "iata": "UBN"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-10-08 03:30:00",
+      "stop_time": null,
+      "duration": 30000,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

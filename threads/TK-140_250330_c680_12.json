@@ -1,0 +1,79 @@
+{
+  "uid": "TK-140_250330_c680_12",
+  "number": "TK 140",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "20:15",
+  "start_date": "2025-03-30",
+  "days": "пн, ср, пт, вс с 30.03 по 27.08",
+  "except_days": "",
+  "title": "Стамбул — Эр-Рияд",
+  "short_title": "Стамбул — Эр-Рияд",
+  "carrier": {
+    "code": 680,
+    "title": "Turkish Airlines",
+    "codes": {
+      "sirena": null,
+      "iata": "TK",
+      "icao": "THY"
+    }
+  },
+  "vehicle": "Airbus A320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Новый аэропорт Стамбул",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600421",
+        "codes": {
+          "yandex": "s9600421",
+          "iata": "IST",
+          "sirena": "ИСТ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-30 20:15:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Кинг Халид",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9630318",
+        "codes": {
+          "yandex": "s9630318",
+          "iata": "RUH",
+          "sirena": "РУХ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-31 00:25:00",
+      "stop_time": null,
+      "duration": 15000,
+      "terminal": "1"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

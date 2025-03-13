@@ -1,0 +1,55 @@
+{
+  "date": null,
+  "station": {
+    "type": "station",
+    "title": "Владикавказ, автовокзал №1",
+    "short_title": null,
+    "popular_title": "Автовокзал №1",
+    "code": "s9623342",
+    "station_type": "bus_station",
+    "station_type_name": "автовокзал",
+    "transport_type": "bus"
+  },
+  "event": "departure",
+  "pagination": {
+    "total": 1,
+    "limit": 100,
+    "offset": 0
+  },
+  "schedule": [
+    {
+      "thread": {
+        "number": "",
+        "title": "Грозный — Ставрополь",
+        "short_title": "Грозный — Ставрополь",
+        "express_type": null,
+        "transport_type": "bus",
+        "carrier": {
+          "code": 66079,
+          "title": "ИП Ткаченко Ольга Александровна",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "empty_2_f9654805t9623298_168",
+        "vehicle": "Автобус (55), у999уу95",
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "",
+      "departure": "17:31",
+      "arrival": "17:30"
+    }
+  ],
+  "interval_schedule": []
+}

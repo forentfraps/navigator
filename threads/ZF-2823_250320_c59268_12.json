@@ -1,0 +1,80 @@
+{
+  "uid": "ZF-2823_250320_c59268_12",
+  "number": "ZF 2823",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "20:05",
+  "start_date": "2025-03-20",
+  "days": "20 марта",
+  "except_days": "",
+  "title": "Самара — Утапао",
+  "short_title": "Самара — Утапао",
+  "carrier": {
+    "code": 59268,
+    "title": "Azur Air",
+    "codes": {
+      "sirena": "УР",
+      "iata": "ZF",
+      "icao": "KTK"
+    }
+  },
+  "vehicle": "Boeing 767-300",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Курумоч",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600380",
+        "codes": {
+          "yandex": "s9600380",
+          "esr": "453",
+          "iata": "KUF",
+          "sirena": "СКЧ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-20 20:05:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Утапао",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9629449",
+        "codes": {
+          "yandex": "s9629449",
+          "iata": "UTP",
+          "sirena": "УТП"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-21 07:35:00",
+      "stop_time": null,
+      "duration": 30600,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

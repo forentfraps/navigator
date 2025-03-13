@@ -1,0 +1,79 @@
+{
+  "uid": "D2-365_250605_c83_12",
+  "number": "D2 365",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "23:40",
+  "start_date": "2025-06-05",
+  "days": "чт с 05.06 по 18.09",
+  "except_days": "",
+  "title": "Череповец — Сочи",
+  "short_title": "Череповец — Сочи",
+  "carrier": {
+    "code": 83,
+    "title": "Северсталь",
+    "codes": {
+      "sirena": "Д2",
+      "iata": "D2",
+      "icao": null
+    }
+  },
+  "vehicle": "Сухой Суперджет 100",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Череповец",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623264",
+        "codes": {
+          "yandex": "s9623264",
+          "iata": "CEE",
+          "sirena": "ЧРВ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-06-05 23:40:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Сочи",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623547",
+        "codes": {
+          "yandex": "s9623547",
+          "iata": "AER",
+          "sirena": "СОЧ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-06-06 03:10:00",
+      "stop_time": null,
+      "duration": 12600,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

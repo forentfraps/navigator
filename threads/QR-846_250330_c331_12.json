@@ -1,0 +1,79 @@
+{
+  "uid": "QR-846_250330_c331_12",
+  "number": "QR 846",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "07:50",
+  "start_date": "2025-03-30",
+  "days": "ежедневно с 30.03 по 27.08",
+  "except_days": "",
+  "title": "Доха — Пхукет",
+  "short_title": "Доха — Пхукет",
+  "carrier": {
+    "code": 331,
+    "title": "Qatar Airways",
+    "codes": {
+      "sirena": null,
+      "iata": "QR",
+      "icao": "QTR"
+    }
+  },
+  "vehicle": "Boeing 777-300ER",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Доха",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9624025",
+        "codes": {
+          "yandex": "s9624025",
+          "iata": "DOH",
+          "sirena": "ДОХ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-30 07:50:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Пхукет",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623774",
+        "codes": {
+          "yandex": "s9623774",
+          "iata": "HKT",
+          "sirena": "ХКТ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-30 18:50:00",
+      "stop_time": null,
+      "duration": 25200,
+      "terminal": "I"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

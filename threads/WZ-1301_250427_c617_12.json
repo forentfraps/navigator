@@ -1,0 +1,80 @@
+{
+  "uid": "WZ-1301_250427_c617_12",
+  "number": "WZ 1301",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "23:15",
+  "start_date": "2025-04-27",
+  "days": "вс с 27.04 по 21.09",
+  "except_days": "",
+  "title": "Самара — Батуми",
+  "short_title": "Самара — Батуми",
+  "carrier": {
+    "code": 617,
+    "title": "Red Wings",
+    "codes": {
+      "sirena": "ИН",
+      "iata": "WZ",
+      "icao": "RWZ"
+    }
+  },
+  "vehicle": "Сухой Суперджет 100",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Курумоч",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600380",
+        "codes": {
+          "yandex": "s9600380",
+          "esr": "453",
+          "iata": "KUF",
+          "sirena": "СКЧ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-04-27 23:15:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Батуми",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623697",
+        "codes": {
+          "yandex": "s9623697",
+          "iata": "BUS",
+          "sirena": "БУИ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-04-28 02:20:00",
+      "stop_time": null,
+      "duration": 11100,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

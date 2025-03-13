@@ -1,0 +1,79 @@
+{
+  "uid": "ME-272_250629_c759_12",
+  "number": "ME 272",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "09:55",
+  "start_date": "2025-06-29",
+  "days": "пн, ср, вс с 29.06 по 03.09",
+  "except_days": "",
+  "title": "Ларнака — Бейрут",
+  "short_title": "Ларнака — Бейрут",
+  "carrier": {
+    "code": 759,
+    "title": "Middle East Airlines",
+    "codes": {
+      "sirena": null,
+      "iata": "ME",
+      "icao": "MEA"
+    }
+  },
+  "vehicle": "Airbus A320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Ларнака",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623584",
+        "codes": {
+          "yandex": "s9623584",
+          "iata": "LCA",
+          "sirena": "ЛРК"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-06-29 09:55:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Бейрут",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623595",
+        "codes": {
+          "yandex": "s9623595",
+          "iata": "BEY",
+          "sirena": "БЕУ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-06-29 10:35:00",
+      "stop_time": null,
+      "duration": 2400,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

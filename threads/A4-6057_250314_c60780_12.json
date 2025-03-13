@@ -1,0 +1,102 @@
+{
+  "uid": "A4-6057_250314_c60780_12",
+  "number": "A4 6057",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "15:25",
+  "start_date": "2025-03-14",
+  "days": "14, 17, 21, 24, 28 марта",
+  "except_days": "",
+  "title": "Минеральные Воды — Уфа",
+  "short_title": "Минеральные Воды — Уфа",
+  "carrier": {
+    "code": 60780,
+    "title": "Азимут",
+    "codes": {
+      "sirena": "А4",
+      "iata": "A4",
+      "icao": null
+    }
+  },
+  "vehicle": "Сухой Суперджет 100",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Минеральные Воды",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623558",
+        "codes": {
+          "yandex": "s9623558",
+          "iata": "MRV",
+          "sirena": "МРВ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-14 15:25:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Астрахань",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600172",
+        "codes": {
+          "yandex": "s9600172",
+          "iata": "ASF",
+          "sirena": "АСР"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-14 19:00:00",
+      "arrival": "2025-03-14 18:00:00",
+      "stop_time": 3600,
+      "duration": 9300,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Уфа",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600393",
+        "codes": {
+          "yandex": "s9600393",
+          "iata": "UFA",
+          "sirena": "УФА"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-14 21:55:00",
+      "stop_time": null,
+      "duration": 16200,
+      "terminal": "1"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

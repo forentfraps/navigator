@@ -1,0 +1,79 @@
+{
+  "uid": "QR-239_251015_c331_12",
+  "number": "QR 239",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "07:30",
+  "start_date": "2025-10-15",
+  "days": "ежедневно с 15.10 по 25.10, кроме 17.10, 19.10",
+  "except_days": "",
+  "title": "Доха — Стамбул",
+  "short_title": "Доха — Стамбул",
+  "carrier": {
+    "code": 331,
+    "title": "Qatar Airways",
+    "codes": {
+      "sirena": null,
+      "iata": "QR",
+      "icao": "QTR"
+    }
+  },
+  "vehicle": "Boeing 787-800",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Доха",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9624025",
+        "codes": {
+          "yandex": "s9624025",
+          "iata": "DOH",
+          "sirena": "ДОХ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-10-15 07:30:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Новый аэропорт Стамбул",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600421",
+        "codes": {
+          "yandex": "s9600421",
+          "iata": "IST",
+          "sirena": "ИСТ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-10-15 11:45:00",
+      "stop_time": null,
+      "duration": 15300,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

@@ -1,0 +1,78 @@
+{
+  "uid": "QR-1377_250314_c331_12",
+  "number": "QR 1377",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "07:20",
+  "start_date": "2025-03-12",
+  "days": "12, 14, 19, 26, 28 марта",
+  "except_days": "",
+  "title": "Доха — Йоханнесбург",
+  "short_title": "Доха — Йоханнесбург",
+  "carrier": {
+    "code": 331,
+    "title": "Qatar Airways",
+    "codes": {
+      "sirena": null,
+      "iata": "QR",
+      "icao": "QTR"
+    }
+  },
+  "vehicle": "Boeing 787-900",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Доха",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9624025",
+        "codes": {
+          "yandex": "s9624025",
+          "iata": "DOH",
+          "sirena": "ДОХ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-12 07:20:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Тамбо",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9631094",
+        "codes": {
+          "yandex": "s9631094",
+          "iata": "JNB"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-12 14:40:00",
+      "stop_time": null,
+      "duration": 30000,
+      "terminal": "A"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

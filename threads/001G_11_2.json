@@ -1,0 +1,127 @@
+{
+  "number": "001Г",
+  "title": "Казань — Москва",
+  "short_title": "Казань — Москва",
+  "express_type": null,
+  "transport_type": "train",
+  "carrier": {
+    "code": 112,
+    "title": "РЖД/ФПК",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "001G_11_2",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "26, 27, 28, 29, 30 апреля, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 мая, …",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Казань-Пасс.",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623141",
+        "codes": {
+          "yandex": "s9623141",
+          "esr": "250302",
+          "sirena": "КНЖ",
+          "express": "2060500"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-26 20:00:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Канаш",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9612431",
+        "codes": {
+          "yandex": "s9612431",
+          "esr": "248105",
+          "express": "2060630"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-26 22:14:00",
+      "arrival": "2025-04-26 22:12:00",
+      "duration": 8040.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Муром-1",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9612176",
+        "codes": {
+          "yandex": "s9612176",
+          "esr": "240000",
+          "express": "2060370"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-27 02:58:00",
+      "arrival": "2025-04-27 02:56:00",
+      "duration": 25080.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Москва (Казанский вокзал)",
+        "short_title": "М-Казанская",
+        "popular_title": "Казанский вокзал",
+        "code": "s2000003",
+        "codes": {
+          "yandex": "s2000003",
+          "esr": "194013",
+          "express": "2000003"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": null,
+      "arrival": "2025-04-27 07:10:00",
+      "duration": 40200.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-04-26",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "20:00"
+}

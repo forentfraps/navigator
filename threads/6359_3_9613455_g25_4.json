@@ -1,0 +1,287 @@
+{
+  "number": "6359",
+  "title": "Глубокая — Шептуховка",
+  "short_title": "Глубокая — Шептуховка",
+  "express_type": null,
+  "transport_type": "suburban",
+  "carrier": {
+    "code": 1369,
+    "title": "Северо-Кавказская ППК",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "6359_3_9613455_g25_4",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": "Пригородный поезд",
+    "code": "suburban",
+    "color": "#CC6600"
+  },
+  "days": "только 19, 24, 25, 27 марта",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Глубокая",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9613455",
+        "codes": {
+          "yandex": "s9613455",
+          "esr": "587009",
+          "express": "2064568"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-19 18:20:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Дяткино",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9613484",
+        "codes": {
+          "yandex": "s9613484",
+          "esr": "586951",
+          "express": "2064602"
+        },
+        "station_type": "stop",
+        "station_type_name": "остановочный пункт",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-19 18:31:00",
+      "arrival": "2025-03-19 18:30:00",
+      "duration": 660.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Каюковка (995 км)",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9613642",
+        "codes": {
+          "yandex": "s9613642",
+          "esr": "586947",
+          "express": "2064843"
+        },
+        "station_type": "stop",
+        "station_type_name": "остановочный пункт",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-19 18:36:00",
+      "arrival": "2025-03-19 18:35:00",
+      "duration": 960.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Тарасовка",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9613453",
+        "codes": {
+          "yandex": "s9613453",
+          "esr": "586909",
+          "express": "2064566"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-19 18:44:00",
+      "arrival": "2025-03-19 18:43:00",
+      "duration": 1440.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Старая Станица",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9613452",
+        "codes": {
+          "yandex": "s9613452",
+          "esr": "586928",
+          "express": "2064565"
+        },
+        "station_type": "stop",
+        "station_type_name": "остановочный пункт",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-19 18:53:00",
+      "arrival": "2025-03-19 18:52:00",
+      "duration": 1980.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Миллерово",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9613264",
+        "codes": {
+          "yandex": "s9613264",
+          "esr": "586504",
+          "express": "2064375"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-19 19:27:00",
+      "arrival": "2025-03-19 19:25:00",
+      "duration": 4020.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Боченково",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9613645",
+        "codes": {
+          "yandex": "s9613645",
+          "esr": "586415",
+          "express": "2064846"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-19 19:41:00",
+      "arrival": "2025-03-19 19:40:00",
+      "duration": 4860.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Мальчевская",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9613482",
+        "codes": {
+          "yandex": "s9613482",
+          "esr": "586400",
+          "express": "2064596"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-19 19:52:00",
+      "arrival": "2025-03-19 19:51:00",
+      "duration": 5520.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Сысоево",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9613648",
+        "codes": {
+          "yandex": "s9613648",
+          "esr": "586326",
+          "express": "2064849"
+        },
+        "station_type": "stop",
+        "station_type_name": "остановочный пункт",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-19 20:00:00",
+      "arrival": "2025-03-19 19:59:00",
+      "duration": 6000.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Новая Полтава (928 км)",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9613683",
+        "codes": {
+          "yandex": "s9613683",
+          "esr": "586311",
+          "express": "2064950"
+        },
+        "station_type": "stop",
+        "station_type_name": "остановочный пункт",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-19 20:04:00",
+      "arrival": "2025-03-19 20:03:00",
+      "duration": 6240.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Шептуховка",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9613446",
+        "codes": {
+          "yandex": "s9613446",
+          "esr": "586359",
+          "express": "2064558"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": null,
+      "arrival": "2025-03-19 20:13:00",
+      "duration": 6780.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-19",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "18:20"
+}

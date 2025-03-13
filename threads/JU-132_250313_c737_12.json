@@ -1,0 +1,79 @@
+{
+  "uid": "JU-132_250313_c737_12",
+  "number": "JU 132",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "14:15",
+  "start_date": "2025-03-13",
+  "days": "пн, вт, чт по 27.03, а ещё 14.03, 22.03",
+  "except_days": "",
+  "title": "Белград — Москва",
+  "short_title": "Белград — Москва",
+  "carrier": {
+    "code": 737,
+    "title": "Air Serbia",
+    "codes": {
+      "sirena": null,
+      "iata": "JU",
+      "icao": "JAT"
+    }
+  },
+  "vehicle": "Airbus A319",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Белград",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623578",
+        "codes": {
+          "yandex": "s9623578",
+          "iata": "BEG",
+          "sirena": "БГА"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-13 14:15:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "2"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Шереметьево",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600213",
+        "codes": {
+          "yandex": "s9600213",
+          "iata": "SVO",
+          "sirena": "ШРМ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-13 19:25:00",
+      "stop_time": null,
+      "duration": 11400,
+      "terminal": "C"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

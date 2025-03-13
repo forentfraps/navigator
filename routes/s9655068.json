@@ -1,0 +1,88 @@
+{
+  "date": null,
+  "station": {
+    "type": "station",
+    "title": "Ремонтное",
+    "short_title": "",
+    "popular_title": "",
+    "code": "s9655068",
+    "station_type": "bus_station",
+    "station_type_name": "автовокзал",
+    "transport_type": "bus"
+  },
+  "event": "departure",
+  "pagination": {
+    "total": 2,
+    "limit": 100,
+    "offset": 0
+  },
+  "schedule": [
+    {
+      "thread": {
+        "number": "",
+        "title": "Волгодонск — Дербент",
+        "short_title": "Волгодонск — Дербент",
+        "express_type": null,
+        "transport_type": "bus",
+        "carrier": {
+          "code": 58726,
+          "title": "Раджабов М.М ИП",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "empty_0_f9637069t9654804_168",
+        "vehicle": "SETRA (49), х818вр161",
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "",
+      "departure": "21:05",
+      "arrival": "21:04"
+    },
+    {
+      "thread": {
+        "number": "",
+        "title": "Волгодонск — Дербент",
+        "short_title": "Волгодонск — Дербент",
+        "express_type": null,
+        "transport_type": "bus",
+        "carrier": {
+          "code": 66845,
+          "title": "Индивидуальный предприниматель Абдулатипов Магомедзагид Гаджиевич",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "empty_1_f9637069t9654804_168",
+        "vehicle": "SETRA (53), м860тн05",
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "15, 18, 21, 24, 27, 30 марта, 2, 5, 8, 11, 14, 17, 20, 23, 26, 29 апреля, 2, 5, 8, 11 мая, …",
+      "except_days": null,
+      "stops": "",
+      "departure": "21:05",
+      "arrival": "21:04"
+    }
+  ],
+  "interval_schedule": []
+}

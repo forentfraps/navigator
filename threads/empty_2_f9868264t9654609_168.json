@@ -1,0 +1,139 @@
+{
+  "number": "",
+  "title": "Ростов-на-Дону — Севастополь",
+  "short_title": "Ростов-на-Дону — Севастополь",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 66812,
+    "title": "Общество с ограниченной ответственностью \"АЛАН-ТРАНС\"",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_2_f9868264t9654609_168",
+  "vehicle": "ВОЛЬВО (50), с040рт777",
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "16, 24 марта, 1, 9, 17, 25 апреля, 3, 11, 19, 27 мая, 4, 12, 20, 28 июня, 6, 14, 22, 30 июля, 7, 15 августа, …",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Ростов-на-Дону, Главный автовокзал",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9868264",
+        "codes": {
+          "yandex": "s9868264"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-16 17:40:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Керчь, автовокзал",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9852169",
+        "codes": {
+          "yandex": "s9852169"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-17 03:06:00",
+      "arrival": "2025-03-17 03:05:00",
+      "duration": 33960.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Феодосия, автостанция",
+        "short_title": "",
+        "popular_title": "Автостанция Феодосия",
+        "code": "s9695036",
+        "codes": {
+          "yandex": "s9695036"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-17 05:05:00",
+      "arrival": "2025-03-17 05:04:00",
+      "duration": 41100.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Симферополь, Центральный автовокзал",
+        "short_title": "",
+        "popular_title": "Автовокзал Центральный",
+        "code": "s9654608",
+        "codes": {
+          "yandex": "s9654608"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-17 07:28:00",
+      "arrival": "2025-03-17 07:27:00",
+      "duration": 49680.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Севастополь, автовокзал",
+        "short_title": null,
+        "popular_title": "автовокзал Севастополь",
+        "code": "s9654609",
+        "codes": {
+          "yandex": "s9654609"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-17 09:07:00",
+      "duration": 55620.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-16",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "17:40"
+}

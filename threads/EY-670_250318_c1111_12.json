@@ -1,0 +1,79 @@
+{
+  "uid": "EY-670_250318_c1111_12",
+  "number": "EY 670",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "22:30",
+  "start_date": "2025-03-18",
+  "days": "18, 26 марта",
+  "except_days": "",
+  "title": "Доха — Абу-Даби",
+  "short_title": "Доха — Абу-Даби",
+  "carrier": {
+    "code": 1111,
+    "title": "Etihad Airways",
+    "codes": {
+      "sirena": null,
+      "iata": "EY",
+      "icao": "EFL"
+    }
+  },
+  "vehicle": "Airbus A320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Доха",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9624025",
+        "codes": {
+          "yandex": "s9624025",
+          "iata": "DOH",
+          "sirena": "ДОХ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-18 22:30:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Абу-Даби",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9624402",
+        "codes": {
+          "yandex": "s9624402",
+          "iata": "AUH",
+          "sirena": "АУХ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-19 00:35:00",
+      "stop_time": null,
+      "duration": 3900,
+      "terminal": "A"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

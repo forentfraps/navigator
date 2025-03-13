@@ -1,0 +1,79 @@
+{
+  "uid": "J9-6101_250613_c1503_12",
+  "number": "J9 6101",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "17:05",
+  "start_date": "2025-06-13",
+  "days": "13 июня",
+  "except_days": "",
+  "title": "Эль-Кувейт — Ош",
+  "short_title": "Эль-Кувейт — Ош",
+  "carrier": {
+    "code": 1503,
+    "title": "Jazeera Airways",
+    "codes": {
+      "sirena": null,
+      "iata": "J9",
+      "icao": null
+    }
+  },
+  "vehicle": "Airbus A320 NEO",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Кувейт",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9631552",
+        "codes": {
+          "yandex": "s9631552",
+          "iata": "KWI",
+          "sirena": "КВИ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-06-13 17:05:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "5"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ош",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623570",
+        "codes": {
+          "yandex": "s9623570",
+          "iata": "OSS",
+          "sirena": "ОШШ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-06-13 23:50:00",
+      "stop_time": null,
+      "duration": 13500,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

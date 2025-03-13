@@ -1,0 +1,391 @@
+{
+  "number": "521",
+  "title": "Тамбов - Мучкапский",
+  "short_title": "Тамбов - Мучкапский",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 3753,
+    "title": "ИП Ахметов М.Р.",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_3_f9623434t9831913_551",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно по 06.04",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Тамбов, Северный автовокзал",
+        "short_title": null,
+        "popular_title": "Автовокзал Северный",
+        "code": "s9623434",
+        "codes": {
+          "yandex": "s9623434"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 09:20:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Тамбов, автовокзал",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623433",
+        "codes": {
+          "yandex": "s9623433"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 09:35:00",
+      "arrival": "2025-03-13 09:33:00",
+      "duration": 900.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Знаменка, трасса",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9822805",
+        "codes": {
+          "yandex": "s9822805"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 09:40:00",
+      "arrival": "2025-03-13 09:38:00",
+      "duration": 1200.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ивановка, поворот",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9831889",
+        "codes": {
+          "yandex": "s9831889"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 09:45:00",
+      "arrival": "2025-03-13 09:43:00",
+      "duration": 1500.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ракитино, поворот",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9863232",
+        "codes": {
+          "yandex": "s9863232"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 10:00:00",
+      "arrival": "2025-03-13 09:58:00",
+      "duration": 2400.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Синие кусты",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9879661",
+        "codes": {
+          "yandex": "s9879661"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 10:25:00",
+      "arrival": "2025-03-13 10:23:00",
+      "duration": 3900.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Жердевка, поворот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9750659",
+        "codes": {
+          "yandex": "s9750659"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 10:35:00",
+      "arrival": "2025-03-13 10:33:00",
+      "duration": 4500.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Новый Свет",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9831911",
+        "codes": {
+          "yandex": "s9831911"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 10:40:00",
+      "arrival": "2025-03-13 10:38:00",
+      "duration": 4800.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Максим Горький",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9831909",
+        "codes": {
+          "yandex": "s9831909"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 11:05:00",
+      "arrival": "2025-03-13 11:03:00",
+      "duration": 6300.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Репное, поворот",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9863223",
+        "codes": {
+          "yandex": "s9863223"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 11:10:00",
+      "arrival": "2025-03-13 11:08:00",
+      "duration": 6600.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ульяновка",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9831908",
+        "codes": {
+          "yandex": "s9831908"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 11:20:00",
+      "arrival": "2025-03-13 11:18:00",
+      "duration": 7200.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Моисеево-Алабушка",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9831907",
+        "codes": {
+          "yandex": "s9831907"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 11:25:00",
+      "arrival": "2025-03-13 11:23:00",
+      "duration": 7500.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Средняя Яруга, поворот",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9863224",
+        "codes": {
+          "yandex": "s9863224"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 11:30:00",
+      "arrival": "2025-03-13 11:28:00",
+      "duration": 7800.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Мучкапский, поворот",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9831914",
+        "codes": {
+          "yandex": "s9831914"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 11:35:00",
+      "arrival": "2025-03-13 11:33:00",
+      "duration": 8100.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Чащино",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9831906",
+        "codes": {
+          "yandex": "s9831906"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 11:40:00",
+      "arrival": "2025-03-13 11:38:00",
+      "duration": 8400.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Коростелево",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9831905",
+        "codes": {
+          "yandex": "s9831905"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 11:50:00",
+      "arrival": "2025-03-13 11:48:00",
+      "duration": 9000.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Мучкапский",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9831913",
+        "codes": {
+          "yandex": "s9831913"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 11:58:00",
+      "duration": 9480.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "09:20"
+}

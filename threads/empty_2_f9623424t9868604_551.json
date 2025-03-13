@@ -1,0 +1,97 @@
+{
+  "number": "507",
+  "title": "Саратов - Пригородный",
+  "short_title": "Саратов - Пригородный",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 61501,
+    "title": "ООО \"БПАК\"",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_2_f9623424t9868604_551",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно по 06.04",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Саратов, автовокзал",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623424",
+        "codes": {
+          "yandex": "s9623424"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 18:30:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Петровск, автостанция",
+        "short_title": null,
+        "popular_title": "Петровская автостанция",
+        "code": "s9600270",
+        "codes": {
+          "yandex": "s9600270"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 20:30:00",
+      "arrival": "2025-03-13 20:29:00",
+      "duration": 7200.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Пригородный",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9868604",
+        "codes": {
+          "yandex": "s9868604"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 20:45:00",
+      "duration": 8100.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "18:30"
+}

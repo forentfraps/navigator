@@ -1,0 +1,79 @@
+{
+  "uid": "WZ-4529_250524_c617_12",
+  "number": "WZ 4529",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "11:00",
+  "start_date": "2025-05-24",
+  "days": "чт, сб с 24.05 по 04.10, кроме 29.05, 05.06",
+  "except_days": "",
+  "title": "Сочи — Бодрум",
+  "short_title": "Сочи — Бодрум",
+  "carrier": {
+    "code": 617,
+    "title": "Red Wings",
+    "codes": {
+      "sirena": "ИН",
+      "iata": "WZ",
+      "icao": "RWZ"
+    }
+  },
+  "vehicle": "Сухой Суперджет 100",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Сочи",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623547",
+        "codes": {
+          "yandex": "s9623547",
+          "iata": "AER",
+          "sirena": "СОЧ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-05-24 11:00:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Милас",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600415",
+        "codes": {
+          "yandex": "s9600415",
+          "iata": "BJV",
+          "sirena": "БЙЖ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-05-24 13:20:00",
+      "stop_time": null,
+      "duration": 8400,
+      "terminal": "D"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

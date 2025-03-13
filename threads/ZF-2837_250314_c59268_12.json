@@ -1,0 +1,79 @@
+{
+  "uid": "ZF-2837_250314_c59268_12",
+  "number": "ZF 2837",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "20:05",
+  "start_date": "2025-03-14",
+  "days": "14 марта",
+  "except_days": "",
+  "title": "Екатеринбург — Утапао",
+  "short_title": "Екатеринбург — Утапао",
+  "carrier": {
+    "code": 59268,
+    "title": "Azur Air",
+    "codes": {
+      "sirena": "УР",
+      "iata": "ZF",
+      "icao": "KTK"
+    }
+  },
+  "vehicle": "Boeing 767-300",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Кольцово",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600370",
+        "codes": {
+          "yandex": "s9600370",
+          "iata": "SVX",
+          "sirena": "ЕКБ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-14 20:05:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Утапао",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9629449",
+        "codes": {
+          "yandex": "s9629449",
+          "iata": "UTP",
+          "sirena": "УТП"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-15 06:30:00",
+      "stop_time": null,
+      "duration": 30300,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

@@ -1,0 +1,79 @@
+{
+  "uid": "TK-1037_250401_c680_12",
+  "number": "TK 1037",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "18:30",
+  "start_date": "2025-04-01",
+  "days": "1, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25 апреля, …",
+  "except_days": "",
+  "title": "Стамбул — Будапешт",
+  "short_title": "Стамбул — Будапешт",
+  "carrier": {
+    "code": 680,
+    "title": "Turkish Airlines",
+    "codes": {
+      "sirena": null,
+      "iata": "TK",
+      "icao": "THY"
+    }
+  },
+  "vehicle": "Airbus A320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Новый аэропорт Стамбул",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600421",
+        "codes": {
+          "yandex": "s9600421",
+          "iata": "IST",
+          "sirena": "ИСТ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-04-01 18:30:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "им. Ференца Листа",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600414",
+        "codes": {
+          "yandex": "s9600414",
+          "iata": "BUD",
+          "sirena": "БУД"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-04-01 19:35:00",
+      "stop_time": null,
+      "duration": 7500,
+      "terminal": "2B"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

@@ -1,0 +1,78 @@
+{
+  "uid": "WK-407_250607_c2045_12",
+  "number": "WK 407",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "04:20",
+  "start_date": "2025-06-07",
+  "days": "7 июня",
+  "except_days": "",
+  "title": "Приштина — Цюрих",
+  "short_title": "Приштина — Цюрих",
+  "carrier": {
+    "code": 2045,
+    "title": "Edelweiss Air",
+    "codes": {
+      "sirena": null,
+      "iata": "WK",
+      "icao": "EDW"
+    }
+  },
+  "vehicle": "Airbus А320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Приштина",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623703",
+        "codes": {
+          "yandex": "s9623703",
+          "iata": "PRN"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-06-07 04:20:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Цюрих",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623585",
+        "codes": {
+          "yandex": "s9623585",
+          "iata": "ZRH",
+          "sirena": "ЦРХ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-06-07 06:30:00",
+      "stop_time": null,
+      "duration": 7800,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

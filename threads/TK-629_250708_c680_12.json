@@ -1,0 +1,78 @@
+{
+  "uid": "TK-629_250708_c680_12",
+  "number": "TK 629",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "14:00",
+  "start_date": "2025-04-01",
+  "days": "1, 8, 15, 22, 29 апреля, 6, 13, 20, 27 мая, 3, 10, 13, 17, 20, 24, 27 июня, 1, 4, 8, 15 июля, …",
+  "except_days": "",
+  "title": "Стамбул — Аккра",
+  "short_title": "Стамбул — Аккра",
+  "carrier": {
+    "code": 680,
+    "title": "Turkish Airlines",
+    "codes": {
+      "sirena": null,
+      "iata": "TK",
+      "icao": "THY"
+    }
+  },
+  "vehicle": "Airbus А330-300",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Новый аэропорт Стамбул",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600421",
+        "codes": {
+          "yandex": "s9600421",
+          "iata": "IST",
+          "sirena": "ИСТ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-04-01 14:00:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Котока",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9631855",
+        "codes": {
+          "yandex": "s9631855",
+          "iata": "ACC"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-04-01 18:10:00",
+      "stop_time": null,
+      "duration": 25800,
+      "terminal": "0"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

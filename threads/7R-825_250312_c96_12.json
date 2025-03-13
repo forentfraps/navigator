@@ -1,0 +1,79 @@
+{
+  "uid": "7R-825_250312_c96_12",
+  "number": "7R 825",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "08:00",
+  "start_date": "2025-03-12",
+  "days": "15, 19, 22, 26, 29 марта, 1, 4, 8, 11, 15, 18, 22, 25, 29 апреля, 2, 6, 9, 13, 16, 20 мая, …",
+  "except_days": "",
+  "title": "Екатеринбург — Белоярский",
+  "short_title": "Екатеринбург — Белоярский",
+  "carrier": {
+    "code": 96,
+    "title": "РусЛайн",
+    "codes": {
+      "sirena": "РГ",
+      "iata": "7R",
+      "icao": "RLU"
+    }
+  },
+  "vehicle": "Canadair regional jet",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Кольцово",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600370",
+        "codes": {
+          "yandex": "s9600370",
+          "iata": "SVX",
+          "sirena": "ЕКБ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-12 08:00:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Белоярский",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623622",
+        "codes": {
+          "yandex": "s9623622",
+          "iata": "EYK",
+          "sirena": "БЛР"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-12 09:30:00",
+      "stop_time": null,
+      "duration": 5400,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

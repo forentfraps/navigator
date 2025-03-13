@@ -1,0 +1,121 @@
+{
+  "date": null,
+  "station": {
+    "type": "station",
+    "title": "Аэропорт Спиченково",
+    "short_title": null,
+    "popular_title": null,
+    "code": "s9871345",
+    "station_type": "bus_stop",
+    "station_type_name": "автобусная остановка",
+    "transport_type": "bus"
+  },
+  "event": "departure",
+  "pagination": {
+    "total": 3,
+    "limit": 100,
+    "offset": 0
+  },
+  "schedule": [
+    {
+      "thread": {
+        "number": "",
+        "title": "Таштагол — Кемерово",
+        "short_title": "Таштагол — Кемерово",
+        "express_type": null,
+        "transport_type": "bus",
+        "carrier": {
+          "code": 63643,
+          "title": "Кемеровская автоколонна №1237 ГП КО",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "empty_4_f9657279t9623379_168",
+        "vehicle": "VOLGABUS М (44), ау12442",
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "",
+      "departure": "04:45",
+      "arrival": "04:40"
+    },
+    {
+      "thread": {
+        "number": "",
+        "title": "Новокузнецк — Таштагол",
+        "short_title": "Новокузнецк — Таштагол",
+        "express_type": null,
+        "transport_type": "bus",
+        "carrier": {
+          "code": 58028,
+          "title": "Новокузнецкое ПАТП-1 ОАО",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "empty_0_f9871345t9657279_168",
+        "vehicle": "ЛИАЗ 525662 М (44), ау22742",
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "",
+      "departure": "08:00",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "",
+        "title": "Новокузнецк — Таштагол",
+        "short_title": "Новокузнецк — Таштагол",
+        "express_type": null,
+        "transport_type": "bus",
+        "carrier": {
+          "code": 58028,
+          "title": "Новокузнецкое ПАТП-1 ОАО",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "empty_1_f9871345t9657279_168",
+        "vehicle": "ЛИАЗ 525662 М (44), ау22742",
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "",
+      "departure": "09:10",
+      "arrival": null
+    }
+  ],
+  "interval_schedule": []
+}

@@ -1,0 +1,78 @@
+{
+  "uid": "FR-1818_250405_c1113_12",
+  "number": "FR 1818",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "06:25",
+  "start_date": "2025-04-05",
+  "days": "сб с 05.04 по 30.08",
+  "except_days": "",
+  "title": "Салоники — Эйндховен",
+  "short_title": "Салоники — Эйндховен",
+  "carrier": {
+    "code": 1113,
+    "title": "Ryanair",
+    "codes": {
+      "sirena": null,
+      "iata": "FR",
+      "icao": "RYR"
+    }
+  },
+  "vehicle": "Boeing 737-800",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Салоники",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623699",
+        "codes": {
+          "yandex": "s9623699",
+          "iata": "SKG",
+          "sirena": "СКГ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-04-05 06:25:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Эйндховен",
+        "short_title": "",
+        "popular_title": null,
+        "code": "s9624642",
+        "codes": {
+          "yandex": "s9624642",
+          "iata": "EIN"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-04-05 08:20:00",
+      "stop_time": null,
+      "duration": 10500,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

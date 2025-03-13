@@ -1,0 +1,319 @@
+{
+  "date": null,
+  "station": {
+    "type": "station",
+    "title": "Кемерово-Пасс.",
+    "short_title": "",
+    "popular_title": "",
+    "code": "s2028001",
+    "station_type": "station",
+    "station_type_name": "станция",
+    "transport_type": "train"
+  },
+  "event": "departure",
+  "pagination": {
+    "total": 9,
+    "limit": 100,
+    "offset": 0
+  },
+  "schedule": [
+    {
+      "thread": {
+        "number": "143Н",
+        "title": "Кемерово — Новосибирск",
+        "short_title": "Кемерово — Новосибирск",
+        "express_type": null,
+        "transport_type": "train",
+        "carrier": {
+          "code": 112,
+          "title": "РЖД/ФПК",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "143N_0_2",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "13, 15, 17, 19, 21, 23, 25, 27, 29, 31 марта, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20 апреля, …",
+      "except_days": null,
+      "stops": "",
+      "departure": "00:01",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6188",
+        "title": "Кемерово-Пасс. — Притомье",
+        "short_title": "Кемерово-Пасс. — Притомье",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 149,
+          "title": "Кузбасс-пригород",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6188_0_2028001_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "07:48",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6190",
+        "title": "Кемерово-Пасс. — Притомье",
+        "short_title": "Кемерово-Пасс. — Притомье",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 149,
+          "title": "Кузбасс-пригород",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6190_0_2028001_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "08:38",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6161/6162",
+        "title": "Кемерово-Пасс. — Тайга-1",
+        "short_title": "Кемерово-Пасс. — Тайга-1",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 149,
+          "title": "Кузбасс-пригород",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6161x6162_0_2028001_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "вт, пт",
+      "except_days": null,
+      "stops": "кроме: Кемерово-Сорт., 32 км",
+      "departure": "09:12",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6192",
+        "title": "Кемерово-Пасс. — Притомье",
+        "short_title": "Кемерово-Пасс. — Притомье",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 149,
+          "title": "Кузбасс-пригород",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6192_0_2028001_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "16:52",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6163/6164",
+        "title": "Кемерово-Пасс. — Тайга-1",
+        "short_title": "Кемерово-Пасс. — Тайга-1",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 149,
+          "title": "Кузбасс-пригород",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6163x6164_0_2028001_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "вт, пт",
+      "except_days": null,
+      "stops": "кроме: Кемерово-Сорт., 32 км",
+      "departure": "17:38",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6194",
+        "title": "Кемерово-Пасс. — Притомье",
+        "short_title": "Кемерово-Пасс. — Притомье",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 149,
+          "title": "Кузбасс-пригород",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6194_0_2028001_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "17:42",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6184",
+        "title": "Кемерово-Пасс. — Барзас",
+        "short_title": "Кемерово-Пасс. — Барзас",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 149,
+          "title": "Кузбасс-пригород",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6184_0_2028001_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "18:37",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6186",
+        "title": "Кемерово-Пасс. — Барзас",
+        "short_title": "Кемерово-Пасс. — Барзас",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 149,
+          "title": "Кузбасс-пригород",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6186_0_2028001_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "19:25",
+      "arrival": null
+    }
+  ],
+  "interval_schedule": []
+}

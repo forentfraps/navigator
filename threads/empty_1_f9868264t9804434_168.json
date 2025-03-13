@@ -1,0 +1,118 @@
+{
+  "number": "",
+  "title": "Ростов-на-Дону — Константиновск",
+  "short_title": "Ростов-на-Дону — Константиновск",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 57901,
+    "title": "ООО \"Южная Транспортная Компания\"",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_1_f9868264t9804434_168",
+  "vehicle": "HIGER (55), с565не761",
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Ростов-на-Дону, Главный автовокзал",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9868264",
+        "codes": {
+          "yandex": "s9868264"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 11:47:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Багаевская,  пост ДПС",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9804436",
+        "codes": {
+          "yandex": "s9804436"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 13:03:00",
+      "arrival": "2025-03-13 13:02:00",
+      "duration": 4560.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Семикаракорск, автовокзал",
+        "short_title": "",
+        "popular_title": "Семикаракорский автовокзал",
+        "code": "s9804224",
+        "codes": {
+          "yandex": "s9804224"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 13:58:00",
+      "arrival": "2025-03-13 13:57:00",
+      "duration": 7860.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Константиновск",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9804434",
+        "codes": {
+          "yandex": "s9804434"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 14:32:00",
+      "duration": 9900.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "11:47"
+}

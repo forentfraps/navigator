@@ -1,0 +1,265 @@
+{
+  "number": "",
+  "title": "Воронеж — Чесменка",
+  "short_title": "Воронеж — Чесменка",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 9530,
+    "title": "ООО \"Бобровавто\"",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_0_f9623369t9763809_114",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Воронеж, Центральный автовокзал",
+        "short_title": null,
+        "popular_title": "Центральный автовокзал",
+        "code": "s9623369",
+        "codes": {
+          "yandex": "s9623369"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 13:00:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Новая Усмань, трасса",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9872539",
+        "codes": {
+          "yandex": "s9872539"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 13:31:00",
+      "arrival": "2025-03-13 13:30:00",
+      "duration": 1860.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Рогачевка",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9761834",
+        "codes": {
+          "yandex": "s9761834"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 13:52:00",
+      "arrival": "2025-03-13 13:48:00",
+      "duration": 3120.0,
+      "stop_time": 240,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Каширское",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9833245",
+        "codes": {
+          "yandex": "s9833245"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 14:12:00",
+      "arrival": "2025-03-13 14:09:00",
+      "duration": 4320.0,
+      "stop_time": 180,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Посёлок Ильича",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9761837",
+        "codes": {
+          "yandex": "s9761837"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 14:48:00",
+      "arrival": "2025-03-13 14:45:00",
+      "duration": 6480.0,
+      "stop_time": 180,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Верхний Икорец",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9761887",
+        "codes": {
+          "yandex": "s9761887"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 15:15:00",
+      "arrival": "2025-03-13 15:13:00",
+      "duration": 8100.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Заречный",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9762216",
+        "codes": {
+          "yandex": "s9762216"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 15:20:00",
+      "arrival": "2025-03-13 15:17:00",
+      "duration": 8400.0,
+      "stop_time": 180,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Бобров",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9761839",
+        "codes": {
+          "yandex": "s9761839"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 16:10:00",
+      "arrival": "2025-03-13 15:40:00",
+      "duration": 11400.0,
+      "stop_time": 1800,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Коршево",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9763811",
+        "codes": {
+          "yandex": "s9763811"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 16:37:00",
+      "arrival": "2025-03-13 16:35:00",
+      "duration": 13020.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Шишовка",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9763810",
+        "codes": {
+          "yandex": "s9763810"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 16:44:00",
+      "arrival": "2025-03-13 16:42:00",
+      "duration": 13440.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Чесменка",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9763809",
+        "codes": {
+          "yandex": "s9763809"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 17:00:00",
+      "duration": 14400.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "13:00"
+}

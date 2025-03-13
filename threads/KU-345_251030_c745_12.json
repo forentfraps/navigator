@@ -1,0 +1,78 @@
+{
+  "uid": "KU-345_251030_c745_12",
+  "number": "KU 345",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "19:20",
+  "start_date": "2025-10-30",
+  "days": "чт, сб с 30.10",
+  "except_days": "",
+  "title": "Эль-Кувейт — Ахмадабад",
+  "short_title": "Эль-Кувейт — Ахмадабад",
+  "carrier": {
+    "code": 745,
+    "title": "Kuwait Airways",
+    "codes": {
+      "sirena": null,
+      "iata": "KU",
+      "icao": "KAC"
+    }
+  },
+  "vehicle": "Airbus A320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Кувейт",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9631552",
+        "codes": {
+          "yandex": "s9631552",
+          "iata": "KWI",
+          "sirena": "КВИ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-10-30 19:20:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "4"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ахмадабад",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9628028",
+        "codes": {
+          "yandex": "s9628028",
+          "iata": "AMD"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-10-31 01:30:00",
+      "stop_time": null,
+      "duration": 13200,
+      "terminal": "2"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

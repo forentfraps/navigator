@@ -1,0 +1,79 @@
+{
+  "uid": "KU-285_250313_c745_12",
+  "number": "KU 285",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "01:45",
+  "start_date": "2025-03-13",
+  "days": "13, 20, 27 марта",
+  "except_days": "",
+  "title": "Эль-Кувейт — Дакка",
+  "short_title": "Эль-Кувейт — Дакка",
+  "carrier": {
+    "code": 745,
+    "title": "Kuwait Airways",
+    "codes": {
+      "sirena": null,
+      "iata": "KU",
+      "icao": "KAC"
+    }
+  },
+  "vehicle": "Boeing 777-300ER",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Кувейт",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9631552",
+        "codes": {
+          "yandex": "s9631552",
+          "iata": "KWI",
+          "sirena": "КВИ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-13 01:45:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "4"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Шах Джалал",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9624565",
+        "codes": {
+          "yandex": "s9624565",
+          "iata": "DAC",
+          "sirena": "ДАЦ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-13 09:45:00",
+      "stop_time": null,
+      "duration": 18000,
+      "terminal": "2"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

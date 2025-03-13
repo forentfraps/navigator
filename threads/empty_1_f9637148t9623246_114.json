@@ -1,0 +1,118 @@
+{
+  "number": "",
+  "title": "Санкт-Петербург, автовокзал на Обводном канале — Вологда",
+  "short_title": "Санкт-Петербург, автовокзал на Обводном канале — Вологда",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 9671,
+    "title": "ООО\"ПТК\"",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_1_f9637148t9623246_114",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Санкт-Петербург, автовокзал на Обводном канале",
+        "short_title": null,
+        "popular_title": "Автовокзал на Обводном канале",
+        "code": "s9637148",
+        "codes": {
+          "yandex": "s9637148"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 21:00:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Пикалёво",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9813667",
+        "codes": {
+          "yandex": "s9813667"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 00:58:00",
+      "arrival": "2025-03-14 00:57:00",
+      "duration": 14280.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Череповец, автовокзал",
+        "short_title": null,
+        "popular_title": "Автовокзал Череповец",
+        "code": "s9623261",
+        "codes": {
+          "yandex": "s9623261"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 05:00:00",
+      "arrival": "2025-03-14 04:55:00",
+      "duration": 28800.0,
+      "stop_time": 300,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Вологда, автовокзал",
+        "short_title": null,
+        "popular_title": "Автовокзал Вологда",
+        "code": "s9623246",
+        "codes": {
+          "yandex": "s9623246"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-14 06:45:00",
+      "duration": 35100.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "21:00"
+}

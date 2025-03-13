@@ -1,0 +1,196 @@
+{
+  "number": "007М",
+  "title": "Москва — Брест",
+  "short_title": "Москва — Брест",
+  "express_type": null,
+  "transport_type": "train",
+  "carrier": {
+    "code": 112,
+    "title": "РЖД/ФПК",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "007M_0_2",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "13, 15, 17, 19, 21, 23, 25, 27, 29, 31 марта, 2, 4 апреля, 30 августа, 1, 3, 5, 7, 9, 11, 13 сентября, …",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Москва (Белорусский вокзал)",
+        "short_title": "М-Белорусск.",
+        "popular_title": "Белорусский вокзал",
+        "code": "s2000006",
+        "codes": {
+          "yandex": "s2000006",
+          "esr": "198230",
+          "iata": "JQO",
+          "express": "2000006"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 22:12:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Вязьма",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601461",
+        "codes": {
+          "yandex": "s9601461",
+          "esr": "174306",
+          "express": "2000830"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-14 01:02:00",
+      "arrival": "2025-03-14 00:39:00",
+      "duration": 10200.0,
+      "stop_time": 1380,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Смоленск",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600836",
+        "codes": {
+          "yandex": "s9600836",
+          "esr": "170108",
+          "express": "2000170"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-14 02:53:00",
+      "arrival": "2025-03-14 02:43:00",
+      "duration": 16860.0,
+      "stop_time": 600,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Орша-Центр.",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9614158",
+        "codes": {
+          "yandex": "s9614158",
+          "esr": "166403",
+          "express": "2100170"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-14 04:18:00",
+      "arrival": "2025-03-14 04:01:00",
+      "duration": 21960.0,
+      "stop_time": 1020,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Минск-Пасс.",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9613989",
+        "codes": {
+          "yandex": "s9613989",
+          "esr": "140210",
+          "express": "2100001"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-14 06:55:00",
+      "arrival": "2025-03-14 06:31:00",
+      "duration": 31380.0,
+      "stop_time": 1440,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Барановичи-Центральные",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9614008",
+        "codes": {
+          "yandex": "s9614008",
+          "esr": "138507",
+          "express": "2100020"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-14 08:30:00",
+      "arrival": "2025-03-14 08:27:00",
+      "duration": 37080.0,
+      "stop_time": 180,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Брест-Центр.",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9614023",
+        "codes": {
+          "yandex": "s9614023",
+          "esr": "130007",
+          "express": "2100035"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": null,
+      "arrival": "2025-03-14 10:20:00",
+      "duration": 43680.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "22:12"
+}

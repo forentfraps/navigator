@@ -1,0 +1,79 @@
+{
+  "uid": "UT-121_250315_c29_12",
+  "number": "UT 121",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "10:10",
+  "start_date": "2025-03-11",
+  "days": "вт, сб по 12.08",
+  "except_days": "",
+  "title": "Ханты-Мансийск — Урай",
+  "short_title": "Ханты-Мансийск — Урай",
+  "carrier": {
+    "code": 29,
+    "title": "ЮТэйр",
+    "codes": {
+      "sirena": "ЮТ",
+      "iata": "UT",
+      "icao": "UTA"
+    }
+  },
+  "vehicle": "ATR 72",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Ханты-Мансийск",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623574",
+        "codes": {
+          "yandex": "s9623574",
+          "iata": "HMA",
+          "sirena": "ХАС"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-11 10:10:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Урай",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623623",
+        "codes": {
+          "yandex": "s9623623",
+          "iata": "URJ",
+          "sirena": "УРА"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-11 11:05:00",
+      "stop_time": null,
+      "duration": 3300,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

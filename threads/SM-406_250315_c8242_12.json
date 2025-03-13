@@ -1,0 +1,78 @@
+{
+  "uid": "SM-406_250315_c8242_12",
+  "number": "SM 406",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "01:05",
+  "start_date": "2025-03-15",
+  "days": "15, 22, 29 марта",
+  "except_days": "",
+  "title": "Эль-Кувейт — Сохаг",
+  "short_title": "Эль-Кувейт — Сохаг",
+  "carrier": {
+    "code": 8242,
+    "title": "Air Cairo",
+    "codes": {
+      "sirena": null,
+      "iata": "SM",
+      "icao": "MSC"
+    }
+  },
+  "vehicle": "Airbus А320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Кувейт",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9631552",
+        "codes": {
+          "yandex": "s9631552",
+          "iata": "KWI",
+          "sirena": "КВИ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-15 01:05:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "1"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Сохаг",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9654562",
+        "codes": {
+          "yandex": "s9654562",
+          "iata": "HMB"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-15 02:35:00",
+      "stop_time": null,
+      "duration": 9000,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

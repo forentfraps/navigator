@@ -1,0 +1,76 @@
+{
+  "number": "",
+  "title": "Минск - Солигорск (бронирование обязательно)",
+  "short_title": "Минск - Солигорск (бронирование обязательно)",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 66354,
+    "title": "Десяточка, ЧТУП Фениксфорт",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_25_f9759494t9754609_677",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно по 24.03, кроме 31.12",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Минск, автостанция \"Дружная\"",
+        "short_title": null,
+        "popular_title": "ДС Дружная",
+        "code": "s9759494",
+        "codes": {
+          "yandex": "s9759494"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 21:30:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Солигорск",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9754609",
+        "codes": {
+          "yandex": "s9754609"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 23:35:00",
+      "duration": 7500.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "21:30"
+}

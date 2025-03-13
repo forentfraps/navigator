@@ -1,0 +1,100 @@
+{
+  "uid": "TK-15_250313_c680_12",
+  "number": "TK 15",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "10:05",
+  "start_date": "2025-03-13",
+  "days": "ежедневно по 29.03",
+  "except_days": "",
+  "title": "Стамбул — Буэнос-Айрес",
+  "short_title": "Стамбул — Буэнос-Айрес",
+  "carrier": {
+    "code": 680,
+    "title": "Turkish Airlines",
+    "codes": {
+      "sirena": null,
+      "iata": "TK",
+      "icao": "THY"
+    }
+  },
+  "vehicle": "Airbus A350-900",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Новый аэропорт Стамбул",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600421",
+        "codes": {
+          "yandex": "s9600421",
+          "iata": "IST",
+          "sirena": "ИСТ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-13 10:05:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Гуарульос",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9627695",
+        "codes": {
+          "yandex": "s9627695",
+          "iata": "GRU"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-13 19:20:00",
+      "arrival": "2025-03-13 17:45:00",
+      "stop_time": 5700,
+      "duration": 54900,
+      "terminal": "3"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Министро Пистарини",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9628307",
+        "codes": {
+          "yandex": "s9628307",
+          "iata": "EZE"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-13 22:25:00",
+      "stop_time": null,
+      "duration": 66000,
+      "terminal": "0"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

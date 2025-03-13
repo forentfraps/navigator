@@ -1,0 +1,79 @@
+{
+  "uid": "YC-186_250330_c69_12",
+  "number": "YC 186",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "18:25",
+  "start_date": "2025-03-30",
+  "days": "30 марта, 6, 13, 20, 27 апреля, 5, 12, 19 октября",
+  "except_days": "",
+  "title": "Сочи — Тюмень",
+  "short_title": "Сочи — Тюмень",
+  "carrier": {
+    "code": 69,
+    "title": "Ямал",
+    "codes": {
+      "sirena": "ЛА",
+      "iata": "YC",
+      "icao": "LLM"
+    }
+  },
+  "vehicle": "Airbus А320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Сочи",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623547",
+        "codes": {
+          "yandex": "s9623547",
+          "iata": "AER",
+          "sirena": "СОЧ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-30 18:25:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Рощино",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600384",
+        "codes": {
+          "yandex": "s9600384",
+          "iata": "TJM",
+          "sirena": "РЩН"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-31 00:05:00",
+      "stop_time": null,
+      "duration": 13200,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

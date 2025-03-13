@@ -1,0 +1,79 @@
+{
+  "uid": "S7-5354_250511_c23_12",
+  "number": "S7 5354",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "22:00",
+  "start_date": "2025-03-30",
+  "days": "30, 31 марта, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18 апреля, …",
+  "except_days": "",
+  "title": "Тюмень — Новосибирск",
+  "short_title": "Тюмень — Новосибирск",
+  "carrier": {
+    "code": 23,
+    "title": "S7 Airlines",
+    "codes": {
+      "sirena": "С7",
+      "iata": "S7",
+      "icao": null
+    }
+  },
+  "vehicle": "Embraer 170",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Рощино",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600384",
+        "codes": {
+          "yandex": "s9600384",
+          "iata": "TJM",
+          "sirena": "РЩН"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-30 22:00:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Толмачёво",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600374",
+        "codes": {
+          "yandex": "s9600374",
+          "iata": "OVB",
+          "sirena": "ТЛЧ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-31 01:55:00",
+      "stop_time": null,
+      "duration": 6900,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

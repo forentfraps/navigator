@@ -1,0 +1,78 @@
+{
+  "uid": "A3-584_251002_c425_12",
+  "number": "A3 584",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "09:40",
+  "start_date": "2025-10-02",
+  "days": "2, 9, 16, 23 октября",
+  "except_days": "",
+  "title": "Салоники — Каламата",
+  "short_title": "Салоники — Каламата",
+  "carrier": {
+    "code": 425,
+    "title": "Aegean Airlines",
+    "codes": {
+      "sirena": null,
+      "iata": "A3",
+      "icao": "AEE"
+    }
+  },
+  "vehicle": "ATR 72",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Салоники",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623699",
+        "codes": {
+          "yandex": "s9623699",
+          "iata": "SKG",
+          "sirena": "СКГ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-10-02 09:40:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Каламата",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9631116",
+        "codes": {
+          "yandex": "s9631116",
+          "iata": "KLX"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-10-02 11:00:00",
+      "stop_time": null,
+      "duration": 4800,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

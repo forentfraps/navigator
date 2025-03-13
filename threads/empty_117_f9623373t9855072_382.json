@@ -1,0 +1,97 @@
+{
+  "number": "",
+  "title": "Иркутск — Усолье-Сибирское",
+  "short_title": "Иркутск — Усолье-Сибирское",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 59227,
+    "title": "ООО \"ДК Авто\"",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_117_f9623373t9855072_382",
+  "vehicle": "Типовая схема (16 мест)",
+  "transport_subtype": {
+    "title": "Автобус",
+    "code": "bus",
+    "color": "#ff0000"
+  },
+  "days": "пт",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Иркутск",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623373",
+        "codes": {
+          "yandex": "s9623373"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 12:10:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Тельма",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9845219",
+        "codes": {
+          "yandex": "s9845219"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 13:25:00",
+      "arrival": "2025-03-14 13:24:00",
+      "duration": 4500.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Усолье-Сибирское, ж/д вокзал",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9855072",
+        "codes": {
+          "yandex": "s9855072"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-14 13:39:00",
+      "duration": 5340.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-14",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "12:10"
+}

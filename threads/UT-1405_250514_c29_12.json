@@ -1,0 +1,79 @@
+{
+  "uid": "UT-1405_250514_c29_12",
+  "number": "UT 1405",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "04:20",
+  "start_date": "2025-04-02",
+  "days": "2, 16, 30 апреля, 14, 28 мая, 11, 25 июня, 9, 23 июля",
+  "except_days": "",
+  "title": "Сургут — Уфа",
+  "short_title": "Сургут — Уфа",
+  "carrier": {
+    "code": 29,
+    "title": "ЮТэйр",
+    "codes": {
+      "sirena": "ЮТ",
+      "iata": "UT",
+      "icao": "UTA"
+    }
+  },
+  "vehicle": "Boeing 737-500",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Сургут",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623563",
+        "codes": {
+          "yandex": "s9623563",
+          "iata": "SGC",
+          "sirena": "СУР"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-04-02 04:20:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Уфа",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600393",
+        "codes": {
+          "yandex": "s9600393",
+          "iata": "UFA",
+          "sirena": "УФА"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-04-02 06:30:00",
+      "stop_time": null,
+      "duration": 7800,
+      "terminal": "1"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

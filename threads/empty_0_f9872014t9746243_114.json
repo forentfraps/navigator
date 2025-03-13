@@ -1,0 +1,97 @@
+{
+  "number": "",
+  "title": "Москва — Мозырь",
+  "short_title": "Москва — Мозырь",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 67317,
+    "title": "ООО \"БАНИФУС\"",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_0_f9872014t9746243_114",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "по чётным",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Москва, автовокзал Северные ворота",
+        "short_title": null,
+        "popular_title": "Автовокзал Северные ворота",
+        "code": "s9872014",
+        "codes": {
+          "yandex": "s9872014"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 20:30:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Гомель",
+        "short_title": "",
+        "popular_title": "Автовокзал Гомель",
+        "code": "s9637624",
+        "codes": {
+          "yandex": "s9637624"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-15 06:20:00",
+      "arrival": "2025-03-15 06:19:00",
+      "duration": 35400.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Мозырь, автовокзал",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9746243",
+        "codes": {
+          "yandex": "s9746243"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-15 08:20:00",
+      "duration": 42600.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-14",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "20:30"
+}

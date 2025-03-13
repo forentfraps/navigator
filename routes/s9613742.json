@@ -1,0 +1,55 @@
+{
+  "date": null,
+  "station": {
+    "type": "station",
+    "title": "Новомихайловская",
+    "short_title": "",
+    "popular_title": "",
+    "code": "s9613742",
+    "station_type": "station",
+    "station_type_name": "станция",
+    "transport_type": "train"
+  },
+  "event": "departure",
+  "pagination": {
+    "total": 1,
+    "limit": 100,
+    "offset": 0
+  },
+  "schedule": [
+    {
+      "thread": {
+        "number": "6367/6351",
+        "title": "Новомихайловская — Глубокая",
+        "short_title": "Новомихайловская — Глубокая",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1369,
+          "title": "Северо-Кавказская ППК",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6367x6351_0_9613742_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": "10, 11, 12, 13, 14, 17, 18, 19, 20, 21, 24, 25, 26, 27, 28, 31 марта, 1, 2, 3 апреля",
+      "stops": "кроме: 1078 км",
+      "departure": "08:19",
+      "arrival": null
+    }
+  ],
+  "interval_schedule": []
+}

@@ -1,0 +1,100 @@
+{
+  "uid": "IX-545_251025_c1590_12",
+  "number": "IX 545",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "21:30",
+  "start_date": "2025-10-25",
+  "days": "25 октября",
+  "except_days": "",
+  "title": "Тируванантапура — Тируванантапура",
+  "short_title": "Тируванантапура — Тируванантапура",
+  "carrier": {
+    "code": 1590,
+    "title": "Air india express",
+    "codes": {
+      "sirena": null,
+      "iata": "IX",
+      "icao": null
+    }
+  },
+  "vehicle": "Boeing 737-800",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Международный аэропорт Тривандрум",
+        "short_title": "",
+        "popular_title": "Тривандрум",
+        "code": "s9626160",
+        "codes": {
+          "yandex": "s9626160",
+          "iata": "TRV"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-10-25 21:30:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "2"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Шарджа",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623802",
+        "codes": {
+          "yandex": "s9623802",
+          "iata": "SHJ",
+          "sirena": "СХЙ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-10-26 14:00:00",
+      "arrival": "2025-10-26 00:25:00",
+      "stop_time": 48900,
+      "duration": 64800,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Международный аэропорт Тривандрум",
+        "short_title": "",
+        "popular_title": "Тривандрум",
+        "code": "s9626160",
+        "codes": {
+          "yandex": "s9626160",
+          "iata": "TRV"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-10-26 19:55:00",
+      "stop_time": null,
+      "duration": 80700,
+      "terminal": "2"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

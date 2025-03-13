@@ -1,0 +1,97 @@
+{
+  "number": "315",
+  "title": "Воскресеновка — Добринка",
+  "short_title": "Воскресеновка — Добринка",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 67178,
+    "title": "Добринское АТП АО",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_1_f9884789t9762204_383",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "пн",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Воскресеновка",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9884789",
+        "codes": {
+          "yandex": "s9884789"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-17 12:50:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Улица Воронского",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9884760",
+        "codes": {
+          "yandex": "s9884760"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-17 12:58:00",
+      "arrival": "2025-03-17 12:57:00",
+      "duration": 480.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Добринка",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9762204",
+        "codes": {
+          "yandex": "s9762204"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-17 13:00:00",
+      "duration": 600.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-17",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "12:50"
+}

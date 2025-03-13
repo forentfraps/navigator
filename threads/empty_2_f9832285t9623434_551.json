@@ -1,0 +1,181 @@
+{
+  "number": "505-1",
+  "title": "Уварово - Тамбов",
+  "short_title": "Уварово - Тамбов",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 60611,
+    "title": "ООО \"НИКО\"",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_2_f9832285t9623434_551",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно по 06.04",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Уварово",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9832285",
+        "codes": {
+          "yandex": "s9832285"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 07:00:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ярославка",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9831900",
+        "codes": {
+          "yandex": "s9831900"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 08:00:00",
+      "arrival": "2025-03-13 07:59:00",
+      "duration": 3600.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Хитрово",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9831899",
+        "codes": {
+          "yandex": "s9831899"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 08:11:00",
+      "arrival": "2025-03-13 08:10:00",
+      "duration": 4260.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ворожейкино",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9831898",
+        "codes": {
+          "yandex": "s9831898"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 08:24:00",
+      "arrival": "2025-03-13 08:23:00",
+      "duration": 5040.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Верхнеспасское",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9831897",
+        "codes": {
+          "yandex": "s9831897"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 08:35:00",
+      "arrival": "2025-03-13 08:34:00",
+      "duration": 5700.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Рассказово",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9763989",
+        "codes": {
+          "yandex": "s9763989"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 08:48:00",
+      "arrival": "2025-03-13 08:47:00",
+      "duration": 6480.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Тамбов, Северный автовокзал",
+        "short_title": null,
+        "popular_title": "Автовокзал Северный",
+        "code": "s9623434",
+        "codes": {
+          "yandex": "s9623434"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 09:39:00",
+      "duration": 9540.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "07:00"
+}

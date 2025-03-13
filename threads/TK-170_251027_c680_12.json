@@ -1,0 +1,79 @@
+{
+  "uid": "TK-170_251027_c680_12",
+  "number": "TK 170",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "17:10",
+  "start_date": "2025-10-27",
+  "days": "пн, ср, пт с 27.10",
+  "except_days": "",
+  "title": "Стамбул — Гонконг",
+  "short_title": "Стамбул — Гонконг",
+  "carrier": {
+    "code": 680,
+    "title": "Turkish Airlines",
+    "codes": {
+      "sirena": null,
+      "iata": "TK",
+      "icao": "THY"
+    }
+  },
+  "vehicle": "Boeing 777-300ER",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Новый аэропорт Стамбул",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600421",
+        "codes": {
+          "yandex": "s9600421",
+          "iata": "IST",
+          "sirena": "ИСТ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-10-27 17:10:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Гонконг (международный)",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9635451",
+        "codes": {
+          "yandex": "s9635451",
+          "iata": "HKG",
+          "sirena": "ХКГ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-10-28 08:50:00",
+      "stop_time": null,
+      "duration": 38400,
+      "terminal": "1"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

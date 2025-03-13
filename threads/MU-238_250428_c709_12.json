@@ -1,0 +1,79 @@
+{
+  "uid": "MU-238_250428_c709_12",
+  "number": "MU 238",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "23:20",
+  "start_date": "2025-04-28",
+  "days": "пн, ср, чт, сб с 28.04 по 25.09",
+  "except_days": "",
+  "title": "Абу-Даби — Шанхай",
+  "short_title": "Абу-Даби — Шанхай",
+  "carrier": {
+    "code": 709,
+    "title": "China Eastern Airlines",
+    "codes": {
+      "sirena": null,
+      "iata": "MU",
+      "icao": "CES"
+    }
+  },
+  "vehicle": "Airbus А330-200",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Абу-Даби",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9624402",
+        "codes": {
+          "yandex": "s9624402",
+          "iata": "AUH",
+          "sirena": "АУХ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-04-28 23:20:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "A"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Пудун",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600417",
+        "codes": {
+          "yandex": "s9600417",
+          "iata": "PVG",
+          "sirena": "ПЖГ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-04-29 12:40:00",
+      "stop_time": null,
+      "duration": 33600,
+      "terminal": "1"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

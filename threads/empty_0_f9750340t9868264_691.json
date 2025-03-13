@@ -1,0 +1,139 @@
+{
+  "number": "",
+  "title": "Приморско-Ахтарск — Ростов-на-Дону",
+  "short_title": "Приморско-Ахтарск — Ростов-на-Дону",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 65367,
+    "title": "Каневская ИП Пилтоян Э.Ш.",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_0_f9750340t9868264_691",
+  "vehicle": "Фиат_18м",
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Приморско-Ахтарск",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9750340",
+        "codes": {
+          "yandex": "s9750340"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 05:10:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Каневская",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9804221",
+        "codes": {
+          "yandex": "s9804221"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 06:15:00",
+      "arrival": "2025-03-13 06:10:00",
+      "duration": 3900.0,
+      "stop_time": 300,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ленинградская",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9637756",
+        "codes": {
+          "yandex": "s9637756"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 07:10:00",
+      "arrival": "2025-03-13 07:05:00",
+      "duration": 7200.0,
+      "stop_time": 300,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Кущёвская, автостанция",
+        "short_title": null,
+        "popular_title": "Автостанция Кущёвская",
+        "code": "s9637738",
+        "codes": {
+          "yandex": "s9637738"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 07:50:00",
+      "arrival": "2025-03-13 07:47:00",
+      "duration": 9600.0,
+      "stop_time": 180,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ростов-на-Дону, Главный автовокзал",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9868264",
+        "codes": {
+          "yandex": "s9868264"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 09:15:00",
+      "duration": 14700.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "05:10"
+}

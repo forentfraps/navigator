@@ -1,0 +1,100 @@
+{
+  "uid": "CZ-6034_251101_c1080_12",
+  "number": "CZ 6034",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "12:30",
+  "start_date": "2025-03-15",
+  "days": "15, 22, 29 марта, 1, 8, 15, 22, 29 ноября, 6, 13, 20, 27 декабря, 3 января",
+  "except_days": "",
+  "title": "Исламабад — Урумчи",
+  "short_title": "Исламабад — Урумчи",
+  "carrier": {
+    "code": 1080,
+    "title": "China Southern Airlines",
+    "codes": {
+      "sirena": null,
+      "iata": "CZ",
+      "icao": "CSN"
+    }
+  },
+  "vehicle": "Boeing 737-800",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Исламабад",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9634163",
+        "codes": {
+          "yandex": "s9634163",
+          "iata": "ISB"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-15 12:30:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Кашгар",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9631515",
+        "codes": {
+          "yandex": "s9631515",
+          "iata": "KHG"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-15 19:15:00",
+      "arrival": "2025-03-15 17:15:00",
+      "stop_time": 7200,
+      "duration": 13500,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Урумчи",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623665",
+        "codes": {
+          "yandex": "s9623665",
+          "iata": "URC",
+          "sirena": "УРЧ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-15 21:20:00",
+      "stop_time": null,
+      "duration": 21000,
+      "terminal": "3"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

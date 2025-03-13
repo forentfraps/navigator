@@ -1,0 +1,195 @@
+{
+  "number": "041Ж",
+  "title": "Волгоград — Астрахань",
+  "short_title": "Волгоград — Астрахань",
+  "express_type": null,
+  "transport_type": "train",
+  "carrier": {
+    "code": 112,
+    "title": "РЖД/ФПК",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "041ZH_0_2",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": "Дневной экспресс",
+    "code": "dnexpress",
+    "color": "#CC6600"
+  },
+  "days": "14, 16, 17, 19, 21, 23, 24, 26, 28, 30, 31 марта, 2, 4, 6, 7, 9, 11, 13, 14, 16 апреля, …",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Волгоград-1",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s2020500",
+        "codes": {
+          "yandex": "s2020500",
+          "esr": "610008",
+          "express": "2020500"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-14 16:10:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Волжский",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9605876",
+        "codes": {
+          "yandex": "s9605876",
+          "esr": "610402",
+          "express": "2020832"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-14 16:47:00",
+      "arrival": "2025-03-14 16:42:00",
+      "duration": 2220.0,
+      "stop_time": 300,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "85 км",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9605958",
+        "codes": {
+          "yandex": "s9605958",
+          "esr": "616057",
+          "express": "2020915"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-14 18:48:00",
+      "arrival": "2025-03-14 18:47:00",
+      "duration": 5880.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Владимировка",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9605928",
+        "codes": {
+          "yandex": "s9605928",
+          "esr": "616131",
+          "express": "2020884"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-14 19:30:00",
+      "arrival": "2025-03-14 19:25:00",
+      "duration": 8400.0,
+      "stop_time": 300,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Верхний Баскунчак",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9605960",
+        "codes": {
+          "yandex": "s9605960",
+          "esr": "618207",
+          "express": "2020917"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-14 20:11:00",
+      "arrival": "2025-03-14 20:09:00",
+      "duration": 10860.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Харабалинская",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9605963",
+        "codes": {
+          "yandex": "s9605963",
+          "esr": "617901",
+          "express": "2020920"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-14 21:30:00",
+      "arrival": "2025-03-14 21:25:00",
+      "duration": 15600.0,
+      "stop_time": 300,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Астрахань-1",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9605765",
+        "codes": {
+          "yandex": "s9605765",
+          "esr": "616803",
+          "express": "2020600"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": null,
+      "arrival": "2025-03-14 23:17:00",
+      "duration": 22020.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-14",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "16:10"
+}

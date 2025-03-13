@@ -1,0 +1,139 @@
+{
+  "number": "",
+  "title": "Волгодонск — Морозовск",
+  "short_title": "Волгодонск — Морозовск",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 66761,
+    "title": "Общество с ограниченной ответственностью \"ЭКСПРЕСССЕРВИС\"",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_2_f9637069t9637212_168",
+  "vehicle": "Mercedes Benz  (8), х969во761",
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно, кроме ср, чт",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Волгодонск",
+        "short_title": null,
+        "popular_title": "Автовокзал Волгодонск",
+        "code": "s9637069",
+        "codes": {
+          "yandex": "s9637069"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 10:00:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Цимлянск",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9637733",
+        "codes": {
+          "yandex": "s9637733"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 10:21:00",
+      "arrival": "2025-03-14 10:20:00",
+      "duration": 1260.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Парамонов, трасса",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9804374",
+        "codes": {
+          "yandex": "s9804374"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 10:53:00",
+      "arrival": "2025-03-14 10:52:00",
+      "duration": 3180.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Знаменка",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9804377",
+        "codes": {
+          "yandex": "s9804377"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 11:13:00",
+      "arrival": "2025-03-14 11:12:00",
+      "duration": 4380.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Морозовск, автостанция",
+        "short_title": "",
+        "popular_title": "Автостанция Морозовск",
+        "code": "s9637212",
+        "codes": {
+          "yandex": "s9637212"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-14 11:43:00",
+      "duration": 6180.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-14",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "10:00"
+}

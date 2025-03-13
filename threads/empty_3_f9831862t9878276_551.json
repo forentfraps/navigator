@@ -1,0 +1,76 @@
+{
+  "number": "109",
+  "title": "Ржакса — Ольгино",
+  "short_title": "Ржакса — Ольгино",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 64290,
+    "title": "ООО \"Ржаксинское АТП\"",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_3_f9831862t9878276_551",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "только 5, 12, 19, 26 марта, 2 апреля",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Ржакса",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9831862",
+        "codes": {
+          "yandex": "s9831862"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-19 08:30:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ольгино",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9878276",
+        "codes": {
+          "yandex": "s9878276"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-19 09:00:00",
+      "duration": 1800.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-19",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "08:30"
+}

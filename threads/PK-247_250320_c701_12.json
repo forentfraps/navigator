@@ -1,0 +1,77 @@
+{
+  "uid": "PK-247_250320_c701_12",
+  "number": "PK 247",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "17:45",
+  "start_date": "2025-03-20",
+  "days": "20 марта",
+  "except_days": "",
+  "title": "Исламабад — Даммам",
+  "short_title": "Исламабад — Даммам",
+  "carrier": {
+    "code": 701,
+    "title": "Pakistan International Airlines",
+    "codes": {
+      "sirena": null,
+      "iata": "PK",
+      "icao": "PIA"
+    }
+  },
+  "vehicle": "Boeing 777",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Исламабад",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9634163",
+        "codes": {
+          "yandex": "s9634163",
+          "iata": "ISB"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-20 17:45:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Кинг Фахд",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9624502",
+        "codes": {
+          "yandex": "s9624502",
+          "iata": "DMM"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-20 20:00:00",
+      "stop_time": null,
+      "duration": 15300,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

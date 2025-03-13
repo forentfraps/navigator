@@ -1,0 +1,79 @@
+{
+  "uid": "U6-305_250615_c30_12",
+  "number": "U6 305",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "07:35",
+  "start_date": "2025-05-31",
+  "days": "ежедневно с 31.05 по 25.10",
+  "except_days": "",
+  "title": "Екатеринбург — Сочи",
+  "short_title": "Екатеринбург — Сочи",
+  "carrier": {
+    "code": 30,
+    "title": "Уральские авиалинии",
+    "codes": {
+      "sirena": "У6",
+      "iata": "U6",
+      "icao": null
+    }
+  },
+  "vehicle": "Airbus А320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Кольцово",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600370",
+        "codes": {
+          "yandex": "s9600370",
+          "iata": "SVX",
+          "sirena": "ЕКБ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-05-31 07:35:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Сочи",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623547",
+        "codes": {
+          "yandex": "s9623547",
+          "iata": "AER",
+          "sirena": "СОЧ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-05-31 09:25:00",
+      "stop_time": null,
+      "duration": 13800,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

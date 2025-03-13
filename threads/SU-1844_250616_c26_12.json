@@ -1,0 +1,80 @@
+{
+  "uid": "SU-1844_250616_c26_12",
+  "number": "SU 1844",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "20:25",
+  "start_date": "2025-05-19",
+  "days": "19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31 мая, 1, 2, 3, 4, 5, 6, 7 июня, …",
+  "except_days": "",
+  "title": "Москва — Минск",
+  "short_title": "Москва — Минск",
+  "carrier": {
+    "code": 26,
+    "title": "Аэрофлот",
+    "codes": {
+      "sirena": "СУ",
+      "iata": "SU",
+      "icao": "AFL"
+    }
+  },
+  "vehicle": "Airbus А320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Шереметьево",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600213",
+        "codes": {
+          "yandex": "s9600213",
+          "iata": "SVO",
+          "sirena": "ШРМ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-05-19 20:25:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "C"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Минск",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600368",
+        "codes": {
+          "yandex": "s9600368",
+          "esr": "141124",
+          "iata": "MSQ",
+          "sirena": "МИК"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-05-19 21:55:00",
+      "stop_time": null,
+      "duration": 5400,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

@@ -1,0 +1,78 @@
+{
+  "uid": "4G-265_250516_c54_12",
+  "number": "4G 265",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "09:55",
+  "start_date": "2025-03-16",
+  "days": "16 марта, 16 апреля, 16 мая",
+  "except_days": "",
+  "title": "Тюмень — Ямбург",
+  "short_title": "Тюмень — Ямбург",
+  "carrier": {
+    "code": 54,
+    "title": "Газпромавиа",
+    "codes": {
+      "sirena": "ОП",
+      "iata": "4G",
+      "icao": null
+    }
+  },
+  "vehicle": "Сухой Суперджет 100",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Рощино",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600384",
+        "codes": {
+          "yandex": "s9600384",
+          "iata": "TJM",
+          "sirena": "РЩН"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-16 09:55:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ямбург",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9624042",
+        "codes": {
+          "yandex": "s9624042",
+          "sirena": "ЯМБ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-16 12:00:00",
+      "stop_time": null,
+      "duration": 7500,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

@@ -1,0 +1,79 @@
+{
+  "uid": "MU-248_250313_c709_12",
+  "number": "MU 248",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "16:45",
+  "start_date": "2025-03-13",
+  "days": "пн, вт, чт по 29.03, а ещё 29.03",
+  "except_days": "",
+  "title": "Москва — Шанхай",
+  "short_title": "Москва — Шанхай",
+  "carrier": {
+    "code": 709,
+    "title": "China Eastern Airlines",
+    "codes": {
+      "sirena": null,
+      "iata": "MU",
+      "icao": "CES"
+    }
+  },
+  "vehicle": "Airbus А330-200",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Шереметьево",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600213",
+        "codes": {
+          "yandex": "s9600213",
+          "iata": "SVO",
+          "sirena": "ШРМ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-13 16:45:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "C"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Пудун",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600417",
+        "codes": {
+          "yandex": "s9600417",
+          "iata": "PVG",
+          "sirena": "ПЖГ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-14 06:55:00",
+      "stop_time": null,
+      "duration": 33000,
+      "terminal": "1"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

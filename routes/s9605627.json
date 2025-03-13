@@ -1,0 +1,913 @@
+{
+  "date": null,
+  "station": {
+    "type": "station",
+    "title": "Шпалопропитка",
+    "short_title": null,
+    "popular_title": null,
+    "code": "s9605627",
+    "station_type": "station",
+    "station_type_name": "станция",
+    "transport_type": "train"
+  },
+  "event": "departure",
+  "pagination": {
+    "total": 27,
+    "limit": 100,
+    "offset": 0
+  },
+  "schedule": [
+    {
+      "thread": {
+        "number": "6302",
+        "title": "Шпалопропитка — Тракторная-Пасс.",
+        "short_title": "Шпалопропитка — Тракторная-Пасс.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1370,
+          "title": "Волгоградтранспригород",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6302_0_9605627_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "Заканальная, Красноармейская, Судоверфь, Сарепта, Бекетовская, далее везде, кроме: Горная Поляна, Обувная  Фабрика, Мамаев Курган, Тракторная-Тов.",
+      "departure": "05:10",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6720/6332",
+        "title": "Шпалопропитка — Тракторная-Пасс.",
+        "short_title": "Шпалопропитка — Тракторная-Пасс.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1370,
+          "title": "Волгоградтранспригород",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6720x6332_0_9605627_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "кроме: Железнодорожная, Лесобаза, Завод имени Кирова, Волгогрэс, Горная Поляна, Обувная  Фабрика, Тракторная-Тов.",
+      "departure": "06:11",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6720/6809",
+        "title": "Шпалопропитка — Петров Вал",
+        "short_title": "Шпалопропитка — Петров Вал",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1370,
+          "title": "Волгоградтранспригород",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6720x6809_0_9605627_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по выходным",
+      "except_days": "22, 29 марта",
+      "stops": "Заканальная, Красноармейская, Судоверфь, Сарепта, Бекетовская, далее везде, кроме: Горная Поляна, Обувная  Фабрика, Шоссе Авиаторов (1050 км), Конный, Забурунный, Петрунин",
+      "departure": "06:11",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6720/6809",
+        "title": "Шпалопропитка — Петров Вал",
+        "short_title": "Шпалопропитка — Петров Вал",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1370,
+          "title": "Волгоградтранспригород",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6720x6809_1_9605627_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "только 22, 29 марта",
+      "except_days": null,
+      "stops": "Заканальная, Красноармейская, Судоверфь, Сарепта, Бекетовская, далее везде, кроме: Горная Поляна, Обувная  Фабрика, Шоссе Авиаторов (1050 км), Конный, Забурунный, Петрунин",
+      "departure": "06:11",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6306",
+        "title": "Южная — Тракторная-Пасс.",
+        "short_title": "Южная — Тракторная-Пасс.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1370,
+          "title": "Волгоградтранспригород",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6306_0_9605761_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Лесобаза, Завод имени Кирова, Волгогрэс, Горная Поляна, Тракторная-Тов.",
+      "departure": "06:44",
+      "arrival": "06:43"
+    },
+    {
+      "thread": {
+        "number": "6301",
+        "title": "Тракторная-Пасс. — Южная",
+        "short_title": "Тракторная-Пасс. — Южная",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1370,
+          "title": "Волгоградтранспригород",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6301_0_9606049_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Татьянка",
+      "departure": "07:05",
+      "arrival": "07:04"
+    },
+    {
+      "thread": {
+        "number": "6326",
+        "title": "Шпалопропитка — Тракторная-Пасс.",
+        "short_title": "Шпалопропитка — Тракторная-Пасс.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1370,
+          "title": "Волгоградтранспригород",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6326_0_9605627_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Тракторная-Тов.",
+      "departure": "07:06",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6324",
+        "title": "Шпалопропитка — Волгоград-1",
+        "short_title": "Шпалопропитка — Волгоград-1",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1370,
+          "title": "Волгоградтранспригород",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6324_0_9605627_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "Заканальная, Красноармейская, Судоверфь, Им. Николая Руднева, Волгоград-2, Волгоград-1",
+      "departure": "07:41",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6310",
+        "title": "Южная — Тракторная-Пасс.",
+        "short_title": "Южная — Тракторная-Пасс.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1370,
+          "title": "Волгоградтранспригород",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6310_0_9605761_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Тракторная-Тов.",
+      "departure": "08:35",
+      "arrival": "08:34"
+    },
+    {
+      "thread": {
+        "number": "6742/6741",
+        "title": "Шпалопропитка — аэропорт Гумрак",
+        "short_title": "Шпалопропитка — а/п Гумрак",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1370,
+          "title": "Волгоградтранспригород",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6742x6741_0_9605627_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": "18, 19, 20, 21, 22 марта",
+      "stops": "Заканальная, Красноармейская, Судоверфь, Сарепта, Бекетовская, Им. Николая Руднева, Акварель, Ельшанка, Волгоград-2, Волгоград-1, Бакинская, Мамаев Курган, а/п Гумрак",
+      "departure": "09:18",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6742/6741",
+        "title": "Шпалопропитка — Мамаев Курган",
+        "short_title": "Шпалопропитка — Мамаев Курган",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1370,
+          "title": "Волгоградтранспригород",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6742x6741_1_9605627_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "только 18, 19, 20, 21, 22 марта",
+      "except_days": null,
+      "stops": "Заканальная, Красноармейская, Судоверфь, Сарепта, Бекетовская, Им. Николая Руднева, Акварель, Ельшанка, далее везде",
+      "departure": "09:18",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6312",
+        "title": "Шпалопропитка — Тракторная-Пасс.",
+        "short_title": "Шпалопропитка — Тракторная-Пасс.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1370,
+          "title": "Волгоградтранспригород",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6312_0_9605627_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Волгогрэс, Горная Поляна, Тракторная-Тов.",
+      "departure": "09:54",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6722/6721",
+        "title": "Шпалопропитка — аэропорт Гумрак",
+        "short_title": "Шпалопропитка — а/п Гумрак",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1370,
+          "title": "Волгоградтранспригород",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6722x6721_0_9605627_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": "18, 19, 20, 21, 22 марта",
+      "stops": "Заканальная, Красноармейская, Судоверфь, Сарепта, Бекетовская, Им. Николая Руднева, Акварель, Ельшанка, Волгоград-2, Волгоград-1, Бакинская, Мамаев Курган, а/п Гумрак",
+      "departure": "12:12",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6722/6721",
+        "title": "Шпалопропитка — Мамаев Курган",
+        "short_title": "Шпалопропитка — Мамаев Курган",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1370,
+          "title": "Волгоградтранспригород",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6722x6721_1_9605627_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "только 18, 19, 20, 21, 22 марта",
+      "except_days": null,
+      "stops": "Заканальная, Красноармейская, Судоверфь, Сарепта, Бекетовская, Им. Николая Руднева, Акварель, Ельшанка, далее везде",
+      "departure": "12:12",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6309",
+        "title": "Тракторная-Пасс. — Южная",
+        "short_title": "Тракторная-Пасс. — Южная",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1370,
+          "title": "Волгоградтранспригород",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6309_0_9606049_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "Керамическая, Пост ЭЦ (Татьянка), Южная",
+      "departure": "12:37",
+      "arrival": "12:36"
+    },
+    {
+      "thread": {
+        "number": "6314",
+        "title": "Шпалопропитка — Тракторная-Пасс.",
+        "short_title": "Шпалопропитка — Тракторная-Пасс.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1370,
+          "title": "Волгоградтранспригород",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6314_0_9605627_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "кроме: Завод имени Кирова, Тракторная-Тов.",
+      "departure": "13:13",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6708/6707",
+        "title": "Шпалопропитка — аэропорт Гумрак",
+        "short_title": "Шпалопропитка — а/п Гумрак",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1370,
+          "title": "Волгоградтранспригород",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6708x6707_0_9605627_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": "18, 19, 20, 21, 22 марта",
+      "stops": "Заканальная, Красноармейская, Судоверфь, Сарепта, Бекетовская, Им. Николая Руднева, Акварель, Ельшанка, Волгоград-2, Волгоград-1, Бакинская, Мамаев Курган, а/п Гумрак",
+      "departure": "14:32",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6708/6707",
+        "title": "Шпалопропитка — Мамаев Курган",
+        "short_title": "Шпалопропитка — Мамаев Курган",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1370,
+          "title": "Волгоградтранспригород",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6708x6707_1_9605627_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "только 18, 19, 20, 21, 22 марта",
+      "except_days": null,
+      "stops": "Заканальная, Красноармейская, Судоверфь, Сарепта, Бекетовская, Им. Николая Руднева, Акварель, Ельшанка, далее везде",
+      "departure": "14:32",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6418",
+        "title": "Шпалопропитка — Тракторная-Пасс.",
+        "short_title": "Шпалопропитка — Тракторная-Пасс.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1370,
+          "title": "Волгоградтранспригород",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6418_0_9605627_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Лесобаза, Тракторная-Тов.",
+      "departure": "15:47",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6433/6434",
+        "title": "Южная — Волжский",
+        "short_title": "Южная — Волжский",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1370,
+          "title": "Волгоградтранспригород",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6433x6434_0_9605761_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "кроме: Лесобаза, Горная Поляна",
+      "departure": "16:35",
+      "arrival": "16:34"
+    },
+    {
+      "thread": {
+        "number": "6712/6711",
+        "title": "Шпалопропитка — аэропорт Гумрак",
+        "short_title": "Шпалопропитка — а/п Гумрак",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1370,
+          "title": "Волгоградтранспригород",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6712x6711_0_9605627_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": "18, 19, 20, 21, 22 марта",
+      "stops": "до Мамаев Курган везде, кроме: Железнодорожная, Лесобаза, Волгогрэс, Завод имени Ермана, Горная Поляна, Обувная  Фабрика, Завод им. Петрова, далее а/п Гумрак",
+      "departure": "16:58",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6712/6711",
+        "title": "Шпалопропитка — Мамаев Курган",
+        "short_title": "Шпалопропитка — Мамаев Курган",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1370,
+          "title": "Волгоградтранспригород",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6712x6711_1_9605627_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "только 18, 19, 20, 21, 22 марта",
+      "except_days": null,
+      "stops": "кроме: Железнодорожная, Лесобаза, Волгогрэс, Завод имени Ермана, Горная Поляна, Обувная  Фабрика, Завод им. Петрова",
+      "departure": "16:58",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6318",
+        "title": "Южная — Тракторная-Пасс.",
+        "short_title": "Южная — Тракторная-Пасс.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1370,
+          "title": "Волгоградтранспригород",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6318_0_9605761_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Лесобаза, Волгогрэс, Горная Поляна, Обувная  Фабрика, Тракторная-Тов.",
+      "departure": "17:41",
+      "arrival": "17:40"
+    },
+    {
+      "thread": {
+        "number": "6726/6725",
+        "title": "Шпалопропитка — аэропорт Гумрак",
+        "short_title": "Шпалопропитка — а/п Гумрак",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1370,
+          "title": "Волгоградтранспригород",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6726x6725_0_9605627_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": "18, 19, 20, 21, 22 марта",
+      "stops": "Заканальная, Красноармейская, Судоверфь, Сарепта, Бекетовская, Им. Николая Руднева, Акварель, Ельшанка, Волгоград-2, Волгоград-1, Бакинская, Мамаев Курган, а/п Гумрак",
+      "departure": "18:33",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6726/6725",
+        "title": "Шпалопропитка — Мамаев Курган",
+        "short_title": "Шпалопропитка — Мамаев Курган",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1370,
+          "title": "Волгоградтранспригород",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6726x6725_1_9605627_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "только 18, 19, 20, 21, 22 марта",
+      "except_days": null,
+      "stops": "Заканальная, Красноармейская, Судоверфь, Сарепта, Бекетовская, Им. Николая Руднева, Акварель, Ельшанка, далее везде",
+      "departure": "18:33",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6313",
+        "title": "Тракторная-Пасс. — Южная",
+        "short_title": "Тракторная-Пасс. — Южная",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1370,
+          "title": "Волгоградтранспригород",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6313_0_9606049_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "Керамическая, Нефтезаводская, Южная",
+      "departure": "18:35",
+      "arrival": "18:34"
+    },
+    {
+      "thread": {
+        "number": "6210",
+        "title": "Шпалопропитка — Волгоград-1",
+        "short_title": "Шпалопропитка — Волгоград-1",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1370,
+          "title": "Волгоградтранспригород",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6210_0_9605627_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Лесобаза, Завод имени Кирова, Волгогрэс, Горная Поляна, Обувная  Фабрика, Завод им. Петрова",
+      "departure": "19:30",
+      "arrival": null
+    }
+  ],
+  "interval_schedule": []
+}

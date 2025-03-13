@@ -1,0 +1,118 @@
+{
+  "number": "",
+  "title": "Санкт-Петербург, автовокзал на Обводном канале — Минск, автовокзал «Центральный»",
+  "short_title": "Санкт-Петербург, автовокзал на Обводном канале — Минск, автовокзал «Центральный»",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 56952,
+    "title": "ООО \"АМРОН\"",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_2_f9637148t9752664_114",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Санкт-Петербург, автовокзал на Обводном канале",
+        "short_title": null,
+        "popular_title": "Автовокзал на Обводном канале",
+        "code": "s9637148",
+        "codes": {
+          "yandex": "s9637148"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 19:40:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Витебск",
+        "short_title": "",
+        "popular_title": "Автовокзал Витебск",
+        "code": "s9637224",
+        "codes": {
+          "yandex": "s9637224"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 04:45:00",
+      "arrival": "2025-03-14 04:44:00",
+      "duration": 32700.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Орша",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9638058",
+        "codes": {
+          "yandex": "s9638058"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 06:01:00",
+      "arrival": "2025-03-14 06:00:00",
+      "duration": 37260.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Минск, автовокзал «Центральный»",
+        "short_title": null,
+        "popular_title": "Автовокзал Центральный",
+        "code": "s9752664",
+        "codes": {
+          "yandex": "s9752664"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-14 10:15:00",
+      "duration": 52500.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "19:40"
+}

@@ -1,0 +1,139 @@
+{
+  "number": "290",
+  "title": "Головановский - Балаково",
+  "short_title": "Головановский - Балаково",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 64465,
+    "title": "МУП \"Балаковоэлектротранс\"",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_0_f9842976t9623933_551",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно по 06.04",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Поливной",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9842976",
+        "codes": {
+          "yandex": "s9842976"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 17:50:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Грачи, поселок",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9842977",
+        "codes": {
+          "yandex": "s9842977"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 18:10:00",
+      "arrival": "2025-03-13 18:09:00",
+      "duration": 1200.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Новониколаевский",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9842978",
+        "codes": {
+          "yandex": "s9842978"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 18:30:00",
+      "arrival": "2025-03-13 18:29:00",
+      "duration": 2400.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Андреевка, Балаковский район",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9842945",
+        "codes": {
+          "yandex": "s9842945"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 18:35:00",
+      "arrival": "2025-03-13 18:34:00",
+      "duration": 2700.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Балаково, автостанция",
+        "short_title": "",
+        "popular_title": "Балаковская автостанция",
+        "code": "s9623933",
+        "codes": {
+          "yandex": "s9623933"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 19:10:00",
+      "duration": 4800.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "17:50"
+}

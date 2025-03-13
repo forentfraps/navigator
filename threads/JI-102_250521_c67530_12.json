@@ -1,0 +1,79 @@
+{
+  "uid": "JI-102_250521_c67530_12",
+  "number": "JI 102",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "16:45",
+  "start_date": "2025-05-21",
+  "days": "ср с 21.05 по 15.10",
+  "except_days": "",
+  "title": "Ереван — Москва",
+  "short_title": "Ереван — Москва",
+  "carrier": {
+    "code": 67530,
+    "title": "Armenian Airlines",
+    "codes": {
+      "sirena": "АЛ",
+      "iata": "JI",
+      "icao": null
+    }
+  },
+  "vehicle": "Airbus А321",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Звартноц",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600369",
+        "codes": {
+          "yandex": "s9600369",
+          "iata": "EVN",
+          "sirena": "ЗВР"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-05-21 16:45:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Шереметьево",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600213",
+        "codes": {
+          "yandex": "s9600213",
+          "iata": "SVO",
+          "sirena": "ШРМ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-05-21 19:10:00",
+      "stop_time": null,
+      "duration": 12300,
+      "terminal": "C"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

@@ -1,0 +1,78 @@
+{
+  "uid": "D8-2051_250619_c57024_12",
+  "number": "D8 2051",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "18:55",
+  "start_date": "2025-06-19",
+  "days": "чт с 19.06 по 14.08",
+  "except_days": "",
+  "title": "Бухарест — Стокгольм",
+  "short_title": "Бухарест — Стокгольм",
+  "carrier": {
+    "code": 57024,
+    "title": "Norwegian Air International",
+    "codes": {
+      "sirena": null,
+      "iata": "D8",
+      "icao": null
+    }
+  },
+  "vehicle": "Boeing 737-800",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Отопени",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600438",
+        "codes": {
+          "yandex": "s9600438",
+          "iata": "OTP"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-06-19 18:55:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Арланда",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600389",
+        "codes": {
+          "yandex": "s9600389",
+          "iata": "ARN",
+          "sirena": "СТА"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-06-19 20:40:00",
+      "stop_time": null,
+      "duration": 9900,
+      "terminal": "5"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

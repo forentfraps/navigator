@@ -1,0 +1,79 @@
+{
+  "uid": "IO-802_250416_c105_12",
+  "number": "IO 802",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "12:00",
+  "start_date": "2025-03-16",
+  "days": "16 марта, 16 апреля",
+  "except_days": "",
+  "title": "Тюмень — Новый Уренгой",
+  "short_title": "Тюмень — Новый Уренгой",
+  "carrier": {
+    "code": 105,
+    "title": "ИрАэро",
+    "codes": {
+      "sirena": "РД",
+      "iata": "IO",
+      "icao": null
+    }
+  },
+  "vehicle": "Сухой Суперджет 100",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Рощино",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600384",
+        "codes": {
+          "yandex": "s9600384",
+          "iata": "TJM",
+          "sirena": "РЩН"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-16 12:00:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Новый Уренгой",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623560",
+        "codes": {
+          "yandex": "s9623560",
+          "iata": "NUX",
+          "sirena": "НУР"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-16 13:50:00",
+      "stop_time": null,
+      "duration": 6600,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

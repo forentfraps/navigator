@@ -1,0 +1,78 @@
+{
+  "uid": "IA-177_250314_c59191_12",
+  "number": "IA 177",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "17:00",
+  "start_date": "2025-03-14",
+  "days": "14, 17, 21, 24, 28 марта",
+  "except_days": "",
+  "title": "Эрбил — Амман",
+  "short_title": "Эрбил — Амман",
+  "carrier": {
+    "code": 59191,
+    "title": "Iraqi Airways",
+    "codes": {
+      "sirena": null,
+      "iata": "IA",
+      "icao": "IAW"
+    }
+  },
+  "vehicle": "Canadair regional jet",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Эрбил",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9634819",
+        "codes": {
+          "yandex": "s9634819",
+          "iata": "EBL"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-14 17:00:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Квин Алия",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600423",
+        "codes": {
+          "yandex": "s9600423",
+          "iata": "AMM",
+          "sirena": "АМН"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-14 18:45:00",
+      "stop_time": null,
+      "duration": 6300,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

@@ -1,0 +1,583 @@
+{
+  "date": null,
+  "station": {
+    "type": "station",
+    "title": "Расшеватка",
+    "short_title": null,
+    "popular_title": "",
+    "code": "s9613031",
+    "station_type": "station",
+    "station_type_name": "станция",
+    "transport_type": "train"
+  },
+  "event": "departure",
+  "pagination": {
+    "total": 17,
+    "limit": 100,
+    "offset": 0
+  },
+  "schedule": [
+    {
+      "thread": {
+        "number": "697С",
+        "title": "Элиста — Кавказская",
+        "short_title": "Элиста — Кавказская",
+        "express_type": null,
+        "transport_type": "train",
+        "carrier": {
+          "code": 112,
+          "title": "РЖД/ФПК",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "697S_0_2",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "только 8, 16, 22, 30 июня, 6, 14, 20, 28 июля, 3, 11, 17, 25, 31 августа, 8, 14 сентября",
+      "except_days": null,
+      "stops": "",
+      "departure": "00:01",
+      "arrival": "23:59"
+    },
+    {
+      "thread": {
+        "number": "688С",
+        "title": "Кавказская — Ставрополь",
+        "short_title": "Кавказская — Ставрополь",
+        "express_type": null,
+        "transport_type": "train",
+        "carrier": {
+          "code": 112,
+          "title": "РЖД/ФПК",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "688S_1_2",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "13, 15, 17, 19, 21, 23, 25, 27, 29, 31 марта, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20 апреля, …",
+      "except_days": null,
+      "stops": "",
+      "departure": "02:08",
+      "arrival": "01:58"
+    },
+    {
+      "thread": {
+        "number": "687С",
+        "title": "Ставрополь — Кавказская",
+        "short_title": "Ставрополь — Кавказская",
+        "express_type": null,
+        "transport_type": "train",
+        "carrier": {
+          "code": 112,
+          "title": "РЖД/ФПК",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "687S_1_2",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "14, 16, 18, 20, 22, 24, 26, 28, 30 марта, 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21 апреля, …",
+      "except_days": null,
+      "stops": "",
+      "departure": "03:40",
+      "arrival": "03:30"
+    },
+    {
+      "thread": {
+        "number": "698С",
+        "title": "Кавказская — Элиста",
+        "short_title": "Кавказская — Элиста",
+        "express_type": null,
+        "transport_type": "train",
+        "carrier": {
+          "code": 112,
+          "title": "РЖД/ФПК",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "698S_0_2",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "только 7, 15, 21, 29 июня, 5, 13, 19, 27 июля, 2, 10, 16, 24, 30 августа, 7, 13 сентября",
+      "except_days": null,
+      "stops": "",
+      "departure": "06:57",
+      "arrival": "06:55"
+    },
+    {
+      "thread": {
+        "number": "6939/6949",
+        "title": "Ставрополь — Кавказская",
+        "short_title": "Ставрополь — Кавказская",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1369,
+          "title": "Северо-Кавказская ППК",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6939x6949_0_9613524_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "10:23",
+      "arrival": "10:22"
+    },
+    {
+      "thread": {
+        "number": "654С",
+        "title": "Адлер — Ставрополь",
+        "short_title": "Адлер — Ставрополь",
+        "express_type": null,
+        "transport_type": "train",
+        "carrier": {
+          "code": 112,
+          "title": "РЖД/ФПК",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "654S_0_2",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "28, 30 апреля, 2, 4, 6, 8, 10, 12, 14, 16 мая, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23 октября, …",
+      "except_days": null,
+      "stops": "",
+      "departure": "11:08",
+      "arrival": "10:58"
+    },
+    {
+      "thread": {
+        "number": "652С",
+        "title": "Адлер — Ставрополь",
+        "short_title": "Адлер — Ставрополь",
+        "express_type": null,
+        "transport_type": "train",
+        "carrier": {
+          "code": 112,
+          "title": "РЖД/ФПК",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "652S_0_2",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "19, 21, 23, 25, 27, 29, 31 мая, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26 июня, …",
+      "except_days": null,
+      "stops": "",
+      "departure": "11:08",
+      "arrival": "10:58"
+    },
+    {
+      "thread": {
+        "number": "654С",
+        "title": "Адлер — Ставрополь",
+        "short_title": "Адлер — Ставрополь",
+        "express_type": null,
+        "transport_type": "train",
+        "carrier": {
+          "code": 112,
+          "title": "РЖД/ФПК",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "654S_1_2",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "только 18, 20, 22, 24 апреля",
+      "except_days": null,
+      "stops": "",
+      "departure": "11:08",
+      "arrival": "10:58"
+    },
+    {
+      "thread": {
+        "number": "654С",
+        "title": "Адлер — Ставрополь",
+        "short_title": "Адлер — Ставрополь",
+        "express_type": null,
+        "transport_type": "train",
+        "carrier": {
+          "code": 112,
+          "title": "РЖД/ФПК",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "654S_3_2",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "только 26 апреля",
+      "except_days": null,
+      "stops": "",
+      "departure": "11:08",
+      "arrival": "10:58"
+    },
+    {
+      "thread": {
+        "number": "654С",
+        "title": "Адлер — Ставрополь",
+        "short_title": "Адлер — Ставрополь",
+        "express_type": null,
+        "transport_type": "train",
+        "carrier": {
+          "code": 112,
+          "title": "РЖД/ФПК",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "654S_4_2",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "только 5, 7, 9, 11, 13, 15 марта",
+      "except_days": null,
+      "stops": "",
+      "departure": "11:08",
+      "arrival": "10:58"
+    },
+    {
+      "thread": {
+        "number": "654С",
+        "title": "Адлер — Ставрополь",
+        "short_title": "Адлер — Ставрополь",
+        "express_type": null,
+        "transport_type": "train",
+        "carrier": {
+          "code": 112,
+          "title": "РЖД/ФПК",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "654S_5_2",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "только 17, 19, 21, 23, 25, 27, 29, 31 марта, 2, 4, 6, 8, 10, 12, 14, 16 апреля",
+      "except_days": null,
+      "stops": "",
+      "departure": "11:08",
+      "arrival": "10:58"
+    },
+    {
+      "thread": {
+        "number": "6940/6942",
+        "title": "Кавказская — Ставрополь",
+        "short_title": "Кавказская — Ставрополь",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1369,
+          "title": "Северо-Кавказская ППК",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6940x6942_0_9613064_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "14:42",
+      "arrival": "14:41"
+    },
+    {
+      "thread": {
+        "number": "653С",
+        "title": "Ставрополь — Адлер",
+        "short_title": "Ставрополь — Адлер",
+        "express_type": null,
+        "transport_type": "train",
+        "carrier": {
+          "code": 112,
+          "title": "РЖД/ФПК",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "653S_0_2",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "26, 28, 30 апреля, 2, 4, 6, 8, 10, 12, 14, 16 мая, 5, 7, 9, 11, 13, 15, 17, 19, 21 октября, …",
+      "except_days": null,
+      "stops": "",
+      "departure": "18:02",
+      "arrival": "17:52"
+    },
+    {
+      "thread": {
+        "number": "653С",
+        "title": "Ставрополь — Адлер",
+        "short_title": "Ставрополь — Адлер",
+        "express_type": null,
+        "transport_type": "train",
+        "carrier": {
+          "code": 112,
+          "title": "РЖД/ФПК",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "653S_2_2",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "только 16, 18, 20, 22, 24 апреля",
+      "except_days": null,
+      "stops": "",
+      "departure": "18:02",
+      "arrival": "17:52"
+    },
+    {
+      "thread": {
+        "number": "653С",
+        "title": "Ставрополь — Адлер",
+        "short_title": "Ставрополь — Адлер",
+        "express_type": null,
+        "transport_type": "train",
+        "carrier": {
+          "code": 112,
+          "title": "РЖД/ФПК",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "653S_5_2",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "только 17, 19, 21, 23, 25, 27, 29, 31 марта, 2, 4, 6, 8, 10, 12, 14 апреля",
+      "except_days": null,
+      "stops": "",
+      "departure": "18:02",
+      "arrival": "17:52"
+    },
+    {
+      "thread": {
+        "number": "653С",
+        "title": "Ставрополь — Адлер",
+        "short_title": "Ставрополь — Адлер",
+        "express_type": null,
+        "transport_type": "train",
+        "carrier": {
+          "code": 112,
+          "title": "РЖД/ФПК",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "653S_4_2",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "только 7, 9, 11, 13, 15 марта",
+      "except_days": null,
+      "stops": "",
+      "departure": "18:02",
+      "arrival": "17:52"
+    },
+    {
+      "thread": {
+        "number": "651С",
+        "title": "Ставрополь — Адлер",
+        "short_title": "Ставрополь — Адлер",
+        "express_type": null,
+        "transport_type": "train",
+        "carrier": {
+          "code": 112,
+          "title": "РЖД/ФПК",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "651S_1_2",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "19, 21, 23, 25, 27, 29, 31 мая, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26 июня, …",
+      "except_days": null,
+      "stops": "",
+      "departure": "20:36",
+      "arrival": "20:26"
+    }
+  ],
+  "interval_schedule": []
+}

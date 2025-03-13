@@ -1,0 +1,79 @@
+{
+  "uid": "UT-182_250314_c29_12",
+  "number": "UT 182",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "16:20",
+  "start_date": "2025-03-14",
+  "days": "14, 21, 28 марта",
+  "except_days": "",
+  "title": "Горно-Алтайск — Сургут",
+  "short_title": "Горно-Алтайск — Сургут",
+  "carrier": {
+    "code": 29,
+    "title": "ЮТэйр",
+    "codes": {
+      "sirena": "ЮТ",
+      "iata": "UT",
+      "icao": "UTA"
+    }
+  },
+  "vehicle": "ATR 72",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Горно-Алтайск",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623328",
+        "codes": {
+          "yandex": "s9623328",
+          "iata": "RGK",
+          "sirena": "ГОР"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-14 16:20:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Сургут",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623563",
+        "codes": {
+          "yandex": "s9623563",
+          "iata": "SGC",
+          "sirena": "СУР"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-14 17:45:00",
+      "stop_time": null,
+      "duration": 12300,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

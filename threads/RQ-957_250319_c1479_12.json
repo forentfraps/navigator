@@ -1,0 +1,100 @@
+{
+  "uid": "RQ-957_250319_c1479_12",
+  "number": "RQ 957",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "18:05",
+  "start_date": "2025-03-19",
+  "days": "ср по 13.08",
+  "except_days": "",
+  "title": "Кабул — Джидда",
+  "short_title": "Кабул — Джидда",
+  "carrier": {
+    "code": 1479,
+    "title": "Kam air",
+    "codes": {
+      "sirena": null,
+      "iata": "RQ",
+      "icao": null
+    }
+  },
+  "vehicle": "Airbus А340",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Хваджа Раваш",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9625335",
+        "codes": {
+          "yandex": "s9625335",
+          "iata": "KBL"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-19 18:05:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "I"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Кандагар",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9631129",
+        "codes": {
+          "yandex": "s9631129",
+          "iata": "KDH"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-19 20:20:00",
+      "arrival": "2025-03-19 19:20:00",
+      "stop_time": 3600,
+      "duration": 8100,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Джидда",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623900",
+        "codes": {
+          "yandex": "s9623900",
+          "iata": "JED",
+          "sirena": "ДЖД"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-19 23:50:00",
+      "stop_time": null,
+      "duration": 26100,
+      "terminal": "H"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

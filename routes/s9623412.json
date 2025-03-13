@@ -1,0 +1,781 @@
+{
+  "date": null,
+  "station": {
+    "type": "station",
+    "title": "Пенза",
+    "short_title": null,
+    "popular_title": null,
+    "code": "s9623412",
+    "station_type": "airport",
+    "station_type_name": "аэропорт",
+    "transport_type": "plane"
+  },
+  "event": "departure",
+  "pagination": {
+    "total": 23,
+    "limit": 100,
+    "offset": 0
+  },
+  "schedule": [
+    {
+      "thread": {
+        "number": "A4 6038",
+        "title": "Пенза — Минеральные Воды",
+        "short_title": "Пенза — Минеральные Воды",
+        "carrier": {
+          "code": 60780,
+          "title": "Азимут",
+          "codes": {
+            "sirena": "А4",
+            "iata": "A4",
+            "icao": null
+          }
+        },
+        "vehicle": "Сухой Суперджет 100",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "A4-6038_250318_c60780_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "04:40",
+      "arrival": null,
+      "days": "18, 25 марта"
+    },
+    {
+      "thread": {
+        "number": "A4 5038",
+        "title": "Пенза — Сочи",
+        "short_title": "Пенза — Сочи",
+        "carrier": {
+          "code": 60780,
+          "title": "Азимут",
+          "codes": {
+            "sirena": "А4",
+            "iata": "A4",
+            "icao": null
+          }
+        },
+        "vehicle": "Сухой Суперджет 100",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "A4-5038_250317_c60780_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "04:55",
+      "arrival": null,
+      "days": "17, 24 марта"
+    },
+    {
+      "thread": {
+        "number": "A4 5038",
+        "title": "Пенза — Сочи",
+        "short_title": "Пенза — Сочи",
+        "carrier": {
+          "code": 60780,
+          "title": "Азимут",
+          "codes": {
+            "sirena": "А4",
+            "iata": "A4",
+            "icao": null
+          }
+        },
+        "vehicle": "Сухой Суперджет 100",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "A4-5038_250314_c60780_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "05:45",
+      "arrival": null,
+      "days": "14, 21, 28 марта"
+    },
+    {
+      "thread": {
+        "number": "A4 5108",
+        "title": "Пенза — Сочи",
+        "short_title": "Пенза — Сочи",
+        "carrier": {
+          "code": 60780,
+          "title": "Азимут",
+          "codes": {
+            "sirena": "А4",
+            "iata": "A4",
+            "icao": null
+          }
+        },
+        "vehicle": "Сухой Суперджет 100",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "A4-5108_250601_c60780_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "06:20",
+      "arrival": null,
+      "days": "ср, пт, вс с 01.06 по 31.08"
+    },
+    {
+      "thread": {
+        "number": "A4 5038",
+        "title": "Пенза — Сочи",
+        "short_title": "Пенза — Сочи",
+        "carrier": {
+          "code": 60780,
+          "title": "Азимут",
+          "codes": {
+            "sirena": "А4",
+            "iata": "A4",
+            "icao": null
+          }
+        },
+        "vehicle": "Сухой Суперджет 100",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "A4-5038_250903_c60780_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "06:20",
+      "arrival": null,
+      "days": "ср, вс с 02.04 по 28.05"
+    },
+    {
+      "thread": {
+        "number": "SU 1545",
+        "title": "Пенза — Москва",
+        "short_title": "Пенза — Москва",
+        "carrier": {
+          "code": 26,
+          "title": "Аэрофлот",
+          "codes": {
+            "sirena": "СУ",
+            "iata": "SU",
+            "icao": "AFL"
+          }
+        },
+        "vehicle": "Airbus A320",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "SU-1545_250330_c26_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "11:45",
+      "arrival": null,
+      "days": "ежедневно с 30.03 по 27.08"
+    },
+    {
+      "thread": {
+        "number": "SU 1545",
+        "title": "Пенза — Москва",
+        "short_title": "Пенза — Москва",
+        "carrier": {
+          "code": 26,
+          "title": "Аэрофлот",
+          "codes": {
+            "sirena": "СУ",
+            "iata": "SU",
+            "icao": "AFL"
+          }
+        },
+        "vehicle": "Airbus A320",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "SU-1545_250313_c26_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "12:05",
+      "arrival": null,
+      "days": "ежедневно по 29.03"
+    },
+    {
+      "thread": {
+        "number": "FV 6823",
+        "title": "Пенза — Екатеринбург",
+        "short_title": "Пенза — Екатеринбург",
+        "carrier": {
+          "code": 8565,
+          "title": "Россия",
+          "codes": {
+            "sirena": "ФВ",
+            "iata": "FV",
+            "icao": null
+          }
+        },
+        "vehicle": "Сухой Суперджет 100",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "FV-6823_250402_c8565_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "12:25",
+      "arrival": null,
+      "days": "2, 9, 16, 23, 30 апреля, 1, 8, 15, 22 октября"
+    },
+    {
+      "thread": {
+        "number": "FV 6789",
+        "title": "Пенза — Екатеринбург",
+        "short_title": "Пенза — Екатеринбург",
+        "carrier": {
+          "code": 8565,
+          "title": "Россия",
+          "codes": {
+            "sirena": "ФВ",
+            "iata": "FV",
+            "icao": null
+          }
+        },
+        "vehicle": "Сухой Суперджет 100",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "FV-6789_250507_c8565_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "12:25",
+      "arrival": null,
+      "days": "ср с 07.05 по 24.09"
+    },
+    {
+      "thread": {
+        "number": "FV 6823",
+        "title": "Пенза — Екатеринбург",
+        "short_title": "Пенза — Екатеринбург",
+        "carrier": {
+          "code": 8565,
+          "title": "Россия",
+          "codes": {
+            "sirena": "ФВ",
+            "iata": "FV",
+            "icao": null
+          }
+        },
+        "vehicle": "Сухой Суперджет 100",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "FV-6823_250319_c8565_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "12:40",
+      "arrival": null,
+      "days": "19, 26 марта"
+    },
+    {
+      "thread": {
+        "number": "FV 6768",
+        "title": "Пенза — Санкт-Петербург",
+        "short_title": "Пенза — Санкт-Петербург",
+        "carrier": {
+          "code": 8565,
+          "title": "Россия",
+          "codes": {
+            "sirena": "ФВ",
+            "iata": "FV",
+            "icao": null
+          }
+        },
+        "vehicle": "Сухой Суперджет 100",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "FV-6768_250602_c8565_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "13:00",
+      "arrival": null,
+      "days": "31 марта, 7, 14, 21, 28 апреля, 5, 12, 19, 26 мая, 2, 3, 5, 9, 10, 12, 16, 17, 19, 23, 24 июня, …"
+    },
+    {
+      "thread": {
+        "number": "FV 6768",
+        "title": "Пенза — Санкт-Петербург",
+        "short_title": "Пенза — Санкт-Петербург",
+        "carrier": {
+          "code": 8565,
+          "title": "Россия",
+          "codes": {
+            "sirena": "ФВ",
+            "iata": "FV",
+            "icao": null
+          }
+        },
+        "vehicle": "Сухой Суперджет 100",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "FV-6768_250425_c8565_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "15:20",
+      "arrival": null,
+      "days": "16, 17, 23, 24, 30 марта, 5, 6, 12, 13, 19, 20, 25, 26, 27 апреля, 2, 3, 4, 9, 10, 11 мая, …"
+    },
+    {
+      "thread": {
+        "number": "FV 6816",
+        "title": "Пенза — Санкт-Петербург",
+        "short_title": "Пенза — Санкт-Петербург",
+        "carrier": {
+          "code": 8565,
+          "title": "Россия",
+          "codes": {
+            "sirena": "ФВ",
+            "iata": "FV",
+            "icao": null
+          }
+        },
+        "vehicle": "Сухой Суперджет 100",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "FV-6816_250314_c8565_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "15:20",
+      "arrival": null,
+      "days": "14, 21, 28 марта, 4, 11, 18 апреля, 3, 10, 17, 24 октября"
+    },
+    {
+      "thread": {
+        "number": "A4 6038",
+        "title": "Пенза — Минеральные Воды",
+        "short_title": "Пенза — Минеральные Воды",
+        "carrier": {
+          "code": 60780,
+          "title": "Азимут",
+          "codes": {
+            "sirena": "А4",
+            "iata": "A4",
+            "icao": null
+          }
+        },
+        "vehicle": "Сухой Суперджет 100",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "A4-6038_250314_c60780_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "17:00",
+      "arrival": null,
+      "days": "14, 21, 28 марта"
+    },
+    {
+      "thread": {
+        "number": "FV 6768",
+        "title": "Пенза — Санкт-Петербург",
+        "short_title": "Пенза — Санкт-Петербург",
+        "carrier": {
+          "code": 8565,
+          "title": "Россия",
+          "codes": {
+            "sirena": "ФВ",
+            "iata": "FV",
+            "icao": null
+          }
+        },
+        "vehicle": "Сухой Суперджет 100",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "FV-6768_250507_c8565_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "18:25",
+      "arrival": null,
+      "days": "ср с 07.05 по 24.09"
+    },
+    {
+      "thread": {
+        "number": "FV 6816",
+        "title": "Пенза — Санкт-Петербург",
+        "short_title": "Пенза — Санкт-Петербург",
+        "carrier": {
+          "code": 8565,
+          "title": "Россия",
+          "codes": {
+            "sirena": "ФВ",
+            "iata": "FV",
+            "icao": null
+          }
+        },
+        "vehicle": "Сухой Суперджет 100",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "FV-6816_250402_c8565_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "18:25",
+      "arrival": null,
+      "days": "2, 9, 16, 23, 30 апреля, 1, 8, 15, 22 октября"
+    },
+    {
+      "thread": {
+        "number": "FV 6816",
+        "title": "Пенза — Санкт-Петербург",
+        "short_title": "Пенза — Санкт-Петербург",
+        "carrier": {
+          "code": 8565,
+          "title": "Россия",
+          "codes": {
+            "sirena": "ФВ",
+            "iata": "FV",
+            "icao": null
+          }
+        },
+        "vehicle": "Сухой Суперджет 100",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "FV-6816_250319_c8565_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "18:50",
+      "arrival": null,
+      "days": "19, 26 марта"
+    },
+    {
+      "thread": {
+        "number": "A4 6038",
+        "title": "Пенза — Минеральные Воды",
+        "short_title": "Пенза — Минеральные Воды",
+        "carrier": {
+          "code": 60780,
+          "title": "Азимут",
+          "codes": {
+            "sirena": "А4",
+            "iata": "A4",
+            "icao": null
+          }
+        },
+        "vehicle": "Сухой Суперджет 100",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "A4-6038_250902_c60780_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "20:30",
+      "arrival": null,
+      "days": "вт, пт с 01.04 по 30.05"
+    },
+    {
+      "thread": {
+        "number": "A4 6268",
+        "title": "Пенза — Минеральные Воды",
+        "short_title": "Пенза — Минеральные Воды",
+        "carrier": {
+          "code": 60780,
+          "title": "Азимут",
+          "codes": {
+            "sirena": "А4",
+            "iata": "A4",
+            "icao": null
+          }
+        },
+        "vehicle": "Сухой Суперджет 100",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "A4-6268_250603_c60780_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "20:30",
+      "arrival": null,
+      "days": "вт, пт с 03.06 по 29.08"
+    },
+    {
+      "thread": {
+        "number": "S7 1196",
+        "title": "Пенза — Москва",
+        "short_title": "Пенза — Москва",
+        "carrier": {
+          "code": 23,
+          "title": "S7 Airlines",
+          "codes": {
+            "sirena": "С7",
+            "iata": "S7",
+            "icao": null
+          }
+        },
+        "vehicle": "Airbus А320",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "S7-1196_250313_c23_12"
+      },
+      "terminal": "NULL",
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "21:10",
+      "arrival": null,
+      "days": "ежедневно по 29.03"
+    },
+    {
+      "thread": {
+        "number": "S7 1196",
+        "title": "Пенза — Москва",
+        "short_title": "Пенза — Москва",
+        "carrier": {
+          "code": 23,
+          "title": "S7 Airlines",
+          "codes": {
+            "sirena": "С7",
+            "iata": "S7",
+            "icao": null
+          }
+        },
+        "vehicle": "Airbus А320",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "S7-1196_251026_c23_12"
+      },
+      "terminal": "NULL",
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "21:15",
+      "arrival": null,
+      "days": "ежедневно с 26.10"
+    },
+    {
+      "thread": {
+        "number": "S7 1196",
+        "title": "Пенза — Москва",
+        "short_title": "Пенза — Москва",
+        "carrier": {
+          "code": 23,
+          "title": "S7 Airlines",
+          "codes": {
+            "sirena": "С7",
+            "iata": "S7",
+            "icao": null
+          }
+        },
+        "vehicle": "Airbus А320",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "S7-1196_250330_c23_12"
+      },
+      "terminal": "NULL",
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "21:50",
+      "arrival": null,
+      "days": "ежедневно с 30.03 по 27.08"
+    },
+    {
+      "thread": {
+        "number": "FV 6546",
+        "title": "Пенза — Москва",
+        "short_title": "Пенза — Москва",
+        "carrier": {
+          "code": 8565,
+          "title": "Россия",
+          "codes": {
+            "sirena": "ФВ",
+            "iata": "FV",
+            "icao": null
+          }
+        },
+        "vehicle": "Сухой Суперджет 100",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "FV-6546_250330_c8565_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "22:15",
+      "arrival": null,
+      "days": "ежедневно с 30.03 по 27.08"
+    }
+  ],
+  "interval_schedule": []
+}

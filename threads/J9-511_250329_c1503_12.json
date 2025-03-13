@@ -1,0 +1,78 @@
+{
+  "uid": "J9-511_250329_c1503_12",
+  "number": "J9 511",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "23:20",
+  "start_date": "2025-03-15",
+  "days": "15, 29 марта, 1, 8, 15, 19, 22, 29 ноября",
+  "except_days": "",
+  "title": "Эль-Кувейт — Исламабад",
+  "short_title": "Эль-Кувейт — Исламабад",
+  "carrier": {
+    "code": 1503,
+    "title": "Jazeera Airways",
+    "codes": {
+      "sirena": null,
+      "iata": "J9",
+      "icao": null
+    }
+  },
+  "vehicle": "Airbus A320 NEO",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Кувейт",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9631552",
+        "codes": {
+          "yandex": "s9631552",
+          "iata": "KWI",
+          "sirena": "КВИ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-15 23:20:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "5"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Исламабад",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9634163",
+        "codes": {
+          "yandex": "s9634163",
+          "iata": "ISB"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-16 04:50:00",
+      "stop_time": null,
+      "duration": 12600,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

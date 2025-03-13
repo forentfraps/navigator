@@ -1,0 +1,79 @@
+{
+  "uid": "XQ-718_250316_c334_12",
+  "number": "XQ 718",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "06:40",
+  "start_date": "2025-03-16",
+  "days": "16, 23 марта",
+  "except_days": "",
+  "title": "Трабзон — Штутгарт",
+  "short_title": "Трабзон — Штутгарт",
+  "carrier": {
+    "code": 334,
+    "title": "SunExpress",
+    "codes": {
+      "sirena": null,
+      "iata": "XQ",
+      "icao": "SXS"
+    }
+  },
+  "vehicle": "Boeing 737",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Трабзон",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9630625",
+        "codes": {
+          "yandex": "s9630625",
+          "iata": "TZX",
+          "sirena": "ТЗЬ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-16 06:40:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Штутгарт",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9625992",
+        "codes": {
+          "yandex": "s9625992",
+          "iata": "STR",
+          "sirena": "ШТР"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-16 08:35:00",
+      "stop_time": null,
+      "duration": 14100,
+      "terminal": "3"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

@@ -1,0 +1,79 @@
+{
+  "uid": "DY-1575_250624_c1403_12",
+  "number": "DY 1575",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "21:05",
+  "start_date": "2025-06-24",
+  "days": "вт с 24.06 по 12.08",
+  "except_days": "",
+  "title": "Варна — Осло",
+  "short_title": "Варна — Осло",
+  "carrier": {
+    "code": 1403,
+    "title": "Norwegian Air Shuttle",
+    "codes": {
+      "sirena": null,
+      "iata": "DY",
+      "icao": null
+    }
+  },
+  "vehicle": "Boeing 737-800",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Варна",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623692",
+        "codes": {
+          "yandex": "s9623692",
+          "iata": "VAR",
+          "sirena": "ВАР"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-06-24 21:05:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Осло",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600474",
+        "codes": {
+          "yandex": "s9600474",
+          "iata": "OSL",
+          "sirena": "ОСЛ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-06-24 23:10:00",
+      "stop_time": null,
+      "duration": 11100,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

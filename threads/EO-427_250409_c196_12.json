@@ -1,0 +1,80 @@
+{
+  "uid": "EO-427_250409_c196_12",
+  "number": "EO 427",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "20:05",
+  "start_date": "2025-04-09",
+  "days": "ср с 09.04 по 03.09",
+  "except_days": "",
+  "title": "Сочи — Волгоград",
+  "short_title": "Сочи — Волгоград",
+  "carrier": {
+    "code": 196,
+    "title": "Ikar",
+    "codes": {
+      "sirena": "ЕО",
+      "iata": "EO",
+      "icao": "KAR"
+    }
+  },
+  "vehicle": "Embraer 190",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Сочи",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623547",
+        "codes": {
+          "yandex": "s9623547",
+          "iata": "AER",
+          "sirena": "СОЧ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-04-09 20:05:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Гумрак",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600177",
+        "codes": {
+          "yandex": "s9600177",
+          "esr": "892",
+          "iata": "VOG",
+          "sirena": "ВГГ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-04-09 22:30:00",
+      "stop_time": null,
+      "duration": 8700,
+      "terminal": "C2"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

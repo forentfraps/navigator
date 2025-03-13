@@ -1,0 +1,79 @@
+{
+  "uid": "X3-5323_250702_c1474_12",
+  "number": "X3 5323",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "02:25",
+  "start_date": "2025-07-02",
+  "days": "ср с 02.07 по 24.09",
+  "except_days": "",
+  "title": "Варна — Ганновер",
+  "short_title": "Варна — Ганновер",
+  "carrier": {
+    "code": 1474,
+    "title": "Tuifly",
+    "codes": {
+      "sirena": null,
+      "iata": "X3",
+      "icao": null
+    }
+  },
+  "vehicle": "Boeing 737-800",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Варна",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623692",
+        "codes": {
+          "yandex": "s9623692",
+          "iata": "VAR",
+          "sirena": "ВАР"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-07-02 02:25:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ганновер",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600418",
+        "codes": {
+          "yandex": "s9600418",
+          "iata": "HAJ",
+          "sirena": "ХАЙ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-07-02 04:05:00",
+      "stop_time": null,
+      "duration": 9600,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

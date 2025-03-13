@@ -1,0 +1,55 @@
+{
+  "date": null,
+  "station": {
+    "type": "station",
+    "title": "Лопхари",
+    "short_title": "",
+    "popular_title": "",
+    "code": "s9623894",
+    "station_type": "airport",
+    "station_type_name": "аэропорт",
+    "transport_type": "plane"
+  },
+  "event": "departure",
+  "pagination": {
+    "total": 1,
+    "limit": 100,
+    "offset": 0
+  },
+  "schedule": [
+    {
+      "thread": {
+        "number": "ЯЛ 67",
+        "title": "Лопхари — Салехард",
+        "short_title": "Лопхари — Салехард",
+        "carrier": {
+          "code": 202,
+          "title": "АК Ямал",
+          "codes": {
+            "sirena": "ЯЛ",
+            "iata": null,
+            "icao": null
+          }
+        },
+        "vehicle": "Ми-8/Ми-17",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "RUSQAL-67_250318_c202_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "11:50",
+      "arrival": null,
+      "days": "вт по 27.05"
+    }
+  ],
+  "interval_schedule": []
+}

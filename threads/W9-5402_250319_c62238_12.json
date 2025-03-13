@@ -1,0 +1,77 @@
+{
+  "uid": "W9-5402_250319_c62238_12",
+  "number": "W9 5402",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "12:25",
+  "start_date": "2025-03-12",
+  "days": "12, 19, 26 марта",
+  "except_days": "",
+  "title": "Констанца — Лондон",
+  "short_title": "Констанца — Лондон",
+  "carrier": {
+    "code": 62238,
+    "title": "Wizz Air UK",
+    "codes": {
+      "sirena": null,
+      "iata": "W9",
+      "icao": "WUK"
+    }
+  },
+  "vehicle": "Airbus A320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "им. Михаила Когэлничану",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9628604",
+        "codes": {
+          "yandex": "s9628604",
+          "iata": "CND"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-12 12:25:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Лутон",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9625784",
+        "codes": {
+          "yandex": "s9625784",
+          "iata": "LTN"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-12 14:20:00",
+      "stop_time": null,
+      "duration": 14100,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

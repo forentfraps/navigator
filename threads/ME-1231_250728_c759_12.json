@@ -1,0 +1,79 @@
+{
+  "uid": "ME-1231_250728_c759_12",
+  "number": "ME 1231",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "14:45",
+  "start_date": "2025-07-28",
+  "days": "28 июля",
+  "except_days": "",
+  "title": "Бейрут — Рим",
+  "short_title": "Бейрут — Рим",
+  "carrier": {
+    "code": 759,
+    "title": "Middle East Airlines",
+    "codes": {
+      "sirena": null,
+      "iata": "ME",
+      "icao": "MEA"
+    }
+  },
+  "vehicle": "Airbus А320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Бейрут",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623595",
+        "codes": {
+          "yandex": "s9623595",
+          "iata": "BEY",
+          "sirena": "БЕУ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-07-28 14:45:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Фьюмичино",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600408",
+        "codes": {
+          "yandex": "s9600408",
+          "iata": "FCO",
+          "sirena": "ФЦО"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-07-28 17:20:00",
+      "stop_time": null,
+      "duration": 12900,
+      "terminal": "3"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

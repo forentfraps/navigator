@@ -1,0 +1,78 @@
+{
+  "uid": "XQ-837_250512_c334_12",
+  "number": "XQ 837",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "23:25",
+  "start_date": "2025-03-31",
+  "days": "31 марта, 7, 14, 21, 28 апреля, 5, 12, 17, 19, 21, 24, 26, 28, 31 мая, 2, 4, 7, 9, 11, 14 июня, …",
+  "except_days": "",
+  "title": "Бейрут — Измир",
+  "short_title": "Бейрут — Измир",
+  "carrier": {
+    "code": 334,
+    "title": "SunExpress",
+    "codes": {
+      "sirena": null,
+      "iata": "XQ",
+      "icao": "SXS"
+    }
+  },
+  "vehicle": "Boeing 737-800",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Бейрут",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623595",
+        "codes": {
+          "yandex": "s9623595",
+          "iata": "BEY",
+          "sirena": "БЕУ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-31 23:25:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Аднан Мендерес",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9628729",
+        "codes": {
+          "yandex": "s9628729",
+          "iata": "ADB"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-04-01 01:10:00",
+      "stop_time": null,
+      "duration": 6300,
+      "terminal": "I"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

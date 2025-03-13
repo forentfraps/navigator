@@ -1,0 +1,122 @@
+{
+  "uid": "RUSQAL-52_250515_c202_12",
+  "number": "ЯЛ 52",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "10:30",
+  "start_date": "2025-03-16",
+  "days": "вс по 29.05, а ещё 24.04, 15.05, 29.05",
+  "except_days": "",
+  "title": "Салехард — Мужи",
+  "short_title": "Салехард — Мужи",
+  "carrier": {
+    "code": 202,
+    "title": "АК Ямал",
+    "codes": {
+      "sirena": "ЯЛ",
+      "iata": null,
+      "icao": null
+    }
+  },
+  "vehicle": "Ми-8/Ми-17",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Салехард",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623576",
+        "codes": {
+          "yandex": "s9623576",
+          "iata": "SLY",
+          "sirena": "СХД"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-16 10:30:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Шурышкары",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623959",
+        "codes": {
+          "yandex": "s9623959",
+          "sirena": "ШРШ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-16 10:55:00",
+      "arrival": "2025-03-16 10:50:00",
+      "stop_time": 300,
+      "duration": 1500,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Восяхово",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623960",
+        "codes": {
+          "yandex": "s9623960",
+          "sirena": "ВСХ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-16 11:20:00",
+      "arrival": "2025-03-16 11:15:00",
+      "stop_time": 300,
+      "duration": 3000,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Мужи",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623673",
+        "codes": {
+          "yandex": "s9623673",
+          "sirena": "МУЖ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-16 11:35:00",
+      "stop_time": null,
+      "duration": 3900,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

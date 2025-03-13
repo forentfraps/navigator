@@ -1,0 +1,79 @@
+{
+  "uid": "DP-6864_250331_c9144_12",
+  "number": "DP 6864",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "10:45",
+  "start_date": "2025-03-31",
+  "days": "31 марта, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 14, 15, 16, 17, 18, 19, 21, 22 апреля, …",
+  "except_days": "",
+  "title": "Саратов — Москва",
+  "short_title": "Саратов — Москва",
+  "carrier": {
+    "code": 9144,
+    "title": "Победа",
+    "codes": {
+      "sirena": "ДР",
+      "iata": "DP",
+      "icao": null
+    }
+  },
+  "vehicle": "Boeing 737-800",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Гагарин (Саратов)",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9872581",
+        "codes": {
+          "yandex": "s9872581",
+          "iata": "GSV",
+          "sirena": "ГСВ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-31 10:45:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Шереметьево",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600213",
+        "codes": {
+          "yandex": "s9600213",
+          "iata": "SVO",
+          "sirena": "ШРМ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-31 11:30:00",
+      "stop_time": null,
+      "duration": 6300,
+      "terminal": "D"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

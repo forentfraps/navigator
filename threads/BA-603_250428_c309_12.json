@@ -1,0 +1,79 @@
+{
+  "uid": "BA-603_250428_c309_12",
+  "number": "BA 603",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "15:00",
+  "start_date": "2025-03-31",
+  "days": "31 марта, 28 апреля, 5, 12, 19, 26 мая, 9, 16, 23, 30 июня, 7, 14, 21, 28 июля, 4, 11, 18, 25 августа, 1, 8 сентября, …",
+  "except_days": "",
+  "title": "Стамбул — Лондон",
+  "short_title": "Стамбул — Лондон",
+  "carrier": {
+    "code": 309,
+    "title": "British Airways",
+    "codes": {
+      "sirena": null,
+      "iata": "BA",
+      "icao": "BAW"
+    }
+  },
+  "vehicle": "Airbus A320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Сабиха Гёкчен",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600420",
+        "codes": {
+          "yandex": "s9600420",
+          "iata": "SAW",
+          "sirena": "СБХ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-31 15:00:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Хитроу",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600378",
+        "codes": {
+          "yandex": "s9600378",
+          "iata": "LHR",
+          "sirena": "ЛХР"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-31 17:05:00",
+      "stop_time": null,
+      "duration": 14700,
+      "terminal": "5"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

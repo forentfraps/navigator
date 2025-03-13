@@ -1,0 +1,181 @@
+{
+  "number": "941",
+  "title": "Парфино - Старая Русса - Санкт-Петербург",
+  "short_title": "Парфино - Старая Русса - Санкт-Петербург",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 56544,
+    "title": "ООО \"СКСавто\"",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_7_f9637824t9637148_1",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно по 31.05",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Парфино",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9637824",
+        "codes": {
+          "yandex": "s9637824"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 07:00:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Старая Русса, Курорт",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9851187",
+        "codes": {
+          "yandex": "s9851187"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 07:15:00",
+      "arrival": "2025-03-13 07:14:00",
+      "duration": 900.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Старая Русса, автостанция",
+        "short_title": null,
+        "popular_title": "Автостанция Старая Русса",
+        "code": "s9637821",
+        "codes": {
+          "yandex": "s9637821"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 07:30:00",
+      "arrival": "2025-03-13 07:25:00",
+      "duration": 1800.0,
+      "stop_time": 300,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Шимск, автокасса",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9637834",
+        "codes": {
+          "yandex": "s9637834"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 08:15:00",
+      "arrival": "2025-03-13 08:14:00",
+      "duration": 4500.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Великий Новгород",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623402",
+        "codes": {
+          "yandex": "s9623402"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 09:20:00",
+      "arrival": "2025-03-13 09:05:00",
+      "duration": 8400.0,
+      "stop_time": 900,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "метро \"Купчино\"/Витебский проспект",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9851706",
+        "codes": {
+          "yandex": "s9851706"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 11:50:00",
+      "arrival": "2025-03-13 11:49:00",
+      "duration": 17400.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Санкт-Петербург, автовокзал на Обводном канале",
+        "short_title": null,
+        "popular_title": "Автовокзал на Обводном канале",
+        "code": "s9637148",
+        "codes": {
+          "yandex": "s9637148"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 12:10:00",
+      "duration": 18600.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "07:00"
+}

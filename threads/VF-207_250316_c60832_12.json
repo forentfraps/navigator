@@ -1,0 +1,78 @@
+{
+  "uid": "VF-207_250316_c60832_12",
+  "number": "VF 207",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "23:55",
+  "start_date": "2025-03-16",
+  "days": "16, 23 марта",
+  "except_days": "",
+  "title": "Стамбул — Медина",
+  "short_title": "Стамбул — Медина",
+  "carrier": {
+    "code": 60832,
+    "title": "Ajet",
+    "codes": {
+      "sirena": null,
+      "iata": "VF",
+      "icao": "TKJ"
+    }
+  },
+  "vehicle": "Airbus А321",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Сабиха Гёкчен",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600420",
+        "codes": {
+          "yandex": "s9600420",
+          "iata": "SAW",
+          "sirena": "СБХ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-16 23:55:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Медина",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9625881",
+        "codes": {
+          "yandex": "s9625881",
+          "iata": "MED"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-17 03:35:00",
+      "stop_time": null,
+      "duration": 13200,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

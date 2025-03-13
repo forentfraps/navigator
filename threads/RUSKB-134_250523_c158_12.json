@@ -1,0 +1,79 @@
+{
+  "uid": "RUSKB-134_250523_c158_12",
+  "number": "КБ 134",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "11:00",
+  "start_date": "2025-05-08",
+  "days": "8, 23 мая",
+  "except_days": "",
+  "title": "Нижний Новгород — Кострома",
+  "short_title": "Нижний Новгород — Кострома",
+  "carrier": {
+    "code": 158,
+    "title": "Костромское авиапредприятие",
+    "codes": {
+      "sirena": "КБ",
+      "iata": null,
+      "icao": "KMW"
+    }
+  },
+  "vehicle": "АН-26",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Стригино",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623052",
+        "codes": {
+          "yandex": "s9623052",
+          "iata": "GOJ",
+          "sirena": "НЖС"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-05-08 11:00:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Кострома",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600178",
+        "codes": {
+          "yandex": "s9600178",
+          "iata": "KMW",
+          "sirena": "КОР"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-05-08 12:15:00",
+      "stop_time": null,
+      "duration": 4500,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

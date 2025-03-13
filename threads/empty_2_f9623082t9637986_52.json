@@ -1,0 +1,97 @@
+{
+  "number": "118",
+  "title": "Гусь-Хрустальный — Великодворский",
+  "short_title": "Гусь-Хрустальный — Великодворский",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 66979,
+    "title": "ООО \"СПУТНИК\" (г.Курлово)",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_2_f9623082t9637986_52",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "пн, вт, ср, пт по 23.05",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Гусь-Хрустальный",
+        "short_title": "",
+        "popular_title": "Автостанция Гусь-Хрустальный",
+        "code": "s9623082",
+        "codes": {
+          "yandex": "s9623082"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 07:50:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Нечаевская, поворот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9828582",
+        "codes": {
+          "yandex": "s9828582"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 08:10:00",
+      "arrival": "2025-03-14 08:09:00",
+      "duration": 1200.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Великодворский",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9637986",
+        "codes": {
+          "yandex": "s9637986"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-14 09:00:00",
+      "duration": 4200.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-14",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "07:50"
+}

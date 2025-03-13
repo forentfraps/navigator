@@ -1,0 +1,171 @@
+{
+  "number": "7625",
+  "title": "Кутум — ГПЗ",
+  "short_title": "Кутум — ГПЗ",
+  "express_type": null,
+  "transport_type": "suburban",
+  "carrier": {
+    "code": 1370,
+    "title": "Волгоградтранспригород",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "7625_0_9605589_g25_4",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": "Пригородный поезд",
+    "code": "suburban",
+    "color": "#CC6600"
+  },
+  "days": "по будням",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Кутум",
+        "short_title": null,
+        "popular_title": "",
+        "code": "s9605589",
+        "codes": {
+          "yandex": "s9605589",
+          "esr": "616706",
+          "express": "2020030"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 06:35:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Юго-восток",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9606043",
+        "codes": {
+          "yandex": "s9606043",
+          "esr": "616818",
+          "express": "2021009"
+        },
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 06:41:00",
+      "arrival": "2025-03-13 06:40:00",
+      "duration": 360.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Софьи Перовской",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9606046",
+        "codes": {
+          "yandex": "s9606046",
+          "esr": "616822",
+          "express": "2021013"
+        },
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 06:45:00",
+      "arrival": "2025-03-13 06:44:00",
+      "duration": 600.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Астрахань-1",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9605765",
+        "codes": {
+          "yandex": "s9605765",
+          "esr": "616803",
+          "express": "2020600"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 06:50:00",
+      "arrival": "2025-03-13 06:48:00",
+      "duration": 900.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Астрахань-2",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9605619",
+        "codes": {
+          "yandex": "s9605619",
+          "esr": "616907",
+          "express": "2020060"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 07:01:00",
+      "arrival": "2025-03-13 06:59:00",
+      "duration": 1560.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "ГПЗ",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9634274",
+        "codes": {
+          "yandex": "s9634274",
+          "esr": "860"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 07:48:00",
+      "duration": 4380.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "06:35"
+}

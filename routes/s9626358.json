@@ -1,0 +1,121 @@
+{
+  "date": null,
+  "station": {
+    "type": "station",
+    "title": "Великий Устюг",
+    "short_title": null,
+    "popular_title": null,
+    "code": "s9626358",
+    "station_type": "airport",
+    "station_type_name": "аэропорт",
+    "transport_type": "plane"
+  },
+  "event": "departure",
+  "pagination": {
+    "total": 3,
+    "limit": 100,
+    "offset": 0
+  },
+  "schedule": [
+    {
+      "thread": {
+        "number": "ВГ 562",
+        "title": "Великий Устюг — Вологда",
+        "short_title": "Великий Устюг — Вологда",
+        "carrier": {
+          "code": 8,
+          "title": "Вологодское авиапредприятие",
+          "codes": {
+            "sirena": "ВГ",
+            "iata": null,
+            "icao": "VGV"
+          }
+        },
+        "vehicle": "ЯК-40",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "RUSVG-562_250313_c8_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "15:40",
+      "arrival": null,
+      "days": "вт, чт по 07.08"
+    },
+    {
+      "thread": {
+        "number": "D2 116",
+        "title": "Великий Устюг — Череповец",
+        "short_title": "Великий Устюг — Череповец",
+        "carrier": {
+          "code": 83,
+          "title": "Северсталь",
+          "codes": {
+            "sirena": "Д2",
+            "iata": "D2",
+            "icao": null
+          }
+        },
+        "vehicle": "Bombardier CRJ200",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "D2-116_250330_c83_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "17:30",
+      "arrival": null,
+      "days": "пт, вс с 30.03 по 24.08"
+    },
+    {
+      "thread": {
+        "number": "D2 116",
+        "title": "Великий Устюг — Череповец",
+        "short_title": "Великий Устюг — Череповец",
+        "carrier": {
+          "code": 83,
+          "title": "Северсталь",
+          "codes": {
+            "sirena": "Д2",
+            "iata": "D2",
+            "icao": null
+          }
+        },
+        "vehicle": "Bombardier CRJ200",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "D2-116_250314_c83_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "17:40",
+      "arrival": null,
+      "days": "14, 16, 21, 23, 28 марта"
+    }
+  ],
+  "interval_schedule": []
+}

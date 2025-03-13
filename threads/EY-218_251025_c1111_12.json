@@ -1,0 +1,79 @@
+{
+  "uid": "EY-218_251025_c1111_12",
+  "number": "EY 218",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "21:20",
+  "start_date": "2025-10-25",
+  "days": "25 октября",
+  "except_days": "",
+  "title": "Абу-Даби — Дели",
+  "short_title": "Абу-Даби — Дели",
+  "carrier": {
+    "code": 1111,
+    "title": "Etihad Airways",
+    "codes": {
+      "sirena": null,
+      "iata": "EY",
+      "icao": "EFL"
+    }
+  },
+  "vehicle": "Boeing 787-900",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Абу-Даби",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9624402",
+        "codes": {
+          "yandex": "s9624402",
+          "iata": "AUH",
+          "sirena": "АУХ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-10-25 21:20:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "A"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "им. Индиры Ганди",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623598",
+        "codes": {
+          "yandex": "s9623598",
+          "iata": "DEL",
+          "sirena": "ДЛИ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-10-26 02:25:00",
+      "stop_time": null,
+      "duration": 12900,
+      "terminal": "3"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

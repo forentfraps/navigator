@@ -1,0 +1,139 @@
+{
+  "number": "",
+  "title": "Воронеж — Елец",
+  "short_title": "Воронеж — Елец",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 64281,
+    "title": "ООО \"АГЕЕВБУС\"",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_1_f9623369t9845337_114",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Воронеж, Центральный автовокзал",
+        "short_title": null,
+        "popular_title": "Центральный автовокзал",
+        "code": "s9623369",
+        "codes": {
+          "yandex": "s9623369"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 11:10:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Хлевное, автостанция",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623070",
+        "codes": {
+          "yandex": "s9623070"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 12:10:00",
+      "arrival": "2025-03-13 12:09:00",
+      "duration": 3600.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Задонск, автостанция",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623106",
+        "codes": {
+          "yandex": "s9623106"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 12:50:00",
+      "arrival": "2025-03-13 12:45:00",
+      "duration": 6000.0,
+      "stop_time": 300,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Елец, автостанция №1",
+        "short_title": "",
+        "popular_title": "Автостанция №1, Елец",
+        "code": "s9762016",
+        "codes": {
+          "yandex": "s9762016"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 13:41:00",
+      "arrival": "2025-03-13 13:40:00",
+      "duration": 9060.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Елец, Автостанция № 2",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9845337",
+        "codes": {
+          "yandex": "s9845337"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 13:55:00",
+      "duration": 9900.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "11:10"
+}

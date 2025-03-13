@@ -1,0 +1,81 @@
+{
+  "uid": "J2-805_250603_c100_12",
+  "number": "J2 805",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "20:30",
+  "start_date": "2025-06-03",
+  "days": "вт с 03.06 по 21.10",
+  "except_days": "",
+  "title": "Баку — Москва",
+  "short_title": "Баку — Москва",
+  "carrier": {
+    "code": 100,
+    "title": "Азербайджан Хава Йоллары",
+    "codes": {
+      "sirena": null,
+      "iata": "J2",
+      "icao": "AHY"
+    }
+  },
+  "vehicle": "Airbus А320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "им. Гейдара Алиева",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600387",
+        "codes": {
+          "yandex": "s9600387",
+          "iata": "GYD",
+          "sirena": "БАК"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-06-03 20:30:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "1"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Внуково",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600215",
+        "codes": {
+          "yandex": "s9600215",
+          "esr": "180701",
+          "iata": "VKO",
+          "sirena": "ВНК",
+          "express": "2000714"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-06-03 22:50:00",
+      "stop_time": null,
+      "duration": 12000,
+      "terminal": "A"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

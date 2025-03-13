@@ -1,0 +1,78 @@
+{
+  "uid": "RUSQAL-18_251013_c202_12",
+  "number": "ЯЛ 18",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "14:10",
+  "start_date": "2025-04-28",
+  "days": "28 апреля, 5, 12, 19, 26 мая, 13, 20, 27 октября, 3, 10, 17, 24 ноября, 1, 8 декабря",
+  "except_days": "",
+  "title": "Салехард — Мужи",
+  "short_title": "Салехард — Мужи",
+  "carrier": {
+    "code": 202,
+    "title": "АК Ямал",
+    "codes": {
+      "sirena": "ЯЛ",
+      "iata": null,
+      "icao": null
+    }
+  },
+  "vehicle": "Ми-8/Ми-17",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Салехард",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623576",
+        "codes": {
+          "yandex": "s9623576",
+          "iata": "SLY",
+          "sirena": "СХД"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-04-28 14:10:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Мужи",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623673",
+        "codes": {
+          "yandex": "s9623673",
+          "sirena": "МУЖ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-04-28 15:00:00",
+      "stop_time": null,
+      "duration": 3000,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

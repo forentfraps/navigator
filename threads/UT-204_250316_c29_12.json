@@ -1,0 +1,79 @@
+{
+  "uid": "UT-204_250316_c29_12",
+  "number": "UT 204",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "18:50",
+  "start_date": "2025-03-16",
+  "days": "16, 23 марта",
+  "except_days": "",
+  "title": "Когалым — Пермь",
+  "short_title": "Когалым — Пермь",
+  "carrier": {
+    "code": 29,
+    "title": "ЮТэйр",
+    "codes": {
+      "sirena": "ЮТ",
+      "iata": "UT",
+      "icao": "UTA"
+    }
+  },
+  "vehicle": "ATR 72",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Когалым",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623624",
+        "codes": {
+          "yandex": "s9623624",
+          "iata": "KGP",
+          "sirena": "КОГ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-16 18:50:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Большое Савино",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600381",
+        "codes": {
+          "yandex": "s9600381",
+          "iata": "PEE",
+          "sirena": "ПРЬ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-16 22:15:00",
+      "stop_time": null,
+      "duration": 12300,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

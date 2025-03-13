@@ -1,0 +1,78 @@
+{
+  "uid": "MS-684_251105_c313_12",
+  "number": "MS 684",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "04:05",
+  "start_date": "2025-03-12",
+  "days": "19, 26 марта, 5, 12, 19, 26 ноября, 3, 10, 17, 24, 31 декабря",
+  "except_days": "",
+  "title": "Даммам — Каир",
+  "short_title": "Даммам — Каир",
+  "carrier": {
+    "code": 313,
+    "title": "Egypt Air",
+    "codes": {
+      "sirena": null,
+      "iata": "MS",
+      "icao": "MSR"
+    }
+  },
+  "vehicle": "Airbus А321",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Кинг Фахд",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9624502",
+        "codes": {
+          "yandex": "s9624502",
+          "iata": "DMM"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-12 04:05:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Каир",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623698",
+        "codes": {
+          "yandex": "s9623698",
+          "iata": "CAI",
+          "sirena": "ЦАЙ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-12 06:15:00",
+      "stop_time": null,
+      "duration": 11400,
+      "terminal": "3"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

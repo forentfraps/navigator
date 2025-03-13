@@ -1,0 +1,118 @@
+{
+  "number": "",
+  "title": "Кемерово — Томск",
+  "short_title": "Кемерово — Томск",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 58030,
+    "title": "Томскавтоэкспресс ООО",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_2_f9623379t9623436_168",
+  "vehicle": "HYUNDAY М (41), е100ум70",
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Кемерово, автовокзал",
+        "short_title": null,
+        "popular_title": "автовокзал Кемерово",
+        "code": "s9623379",
+        "codes": {
+          "yandex": "s9623379"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 17:10:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Юрга, автовокзал",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9657335",
+        "codes": {
+          "yandex": "s9657335"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 19:20:00",
+      "arrival": "2025-03-13 19:10:00",
+      "duration": 7800.0,
+      "stop_time": 600,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Алаево, поворот",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9802577",
+        "codes": {
+          "yandex": "s9802577"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 20:21:00",
+      "arrival": "2025-03-13 20:20:00",
+      "duration": 11460.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Томск, автовокзал",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623436",
+        "codes": {
+          "yandex": "s9623436"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 21:05:00",
+      "duration": 14100.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "17:10"
+}

@@ -1,0 +1,171 @@
+{
+  "number": "7277",
+  "title": "Иваново — Фурманов",
+  "short_title": "Иваново — Фурманов",
+  "express_type": null,
+  "transport_type": "suburban",
+  "carrier": {
+    "code": 2530,
+    "title": "Северная пригородная пассажирская компания",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "7277_0_2010050_g25_4",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": "Пригородный поезд",
+    "code": "suburban",
+    "color": "#CC6600"
+  },
+  "days": "ежедневно",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Иваново",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s2010050",
+        "codes": {
+          "yandex": "s2010050",
+          "esr": "318632",
+          "express": "2010050"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 15:27:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Строкино",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9604683",
+        "codes": {
+          "yandex": "s9604683",
+          "esr": "316336",
+          "express": "2011329"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 15:38:00",
+      "arrival": "2025-03-13 15:37:00",
+      "duration": 660.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "335 км",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9866461",
+        "codes": {
+          "yandex": "s9866461",
+          "esr": "202"
+        },
+        "station_type": "stop",
+        "station_type_name": "остановочный пункт",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 15:44:00",
+      "arrival": "2025-03-13 15:43:00",
+      "duration": 1020.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ермолино",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9604220",
+        "codes": {
+          "yandex": "s9604220",
+          "esr": "316302",
+          "express": "2010299"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 15:53:00",
+      "arrival": "2025-03-13 15:52:00",
+      "duration": 1560.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Домовицы",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9604671",
+        "codes": {
+          "yandex": "s9604671",
+          "esr": "316016",
+          "express": "2011303"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 16:02:00",
+      "arrival": "2025-03-13 16:01:00",
+      "duration": 2100.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Фурманов",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9604215",
+        "codes": {
+          "yandex": "s9604215",
+          "esr": "316001",
+          "express": "2010294"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 16:12:00",
+      "duration": 2700.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "15:27"
+}

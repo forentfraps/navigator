@@ -1,0 +1,385 @@
+{
+  "date": null,
+  "station": {
+    "type": "station",
+    "title": "Нягань",
+    "short_title": null,
+    "popular_title": null,
+    "code": "s9623621",
+    "station_type": "airport",
+    "station_type_name": "аэропорт",
+    "transport_type": "plane"
+  },
+  "event": "departure",
+  "pagination": {
+    "total": 11,
+    "limit": 100,
+    "offset": 0
+  },
+  "schedule": [
+    {
+      "thread": {
+        "number": "UT 331",
+        "title": "Нягань — Екатеринбург",
+        "short_title": "Нягань — Екатеринбург",
+        "carrier": {
+          "code": 29,
+          "title": "ЮТэйр",
+          "codes": {
+            "sirena": "ЮТ",
+            "iata": "UT",
+            "icao": "UTA"
+          }
+        },
+        "vehicle": "ATR 72",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "UT-331_250331_c29_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "10:30",
+      "arrival": null,
+      "days": "пн, пт с 31.03 по 25.08"
+    },
+    {
+      "thread": {
+        "number": "UT 243",
+        "title": "Нягань — Белоярский",
+        "short_title": "Нягань — Белоярский",
+        "carrier": {
+          "code": 29,
+          "title": "ЮТэйр",
+          "codes": {
+            "sirena": "ЮТ",
+            "iata": "UT",
+            "icao": "UTA"
+          }
+        },
+        "vehicle": "ATR 72",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "UT-243_250501_c29_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "10:30",
+      "arrival": null,
+      "days": "вт, чт с 01.05 по 25.09"
+    },
+    {
+      "thread": {
+        "number": "UT 331",
+        "title": "Нягань — Екатеринбург",
+        "short_title": "Нягань — Екатеринбург",
+        "carrier": {
+          "code": 29,
+          "title": "ЮТэйр",
+          "codes": {
+            "sirena": "ЮТ",
+            "iata": "UT",
+            "icao": "UTA"
+          }
+        },
+        "vehicle": "ATR 72",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "UT-331_250314_c29_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "10:50",
+      "arrival": null,
+      "days": "14, 17, 21, 24, 28 марта"
+    },
+    {
+      "thread": {
+        "number": "UT 243",
+        "title": "Нягань — Белоярский",
+        "short_title": "Нягань — Белоярский",
+        "carrier": {
+          "code": 29,
+          "title": "ЮТэйр",
+          "codes": {
+            "sirena": "ЮТ",
+            "iata": "UT",
+            "icao": "UTA"
+          }
+        },
+        "vehicle": "ATR 72",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "UT-243_250507_c29_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "13:30",
+      "arrival": null,
+      "days": "14, 17, 21, 24, 28, 31 марта, 2, 4, 7, 9, 11, 14, 16, 18, 21, 23, 25, 28, 30 апреля, 7 мая, …"
+    },
+    {
+      "thread": {
+        "number": "UT 216",
+        "title": "Нягань — Ханты-Мансийск",
+        "short_title": "Нягань — Ханты-Мансийск",
+        "carrier": {
+          "code": 29,
+          "title": "ЮТэйр",
+          "codes": {
+            "sirena": "ЮТ",
+            "iata": "UT",
+            "icao": "UTA"
+          }
+        },
+        "vehicle": "ATR 72",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "UT-216_250501_c29_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "13:45",
+      "arrival": null,
+      "days": "вт, чт с 01.05 по 25.09"
+    },
+    {
+      "thread": {
+        "number": "WZ 1152",
+        "title": "Нягань — Жуковский",
+        "short_title": "Нягань — Жуковский",
+        "carrier": {
+          "code": 617,
+          "title": "Red Wings",
+          "codes": {
+            "sirena": "ИН",
+            "iata": "WZ",
+            "icao": "RWZ"
+          }
+        },
+        "vehicle": "Сухой Суперджет 100",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "WZ-1152_250317_c617_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "13:45",
+      "arrival": null,
+      "days": "пн, пт с 17.03 по 11.08, кроме 21.03, 28.03"
+    },
+    {
+      "thread": {
+        "number": "UT 136",
+        "title": "Нягань — Нижневартовск",
+        "short_title": "Нягань — Нижневартовск",
+        "carrier": {
+          "code": 29,
+          "title": "ЮТэйр",
+          "codes": {
+            "sirena": "ЮТ",
+            "iata": "UT",
+            "icao": "UTA"
+          }
+        },
+        "vehicle": "ATR 72",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "UT-136_250402_c29_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "13:50",
+      "arrival": null,
+      "days": "ср по 13.08"
+    },
+    {
+      "thread": {
+        "number": "4G 9659",
+        "title": "Нягань — Бованенково",
+        "short_title": "Нягань — Бованенково",
+        "carrier": {
+          "code": 54,
+          "title": "Газпромавиа",
+          "codes": {
+            "sirena": "ОП",
+            "iata": "4G",
+            "icao": null
+          }
+        },
+        "vehicle": "Сухой Суперджет 100",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "4G-9659_250313_c54_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "14:10",
+      "arrival": null,
+      "days": "13 марта"
+    },
+    {
+      "thread": {
+        "number": "4G 9659",
+        "title": "Нягань — Бованенково",
+        "short_title": "Нягань — Бованенково",
+        "carrier": {
+          "code": 54,
+          "title": "Газпромавиа",
+          "codes": {
+            "sirena": "ОП",
+            "iata": "4G",
+            "icao": null
+          }
+        },
+        "vehicle": "Сухой Суперджет 100",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "4G-9659_250327_c54_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "14:20",
+      "arrival": null,
+      "days": "27 марта"
+    },
+    {
+      "thread": {
+        "number": "UT 220",
+        "title": "Нягань — Тюмень",
+        "short_title": "Нягань — Тюмень",
+        "carrier": {
+          "code": 29,
+          "title": "ЮТэйр",
+          "codes": {
+            "sirena": "ЮТ",
+            "iata": "UT",
+            "icao": "UTA"
+          }
+        },
+        "vehicle": "ATR 72",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "UT-220_250331_c29_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "16:00",
+      "arrival": null,
+      "days": "пн, пт с 31.03 по 25.08"
+    },
+    {
+      "thread": {
+        "number": "UT 220",
+        "title": "Нягань — Тюмень",
+        "short_title": "Нягань — Тюмень",
+        "carrier": {
+          "code": 29,
+          "title": "ЮТэйр",
+          "codes": {
+            "sirena": "ЮТ",
+            "iata": "UT",
+            "icao": "UTA"
+          }
+        },
+        "vehicle": "ATR 72",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "UT-220_250314_c29_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "16:30",
+      "arrival": null,
+      "days": "14, 17, 21, 24, 28 марта"
+    }
+  ],
+  "interval_schedule": []
+}

@@ -1,0 +1,78 @@
+{
+  "uid": "E5-316_250429_c14_12",
+  "number": "E5 316",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "00:50",
+  "start_date": "2025-04-29",
+  "days": "вт с 29.04 по 23.09",
+  "except_days": "",
+  "title": "Даммам — Каир",
+  "short_title": "Даммам — Каир",
+  "carrier": {
+    "code": 14,
+    "title": "Air Arabia Egypt",
+    "codes": {
+      "sirena": "Е5",
+      "iata": "E5",
+      "icao": null
+    }
+  },
+  "vehicle": "Airbus А320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Кинг Фахд",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9624502",
+        "codes": {
+          "yandex": "s9624502",
+          "iata": "DMM"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-04-29 00:50:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Каир",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623698",
+        "codes": {
+          "yandex": "s9623698",
+          "iata": "CAI",
+          "sirena": "ЦАЙ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-04-29 03:55:00",
+      "stop_time": null,
+      "duration": 11100,
+      "terminal": "0"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

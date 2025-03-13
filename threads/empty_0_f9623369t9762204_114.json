@@ -1,0 +1,97 @@
+{
+  "number": "",
+  "title": "Воронеж — Добринка",
+  "short_title": "Воронеж — Добринка",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 64325,
+    "title": "ООО \"Партнеры-ФМ\"",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_0_f9623369t9762204_114",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "только 14, 15, 16, 17, 21, 22 марта",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Воронеж, Центральный автовокзал",
+        "short_title": null,
+        "popular_title": "Центральный автовокзал",
+        "code": "s9623369",
+        "codes": {
+          "yandex": "s9623369"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 06:30:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Усмань, автостанция",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9637947",
+        "codes": {
+          "yandex": "s9637947"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 08:19:00",
+      "arrival": "2025-03-14 08:18:00",
+      "duration": 6540.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Добринка",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9762204",
+        "codes": {
+          "yandex": "s9762204"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-14 11:00:00",
+      "duration": 16200.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-14",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "06:30"
+}

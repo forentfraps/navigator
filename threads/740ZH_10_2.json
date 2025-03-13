@@ -1,0 +1,172 @@
+{
+  "number": "740Ж",
+  "title": "Москва — Воронеж",
+  "short_title": "Москва — Воронеж",
+  "express_type": null,
+  "transport_type": "train",
+  "carrier": {
+    "code": 112,
+    "title": "РЖД/ФПК",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "740ZH_10_2",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": "Дневной экспресс (двухэтажный)",
+    "code": "dnexpressfirm",
+    "color": "#CC6600"
+  },
+  "days": "13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30 марта, 6, 12 апреля, …",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Москва (Казанский вокзал)",
+        "short_title": "М-Казанская",
+        "popular_title": "Казанский вокзал",
+        "code": "s2000003",
+        "codes": {
+          "yandex": "s2000003",
+          "esr": "194013",
+          "express": "2000003"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 08:14:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Рязань-2",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600746",
+        "codes": {
+          "yandex": "s9600746",
+          "esr": "222800",
+          "express": "2000080"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 10:26:00",
+      "arrival": "2025-03-13 10:21:00",
+      "duration": 7920.0,
+      "stop_time": 300,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Богоявленск",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9605070",
+        "codes": {
+          "yandex": "s9605070",
+          "esr": "603803",
+          "express": "2014414"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 12:04:00",
+      "arrival": "2025-03-13 12:02:00",
+      "duration": 13800.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Мичуринск-Воронежский",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9605074",
+        "codes": {
+          "yandex": "s9605074",
+          "esr": "600102",
+          "express": "2014418"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 12:39:00",
+      "arrival": "2025-03-13 12:35:00",
+      "duration": 15900.0,
+      "stop_time": 240,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Грязи-Воронежские",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9605047",
+        "codes": {
+          "yandex": "s9605047",
+          "esr": "591907",
+          "express": "2014390"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 13:25:00",
+      "arrival": "2025-03-13 13:21:00",
+      "duration": 18660.0,
+      "stop_time": 240,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Воронеж-1",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s2014001",
+        "codes": {
+          "yandex": "s2014001",
+          "esr": "596506",
+          "express": "2014001"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 14:39:00",
+      "duration": 23100.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "08:14"
+}

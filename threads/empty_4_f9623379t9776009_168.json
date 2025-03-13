@@ -1,0 +1,118 @@
+{
+  "number": "",
+  "title": "Кемерово — Аэропорт Толмачёво",
+  "short_title": "Кемерово — Аэропорт Толмачёво",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 58586,
+    "title": "Неверов Р.Ю. ИП",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_4_f9623379t9776009_168",
+  "vehicle": "DAEWOO BH120F (43), ас962 42",
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Кемерово, автовокзал",
+        "short_title": null,
+        "popular_title": "автовокзал Кемерово",
+        "code": "s9623379",
+        "codes": {
+          "yandex": "s9623379"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 22:30:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Болотное, автостанция на повороте",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9657045",
+        "codes": {
+          "yandex": "s9657045"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 01:07:00",
+      "arrival": "2025-03-14 01:06:00",
+      "duration": 9420.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Новосибирск, автостанция \"Ж/д вокзал\"",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9750980",
+        "codes": {
+          "yandex": "s9750980"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 03:48:00",
+      "arrival": "2025-03-14 03:47:00",
+      "duration": 19080.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Аэропорт Толмачёво",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9776009",
+        "codes": {
+          "yandex": "s9776009"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-14 04:28:00",
+      "duration": 21480.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "22:30"
+}

@@ -1,0 +1,79 @@
+{
+  "uid": "TK-320_251021_c680_12",
+  "number": "TK 320",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "14:20",
+  "start_date": "2025-06-10",
+  "days": "вт, пт, вс с 10.06 по 24.10",
+  "except_days": "",
+  "title": "Стамбул — Ашхабад",
+  "short_title": "Стамбул — Ашхабад",
+  "carrier": {
+    "code": 680,
+    "title": "Turkish Airlines",
+    "codes": {
+      "sirena": null,
+      "iata": "TK",
+      "icao": "THY"
+    }
+  },
+  "vehicle": "Airbus A320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Новый аэропорт Стамбул",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600421",
+        "codes": {
+          "yandex": "s9600421",
+          "iata": "IST",
+          "sirena": "ИСТ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-06-10 14:20:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ашхабад",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9631768",
+        "codes": {
+          "yandex": "s9631768",
+          "iata": "ASB",
+          "sirena": "АШХ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-06-10 20:05:00",
+      "stop_time": null,
+      "duration": 13500,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

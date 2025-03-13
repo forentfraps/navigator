@@ -1,0 +1,88 @@
+{
+  "number": "1195",
+  "title": "Москва (м. Ховрино) — Аэропорт Шереметьево  (автобусы)",
+  "short_title": "Москва (м. Ховрино) — Аэропорт Шереметьево  (автобусы)",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": null,
+  "uid": "1195_46_f9744748t9848355_r4472_1",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "м. Ховрино",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9744748",
+        "codes": {
+          "yandex": "s9744748"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 05:27:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Аэропорт Шереметьево, терминал С",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9875638",
+        "codes": {
+          "yandex": "s9875638"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 05:47:00",
+      "arrival": "2025-03-13 05:46:00",
+      "duration": 1200.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Аэропорт Шереметьево, терминал B",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9848355",
+        "codes": {
+          "yandex": "s9848355"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 05:52:00",
+      "duration": 1500.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "05:27"
+}

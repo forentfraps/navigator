@@ -1,0 +1,79 @@
+{
+  "uid": "H4-491_250315_c2017_12",
+  "number": "H4 491",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "06:00",
+  "start_date": "2025-03-15",
+  "days": "15, 22, 29 марта",
+  "except_days": "",
+  "title": "Кишинёв — Венеция",
+  "short_title": "Кишинёв — Венеция",
+  "carrier": {
+    "code": 2017,
+    "title": "HiSky",
+    "codes": {
+      "sirena": null,
+      "iata": "H4",
+      "icao": "HYS"
+    }
+  },
+  "vehicle": "Airbus A319",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Кишинёв",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623535",
+        "codes": {
+          "yandex": "s9623535",
+          "iata": "RMO",
+          "sirena": "КШН"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-15 06:00:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Марко Поло",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600452",
+        "codes": {
+          "yandex": "s9600452",
+          "iata": "VCE",
+          "sirena": "ВЕЦ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-15 07:10:00",
+      "stop_time": null,
+      "duration": 7800,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

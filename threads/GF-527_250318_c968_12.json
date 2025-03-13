@@ -1,0 +1,79 @@
+{
+  "uid": "GF-527_250318_c968_12",
+  "number": "GF 527",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "18:15",
+  "start_date": "2025-03-18",
+  "days": "18, 20, 24, 25, 26, 27 марта",
+  "except_days": "",
+  "title": "Доха — Манама",
+  "short_title": "Доха — Манама",
+  "carrier": {
+    "code": 968,
+    "title": "Gulf Air",
+    "codes": {
+      "sirena": null,
+      "iata": "GF",
+      "icao": "GBA"
+    }
+  },
+  "vehicle": "Airbus А320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Доха",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9624025",
+        "codes": {
+          "yandex": "s9624025",
+          "iata": "DOH",
+          "sirena": "ДОХ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-18 18:15:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Бахрейн",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9634356",
+        "codes": {
+          "yandex": "s9634356",
+          "iata": "BAH",
+          "sirena": "БХЕ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-18 19:05:00",
+      "stop_time": null,
+      "duration": 3000,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

@@ -1,0 +1,78 @@
+{
+  "uid": "JU-1425_250610_c737_12",
+  "number": "JU 1425",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "16:40",
+  "start_date": "2025-04-01",
+  "days": "1, 5, 8, 12, 15, 19, 22, 26, 29 апреля, 3, 6, 10, 13, 17, 20, 24, 27, 31 мая, 3, 7 июня, …",
+  "except_days": "",
+  "title": "Стамбул — Ниш",
+  "short_title": "Стамбул — Ниш",
+  "carrier": {
+    "code": 737,
+    "title": "Air Serbia",
+    "codes": {
+      "sirena": null,
+      "iata": "JU",
+      "icao": "JAT"
+    }
+  },
+  "vehicle": "Airbus A319",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Новый аэропорт Стамбул",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600421",
+        "codes": {
+          "yandex": "s9600421",
+          "iata": "IST",
+          "sirena": "ИСТ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-04-01 16:40:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ниш",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9626936",
+        "codes": {
+          "yandex": "s9626936",
+          "iata": "INI"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-04-01 17:10:00",
+      "stop_time": null,
+      "duration": 5400,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

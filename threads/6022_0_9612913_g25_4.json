@@ -1,0 +1,126 @@
+{
+  "number": "6022",
+  "title": "Ростов-Главный — Азов",
+  "short_title": "Ростов-Главный — Азов",
+  "express_type": null,
+  "transport_type": "suburban",
+  "carrier": {
+    "code": 1369,
+    "title": "Северо-Кавказская ППК",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "6022_0_9612913_g25_4",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": "Пригородный поезд",
+    "code": "suburban",
+    "color": "#CC6600"
+  },
+  "days": "по будням",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Ростов-Главный",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9612913",
+        "codes": {
+          "yandex": "s9612913",
+          "esr": "510204",
+          "express": "2064001"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 05:08:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "приг.вокзал",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Батайск",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9613017",
+        "codes": {
+          "yandex": "s9613017",
+          "esr": "510007",
+          "express": "2064105"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 05:25:00",
+      "arrival": "2025-03-13 05:24:00",
+      "duration": 1020.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Кулешовский",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9613268",
+        "codes": {
+          "yandex": "s9613268",
+          "esr": "510830",
+          "express": "2064379"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 05:48:00",
+      "arrival": "2025-03-13 05:47:00",
+      "duration": 2400.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Азов",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9613045",
+        "codes": {
+          "yandex": "s9613045",
+          "esr": "510806",
+          "express": "2064141"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 06:01:00",
+      "duration": 3180.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "05:08"
+}

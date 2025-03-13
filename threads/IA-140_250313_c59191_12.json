@@ -1,0 +1,78 @@
+{
+  "uid": "IA-140_250313_c59191_12",
+  "number": "IA 140",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "18:00",
+  "start_date": "2025-03-13",
+  "days": "13, 16, 20, 23, 27 марта",
+  "except_days": "",
+  "title": "Бейрут — Ан-Наджаф",
+  "short_title": "Бейрут — Ан-Наджаф",
+  "carrier": {
+    "code": 59191,
+    "title": "Iraqi Airways",
+    "codes": {
+      "sirena": null,
+      "iata": "IA",
+      "icao": "IAW"
+    }
+  },
+  "vehicle": "Canadair regional jet",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Бейрут",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623595",
+        "codes": {
+          "yandex": "s9623595",
+          "iata": "BEY",
+          "sirena": "БЕУ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-13 18:00:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Наджаф",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9635502",
+        "codes": {
+          "yandex": "s9635502",
+          "iata": "NJF"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-13 20:30:00",
+      "stop_time": null,
+      "duration": 5400,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

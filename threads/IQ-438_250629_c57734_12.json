@@ -1,0 +1,79 @@
+{
+  "uid": "IQ-438_250629_c57734_12",
+  "number": "IQ 438",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "10:40",
+  "start_date": "2025-03-30",
+  "days": "пт, вс с 30.03 по 29.06",
+  "except_days": "",
+  "title": "Петропавловск — Астана",
+  "short_title": "Петропавловск — Астана",
+  "carrier": {
+    "code": 57734,
+    "title": "Qazaq Air",
+    "codes": {
+      "sirena": null,
+      "iata": "IQ",
+      "icao": "QAZ"
+    }
+  },
+  "vehicle": "DeHavilland Dash 8 Q400",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Петропавловск",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9630192",
+        "codes": {
+          "yandex": "s9630192",
+          "iata": "PPK",
+          "sirena": "ПРА"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-30 10:40:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Нурсултан Назарбаев",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623556",
+        "codes": {
+          "yandex": "s9623556",
+          "iata": "NQZ",
+          "sirena": "АКЛ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-30 11:35:00",
+      "stop_time": null,
+      "duration": 3300,
+      "terminal": "2"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

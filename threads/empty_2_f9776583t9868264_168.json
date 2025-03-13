@@ -1,0 +1,139 @@
+{
+  "number": "",
+  "title": "Вешенская — Ростов-на-Дону",
+  "short_title": "Вешенская — Ростов-на-Дону",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 66841,
+    "title": "Общество с ограниченной ответственностью \"ВЕШЕНСКОЕ АВТОТРАНСПОРТНОЕ ПРЕДПРИЯТИЕ\"",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_2_f9776583t9868264_168",
+  "vehicle": "IVECO (18), с657нк161",
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "пн, ср, пт",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Вешенская, автостанция",
+        "short_title": "",
+        "popular_title": "Автостанция Вешенская",
+        "code": "s9776583",
+        "codes": {
+          "yandex": "s9776583"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 01:15:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Миллерово, автовокзал",
+        "short_title": "",
+        "popular_title": "Автовокзал Миллерово",
+        "code": "s9637066",
+        "codes": {
+          "yandex": "s9637066"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 03:30:00",
+      "arrival": "2025-03-14 03:15:00",
+      "duration": 8100.0,
+      "stop_time": 900,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Каменск-Шахтинский, автовокзал",
+        "short_title": null,
+        "popular_title": "Каменский автовокзал",
+        "code": "s9637067",
+        "codes": {
+          "yandex": "s9637067"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 04:45:00",
+      "arrival": "2025-03-14 04:44:00",
+      "duration": 12600.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Новочеркасск, поворот с М4",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9852317",
+        "codes": {
+          "yandex": "s9852317"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 06:30:00",
+      "arrival": "2025-03-14 06:29:00",
+      "duration": 18900.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ростов-на-Дону, Главный автовокзал",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9868264",
+        "codes": {
+          "yandex": "s9868264"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-14 07:13:00",
+      "duration": 21480.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-14",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "01:15"
+}

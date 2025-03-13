@@ -1,0 +1,79 @@
+{
+  "uid": "UT-429_250328_c29_12",
+  "number": "UT 429",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "03:10",
+  "start_date": "2025-03-28",
+  "days": "28 марта",
+  "except_days": "",
+  "title": "Тюмень — Вахтовый посёлок Талакан",
+  "short_title": "Тюмень — Вахтовый посёлок Талакан",
+  "carrier": {
+    "code": 29,
+    "title": "ЮТэйр",
+    "codes": {
+      "sirena": "ЮТ",
+      "iata": "UT",
+      "icao": "UTA"
+    }
+  },
+  "vehicle": "Boeing 737-500",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Рощино",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600384",
+        "codes": {
+          "yandex": "s9600384",
+          "iata": "TJM",
+          "sirena": "РЩН"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-28 03:10:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Талакан",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9776579",
+        "codes": {
+          "yandex": "s9776579",
+          "iata": "TLK",
+          "sirena": "ТЛК"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-28 10:50:00",
+      "stop_time": null,
+      "duration": 13200,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

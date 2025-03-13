@@ -1,0 +1,79 @@
+{
+  "uid": "F3-810_250619_c61236_12",
+  "number": "F3 810",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "10:20",
+  "start_date": "2025-06-19",
+  "days": "19, 21, 22, 25, 26, 28, 29 июня, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13 июля, …",
+  "except_days": "",
+  "title": "Трабзон — Джидда",
+  "short_title": "Трабзон — Джидда",
+  "carrier": {
+    "code": 61236,
+    "title": "Flyadeal Airlines",
+    "codes": {
+      "sirena": null,
+      "iata": "F3",
+      "icao": null
+    }
+  },
+  "vehicle": "Airbus А320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Трабзон",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9630625",
+        "codes": {
+          "yandex": "s9630625",
+          "iata": "TZX",
+          "sirena": "ТЗЬ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-06-19 10:20:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Джидда",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623900",
+        "codes": {
+          "yandex": "s9623900",
+          "iata": "JED",
+          "sirena": "ДЖД"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-06-19 14:50:00",
+      "stop_time": null,
+      "duration": 16200,
+      "terminal": "1"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

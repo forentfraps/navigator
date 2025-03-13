@@ -1,0 +1,79 @@
+{
+  "uid": "DE-869_250314_c330_12",
+  "number": "DE 869",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "13:45",
+  "start_date": "2025-03-14",
+  "days": "14, 21, 28 марта, 31 октября, 7, 14, 21, 28 ноября, 5, 12, 19, 26 декабря, 2 января",
+  "except_days": "",
+  "title": "Бейрут — Дюссельдорф",
+  "short_title": "Бейрут — Дюссельдорф",
+  "carrier": {
+    "code": 330,
+    "title": "Condor Flugdienst",
+    "codes": {
+      "sirena": null,
+      "iata": "DE",
+      "icao": "CFG"
+    }
+  },
+  "vehicle": "Airbus A321",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Бейрут",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623595",
+        "codes": {
+          "yandex": "s9623595",
+          "iata": "BEY",
+          "sirena": "БЕУ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-14 13:45:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Дюссельдорф",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623557",
+        "codes": {
+          "yandex": "s9623557",
+          "iata": "DUS",
+          "sirena": "ДУС"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-14 17:15:00",
+      "stop_time": null,
+      "duration": 16200,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

@@ -1,0 +1,79 @@
+{
+  "uid": "SU-1985_250504_c26_12",
+  "number": "SU 1985",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "07:20",
+  "start_date": "2025-05-04",
+  "days": "4 мая",
+  "except_days": "",
+  "title": "Самарканд — Москва",
+  "short_title": "Самарканд — Москва",
+  "carrier": {
+    "code": 26,
+    "title": "Аэрофлот",
+    "codes": {
+      "sirena": "СУ",
+      "iata": "SU",
+      "icao": "AFL"
+    }
+  },
+  "vehicle": "Boeing 737-800",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Самарканд",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623553",
+        "codes": {
+          "yandex": "s9623553",
+          "iata": "SKD",
+          "sirena": "СКД"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-05-04 07:20:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Шереметьево",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600213",
+        "codes": {
+          "yandex": "s9600213",
+          "iata": "SVO",
+          "sirena": "ШРМ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-05-04 09:40:00",
+      "stop_time": null,
+      "duration": 15600,
+      "terminal": "C"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

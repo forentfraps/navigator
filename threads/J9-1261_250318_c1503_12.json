@@ -1,0 +1,79 @@
+{
+  "uid": "J9-1261_250318_c1503_12",
+  "number": "J9 1261",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "06:00",
+  "start_date": "2025-03-18",
+  "days": "18 марта",
+  "except_days": "",
+  "title": "Эль-Кувейт — Махачкала",
+  "short_title": "Эль-Кувейт — Махачкала",
+  "carrier": {
+    "code": 1503,
+    "title": "Jazeera Airways",
+    "codes": {
+      "sirena": null,
+      "iata": "J9",
+      "icao": null
+    }
+  },
+  "vehicle": "Airbus А320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Кувейт",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9631552",
+        "codes": {
+          "yandex": "s9631552",
+          "iata": "KWI",
+          "sirena": "КВИ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-18 06:00:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "5"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Уйташ",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623330",
+        "codes": {
+          "yandex": "s9623330",
+          "iata": "MCX",
+          "sirena": "МХЛ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-18 08:30:00",
+      "stop_time": null,
+      "duration": 9000,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

@@ -1,0 +1,78 @@
+{
+  "uid": "VF-186_250428_c60832_12",
+  "number": "VF 186",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "02:45",
+  "start_date": "2025-03-31",
+  "days": "31 марта, 7, 12, 25, 26, 28 апреля, 2, 3, 5, 9, 10, 12, 16, 17, 19, 23, 24, 26, 30, 31 мая, …",
+  "except_days": "",
+  "title": "Тегеран — Стамбул",
+  "short_title": "Тегеран — Стамбул",
+  "carrier": {
+    "code": 60832,
+    "title": "Ajet",
+    "codes": {
+      "sirena": null,
+      "iata": "VF",
+      "icao": "TKJ"
+    }
+  },
+  "vehicle": "Boeing 737-800",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "имени Имама Хомейни",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600447",
+        "codes": {
+          "yandex": "s9600447",
+          "iata": "IKA"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-31 02:45:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Сабиха Гёкчен",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600420",
+        "codes": {
+          "yandex": "s9600420",
+          "iata": "SAW",
+          "sirena": "СБХ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-31 05:35:00",
+      "stop_time": null,
+      "duration": 12000,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

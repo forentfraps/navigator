@@ -1,0 +1,97 @@
+{
+  "number": "",
+  "title": "Санкт-Петербург, автовокзал на Обводном канале — Хвалово",
+  "short_title": "Санкт-Петербург, автовокзал на Обводном канале — Хвалово",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 56543,
+    "title": "ООО\"СКСавто\"",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_1_f9637148t9886363_114",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Санкт-Петербург, автовокзал на Обводном канале",
+        "short_title": null,
+        "popular_title": "Автовокзал на Обводном канале",
+        "code": "s9637148",
+        "codes": {
+          "yandex": "s9637148"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 10:00:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Колчаново",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9878001",
+        "codes": {
+          "yandex": "s9878001"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 12:15:00",
+      "arrival": "2025-03-13 12:14:00",
+      "duration": 8100.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Хвалово",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9886363",
+        "codes": {
+          "yandex": "s9886363"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 12:30:00",
+      "duration": 9000.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "10:00"
+}

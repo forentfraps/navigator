@@ -1,0 +1,78 @@
+{
+  "uid": "IO-779_250402_c105_12",
+  "number": "IO 779",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "07:00",
+  "start_date": "2025-04-02",
+  "days": "ср с 02.04 по 27.08",
+  "except_days": "",
+  "title": "Иркутск — Маньчжоули",
+  "short_title": "Иркутск — Маньчжоули",
+  "carrier": {
+    "code": 105,
+    "title": "ИрАэро",
+    "codes": {
+      "sirena": "РД",
+      "iata": "IO",
+      "icao": null
+    }
+  },
+  "vehicle": "Canadair regional jet",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Иркутск",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600174",
+        "codes": {
+          "yandex": "s9600174",
+          "iata": "IKT",
+          "sirena": "ИКТ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-04-02 07:00:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Маньчжоули",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9625944",
+        "codes": {
+          "yandex": "s9625944",
+          "iata": "NZH"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-04-02 08:30:00",
+      "stop_time": null,
+      "duration": 5400,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

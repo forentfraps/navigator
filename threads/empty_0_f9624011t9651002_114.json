@@ -1,0 +1,118 @@
+{
+  "number": "",
+  "title": "Нижний Тагил — Аэропорт Кольцово",
+  "short_title": "Нижний Тагил — Аэропорт Кольцово",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 62835,
+    "title": "ИП Ножнов А.А. г.Н-Тагил",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_0_f9624011t9651002_114",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "только 13, 16, 17, 20, 21, 23 марта",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Нижний Тагил, автовокзал",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9624011",
+        "codes": {
+          "yandex": "s9624011"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 23:05:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Екатеринбург, Северный автовокзал",
+        "short_title": null,
+        "popular_title": "Северный автовокзал",
+        "code": "s9635953",
+        "codes": {
+          "yandex": "s9635953"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 01:27:00",
+      "arrival": "2025-03-14 01:26:00",
+      "duration": 8520.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Екатеринбург, Южный автовокзал",
+        "short_title": null,
+        "popular_title": "Южный автовокзал",
+        "code": "s9635954",
+        "codes": {
+          "yandex": "s9635954"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 02:01:00",
+      "arrival": "2025-03-14 01:55:00",
+      "duration": 10560.0,
+      "stop_time": 360,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Аэропорт Кольцово",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9651002",
+        "codes": {
+          "yandex": "s9651002"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-14 02:19:00",
+      "duration": 11640.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "23:05"
+}

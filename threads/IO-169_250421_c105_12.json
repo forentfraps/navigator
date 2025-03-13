@@ -1,0 +1,79 @@
+{
+  "uid": "IO-169_250421_c105_12",
+  "number": "IO 169",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "07:00",
+  "start_date": "2025-04-21",
+  "days": "21 апреля",
+  "except_days": "",
+  "title": "Иркутск — Чита",
+  "short_title": "Иркутск — Чита",
+  "carrier": {
+    "code": 105,
+    "title": "ИрАэро",
+    "codes": {
+      "sirena": "РД",
+      "iata": "IO",
+      "icao": null
+    }
+  },
+  "vehicle": "Canadair regional jet",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Иркутск",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600174",
+        "codes": {
+          "yandex": "s9600174",
+          "iata": "IKT",
+          "sirena": "ИКТ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-04-21 07:00:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Кадала",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9629849",
+        "codes": {
+          "yandex": "s9629849",
+          "iata": "HTA",
+          "sirena": "СХТ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-04-21 09:10:00",
+      "stop_time": null,
+      "duration": 4200,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

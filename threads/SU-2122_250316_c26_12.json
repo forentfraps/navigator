@@ -1,0 +1,79 @@
+{
+  "uid": "SU-2122_250316_c26_12",
+  "number": "SU 2122",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "07:20",
+  "start_date": "2025-03-16",
+  "days": "16, 23 марта",
+  "except_days": "",
+  "title": "Москва — Даламан",
+  "short_title": "Москва — Даламан",
+  "carrier": {
+    "code": 26,
+    "title": "Аэрофлот",
+    "codes": {
+      "sirena": "СУ",
+      "iata": "SU",
+      "icao": "AFL"
+    }
+  },
+  "vehicle": "Boeing 737-800",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Шереметьево",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600213",
+        "codes": {
+          "yandex": "s9600213",
+          "iata": "SVO",
+          "sirena": "ШРМ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-16 07:20:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "C"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Даламан",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623966",
+        "codes": {
+          "yandex": "s9623966",
+          "iata": "DLM",
+          "sirena": "ДАН"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-16 12:50:00",
+      "stop_time": null,
+      "duration": 19800,
+      "terminal": "I"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

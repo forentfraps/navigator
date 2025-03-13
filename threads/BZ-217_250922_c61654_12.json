@@ -1,0 +1,79 @@
+{
+  "uid": "BZ-217_250922_c61654_12",
+  "number": "BZ 217",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "10:30",
+  "start_date": "2025-09-22",
+  "days": "пн, вт, пт, сб с 22.09 по 18.10",
+  "except_days": "",
+  "title": "Салоники — Тель-Авив",
+  "short_title": "Салоники — Тель-Авив",
+  "carrier": {
+    "code": 61654,
+    "title": "Blue Dart Aviation Ltd.",
+    "codes": {
+      "sirena": null,
+      "iata": "BZ",
+      "icao": "BDA"
+    }
+  },
+  "vehicle": "Boeing 737-800",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Салоники",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623699",
+        "codes": {
+          "yandex": "s9623699",
+          "iata": "SKG",
+          "sirena": "СКГ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-09-22 10:30:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Бен Гурион",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600442",
+        "codes": {
+          "yandex": "s9600442",
+          "iata": "TLV",
+          "sirena": "ТЛЯ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-09-22 12:50:00",
+      "stop_time": null,
+      "duration": 8400,
+      "terminal": "3"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

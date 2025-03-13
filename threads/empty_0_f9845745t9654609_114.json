@@ -1,0 +1,118 @@
+{
+  "number": "",
+  "title": "Москва — Севастополь",
+  "short_title": "Москва — Севастополь",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 65870,
+    "title": "ООО \"КРЫМ-ПАСС\"",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_0_f9845745t9654609_114",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "только 16, 23, 30 марта",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Москва, автовокзал Южные ворота",
+        "short_title": null,
+        "popular_title": "Автовокзал Южные ворота",
+        "code": "s9845745",
+        "codes": {
+          "yandex": "s9845745"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-16 11:00:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Воронеж, трасса М4 / Нефтебаза",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9750986",
+        "codes": {
+          "yandex": "s9750986"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-16 18:50:00",
+      "arrival": "2025-03-16 18:49:00",
+      "duration": 28200.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Симферополь, Центральный автовокзал",
+        "short_title": "",
+        "popular_title": "Автовокзал Центральный",
+        "code": "s9654608",
+        "codes": {
+          "yandex": "s9654608"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-17 16:46:00",
+      "arrival": "2025-03-17 16:45:00",
+      "duration": 107160.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Севастополь, автовокзал",
+        "short_title": null,
+        "popular_title": "автовокзал Севастополь",
+        "code": "s9654609",
+        "codes": {
+          "yandex": "s9654609"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-17 18:30:00",
+      "duration": 113400.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-16",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "11:00"
+}

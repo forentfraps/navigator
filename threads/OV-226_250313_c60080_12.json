@@ -1,0 +1,78 @@
+{
+  "uid": "OV-226_250313_c60080_12",
+  "number": "OV 226",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "18:15",
+  "start_date": "2025-03-13",
+  "days": "13, 18, 28 марта",
+  "except_days": "",
+  "title": "Эль-Кувейт — Маскат",
+  "short_title": "Эль-Кувейт — Маскат",
+  "carrier": {
+    "code": 60080,
+    "title": "Salam Air",
+    "codes": {
+      "sirena": null,
+      "iata": "OV",
+      "icao": null
+    }
+  },
+  "vehicle": "Airbus A320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Кувейт",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9631552",
+        "codes": {
+          "yandex": "s9631552",
+          "iata": "KWI",
+          "sirena": "КВИ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-13 18:15:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "1"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Маскат",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9632170",
+        "codes": {
+          "yandex": "s9632170",
+          "iata": "MCT"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-13 21:10:00",
+      "stop_time": null,
+      "duration": 6900,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

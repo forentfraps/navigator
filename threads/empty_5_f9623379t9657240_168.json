@@ -1,0 +1,202 @@
+{
+  "number": "",
+  "title": "Кемерово — Прокопьевск",
+  "short_title": "Кемерово — Прокопьевск",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 63643,
+    "title": "Кемеровская автоколонна №1237 ГП КО",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_5_f9623379t9657240_168",
+  "vehicle": "НЕФАЗ М (44), н566ка142",
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Кемерово, автовокзал",
+        "short_title": null,
+        "popular_title": "автовокзал Кемерово",
+        "code": "s9623379",
+        "codes": {
+          "yandex": "s9623379"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 13:20:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ленинск-Кузнецкий, автовокзал",
+        "short_title": null,
+        "popular_title": "Автовокзал Ленинск-Кузнецкий",
+        "code": "s9657171",
+        "codes": {
+          "yandex": "s9657171"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 14:55:00",
+      "arrival": "2025-03-13 14:40:00",
+      "duration": 5700.0,
+      "stop_time": 900,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Торговый дом \"Беловский\"",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9874672",
+        "codes": {
+          "yandex": "s9874672"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 15:26:00",
+      "arrival": "2025-03-13 15:25:00",
+      "duration": 7560.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Белово, автовокзал",
+        "short_title": null,
+        "popular_title": "Автовокзал Белово",
+        "code": "s9657036",
+        "codes": {
+          "yandex": "s9657036"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 15:40:00",
+      "arrival": "2025-03-13 15:35:00",
+      "duration": 8400.0,
+      "stop_time": 300,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Краснобродский, поворот",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9802757",
+        "codes": {
+          "yandex": "s9802757"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 16:16:00",
+      "arrival": "2025-03-13 16:15:00",
+      "duration": 10560.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Карагайла, поворот",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9803546",
+        "codes": {
+          "yandex": "s9803546"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 16:21:00",
+      "arrival": "2025-03-13 16:20:00",
+      "duration": 10860.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Киселевск, автовокзал",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9657128",
+        "codes": {
+          "yandex": "s9657128"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 17:05:00",
+      "arrival": "2025-03-13 16:50:00",
+      "duration": 13500.0,
+      "stop_time": 900,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Прокопьевск, автостанция",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9657240",
+        "codes": {
+          "yandex": "s9657240"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 17:30:00",
+      "duration": 15000.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "13:20"
+}

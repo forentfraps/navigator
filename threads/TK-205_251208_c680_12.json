@@ -1,0 +1,78 @@
+{
+  "uid": "TK-205_251208_c680_12",
+  "number": "TK 205",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "14:50",
+  "start_date": "2025-12-08",
+  "days": "ежедневно с 08.12",
+  "except_days": "",
+  "title": "Стамбул — Детройт",
+  "short_title": "Стамбул — Детройт",
+  "carrier": {
+    "code": 680,
+    "title": "Turkish Airlines",
+    "codes": {
+      "sirena": null,
+      "iata": "TK",
+      "icao": "THY"
+    }
+  },
+  "vehicle": "Airbus A350-900",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Новый аэропорт Стамбул",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600421",
+        "codes": {
+          "yandex": "s9600421",
+          "iata": "IST",
+          "sirena": "ИСТ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-12-08 14:50:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Вайн",
+        "short_title": "",
+        "popular_title": null,
+        "code": "s9624562",
+        "codes": {
+          "yandex": "s9624562",
+          "iata": "DTW"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-12-08 18:15:00",
+      "stop_time": null,
+      "duration": 41100,
+      "terminal": "0"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

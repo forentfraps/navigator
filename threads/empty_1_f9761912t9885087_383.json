@@ -1,0 +1,139 @@
+{
+  "number": "258",
+  "title": "Волово — Нижнее Чесночное",
+  "short_title": "Волово — Нижнее Чесночное",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 67182,
+    "title": "Воловское АТП АО",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_1_f9761912t9885087_383",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "пт",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Волово, автостанция",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9761912",
+        "codes": {
+          "yandex": "s9761912"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 12:25:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Нижнее Большое",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9761913",
+        "codes": {
+          "yandex": "s9761913"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 12:32:00",
+      "arrival": "2025-03-14 12:31:00",
+      "duration": 420.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Зеленый Луг",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9875929",
+        "codes": {
+          "yandex": "s9875929"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 12:41:00",
+      "arrival": "2025-03-14 12:40:00",
+      "duration": 960.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Куликовка",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9885086",
+        "codes": {
+          "yandex": "s9885086"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 12:49:00",
+      "arrival": "2025-03-14 12:48:00",
+      "duration": 1440.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Нижнее Чесночное",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9885087",
+        "codes": {
+          "yandex": "s9885087"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-14 12:55:00",
+      "duration": 1800.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-14",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "12:25"
+}

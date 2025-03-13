@@ -1,0 +1,81 @@
+{
+  "uid": "UT-763_250320_c29_12",
+  "number": "UT 763",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "16:45",
+  "start_date": "2025-03-20",
+  "days": "чт с 20.03 по 14.08",
+  "except_days": "",
+  "title": "Москва — Нахичевань",
+  "short_title": "Москва — Нахичевань",
+  "carrier": {
+    "code": 29,
+    "title": "ЮТэйр",
+    "codes": {
+      "sirena": "ЮТ",
+      "iata": "UT",
+      "icao": "UTA"
+    }
+  },
+  "vehicle": "Boeing 737-500",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Внуково",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600215",
+        "codes": {
+          "yandex": "s9600215",
+          "esr": "180701",
+          "iata": "VKO",
+          "sirena": "ВНК",
+          "express": "2000714"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-20 16:45:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "A"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Нахичевань",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623893",
+        "codes": {
+          "yandex": "s9623893",
+          "iata": "NAJ",
+          "sirena": "НХЧ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-20 21:25:00",
+      "stop_time": null,
+      "duration": 13200,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

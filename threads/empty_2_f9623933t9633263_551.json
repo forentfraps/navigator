@@ -1,0 +1,160 @@
+{
+  "number": "826",
+  "title": "Балаково - Тольятти",
+  "short_title": "Балаково - Тольятти",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 61501,
+    "title": "ООО \"БПАК\"",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_2_f9623933t9633263_551",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно по 06.04",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Балаково, автостанция",
+        "short_title": "",
+        "popular_title": "Балаковская автостанция",
+        "code": "s9623933",
+        "codes": {
+          "yandex": "s9623933"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 07:20:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Балаково, автокасса у фонтана",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9877694",
+        "codes": {
+          "yandex": "s9877694"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 07:30:00",
+      "arrival": "2025-03-13 07:29:00",
+      "duration": 600.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Хвалынск, автостанция",
+        "short_title": null,
+        "popular_title": "Хвалынская автостанция",
+        "code": "s9600277",
+        "codes": {
+          "yandex": "s9600277"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 08:45:00",
+      "arrival": "2025-03-13 08:44:00",
+      "duration": 5100.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Сызрань",
+        "short_title": null,
+        "popular_title": "",
+        "code": "s9623494",
+        "codes": {
+          "yandex": "s9623494"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 10:20:00",
+      "arrival": "2025-03-13 10:15:00",
+      "duration": 10800.0,
+      "stop_time": 300,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Жигулевск",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623486",
+        "codes": {
+          "yandex": "s9623486"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 11:45:00",
+      "arrival": "2025-03-13 11:44:00",
+      "duration": 15900.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Тольятти, АВ \"Новый город\"",
+        "short_title": null,
+        "popular_title": "Тольятти, АВ \"Новый город\"",
+        "code": "s9633263",
+        "codes": {
+          "yandex": "s9633263"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 12:00:00",
+      "duration": 16800.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "07:20"
+}

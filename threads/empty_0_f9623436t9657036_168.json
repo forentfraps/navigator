@@ -1,0 +1,139 @@
+{
+  "number": "",
+  "title": "Томск — Белово",
+  "short_title": "Томск — Белово",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 65195,
+    "title": "ГПК \"ПАССАЖИРАВТОТРАНС\"",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_0_f9623436t9657036_168",
+  "vehicle": "НефАЗ (44), ах187 42",
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "пт, сб",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Томск, автовокзал",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623436",
+        "codes": {
+          "yandex": "s9623436"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 16:10:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Юрга, автовокзал",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9657335",
+        "codes": {
+          "yandex": "s9657335"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 18:11:00",
+      "arrival": "2025-03-14 18:10:00",
+      "duration": 7260.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Кемерово, автовокзал",
+        "short_title": null,
+        "popular_title": "автовокзал Кемерово",
+        "code": "s9623379",
+        "codes": {
+          "yandex": "s9623379"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 20:41:00",
+      "arrival": "2025-03-14 20:40:00",
+      "duration": 16260.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ленинск-Кузнецкий, автовокзал",
+        "short_title": null,
+        "popular_title": "Автовокзал Ленинск-Кузнецкий",
+        "code": "s9657171",
+        "codes": {
+          "yandex": "s9657171"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 22:21:00",
+      "arrival": "2025-03-14 22:20:00",
+      "duration": 22260.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Белово, автовокзал",
+        "short_title": null,
+        "popular_title": "Автовокзал Белово",
+        "code": "s9657036",
+        "codes": {
+          "yandex": "s9657036"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-14 23:20:00",
+      "duration": 25800.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-14",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "16:10"
+}

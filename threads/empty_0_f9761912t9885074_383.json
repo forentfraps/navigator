@@ -1,0 +1,97 @@
+{
+  "number": "255",
+  "title": "Волово — Казаково",
+  "short_title": "Волово — Казаково",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 67182,
+    "title": "Воловское АТП АО",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_0_f9761912t9885074_383",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "пн, ср, пт, вс",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Волово, автостанция",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9761912",
+        "codes": {
+          "yandex": "s9761912"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 08:25:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Богданова",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9885075",
+        "codes": {
+          "yandex": "s9885075"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 08:40:00",
+      "arrival": "2025-03-14 08:39:00",
+      "duration": 900.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Казаково",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9885074",
+        "codes": {
+          "yandex": "s9885074"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-14 08:45:00",
+      "duration": 1200.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-14",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "08:25"
+}

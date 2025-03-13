@@ -1,0 +1,77 @@
+{
+  "uid": "XY-711_250313_c1484_12",
+  "number": "XY 711",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "16:10",
+  "start_date": "2025-03-13",
+  "days": "ежедневно, кроме вс по 29.03",
+  "except_days": "",
+  "title": "Даммам — Таиф",
+  "short_title": "Даммам — Таиф",
+  "carrier": {
+    "code": 1484,
+    "title": "FlyNAS",
+    "codes": {
+      "sirena": null,
+      "iata": "XY",
+      "icao": null
+    }
+  },
+  "vehicle": "Airbus A320 NEO",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Кинг Фахд",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9624502",
+        "codes": {
+          "yandex": "s9624502",
+          "iata": "DMM"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-13 16:10:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Эт-Таиф",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9626055",
+        "codes": {
+          "yandex": "s9626055",
+          "iata": "TIF"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-13 18:20:00",
+      "stop_time": null,
+      "duration": 7800,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

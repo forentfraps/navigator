@@ -1,0 +1,79 @@
+{
+  "uid": "TU-217_250425_c578_12",
+  "number": "TU 217",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "03:50",
+  "start_date": "2025-04-04",
+  "days": "4, 8, 11, 15, 18, 20, 22, 25, 29 апреля, 2, 6, 9, 13, 16, 20, 23, 27, 30 мая, 6, 13 июня, …",
+  "except_days": "",
+  "title": "Стамбул — Тунис",
+  "short_title": "Стамбул — Тунис",
+  "carrier": {
+    "code": 578,
+    "title": "Tunisair",
+    "codes": {
+      "sirena": null,
+      "iata": "TU",
+      "icao": "TAR"
+    }
+  },
+  "vehicle": "Airbus A320 NEO",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Новый аэропорт Стамбул",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600421",
+        "codes": {
+          "yandex": "s9600421",
+          "iata": "IST",
+          "sirena": "ИСТ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-04-04 03:50:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Карфаген",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9626280",
+        "codes": {
+          "yandex": "s9626280",
+          "iata": "TUN",
+          "sirena": "ТУН"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-04-04 04:45:00",
+      "stop_time": null,
+      "duration": 10500,
+      "terminal": "M"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

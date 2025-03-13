@@ -1,0 +1,78 @@
+{
+  "uid": "HY-503_250316_c35_12",
+  "number": "HY 503",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "12:40",
+  "start_date": "2025-03-16",
+  "days": "16, 23 марта",
+  "except_days": "",
+  "title": "Ташкент — Ханчжоу",
+  "short_title": "Ташкент — Ханчжоу",
+  "carrier": {
+    "code": 35,
+    "title": "Uzbekistan Airways",
+    "codes": {
+      "sirena": "ХИ",
+      "iata": "HY",
+      "icao": "UZB"
+    }
+  },
+  "vehicle": "Boeing 787",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Ташкент",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600397",
+        "codes": {
+          "yandex": "s9600397",
+          "iata": "TAS",
+          "sirena": "ТАС"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-16 12:40:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "2"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ханчжоу",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9634174",
+        "codes": {
+          "yandex": "s9634174",
+          "iata": "HGH"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-16 22:00:00",
+      "stop_time": null,
+      "duration": 22800,
+      "terminal": "4"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

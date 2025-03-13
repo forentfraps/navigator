@@ -1,0 +1,79 @@
+{
+  "uid": "WZ-1927_251001_c617_12",
+  "number": "WZ 1927",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "10:50",
+  "start_date": "2025-05-04",
+  "days": "ср, вс с 04.05 по 01.10",
+  "except_days": "",
+  "title": "Саратов — Новый Уренгой",
+  "short_title": "Саратов — Новый Уренгой",
+  "carrier": {
+    "code": 617,
+    "title": "Red Wings",
+    "codes": {
+      "sirena": "ИН",
+      "iata": "WZ",
+      "icao": "RWZ"
+    }
+  },
+  "vehicle": "Сухой Суперджет 100",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Гагарин (Саратов)",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9872581",
+        "codes": {
+          "yandex": "s9872581",
+          "iata": "GSV",
+          "sirena": "ГСВ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-05-04 10:50:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Новый Уренгой",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623560",
+        "codes": {
+          "yandex": "s9623560",
+          "iata": "NUX",
+          "sirena": "НУР"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-05-04 15:30:00",
+      "stop_time": null,
+      "duration": 13200,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

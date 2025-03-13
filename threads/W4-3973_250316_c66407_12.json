@@ -1,0 +1,79 @@
+{
+  "uid": "W4-3973_250316_c66407_12",
+  "number": "W4 3973",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "13:40",
+  "start_date": "2025-03-16",
+  "days": "16, 23 марта",
+  "except_days": "",
+  "title": "Кишинёв — Нюрнберг",
+  "short_title": "Кишинёв — Нюрнберг",
+  "carrier": {
+    "code": 66407,
+    "title": "Wizz Air Malta",
+    "codes": {
+      "sirena": null,
+      "iata": "W4",
+      "icao": null
+    }
+  },
+  "vehicle": "Airbus А320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Кишинёв",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623535",
+        "codes": {
+          "yandex": "s9623535",
+          "iata": "RMO",
+          "sirena": "КШН"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-16 13:40:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Нюрнберг",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623606",
+        "codes": {
+          "yandex": "s9623606",
+          "iata": "NUE",
+          "sirena": "НЮН"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-16 15:00:00",
+      "stop_time": null,
+      "duration": 8400,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

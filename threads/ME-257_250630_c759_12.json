@@ -1,0 +1,78 @@
+{
+  "uid": "ME-257_250630_c759_12",
+  "number": "ME 257",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "12:20",
+  "start_date": "2025-06-30",
+  "days": "пн с 30.06 по 08.09",
+  "except_days": "",
+  "title": "Бейрут — Миконос",
+  "short_title": "Бейрут — Миконос",
+  "carrier": {
+    "code": 759,
+    "title": "Middle East Airlines",
+    "codes": {
+      "sirena": null,
+      "iata": "ME",
+      "icao": "MEA"
+    }
+  },
+  "vehicle": "Airbus А320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Бейрут",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623595",
+        "codes": {
+          "yandex": "s9623595",
+          "iata": "BEY",
+          "sirena": "БЕУ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-06-30 12:20:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Миконос",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623921",
+        "codes": {
+          "yandex": "s9623921",
+          "iata": "JMK"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-06-30 14:05:00",
+      "stop_time": null,
+      "duration": 6300,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

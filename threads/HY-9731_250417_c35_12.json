@@ -1,0 +1,79 @@
+{
+  "uid": "HY-9731_250417_c35_12",
+  "number": "HY 9731",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "08:40",
+  "start_date": "2025-04-17",
+  "days": "чт с 17.04 по 11.09, кроме 08.05",
+  "except_days": "",
+  "title": "Ташкент — Махачкала",
+  "short_title": "Ташкент — Махачкала",
+  "carrier": {
+    "code": 35,
+    "title": "Uzbekistan Airways",
+    "codes": {
+      "sirena": "ХИ",
+      "iata": "HY",
+      "icao": "UZB"
+    }
+  },
+  "vehicle": null,
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Ташкент",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600397",
+        "codes": {
+          "yandex": "s9600397",
+          "iata": "TAS",
+          "sirena": "ТАС"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-04-17 08:40:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "2"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Уйташ",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623330",
+        "codes": {
+          "yandex": "s9623330",
+          "iata": "MCX",
+          "sirena": "МХЛ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-04-17 09:50:00",
+      "stop_time": null,
+      "duration": 11400,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

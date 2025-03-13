@@ -1,0 +1,79 @@
+{
+  "uid": "7R-146_250317_c96_12",
+  "number": "7R 146",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "10:20",
+  "start_date": "2025-03-17",
+  "days": "пн, пт с 17.03 по 11.08, кроме 21.03, 28.03",
+  "except_days": "",
+  "title": "Нарьян-Мар — Киров",
+  "short_title": "Нарьян-Мар — Киров",
+  "carrier": {
+    "code": 96,
+    "title": "РусЛайн",
+    "codes": {
+      "sirena": "РГ",
+      "iata": "7R",
+      "icao": "RLU"
+    }
+  },
+  "vehicle": "Canadair regional jet",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Нарьян-Мар",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623602",
+        "codes": {
+          "yandex": "s9623602",
+          "iata": "NNM",
+          "sirena": "ННР"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-17 10:20:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Победилово",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600181",
+        "codes": {
+          "yandex": "s9600181",
+          "iata": "KVX",
+          "sirena": "КИО"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-17 12:05:00",
+      "stop_time": null,
+      "duration": 6300,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

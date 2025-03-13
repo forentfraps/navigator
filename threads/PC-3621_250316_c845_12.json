@@ -1,0 +1,78 @@
+{
+  "uid": "PC-3621_250316_c845_12",
+  "number": "PC 3621",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "09:40",
+  "start_date": "2025-03-16",
+  "days": "16, 23 марта",
+  "except_days": "",
+  "title": "Мерсин — Бодрум",
+  "short_title": "Мерсин — Бодрум",
+  "carrier": {
+    "code": 845,
+    "title": "Pegasus",
+    "codes": {
+      "sirena": null,
+      "iata": "PC",
+      "icao": null
+    }
+  },
+  "vehicle": "Airbus А320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Чукурова",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9887843",
+        "codes": {
+          "yandex": "s9887843",
+          "iata": "COV"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-16 09:40:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Милас",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600415",
+        "codes": {
+          "yandex": "s9600415",
+          "iata": "BJV",
+          "sirena": "БЙЖ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-16 11:10:00",
+      "stop_time": null,
+      "duration": 5400,
+      "terminal": "I"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

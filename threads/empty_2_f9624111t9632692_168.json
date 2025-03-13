@@ -1,0 +1,160 @@
+{
+  "number": "",
+  "title": "Волжский — Ахтубинск",
+  "short_title": "Волжский — Ахтубинск",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 66683,
+    "title": "ИП Дергачева Ольга Николаевна",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_2_f9624111t9632692_168",
+  "vehicle": "Mersedes20 (20), н192су40",
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Волжский, автовокзал",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9624111",
+        "codes": {
+          "yandex": "s9624111"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 16:50:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ленинск",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9632958",
+        "codes": {
+          "yandex": "s9632958"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 18:01:00",
+      "arrival": "2025-03-13 18:00:00",
+      "duration": 4260.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Колобовка",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9882026",
+        "codes": {
+          "yandex": "s9882026"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 18:31:00",
+      "arrival": "2025-03-13 18:30:00",
+      "duration": 6060.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Знаменск",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9632855",
+        "codes": {
+          "yandex": "s9632855"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 19:51:00",
+      "arrival": "2025-03-13 19:50:00",
+      "duration": 7260.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Пологое Займище",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9845974",
+        "codes": {
+          "yandex": "s9845974"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 20:06:00",
+      "arrival": "2025-03-13 20:05:00",
+      "duration": 8160.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ахтубинск",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9632692",
+        "codes": {
+          "yandex": "s9632692"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 20:30:00",
+      "duration": 9600.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "16:50"
+}

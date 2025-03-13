@@ -1,0 +1,160 @@
+{
+  "number": "",
+  "title": "Томск — Прокопьевск",
+  "short_title": "Томск — Прокопьевск",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 65195,
+    "title": "ГПК \"ПАССАЖИРАВТОТРАНС\"",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_0_f9623436t9657240_168",
+  "vehicle": "НефАЗ-5299-10-17 (44), о338кс142",
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "пн",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Томск, автовокзал",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623436",
+        "codes": {
+          "yandex": "s9623436"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-17 14:10:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Кемерово, автовокзал",
+        "short_title": null,
+        "popular_title": "автовокзал Кемерово",
+        "code": "s9623379",
+        "codes": {
+          "yandex": "s9623379"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-17 17:41:00",
+      "arrival": "2025-03-17 17:40:00",
+      "duration": 12660.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Белово, автовокзал",
+        "short_title": null,
+        "popular_title": "Автовокзал Белово",
+        "code": "s9657036",
+        "codes": {
+          "yandex": "s9657036"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-17 18:36:00",
+      "arrival": "2025-03-17 18:35:00",
+      "duration": 15960.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Карагайла, поворот",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9803546",
+        "codes": {
+          "yandex": "s9803546"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-17 19:31:00",
+      "arrival": "2025-03-17 19:30:00",
+      "duration": 19260.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Киселевск, автовокзал",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9657128",
+        "codes": {
+          "yandex": "s9657128"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-17 20:06:00",
+      "arrival": "2025-03-17 20:05:00",
+      "duration": 21360.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Прокопьевск, автостанция",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9657240",
+        "codes": {
+          "yandex": "s9657240"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-17 20:40:00",
+      "duration": 23400.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-17",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "14:10"
+}

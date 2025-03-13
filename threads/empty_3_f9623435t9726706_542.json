@@ -1,0 +1,118 @@
+{
+  "number": "",
+  "title": "Тверь — Кувшиново",
+  "short_title": "Тверь — Кувшиново",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 60732,
+    "title": "ИП Исаев В.В.",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_3_f9623435t9726706_542",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Тверь, автовокзал",
+        "short_title": null,
+        "popular_title": "Автовокзал Тверь",
+        "code": "s9623435",
+        "codes": {
+          "yandex": "s9623435"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 15:50:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Торжок, вокзал",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623890",
+        "codes": {
+          "yandex": "s9623890"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 17:35:00",
+      "arrival": "2025-03-13 17:34:00",
+      "duration": 6300.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Большой Борок",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9841218",
+        "codes": {
+          "yandex": "s9841218"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 18:20:00",
+      "arrival": "2025-03-13 18:19:00",
+      "duration": 9000.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Кувшиново",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9726706",
+        "codes": {
+          "yandex": "s9726706"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 18:55:00",
+      "duration": 11100.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "15:50"
+}

@@ -1,0 +1,77 @@
+{
+  "uid": "PC-1867_250403_c845_12",
+  "number": "PC 1867",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "20:50",
+  "start_date": "2025-04-03",
+  "days": "чт с 03.04 по 28.08, кроме 01.05",
+  "except_days": "",
+  "title": "Эрджан — Измир",
+  "short_title": "Эрджан — Измир",
+  "carrier": {
+    "code": 845,
+    "title": "Pegasus",
+    "codes": {
+      "sirena": null,
+      "iata": "PC",
+      "icao": null
+    }
+  },
+  "vehicle": "Airbus А320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Эрджан",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9631390",
+        "codes": {
+          "yandex": "s9631390",
+          "iata": "ECN"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-04-03 20:50:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Аднан Мендерес",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9628729",
+        "codes": {
+          "yandex": "s9628729",
+          "iata": "ADB"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-04-03 22:10:00",
+      "stop_time": null,
+      "duration": 4800,
+      "terminal": "D"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

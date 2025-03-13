@@ -1,0 +1,79 @@
+{
+  "uid": "N4-447_250526_c2543_12",
+  "number": "N4 447",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "05:00",
+  "start_date": "2025-05-26",
+  "days": "пн с 26.05 по 20.10",
+  "except_days": "",
+  "title": "Сочи — Чебоксары",
+  "short_title": "Сочи — Чебоксары",
+  "carrier": {
+    "code": 2543,
+    "title": "Nordwind",
+    "codes": {
+      "sirena": "КЛ",
+      "iata": "N4",
+      "icao": "NWS"
+    }
+  },
+  "vehicle": "Boeing 737-800",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Сочи",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623547",
+        "codes": {
+          "yandex": "s9623547",
+          "iata": "AER",
+          "sirena": "СОЧ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-05-26 05:00:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Чебоксары",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623358",
+        "codes": {
+          "yandex": "s9623358",
+          "iata": "CSY",
+          "sirena": "ЧБЕ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-05-26 08:20:00",
+      "stop_time": null,
+      "duration": 12000,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

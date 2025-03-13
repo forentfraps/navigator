@@ -1,0 +1,79 @@
+{
+  "uid": "S7-5524_250428_c23_12",
+  "number": "S7 5524",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "07:15",
+  "start_date": "2025-03-31",
+  "days": "31 марта, 2, 4, 7, 9, 11, 14, 16, 18, 21, 23, 25, 28, 30 апреля, 2, 4, 5, 7, 9, 11 мая, …",
+  "except_days": "",
+  "title": "Усть-Каменогорск — Новосибирск",
+  "short_title": "Усть-Каменогорск — Новосибирск",
+  "carrier": {
+    "code": 23,
+    "title": "S7 Airlines",
+    "codes": {
+      "sirena": "С7",
+      "iata": "S7",
+      "icao": null
+    }
+  },
+  "vehicle": "Embraer 170",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Усть-Каменогорск",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623902",
+        "codes": {
+          "yandex": "s9623902",
+          "iata": "UKK",
+          "sirena": "УКГ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-31 07:15:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Толмачёво",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600374",
+        "codes": {
+          "yandex": "s9600374",
+          "iata": "OVB",
+          "sirena": "ТЛЧ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-31 10:30:00",
+      "stop_time": null,
+      "duration": 4500,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

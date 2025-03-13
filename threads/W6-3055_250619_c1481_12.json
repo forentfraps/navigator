@@ -1,0 +1,78 @@
+{
+  "uid": "W6-3055_250619_c1481_12",
+  "number": "W6 3055",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "20:40",
+  "start_date": "2025-06-19",
+  "days": "чт с 19.06 по 25.09",
+  "except_days": "",
+  "title": "Бухарест — Ираклион",
+  "short_title": "Бухарест — Ираклион",
+  "carrier": {
+    "code": 1481,
+    "title": "Wizz Air",
+    "codes": {
+      "sirena": null,
+      "iata": "W6",
+      "icao": "WAH"
+    }
+  },
+  "vehicle": "Airbus А321",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Отопени",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600438",
+        "codes": {
+          "yandex": "s9600438",
+          "iata": "OTP"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-06-19 20:40:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Н.Казантзакис",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623917",
+        "codes": {
+          "yandex": "s9623917",
+          "iata": "HER",
+          "sirena": "ИРА"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-06-19 22:35:00",
+      "stop_time": null,
+      "duration": 6900,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

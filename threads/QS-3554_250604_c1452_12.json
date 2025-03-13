@@ -1,0 +1,79 @@
+{
+  "uid": "QS-3554_250604_c1452_12",
+  "number": "QS 3554",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "12:15",
+  "start_date": "2025-06-04",
+  "days": "4 июня",
+  "except_days": "",
+  "title": "Салоники — Дрезден",
+  "short_title": "Салоники — Дрезден",
+  "carrier": {
+    "code": 1452,
+    "title": "Smart Wings",
+    "codes": {
+      "sirena": null,
+      "iata": "QS",
+      "icao": "TVS"
+    }
+  },
+  "vehicle": "Boeing 737-800",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Салоники",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623699",
+        "codes": {
+          "yandex": "s9623699",
+          "iata": "SKG",
+          "sirena": "СКГ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-06-04 12:15:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Дрезден",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623717",
+        "codes": {
+          "yandex": "s9623717",
+          "iata": "DRS",
+          "sirena": "ДРЗ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-06-04 13:40:00",
+      "stop_time": null,
+      "duration": 8700,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

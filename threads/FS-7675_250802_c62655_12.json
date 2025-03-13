@@ -1,0 +1,79 @@
+{
+  "uid": "FS-7675_250802_c62655_12",
+  "number": "FS 7675",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "08:30",
+  "start_date": "2025-08-02",
+  "days": "2, 9, 16, 23, 30 августа",
+  "except_days": "",
+  "title": "Актау — Анталья",
+  "short_title": "Актау — Анталья",
+  "carrier": {
+    "code": 62655,
+    "title": "FlyArystan",
+    "codes": {
+      "sirena": null,
+      "iata": "FS",
+      "icao": null
+    }
+  },
+  "vehicle": "Airbus А320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Актау",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623652",
+        "codes": {
+          "yandex": "s9623652",
+          "iata": "SCO",
+          "sirena": "ААУ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-08-02 08:30:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Анталья",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623581",
+        "codes": {
+          "yandex": "s9623581",
+          "iata": "AYT",
+          "sirena": "АЯТ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-08-02 10:00:00",
+      "stop_time": null,
+      "duration": 12600,
+      "terminal": "0"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

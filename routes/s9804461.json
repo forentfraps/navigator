@@ -1,0 +1,88 @@
+{
+  "date": null,
+  "station": {
+    "type": "station",
+    "title": "Зверево",
+    "short_title": "",
+    "popular_title": "",
+    "code": "s9804461",
+    "station_type": "bus_station",
+    "station_type_name": "автовокзал",
+    "transport_type": "bus"
+  },
+  "event": "departure",
+  "pagination": {
+    "total": 2,
+    "limit": 100,
+    "offset": 0
+  },
+  "schedule": [
+    {
+      "thread": {
+        "number": "",
+        "title": "Гуково — Каменск-Шахтинский",
+        "short_title": "Гуково — Каменск-Шахтинский",
+        "express_type": null,
+        "transport_type": "bus",
+        "carrier": {
+          "code": 66754,
+          "title": "Общество с ограниченной ответственностью \"АВТОЛАЙН\"",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "empty_0_f9750358t9637067_168",
+        "vehicle": "MERSEDES (18), ам739 61",
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно, кроме вс",
+      "except_days": null,
+      "stops": "",
+      "departure": "07:39",
+      "arrival": "07:38"
+    },
+    {
+      "thread": {
+        "number": "",
+        "title": "Каменск-Шахтинский — Гуково",
+        "short_title": "Каменск-Шахтинский — Гуково",
+        "express_type": null,
+        "transport_type": "bus",
+        "carrier": {
+          "code": 66754,
+          "title": "Общество с ограниченной ответственностью \"АВТОЛАЙН\"",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "empty_0_f9637067t9750358_168",
+        "vehicle": "FORD (18), у455ро161",
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно, кроме вс",
+      "except_days": null,
+      "stops": "",
+      "departure": "16:17",
+      "arrival": "16:16"
+    }
+  ],
+  "interval_schedule": []
+}

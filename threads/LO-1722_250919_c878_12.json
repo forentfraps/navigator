@@ -1,0 +1,79 @@
+{
+  "uid": "LO-1722_250919_c878_12",
+  "number": "LO 1722",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "06:20",
+  "start_date": "2025-09-19",
+  "days": "19 сентября",
+  "except_days": "",
+  "title": "Баку — Варшава",
+  "short_title": "Баку — Варшава",
+  "carrier": {
+    "code": 878,
+    "title": "Lot",
+    "codes": {
+      "sirena": null,
+      "iata": "LO",
+      "icao": "LOT"
+    }
+  },
+  "vehicle": "Boeing 737-800",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "им. Гейдара Алиева",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600387",
+        "codes": {
+          "yandex": "s9600387",
+          "iata": "GYD",
+          "sirena": "БАК"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-09-19 06:20:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "1"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "им. Фредерика Шопена",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623541",
+        "codes": {
+          "yandex": "s9623541",
+          "iata": "WAW",
+          "sirena": "ВАВ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-09-19 08:55:00",
+      "stop_time": null,
+      "duration": 16500,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

@@ -1,0 +1,76 @@
+{
+  "number": "",
+  "title": "Москва, автовокзал Красногвардейский — Ростов-на-Дону",
+  "short_title": "Москва, автовокзал Красногвардейский — Ростов-на-Дону",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 65638,
+    "title": "ООО \"БУС-ТУР 161\"",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_0_f9744832t9868264_114",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "только 16, 23, 30 марта",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Москва, автовокзал Красногвардейский",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9744832",
+        "codes": {
+          "yandex": "s9744832"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-16 17:30:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ростов-на-Дону, Главный автовокзал",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9868264",
+        "codes": {
+          "yandex": "s9868264"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-17 07:00:00",
+      "duration": 48600.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-16",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "17:30"
+}

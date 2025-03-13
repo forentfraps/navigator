@@ -1,0 +1,97 @@
+{
+  "number": "",
+  "title": "Отрадная — Ставрополь",
+  "short_title": "Отрадная — Ставрополь",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 65407,
+    "title": "Невинномысск ИП Сбитнев А.П.",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_3_f9654872t9623296_691",
+  "vehicle": "Ивеко_20м",
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Отрадная",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9654872",
+        "codes": {
+          "yandex": "s9654872"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 07:40:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Невинномысск, автовокзал",
+        "short_title": "",
+        "popular_title": "Автовокзал Невинномысск",
+        "code": "s9637104",
+        "codes": {
+          "yandex": "s9637104"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 08:41:00",
+      "arrival": "2025-03-13 08:40:00",
+      "duration": 3660.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ставрополь-1, Южная",
+        "short_title": null,
+        "popular_title": "Южная автостанция",
+        "code": "s9623296",
+        "codes": {
+          "yandex": "s9623296"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 10:00:00",
+      "duration": 8400.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "07:40"
+}

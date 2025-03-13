@@ -1,0 +1,97 @@
+{
+  "number": "",
+  "title": "Аскарово — Магнитогорск, автокассы \"у Паровоза\"",
+  "short_title": "Аскарово — Магнитогорск, автокассы \"у Паровоза\"",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 67192,
+    "title": "Общество с ограниченной ответственностью \"АВТО-РИТЕТ\"",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_10_f9746771t9836407_168",
+  "vehicle": "ГАЗ 322132(14) (14), а220та174",
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Аскарово",
+        "short_title": "",
+        "popular_title": "Кассовый пункт Аскарово",
+        "code": "s9746771",
+        "codes": {
+          "yandex": "s9746771"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 06:40:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Аэропорт Магнитогорск",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9746814",
+        "codes": {
+          "yandex": "s9746814"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 07:06:00",
+      "arrival": "2025-03-13 07:05:00",
+      "duration": 1560.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Магнитогорск, автокассы \"у Паровоза\"",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9836407",
+        "codes": {
+          "yandex": "s9836407"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 07:40:00",
+      "duration": 3600.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "06:40"
+}

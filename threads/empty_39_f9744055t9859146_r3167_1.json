@@ -1,0 +1,88 @@
+{
+  "number": "",
+  "title": "Одинцово (Станция Одинцово) — Юдино (Гипермаркет \"Глобус\")",
+  "short_title": "Одинцово (Станция Одинцово) — Юдино (Гипермаркет \"Глобус\")",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": null,
+  "uid": "empty_39_f9744055t9859146_r3167_1",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Станция Одинцово",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9744055",
+        "codes": {
+          "yandex": "s9744055"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 10:45:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Дубки",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9739901",
+        "codes": {
+          "yandex": "s9739901"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 10:55:00",
+      "arrival": "2025-03-13 10:54:00",
+      "duration": 600.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Гипермаркет \"Глобус\"",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9859146",
+        "codes": {
+          "yandex": "s9859146"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 11:05:00",
+      "duration": 1200.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "10:45"
+}

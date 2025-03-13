@@ -1,0 +1,76 @@
+{
+  "number": "110",
+  "title": "Степановка - Ржакса",
+  "short_title": "Степановка - Ржакса",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 64290,
+    "title": "ООО \"Ржаксинское АТП\"",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_2_f9878280t9831862_551",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "вт, пт по 04.04",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Степановка",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9878280",
+        "codes": {
+          "yandex": "s9878280"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 11:40:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ржакса",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9831862",
+        "codes": {
+          "yandex": "s9831862"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-14 12:20:00",
+      "duration": 2400.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-14",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "11:40"
+}

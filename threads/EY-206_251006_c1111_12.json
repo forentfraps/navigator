@@ -1,0 +1,79 @@
+{
+  "uid": "EY-206_251006_c1111_12",
+  "number": "EY 206",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "21:15",
+  "start_date": "2025-03-31",
+  "days": "31 марта, 1, 2, 3, 4, 7, 8, 9, 10, 14, 15, 16, 17, 21, 22, 23, 24, 28, 29, 30 апреля, …",
+  "except_days": "",
+  "title": "Абу-Даби — Мумбаи",
+  "short_title": "Абу-Даби — Мумбаи",
+  "carrier": {
+    "code": 1111,
+    "title": "Etihad Airways",
+    "codes": {
+      "sirena": null,
+      "iata": "EY",
+      "icao": "EFL"
+    }
+  },
+  "vehicle": "Boeing 787-900",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Абу-Даби",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9624402",
+        "codes": {
+          "yandex": "s9624402",
+          "iata": "AUH",
+          "sirena": "АУХ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-31 21:15:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "A"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Мумбаи",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623600",
+        "codes": {
+          "yandex": "s9623600",
+          "iata": "BOM",
+          "sirena": "БОМ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-04-01 01:55:00",
+      "stop_time": null,
+      "duration": 11400,
+      "terminal": "2"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

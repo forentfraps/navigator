@@ -1,0 +1,118 @@
+{
+  "number": "",
+  "title": "Москва, Саларьево - Новозыбков (бронирование обязательно)",
+  "short_title": "Москва, Саларьево - Новозыбков (бронирование обязательно)",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 62568,
+    "title": "ИП Грибанов Дмитрий Викторович",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_1_f9876347t9756894_652",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно по 17.05",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Автовокзал Саларьево",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9876347",
+        "codes": {
+          "yandex": "s9876347"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 23:15:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Брянск, автовокзал",
+        "short_title": null,
+        "popular_title": "Автовокзал Брянск",
+        "code": "s9623889",
+        "codes": {
+          "yandex": "s9623889"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 05:00:00",
+      "arrival": "2025-03-14 04:59:00",
+      "duration": 20700.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Почеп, автовокзал",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9637114",
+        "codes": {
+          "yandex": "s9637114"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 06:00:00",
+      "arrival": "2025-03-14 05:59:00",
+      "duration": 24300.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Новозыбков, автостанция",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9756894",
+        "codes": {
+          "yandex": "s9756894"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-14 08:00:00",
+      "duration": 31500.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "23:15"
+}

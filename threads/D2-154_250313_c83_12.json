@@ -1,0 +1,79 @@
+{
+  "uid": "D2-154_250313_c83_12",
+  "number": "D2 154",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "21:40",
+  "start_date": "2025-03-13",
+  "days": "пн, вт, ср, чт по 27.03, а ещё 22.03",
+  "except_days": "",
+  "title": "Москва — Череповец",
+  "short_title": "Москва — Череповец",
+  "carrier": {
+    "code": 83,
+    "title": "Северсталь",
+    "codes": {
+      "sirena": "Д2",
+      "iata": "D2",
+      "icao": null
+    }
+  },
+  "vehicle": "Сухой Суперджет 100",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Шереметьево",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600213",
+        "codes": {
+          "yandex": "s9600213",
+          "iata": "SVO",
+          "sirena": "ШРМ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-13 21:40:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "B"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Череповец",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623264",
+        "codes": {
+          "yandex": "s9623264",
+          "iata": "CEE",
+          "sirena": "ЧРВ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-13 22:40:00",
+      "stop_time": null,
+      "duration": 3600,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

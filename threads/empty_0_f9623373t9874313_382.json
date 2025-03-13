@@ -1,0 +1,307 @@
+{
+  "number": "",
+  "title": "Иркутск — Нагатай",
+  "short_title": "Иркутск — Нагатай",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 63359,
+    "title": "ИП Бурзанов В.А.",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_0_f9623373t9874313_382",
+  "vehicle": "Типовая схема (13 мест)",
+  "transport_subtype": {
+    "title": "Автобус",
+    "code": "bus",
+    "color": "#ff0000"
+  },
+  "days": "ежедневно с 13.03",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Иркутск",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623373",
+        "codes": {
+          "yandex": "s9623373"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 15:45:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Усть-Ордынский, автостанция",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9855073",
+        "codes": {
+          "yandex": "s9855073"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 17:00:00",
+      "arrival": "2025-03-13 16:55:00",
+      "duration": 4500.0,
+      "stop_time": 300,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ользоны",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9846437",
+        "codes": {
+          "yandex": "s9846437"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 17:35:00",
+      "arrival": "2025-03-13 17:34:00",
+      "duration": 6600.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Баяндай, поворот на Ольхон",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9874304",
+        "codes": {
+          "yandex": "s9874304"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 17:41:00",
+      "arrival": "2025-03-13 17:40:00",
+      "duration": 6960.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Баяндай",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9846439",
+        "codes": {
+          "yandex": "s9846439"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 18:00:00",
+      "arrival": "2025-03-13 17:45:00",
+      "duration": 8100.0,
+      "stop_time": 900,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Половинка",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9846440",
+        "codes": {
+          "yandex": "s9846440"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 18:15:00",
+      "arrival": "2025-03-13 18:10:00",
+      "duration": 9000.0,
+      "stop_time": 300,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Хогот, магазин \"Берёзка\"",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9874308",
+        "codes": {
+          "yandex": "s9874308"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 18:25:00",
+      "arrival": "2025-03-13 18:20:00",
+      "duration": 9600.0,
+      "stop_time": 300,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Хогот, трасса",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9874309",
+        "codes": {
+          "yandex": "s9874309"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 18:30:00",
+      "arrival": "2025-03-13 18:25:00",
+      "duration": 9900.0,
+      "stop_time": 300,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Старый Хогот, фельдшерский пункт",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9874307",
+        "codes": {
+          "yandex": "s9874307"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 18:45:00",
+      "arrival": "2025-03-13 18:40:00",
+      "duration": 10800.0,
+      "stop_time": 300,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Байша",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9874310",
+        "codes": {
+          "yandex": "s9874310"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 19:05:00",
+      "arrival": "2025-03-13 19:00:00",
+      "duration": 12000.0,
+      "stop_time": 300,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Тухум",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9874311",
+        "codes": {
+          "yandex": "s9874311"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 19:20:00",
+      "arrival": "2025-03-13 19:15:00",
+      "duration": 12900.0,
+      "stop_time": 300,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Малан",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9874312",
+        "codes": {
+          "yandex": "s9874312"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 19:32:00",
+      "arrival": "2025-03-13 19:31:00",
+      "duration": 13620.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Нагатай",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9874313",
+        "codes": {
+          "yandex": "s9874313"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 19:45:00",
+      "duration": 14400.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "15:45"
+}

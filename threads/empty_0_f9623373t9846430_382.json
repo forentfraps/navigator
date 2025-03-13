@@ -1,0 +1,202 @@
+{
+  "number": "",
+  "title": "Иркутск — Саянск",
+  "short_title": "Иркутск — Саянск",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 56929,
+    "title": "ИП Герасимов В.Г.",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_0_f9623373t9846430_382",
+  "vehicle": "Типовая схема (19 мест)",
+  "transport_subtype": {
+    "title": "Автобус",
+    "code": "bus",
+    "color": "#ff0000"
+  },
+  "days": "ежедневно с 13.03",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Иркутск",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623373",
+        "codes": {
+          "yandex": "s9623373"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 14:00:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ангарск, автостанция",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9845218",
+        "codes": {
+          "yandex": "s9845218"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 14:55:00",
+      "arrival": "2025-03-13 14:50:00",
+      "duration": 3300.0,
+      "stop_time": 300,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Усолье-Сибирское, стадион «Химик»",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9845220",
+        "codes": {
+          "yandex": "s9845220"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 15:30:00",
+      "arrival": "2025-03-13 15:28:00",
+      "duration": 5400.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Шаманаева, кафе «Шаман»",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9845305",
+        "codes": {
+          "yandex": "s9845305"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 16:50:00",
+      "arrival": "2025-03-13 16:30:00",
+      "duration": 10200.0,
+      "stop_time": 1200,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Забитуй, трасса",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9845858",
+        "codes": {
+          "yandex": "s9845858"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 17:00:00",
+      "arrival": "2025-03-13 16:59:00",
+      "duration": 10800.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Балаганск / Тыреть, поворот",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9845859",
+        "codes": {
+          "yandex": "s9845859"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 17:32:00",
+      "arrival": "2025-03-13 17:30:00",
+      "duration": 12720.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ухтуй / Зима, поворот",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9845222",
+        "codes": {
+          "yandex": "s9845222"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 18:14:00",
+      "arrival": "2025-03-13 18:12:00",
+      "duration": 15240.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Саянск, автостанция",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9846430",
+        "codes": {
+          "yandex": "s9846430"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 18:24:00",
+      "duration": 15840.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "14:00"
+}

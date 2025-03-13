@@ -1,0 +1,102 @@
+{
+  "number": "7294",
+  "title": "Волгореченск — Фурманов",
+  "short_title": "Волгореченск — Фурманов",
+  "express_type": null,
+  "transport_type": "suburban",
+  "carrier": {
+    "code": 2530,
+    "title": "Северная пригородная пассажирская компания",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "7294_0_9604658_g25_4",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": "Пригородный поезд",
+    "code": "suburban",
+    "color": "#CC6600"
+  },
+  "days": "ежедневно",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Волгореченск",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9604658",
+        "codes": {
+          "yandex": "s9604658",
+          "esr": "316209",
+          "express": "2011286"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 13:51:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Приволжск",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9886036",
+        "codes": {
+          "yandex": "s9886036",
+          "esr": "316020"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 14:07:00",
+      "arrival": "2025-03-13 14:06:00",
+      "duration": 960.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Фурманов",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9604215",
+        "codes": {
+          "yandex": "s9604215",
+          "esr": "316001",
+          "express": "2010294"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 14:26:00",
+      "duration": 2100.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "13:51"
+}

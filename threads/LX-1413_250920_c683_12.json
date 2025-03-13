@@ -1,0 +1,79 @@
+{
+  "uid": "LX-1413_250920_c683_12",
+  "number": "LX 1413",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "09:25",
+  "start_date": "2025-04-16",
+  "days": "16 апреля, 14, 16, 17, 21, 25, 26, 28 августа, 2, 3, 9, 10, 13, 20, 27 сентября, 4, 11 октября",
+  "except_days": "",
+  "title": "Белград — Цюрих",
+  "short_title": "Белград — Цюрих",
+  "carrier": {
+    "code": 683,
+    "title": "Swiss",
+    "codes": {
+      "sirena": null,
+      "iata": "LX",
+      "icao": "SWR"
+    }
+  },
+  "vehicle": "Airbus A320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Белград",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623578",
+        "codes": {
+          "yandex": "s9623578",
+          "iata": "BEG",
+          "sirena": "БГА"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-04-16 09:25:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "2"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Цюрих",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623585",
+        "codes": {
+          "yandex": "s9623585",
+          "iata": "ZRH",
+          "sirena": "ЦРХ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-04-16 11:20:00",
+      "stop_time": null,
+      "duration": 6900,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

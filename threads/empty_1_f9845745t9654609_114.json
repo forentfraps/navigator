@@ -1,0 +1,139 @@
+{
+  "number": "",
+  "title": "Москва — Севастополь",
+  "short_title": "Москва — Севастополь",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 56847,
+    "title": "ООО \"Ника-Тур\"",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_1_f9845745t9654609_114",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "чт, вс",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Москва, автовокзал Южные ворота",
+        "short_title": null,
+        "popular_title": "Автовокзал Южные ворота",
+        "code": "s9845745",
+        "codes": {
+          "yandex": "s9845745"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 09:00:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Керчь, автовокзал",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9852169",
+        "codes": {
+          "yandex": "s9852169"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 12:05:00",
+      "arrival": "2025-03-14 12:04:00",
+      "duration": 97500.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Феодосия, автостанция",
+        "short_title": "",
+        "popular_title": "Автостанция Феодосия",
+        "code": "s9695036",
+        "codes": {
+          "yandex": "s9695036"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 13:45:00",
+      "arrival": "2025-03-14 13:40:00",
+      "duration": 103500.0,
+      "stop_time": 300,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Симферополь, Центральный автовокзал",
+        "short_title": "",
+        "popular_title": "Автовокзал Центральный",
+        "code": "s9654608",
+        "codes": {
+          "yandex": "s9654608"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 15:10:00",
+      "arrival": "2025-03-14 15:05:00",
+      "duration": 108600.0,
+      "stop_time": 300,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Севастополь, автовокзал",
+        "short_title": null,
+        "popular_title": "автовокзал Севастополь",
+        "code": "s9654609",
+        "codes": {
+          "yandex": "s9654609"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-14 17:00:00",
+      "duration": 115200.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "09:00"
+}

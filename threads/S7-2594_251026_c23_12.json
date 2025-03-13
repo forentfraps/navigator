@@ -1,0 +1,81 @@
+{
+  "uid": "S7-2594_251026_c23_12",
+  "number": "S7 2594",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "07:25",
+  "start_date": "2025-10-26",
+  "days": "ежедневно, кроме ср, пт с 26.10",
+  "except_days": "",
+  "title": "Абакан — Москва",
+  "short_title": "Абакан — Москва",
+  "carrier": {
+    "code": 23,
+    "title": "S7 Airlines",
+    "codes": {
+      "sirena": "С7",
+      "iata": "S7",
+      "icao": null
+    }
+  },
+  "vehicle": "Airbus А320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Абакан",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623351",
+        "codes": {
+          "yandex": "s9623351",
+          "iata": "ABA",
+          "sirena": "АБН"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-10-26 07:25:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Домодедово",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600216",
+        "codes": {
+          "yandex": "s9600216",
+          "esr": "193114",
+          "iata": "DME",
+          "sirena": "ДМД",
+          "express": "2001305"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-10-26 08:35:00",
+      "stop_time": null,
+      "duration": 18600,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

@@ -1,0 +1,79 @@
+{
+  "uid": "W9-5758_250401_c62238_12",
+  "number": "W9 5758",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "22:45",
+  "start_date": "2025-04-01",
+  "days": "вт, чт, сб с 01.04 по 28.08",
+  "except_days": "",
+  "title": "Варна — Лондон",
+  "short_title": "Варна — Лондон",
+  "carrier": {
+    "code": 62238,
+    "title": "Wizz Air UK",
+    "codes": {
+      "sirena": null,
+      "iata": "W9",
+      "icao": "WUK"
+    }
+  },
+  "vehicle": "Airbus A320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Варна",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623692",
+        "codes": {
+          "yandex": "s9623692",
+          "iata": "VAR",
+          "sirena": "ВАР"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-04-01 22:45:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Гатвик",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600411",
+        "codes": {
+          "yandex": "s9600411",
+          "iata": "LGW",
+          "sirena": "ЛГА"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-04-02 00:25:00",
+      "stop_time": null,
+      "duration": 13200,
+      "terminal": "0"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

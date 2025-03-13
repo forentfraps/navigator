@@ -1,0 +1,124 @@
+{
+  "uid": "TK-834_250509_c680_12",
+  "number": "TK 834",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "15:00",
+  "start_date": "2025-05-09",
+  "days": "9, 16, 23, 30 мая, 6 июня",
+  "except_days": "",
+  "title": "Стамбул — Стамбул",
+  "short_title": "Стамбул — Стамбул",
+  "carrier": {
+    "code": 680,
+    "title": "Turkish Airlines",
+    "codes": {
+      "sirena": null,
+      "iata": "TK",
+      "icao": "THY"
+    }
+  },
+  "vehicle": "Boeing 737-800",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Новый аэропорт Стамбул",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600421",
+        "codes": {
+          "yandex": "s9600421",
+          "iata": "IST",
+          "sirena": "ИСТ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-05-09 15:00:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Кинг Хуссейн",
+        "short_title": "",
+        "popular_title": null,
+        "code": "s9626644",
+        "codes": {
+          "yandex": "s9626644",
+          "iata": "AQJ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-05-09 18:35:00",
+      "arrival": "2025-05-09 17:40:00",
+      "stop_time": 3300,
+      "duration": 12900,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Квин Алия",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600423",
+        "codes": {
+          "yandex": "s9600423",
+          "iata": "AMM",
+          "sirena": "АМН"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-05-09 20:30:00",
+      "arrival": "2025-05-09 19:30:00",
+      "stop_time": 3600,
+      "duration": 19800,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Новый аэропорт Стамбул",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600421",
+        "codes": {
+          "yandex": "s9600421",
+          "iata": "IST",
+          "sirena": "ИСТ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-05-09 23:35:00",
+      "stop_time": null,
+      "duration": 30900,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

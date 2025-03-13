@@ -1,0 +1,79 @@
+{
+  "uid": "JU-572_250407_c737_12",
+  "number": "JU 572",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "13:45",
+  "start_date": "2025-03-31",
+  "days": "31 марта, 4, 7, 14, 18, 21, 25, 28 апреля, 2, 5, 9, 12, 16, 19, 23, 26, 30 мая, 2, 9, 16 июня, …",
+  "except_days": "",
+  "title": "Белград — Мадрид",
+  "short_title": "Белград — Мадрид",
+  "carrier": {
+    "code": 737,
+    "title": "Air Serbia",
+    "codes": {
+      "sirena": null,
+      "iata": "JU",
+      "icao": "JAT"
+    }
+  },
+  "vehicle": "Airbus А320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Белград",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623578",
+        "codes": {
+          "yandex": "s9623578",
+          "iata": "BEG",
+          "sirena": "БГА"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-31 13:45:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "2"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Барахас",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623590",
+        "codes": {
+          "yandex": "s9623590",
+          "iata": "MAD",
+          "sirena": "МАД"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-31 17:05:00",
+      "stop_time": null,
+      "duration": 12000,
+      "terminal": "1"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

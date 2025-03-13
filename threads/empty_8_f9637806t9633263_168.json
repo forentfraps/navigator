@@ -1,0 +1,202 @@
+{
+  "number": "",
+  "title": "Самара — Тольятти",
+  "short_title": "Самара — Тольятти",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 67224,
+    "title": "ИП Самгин Станислав Валентинович",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_8_f9637806t9633263_168",
+  "vehicle": "Fiat (16), е074му763",
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Самара, ж/д вокзал",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9637806",
+        "codes": {
+          "yandex": "s9637806"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 19:15:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Новосемейкино",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9636771",
+        "codes": {
+          "yandex": "s9636771"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 20:15:00",
+      "arrival": "2025-03-13 20:14:00",
+      "duration": 3600.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Волжский, поворот",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9751591",
+        "codes": {
+          "yandex": "s9751591"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 20:19:00",
+      "arrival": "2025-03-13 20:18:00",
+      "duration": 3840.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Аэропорт Курумоч",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9632987",
+        "codes": {
+          "yandex": "s9632987"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 20:41:00",
+      "arrival": "2025-03-13 20:40:00",
+      "duration": 5160.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Курумоч, поворот",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9852610",
+        "codes": {
+          "yandex": "s9852610"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 20:50:00",
+      "arrival": "2025-03-13 20:49:00",
+      "duration": 5700.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Прибрежный, поворот",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9633496",
+        "codes": {
+          "yandex": "s9633496"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 20:53:00",
+      "arrival": "2025-03-13 20:52:00",
+      "duration": 5880.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Зелёновка",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9751592",
+        "codes": {
+          "yandex": "s9751592"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 21:05:00",
+      "arrival": "2025-03-13 21:04:00",
+      "duration": 6600.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Тольятти, АВ \"Новый город\"",
+        "short_title": null,
+        "popular_title": "Тольятти, АВ \"Новый город\"",
+        "code": "s9633263",
+        "codes": {
+          "yandex": "s9633263"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 22:15:00",
+      "duration": 10800.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "19:15"
+}

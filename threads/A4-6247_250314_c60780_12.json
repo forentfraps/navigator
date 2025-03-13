@@ -1,0 +1,103 @@
+{
+  "uid": "A4-6247_250314_c60780_12",
+  "number": "A4 6247",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "01:50",
+  "start_date": "2025-03-14",
+  "days": "14, 21, 28 марта",
+  "except_days": "",
+  "title": "Минеральные Воды — Нижневартовск",
+  "short_title": "Минеральные Воды — Нижневартовск",
+  "carrier": {
+    "code": 60780,
+    "title": "Азимут",
+    "codes": {
+      "sirena": "А4",
+      "iata": "A4",
+      "icao": null
+    }
+  },
+  "vehicle": "Сухой Суперджет 100",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Минеральные Воды",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623558",
+        "codes": {
+          "yandex": "s9623558",
+          "iata": "MRV",
+          "sirena": "МРВ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-14 01:50:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Курумоч",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600380",
+        "codes": {
+          "yandex": "s9600380",
+          "esr": "453",
+          "iata": "KUF",
+          "sirena": "СКЧ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-14 06:25:00",
+      "arrival": "2025-03-14 05:25:00",
+      "stop_time": 3600,
+      "duration": 12900,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Нижневартовск",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623539",
+        "codes": {
+          "yandex": "s9623539",
+          "iata": "NJC",
+          "sirena": "НЖВ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-14 10:15:00",
+      "stop_time": null,
+      "duration": 23100,
+      "terminal": "1"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

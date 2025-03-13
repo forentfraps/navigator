@@ -1,0 +1,78 @@
+{
+  "uid": "TK-2005_251027_c680_12",
+  "number": "TK 2005",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "11:30",
+  "start_date": "2025-03-12",
+  "days": "ежедневно с 14.03 по 29.03, кроме 23.03, 24.03, 26.03",
+  "except_days": "",
+  "title": "Невшехир — Стамбул",
+  "short_title": "Невшехир — Стамбул",
+  "carrier": {
+    "code": 680,
+    "title": "Turkish Airlines",
+    "codes": {
+      "sirena": null,
+      "iata": "TK",
+      "icao": "THY"
+    }
+  },
+  "vehicle": "Airbus А321",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Невшехир",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9629020",
+        "codes": {
+          "yandex": "s9629020",
+          "iata": "NAV"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-12 11:30:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Новый аэропорт Стамбул",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600421",
+        "codes": {
+          "yandex": "s9600421",
+          "iata": "IST",
+          "sirena": "ИСТ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-12 13:05:00",
+      "stop_time": null,
+      "duration": 5700,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

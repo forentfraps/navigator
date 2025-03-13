@@ -1,0 +1,79 @@
+{
+  "uid": "TK-56_250331_c680_12",
+  "number": "TK 56",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "01:55",
+  "start_date": "2025-03-31",
+  "days": "ежедневно с 31.03 по 28.08",
+  "except_days": "",
+  "title": "Стамбул — Джакарта",
+  "short_title": "Стамбул — Джакарта",
+  "carrier": {
+    "code": 680,
+    "title": "Turkish Airlines",
+    "codes": {
+      "sirena": null,
+      "iata": "TK",
+      "icao": "THY"
+    }
+  },
+  "vehicle": "Airbus A350-900",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Новый аэропорт Стамбул",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600421",
+        "codes": {
+          "yandex": "s9600421",
+          "iata": "IST",
+          "sirena": "ИСТ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-31 01:55:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Сукарно-Хатта",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9625270",
+        "codes": {
+          "yandex": "s9625270",
+          "iata": "CGK",
+          "sirena": "ЦГК"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-31 17:35:00",
+      "stop_time": null,
+      "duration": 42000,
+      "terminal": "3"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

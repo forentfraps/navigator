@@ -1,0 +1,79 @@
+{
+  "uid": "A4-6100_250402_c60780_12",
+  "number": "A4 6100",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "21:30",
+  "start_date": "2025-04-02",
+  "days": "ср с 02.04 по 27.08",
+  "except_days": "",
+  "title": "Батуми — Минеральные Воды",
+  "short_title": "Батуми — Минеральные Воды",
+  "carrier": {
+    "code": 60780,
+    "title": "Азимут",
+    "codes": {
+      "sirena": "А4",
+      "iata": "A4",
+      "icao": null
+    }
+  },
+  "vehicle": "Сухой Суперджет 100",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Батуми",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623697",
+        "codes": {
+          "yandex": "s9623697",
+          "iata": "BUS",
+          "sirena": "БУИ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-04-02 21:30:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Минеральные Воды",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623558",
+        "codes": {
+          "yandex": "s9623558",
+          "iata": "MRV",
+          "sirena": "МРВ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-04-02 21:30:00",
+      "stop_time": null,
+      "duration": 3600,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

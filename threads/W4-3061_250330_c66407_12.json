@@ -1,0 +1,78 @@
+{
+  "uid": "W4-3061_250330_c66407_12",
+  "number": "W4 3061",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "06:15",
+  "start_date": "2025-03-30",
+  "days": "вс с 30.03 по 15.06",
+  "except_days": "",
+  "title": "Бухарест — Лион",
+  "short_title": "Бухарест — Лион",
+  "carrier": {
+    "code": 66407,
+    "title": "Wizz Air Malta",
+    "codes": {
+      "sirena": null,
+      "iata": "W4",
+      "icao": null
+    }
+  },
+  "vehicle": "Airbus A320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Отопени",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600438",
+        "codes": {
+          "yandex": "s9600438",
+          "iata": "OTP"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-30 06:15:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "им. Сент-Экзюпери",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600407",
+        "codes": {
+          "yandex": "s9600407",
+          "iata": "LYS",
+          "sirena": "ЛНС"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-30 08:05:00",
+      "stop_time": null,
+      "duration": 10200,
+      "terminal": "0"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

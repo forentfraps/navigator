@@ -1,0 +1,202 @@
+{
+  "number": "510-1",
+  "title": "Жердевка - Тамбов",
+  "short_title": "Жердевка - Тамбов",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 3753,
+    "title": "ИП Ахметов М.Р.",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_9_f9637046t9623434_551",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно по 06.04",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Жердевка",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9637046",
+        "codes": {
+          "yandex": "s9637046"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 16:20:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Туголуково",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9831886",
+        "codes": {
+          "yandex": "s9831886"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 16:55:00",
+      "arrival": "2025-03-13 16:53:00",
+      "duration": 2100.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Токарёвка/ Пановы кусты, поворот с трассы",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9863233",
+        "codes": {
+          "yandex": "s9863233"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 17:05:00",
+      "arrival": "2025-03-13 17:03:00",
+      "duration": 2700.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ракитино, поворот",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9863232",
+        "codes": {
+          "yandex": "s9863232"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 17:20:00",
+      "arrival": "2025-03-13 17:18:00",
+      "duration": 3600.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ивановка, поворот",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9831889",
+        "codes": {
+          "yandex": "s9831889"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 17:45:00",
+      "arrival": "2025-03-13 17:43:00",
+      "duration": 5100.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Знаменка, трасса",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9822805",
+        "codes": {
+          "yandex": "s9822805"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 18:05:00",
+      "arrival": "2025-03-13 18:03:00",
+      "duration": 6300.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Автобаза № 58",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9879662",
+        "codes": {
+          "yandex": "s9879662"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 18:45:00",
+      "arrival": "2025-03-13 18:43:00",
+      "duration": 8700.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Тамбов, Северный автовокзал",
+        "short_title": null,
+        "popular_title": "Автовокзал Северный",
+        "code": "s9623434",
+        "codes": {
+          "yandex": "s9623434"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 19:10:00",
+      "duration": 10200.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "16:20"
+}

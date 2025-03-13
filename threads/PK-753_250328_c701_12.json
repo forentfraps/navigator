@@ -1,0 +1,78 @@
+{
+  "uid": "PK-753_250328_c701_12",
+  "number": "PK 753",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "04:40",
+  "start_date": "2025-03-28",
+  "days": "28 марта",
+  "except_days": "",
+  "title": "Исламабад — Эр-Рияд",
+  "short_title": "Исламабад — Эр-Рияд",
+  "carrier": {
+    "code": 701,
+    "title": "Pakistan International Airlines",
+    "codes": {
+      "sirena": null,
+      "iata": "PK",
+      "icao": "PIA"
+    }
+  },
+  "vehicle": "Boeing 777-200",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Исламабад",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9634163",
+        "codes": {
+          "yandex": "s9634163",
+          "iata": "ISB"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-28 04:40:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Кинг Халид",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9630318",
+        "codes": {
+          "yandex": "s9630318",
+          "iata": "RUH",
+          "sirena": "РУХ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-28 07:10:00",
+      "stop_time": null,
+      "duration": 16200,
+      "terminal": "3"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

@@ -1,0 +1,241 @@
+{
+  "number": "7045",
+  "title": "Рязань-1 — Москва (Казанский вокзал)",
+  "short_title": "Рязань-1 — М-Казанская",
+  "express_type": "express",
+  "transport_type": "suburban",
+  "carrier": {
+    "code": 153,
+    "title": "Центральная пригородная пассажирская компания",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "7045_1_9600786_g25_4",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": "фирменный экспресс (билеты c указанием мест)",
+    "code": "firmex",
+    "color": "#CC6600"
+  },
+  "days": "только 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31 марта, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25 апреля",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Рязань-1",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600786",
+        "codes": {
+          "yandex": "s9600786",
+          "esr": "220307",
+          "express": "2000120"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 16:21:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Рыбное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600736",
+        "codes": {
+          "yandex": "s9600736",
+          "esr": "220006",
+          "express": "2000070"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 16:48:00",
+      "arrival": "2025-03-13 16:47:00",
+      "duration": 1620.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Фруктовая",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600709",
+        "codes": {
+          "yandex": "s9600709",
+          "esr": "234403",
+          "express": "2000043"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 17:10:00",
+      "arrival": "2025-03-13 17:09:00",
+      "duration": 2940.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Луховицы",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600726",
+        "codes": {
+          "yandex": "s9600726",
+          "esr": "234206",
+          "express": "2000060"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 17:23:00",
+      "arrival": "2025-03-13 17:22:00",
+      "duration": 3720.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Голутвин",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600716",
+        "codes": {
+          "yandex": "s9600716",
+          "esr": "233805",
+          "express": "2000050"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 17:40:00",
+      "arrival": "2025-03-13 17:39:00",
+      "duration": 4740.0,
+      "stop_time": 60,
+      "platform": "1 платф.",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "88 км",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601903",
+        "codes": {
+          "yandex": "s9601903",
+          "esr": "195228",
+          "express": "2001371"
+        },
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 18:06:00",
+      "arrival": "2025-03-13 18:05:00",
+      "duration": 6300.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Отдых",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9602223",
+        "codes": {
+          "yandex": "s9602223",
+          "esr": "194827",
+          "express": "2002090"
+        },
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 18:42:00",
+      "arrival": "2025-03-13 18:41:00",
+      "duration": 8460.0,
+      "stop_time": 60,
+      "platform": "4 путь",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Выхино",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9601627",
+        "codes": {
+          "yandex": "s9601627",
+          "esr": "193839",
+          "express": "2001000"
+        },
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 18:59:00",
+      "arrival": "2025-03-13 18:58:00",
+      "duration": 9480.0,
+      "stop_time": 60,
+      "platform": "4 путь",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Москва (Казанский вокзал)",
+        "short_title": "М-Казанская",
+        "popular_title": "Казанский вокзал",
+        "code": "s2000003",
+        "codes": {
+          "yandex": "s2000003",
+          "esr": "194013",
+          "express": "2000003"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 19:15:00",
+      "duration": 10440.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "16:21"
+}

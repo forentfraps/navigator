@@ -1,0 +1,81 @@
+{
+  "uid": "DP-413_250502_c9144_12",
+  "number": "DP 413",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "23:30",
+  "start_date": "2025-03-30",
+  "days": "30, 31 марта, 1, 2, 4, 5, 6, 7, 8, 9, 11, 12, 14, 15, 17, 19, 20, 21, 22, 23 апреля, …",
+  "except_days": "",
+  "title": "Москва — Челябинск",
+  "short_title": "Москва — Челябинск",
+  "carrier": {
+    "code": 9144,
+    "title": "Победа",
+    "codes": {
+      "sirena": "ДР",
+      "iata": "DP",
+      "icao": null
+    }
+  },
+  "vehicle": "Boeing 737-800",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Внуково",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600215",
+        "codes": {
+          "yandex": "s9600215",
+          "esr": "180701",
+          "iata": "VKO",
+          "sirena": "ВНК",
+          "express": "2000714"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-30 23:30:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "A"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Баландино",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623444",
+        "codes": {
+          "yandex": "s9623444",
+          "iata": "CEK",
+          "sirena": "ЧЛБ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-31 04:00:00",
+      "stop_time": null,
+      "duration": 9000,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

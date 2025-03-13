@@ -1,0 +1,218 @@
+{
+  "number": "7146",
+  "title": "Серпухов — Царицыно",
+  "short_title": "Серпухов — Царицыно",
+  "express_type": "express",
+  "transport_type": "suburban",
+  "carrier": {
+    "code": 153,
+    "title": "Центральная пригородная пассажирская компания",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "7146_0_9600830_g25_4",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": "экспресс РЭКС",
+    "code": "rex",
+    "color": "#CC6600"
+  },
+  "days": "ежедневно",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Серпухов",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600830",
+        "codes": {
+          "yandex": "s9600830",
+          "esr": "190205",
+          "express": "2000164"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 11:10:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Чехов",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601062",
+        "codes": {
+          "yandex": "s9601062",
+          "esr": "190506",
+          "express": "2000400"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 11:29:00",
+      "arrival": "2025-03-13 11:28:00",
+      "duration": 1140.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Столбовая",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601626",
+        "codes": {
+          "yandex": "s9601626",
+          "esr": "190609",
+          "express": "2000999"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 11:39:00",
+      "arrival": "2025-03-13 11:38:00",
+      "duration": 1740.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Гривно",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601157",
+        "codes": {
+          "yandex": "s9601157",
+          "esr": "190807",
+          "express": "2000495"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 11:49:00",
+      "arrival": "2025-03-13 11:48:00",
+      "duration": 2340.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Подольск",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600731",
+        "codes": {
+          "yandex": "s9600731",
+          "esr": "190900",
+          "express": "2000065"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 11:59:00",
+      "arrival": "2025-03-13 11:57:00",
+      "duration": 2940.0,
+      "stop_time": 120,
+      "platform": "3/11 путь.реже 2путь",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Силикатная",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9602273",
+        "codes": {
+          "yandex": "s9602273",
+          "esr": "191000",
+          "express": "2002952"
+        },
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 12:04:00",
+      "arrival": "2025-03-13 12:03:00",
+      "duration": 3240.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Щербинка",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600951",
+        "codes": {
+          "yandex": "s9600951",
+          "esr": "191104",
+          "express": "2000285"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 12:11:00",
+      "arrival": "2025-03-13 12:10:00",
+      "duration": 3660.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Царицыно",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600891",
+        "codes": {
+          "yandex": "s9600891",
+          "esr": "191424",
+          "express": "2000225"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 12:28:00",
+      "duration": 4680.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "11:10"
+}

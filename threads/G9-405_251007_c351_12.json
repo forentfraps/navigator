@@ -1,0 +1,79 @@
+{
+  "uid": "G9-405_251007_c351_12",
+  "number": "G9 405",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "23:35",
+  "start_date": "2025-10-07",
+  "days": "7, 14, 21 октября",
+  "except_days": "",
+  "title": "Шарджа — Мумбаи",
+  "short_title": "Шарджа — Мумбаи",
+  "carrier": {
+    "code": 351,
+    "title": "Air Arabia",
+    "codes": {
+      "sirena": null,
+      "iata": "G9",
+      "icao": "ABY"
+    }
+  },
+  "vehicle": "Airbus А321",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Шарджа",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623802",
+        "codes": {
+          "yandex": "s9623802",
+          "iata": "SHJ",
+          "sirena": "СХЙ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-10-07 23:35:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Мумбаи",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623600",
+        "codes": {
+          "yandex": "s9623600",
+          "iata": "BOM",
+          "sirena": "БОМ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-10-08 04:15:00",
+      "stop_time": null,
+      "duration": 11400,
+      "terminal": "2"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

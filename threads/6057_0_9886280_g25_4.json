@@ -1,0 +1,171 @@
+{
+  "number": "6057",
+  "title": "Аэропорт Кольцово — Екатеринбург-Пасс.",
+  "short_title": "Аэропорт Кольцово — Екатеринбург-П",
+  "express_type": null,
+  "transport_type": "suburban",
+  "carrier": {
+    "code": 1331,
+    "title": "Свердловская пригородная компания",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "6057_0_9886280_g25_4",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": "«Финист» (по обычным билетам)",
+    "code": "finp",
+    "color": "#17c104"
+  },
+  "days": "кроме вс",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Аэропорт Кольцово",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9886280",
+        "codes": {
+          "yandex": "s9886280",
+          "esr": "751"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 17:16:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Кольцово",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9607461",
+        "codes": {
+          "yandex": "s9607461",
+          "esr": "794305",
+          "express": "2030058"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 17:22:00",
+      "arrival": "2025-03-13 17:21:00",
+      "duration": 360.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Компрессорный Завод",
+        "short_title": "Компресс Зд",
+        "popular_title": "",
+        "code": "s9608007",
+        "codes": {
+          "yandex": "s9608007",
+          "esr": "794216",
+          "express": "2030681"
+        },
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 17:27:00",
+      "arrival": "2025-03-13 17:26:00",
+      "duration": 660.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Шарташ",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9607458",
+        "codes": {
+          "yandex": "s9607458",
+          "esr": "780603",
+          "express": "2030055"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 17:39:00",
+      "arrival": "2025-03-13 17:38:00",
+      "duration": 1380.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Первомайская",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9608066",
+        "codes": {
+          "yandex": "s9608066",
+          "esr": "780618",
+          "express": "2031190"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 17:43:00",
+      "arrival": "2025-03-13 17:42:00",
+      "duration": 1620.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Екатеринбург-Пасс.",
+        "short_title": "Екатеринбург-П",
+        "popular_title": null,
+        "code": "s9607404",
+        "codes": {
+          "yandex": "s9607404",
+          "esr": "780506",
+          "express": "2030000"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 17:48:00",
+      "duration": 1920.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "17:16"
+}

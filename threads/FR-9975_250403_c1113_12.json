@@ -1,0 +1,79 @@
+{
+  "uid": "FR-9975_250403_c1113_12",
+  "number": "FR 9975",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "10:55",
+  "start_date": "2025-04-03",
+  "days": "чт с 03.04 по 28.08",
+  "except_days": "",
+  "title": "Салоники — Болонья",
+  "short_title": "Салоники — Болонья",
+  "carrier": {
+    "code": 1113,
+    "title": "Ryanair",
+    "codes": {
+      "sirena": null,
+      "iata": "FR",
+      "icao": "RYR"
+    }
+  },
+  "vehicle": "Boeing 737-800",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Салоники",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623699",
+        "codes": {
+          "yandex": "s9623699",
+          "iata": "SKG",
+          "sirena": "СКГ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-04-03 10:55:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Гульельмо Маркони",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9628249",
+        "codes": {
+          "yandex": "s9628249",
+          "iata": "BLQ",
+          "sirena": "БОЯ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-04-03 11:55:00",
+      "stop_time": null,
+      "duration": 7200,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

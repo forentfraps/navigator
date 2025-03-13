@@ -1,0 +1,77 @@
+{
+  "uid": "UD-445_250317_c1463_12",
+  "number": "UD 445",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "08:45",
+  "start_date": "2025-03-17",
+  "days": "пн по 11.08",
+  "except_days": "",
+  "title": "Эрбил — Берлин",
+  "short_title": "Эрбил — Берлин",
+  "carrier": {
+    "code": 1463,
+    "title": "Hex'air",
+    "codes": {
+      "sirena": null,
+      "iata": "UD",
+      "icao": null
+    }
+  },
+  "vehicle": "Airbus А320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Эрбил",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9634819",
+        "codes": {
+          "yandex": "s9634819",
+          "iata": "EBL"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-17 08:45:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Бранденбург",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9727331",
+        "codes": {
+          "yandex": "s9727331",
+          "iata": "BER"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-17 11:30:00",
+      "stop_time": null,
+      "duration": 17100,
+      "terminal": "0"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

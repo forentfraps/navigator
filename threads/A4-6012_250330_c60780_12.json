@@ -1,0 +1,79 @@
+{
+  "uid": "A4-6012_250330_c60780_12",
+  "number": "A4 6012",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "16:00",
+  "start_date": "2025-03-30",
+  "days": "ср, вс с 30.03 по 28.05",
+  "except_days": "",
+  "title": "Махачкала — Минеральные Воды",
+  "short_title": "Махачкала — Минеральные Воды",
+  "carrier": {
+    "code": 60780,
+    "title": "Азимут",
+    "codes": {
+      "sirena": "А4",
+      "iata": "A4",
+      "icao": null
+    }
+  },
+  "vehicle": "Сухой Суперджет 100",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Уйташ",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623330",
+        "codes": {
+          "yandex": "s9623330",
+          "iata": "MCX",
+          "sirena": "МХЛ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-30 16:00:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Минеральные Воды",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623558",
+        "codes": {
+          "yandex": "s9623558",
+          "iata": "MRV",
+          "sirena": "МРВ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-30 17:10:00",
+      "stop_time": null,
+      "duration": 4200,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

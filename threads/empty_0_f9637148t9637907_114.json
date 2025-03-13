@@ -1,0 +1,139 @@
+{
+  "number": "",
+  "title": "Санкт-Петербург, автовокзал на Обводном канале — Таллин",
+  "short_title": "Санкт-Петербург, автовокзал на Обводном канале — Таллин",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 65709,
+    "title": "AS LuxExpressEstonia",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_0_f9637148t9637907_114",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "пн, пт по 26.10",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Санкт-Петербург, автовокзал на Обводном канале",
+        "short_title": null,
+        "popular_title": "Автовокзал на Обводном канале",
+        "code": "s9637148",
+        "codes": {
+          "yandex": "s9637148"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 07:00:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Лухамаа, МАПП",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9760254",
+        "codes": {
+          "yandex": "s9760254"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 12:54:00",
+      "arrival": "2025-03-14 12:53:00",
+      "duration": 24840.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Выру",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9638065",
+        "codes": {
+          "yandex": "s9638065"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 13:26:00",
+      "arrival": "2025-03-14 13:25:00",
+      "duration": 26760.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Тарту",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9638055",
+        "codes": {
+          "yandex": "s9638055"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 14:36:00",
+      "arrival": "2025-03-14 14:35:00",
+      "duration": 30960.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Таллин, автовокзал",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9637907",
+        "codes": {
+          "yandex": "s9637907"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-14 17:00:00",
+      "duration": 39600.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-14",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "07:00"
+}

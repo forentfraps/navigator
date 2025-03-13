@@ -1,0 +1,412 @@
+{
+  "number": "105",
+  "title": "Иваново - Иванцево",
+  "short_title": "Иваново - Иванцево",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 61705,
+    "title": "ООО \"Мега-Авто\"",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_11_f9834072t9868956_323",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно с 01.05",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Иваново, ж/д вокзал",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9834072",
+        "codes": {
+          "yandex": "s9834072"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-05-01 10:10:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Улица Карла Маркса",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9868939",
+        "codes": {
+          "yandex": "s9868939"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-05-01 10:12:00",
+      "arrival": "2025-05-01 10:11:00",
+      "duration": 120.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Станционная улица",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9841222",
+        "codes": {
+          "yandex": "s9841222"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-05-01 10:14:00",
+      "arrival": "2025-05-01 10:13:00",
+      "duration": 240.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "ЦКиО \"Ивтекс\"",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9868938",
+        "codes": {
+          "yandex": "s9868938"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-05-01 10:16:00",
+      "arrival": "2025-05-01 10:15:00",
+      "duration": 360.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Кранэкс",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9868937",
+        "codes": {
+          "yandex": "s9868937"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-05-01 10:18:00",
+      "arrival": "2025-05-01 10:17:00",
+      "duration": 480.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "2-я Минеевская",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9868936",
+        "codes": {
+          "yandex": "s9868936"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-05-01 10:20:00",
+      "arrival": "2025-05-01 10:19:00",
+      "duration": 600.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Магазин №60",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9868935",
+        "codes": {
+          "yandex": "s9868935"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-05-01 10:22:00",
+      "arrival": "2025-05-01 10:21:00",
+      "duration": 720.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "8-я Минеевская улица",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9868343",
+        "codes": {
+          "yandex": "s9868343"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-05-01 10:24:00",
+      "arrival": "2025-05-01 10:23:00",
+      "duration": 840.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "1-я Грачёвская",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9868934",
+        "codes": {
+          "yandex": "s9868934"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-05-01 10:26:00",
+      "arrival": "2025-05-01 10:25:00",
+      "duration": 960.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "3-я Грачёвская",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9868933",
+        "codes": {
+          "yandex": "s9868933"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-05-01 10:28:00",
+      "arrival": "2025-05-01 10:27:00",
+      "duration": 1080.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "7-я Середская",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9868932",
+        "codes": {
+          "yandex": "s9868932"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-05-01 10:30:00",
+      "arrival": "2025-05-01 10:29:00",
+      "duration": 1200.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Микрорайон \"Дальний\"",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9838719",
+        "codes": {
+          "yandex": "s9838719"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-05-01 10:32:00",
+      "arrival": "2025-05-01 10:31:00",
+      "duration": 1320.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Иванцево, поворот",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9844505",
+        "codes": {
+          "yandex": "s9844505"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-05-01 10:34:00",
+      "arrival": "2025-05-01 10:33:00",
+      "duration": 1440.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Сады, 8-й км",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9868955",
+        "codes": {
+          "yandex": "s9868955"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-05-01 10:36:00",
+      "arrival": "2025-05-01 10:35:00",
+      "duration": 1560.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Сады, 10-й км",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9868954",
+        "codes": {
+          "yandex": "s9868954"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-05-01 10:38:00",
+      "arrival": "2025-05-01 10:37:00",
+      "duration": 1680.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Семёновское",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9868953",
+        "codes": {
+          "yandex": "s9868953"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-05-01 10:40:00",
+      "arrival": "2025-05-01 10:39:00",
+      "duration": 1800.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Детский санаторий",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9868952",
+        "codes": {
+          "yandex": "s9868952"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-05-01 10:42:00",
+      "arrival": "2025-05-01 10:41:00",
+      "duration": 1920.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Иванцево",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9868956",
+        "codes": {
+          "yandex": "s9868956"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-05-01 10:42:00",
+      "duration": 1920.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-05-01",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "10:10"
+}

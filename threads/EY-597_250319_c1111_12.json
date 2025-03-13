@@ -1,0 +1,79 @@
+{
+  "uid": "EY-597_250319_c1111_12",
+  "number": "EY 597",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "09:05",
+  "start_date": "2025-03-19",
+  "days": "19, 21, 23, 26 марта",
+  "except_days": "",
+  "title": "Абу-Даби — Тель-Авив",
+  "short_title": "Абу-Даби — Тель-Авив",
+  "carrier": {
+    "code": 1111,
+    "title": "Etihad Airways",
+    "codes": {
+      "sirena": null,
+      "iata": "EY",
+      "icao": "EFL"
+    }
+  },
+  "vehicle": "Airbus А321",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Абу-Даби",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9624402",
+        "codes": {
+          "yandex": "s9624402",
+          "iata": "AUH",
+          "sirena": "АУХ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-19 09:05:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "A"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Бен Гурион",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600442",
+        "codes": {
+          "yandex": "s9600442",
+          "iata": "TLV",
+          "sirena": "ТЛЯ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-19 10:45:00",
+      "stop_time": null,
+      "duration": 13200,
+      "terminal": "3"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

@@ -1,0 +1,78 @@
+{
+  "uid": "RO-168_250314_c329_12",
+  "number": "RO 168",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "04:05",
+  "start_date": "2025-03-12",
+  "days": "14, 16, 19, 21, 23, 26, 28, 30, 31 марта, 2, 4, 6, 7, 9, 11, 13, 14, 16, 18, 20 апреля, …",
+  "except_days": "",
+  "title": "Бейрут — Бухарест",
+  "short_title": "Бейрут — Бухарест",
+  "carrier": {
+    "code": 329,
+    "title": "Tarom",
+    "codes": {
+      "sirena": null,
+      "iata": "RO",
+      "icao": "ROT"
+    }
+  },
+  "vehicle": "Boeing 737-700",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Бейрут",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623595",
+        "codes": {
+          "yandex": "s9623595",
+          "iata": "BEY",
+          "sirena": "БЕУ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-12 04:05:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Отопени",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600438",
+        "codes": {
+          "yandex": "s9600438",
+          "iata": "OTP"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-12 06:30:00",
+      "stop_time": null,
+      "duration": 8700,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

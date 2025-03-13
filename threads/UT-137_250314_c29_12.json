@@ -1,0 +1,125 @@
+{
+  "uid": "UT-137_250314_c29_12",
+  "number": "UT 137",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "04:00",
+  "start_date": "2025-03-12",
+  "days": "пн, ср, пт, вс по 31.03, кроме 23.03",
+  "except_days": "",
+  "title": "Сургут — Иркутск",
+  "short_title": "Сургут — Иркутск",
+  "carrier": {
+    "code": 29,
+    "title": "ЮТэйр",
+    "codes": {
+      "sirena": "ЮТ",
+      "iata": "UT",
+      "icao": "UTA"
+    }
+  },
+  "vehicle": "ATR 72",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Сургут",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623563",
+        "codes": {
+          "yandex": "s9623563",
+          "iata": "SGC",
+          "sirena": "СУР"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-12 04:00:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Толмачёво",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600374",
+        "codes": {
+          "yandex": "s9600374",
+          "iata": "OVB",
+          "sirena": "ТЛЧ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-12 09:00:00",
+      "arrival": "2025-03-12 08:20:00",
+      "stop_time": 2400,
+      "duration": 10800,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Красноярск",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600376",
+        "codes": {
+          "yandex": "s9600376",
+          "iata": "KJA",
+          "sirena": "КЯА"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-12 11:35:00",
+      "arrival": "2025-03-12 10:55:00",
+      "stop_time": 2400,
+      "duration": 20100,
+      "terminal": "1"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Иркутск",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600174",
+        "codes": {
+          "yandex": "s9600174",
+          "iata": "IKT",
+          "sirena": "ИКТ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-12 14:55:00",
+      "stop_time": null,
+      "duration": 28500,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

@@ -1,0 +1,101 @@
+{
+  "uid": "2W-8624_250313_c65168_12",
+  "number": "2W 8624",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "11:55",
+  "start_date": "2025-03-13",
+  "days": "13, 20, 27 марта",
+  "except_days": "",
+  "title": "Фукуок — Прага",
+  "short_title": "Фукуок — Прага",
+  "carrier": {
+    "code": 65168,
+    "title": "World 2 Fly, S.L. dba W2FLY",
+    "codes": {
+      "sirena": null,
+      "iata": "2W",
+      "icao": "WFL"
+    }
+  },
+  "vehicle": "Airbus А330-300",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Фукуок",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9627221",
+        "codes": {
+          "yandex": "s9627221",
+          "iata": "PQC"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-13 11:55:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Новый аэропорт Стамбул",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600421",
+        "codes": {
+          "yandex": "s9600421",
+          "iata": "IST",
+          "sirena": "ИСТ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-13 20:45:00",
+      "arrival": "2025-03-13 19:15:00",
+      "stop_time": 5400,
+      "duration": 46200,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "имени Вацлава Гавела",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623536",
+        "codes": {
+          "yandex": "s9623536",
+          "iata": "PRG",
+          "sirena": "ПРХ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-13 21:25:00",
+      "stop_time": null,
+      "duration": 55800,
+      "terminal": "2"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

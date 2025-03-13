@@ -1,0 +1,101 @@
+{
+  "uid": "TK-168_251026_c680_12",
+  "number": "TK 168",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "15:30",
+  "start_date": "2025-10-26",
+  "days": "вт, чт, вс с 26.10",
+  "except_days": "",
+  "title": "Стамбул — Мельбурн",
+  "short_title": "Стамбул — Мельбурн",
+  "carrier": {
+    "code": 680,
+    "title": "Turkish Airlines",
+    "codes": {
+      "sirena": null,
+      "iata": "TK",
+      "icao": "THY"
+    }
+  },
+  "vehicle": "Airbus A350-900",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Новый аэропорт Стамбул",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600421",
+        "codes": {
+          "yandex": "s9600421",
+          "iata": "IST",
+          "sirena": "ИСТ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-10-26 15:30:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Чанги",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600437",
+        "codes": {
+          "yandex": "s9600437",
+          "iata": "SIN",
+          "sirena": "СПУ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-10-27 08:30:00",
+      "arrival": "2025-10-27 06:50:00",
+      "stop_time": 6000,
+      "duration": 43200,
+      "terminal": "1"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Мельбурн",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600462",
+        "codes": {
+          "yandex": "s9600462",
+          "iata": "MEL"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-10-27 19:00:00",
+      "stop_time": null,
+      "duration": 70200,
+      "terminal": "2"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

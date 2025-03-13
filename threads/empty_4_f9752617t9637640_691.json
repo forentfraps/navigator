@@ -1,0 +1,139 @@
+{
+  "number": "",
+  "title": "Темрюк — Анапа",
+  "short_title": "Темрюк — Анапа",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 66323,
+    "title": "Анапа ИП Полодьян Е.А.",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_4_f9752617t9637640_691",
+  "vehicle": "Хундай_18м",
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Темрюк, автостанция",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9752617",
+        "codes": {
+          "yandex": "s9752617"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 14:20:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Стрелка",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9810584",
+        "codes": {
+          "yandex": "s9810584"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 14:41:00",
+      "arrival": "2025-03-13 14:40:00",
+      "duration": 1260.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Виноградный, трасса",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9854668",
+        "codes": {
+          "yandex": "s9854668"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 15:19:00",
+      "arrival": "2025-03-13 15:18:00",
+      "duration": 3540.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Анапа, аэропорт",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9854280",
+        "codes": {
+          "yandex": "s9854280"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 15:31:00",
+      "arrival": "2025-03-13 15:30:00",
+      "duration": 4260.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Анапа, автовокзал",
+        "short_title": "",
+        "popular_title": "Автовокзал Анапа",
+        "code": "s9637640",
+        "codes": {
+          "yandex": "s9637640"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 15:52:00",
+      "duration": 5520.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "14:20"
+}

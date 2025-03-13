@@ -1,0 +1,79 @@
+{
+  "uid": "SU-626_250519_c26_12",
+  "number": "SU 626",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "02:05",
+  "start_date": "2025-05-19",
+  "days": "пн с 19.05 по 29.09",
+  "except_days": "",
+  "title": "Екатеринбург — Пхукет",
+  "short_title": "Екатеринбург — Пхукет",
+  "carrier": {
+    "code": 26,
+    "title": "Аэрофлот",
+    "codes": {
+      "sirena": "СУ",
+      "iata": "SU",
+      "icao": "AFL"
+    }
+  },
+  "vehicle": "Airbus А330-300",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Кольцово",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600370",
+        "codes": {
+          "yandex": "s9600370",
+          "iata": "SVX",
+          "sirena": "ЕКБ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-05-19 02:05:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Пхукет",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623774",
+        "codes": {
+          "yandex": "s9623774",
+          "iata": "HKT",
+          "sirena": "ХКТ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-05-19 12:55:00",
+      "stop_time": null,
+      "duration": 31800,
+      "terminal": "I"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

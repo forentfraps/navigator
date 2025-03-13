@@ -1,0 +1,181 @@
+{
+  "number": "028/030",
+  "title": "Кострома - Ярославль - Москва",
+  "short_title": "Кострома - Ярославль - Москва",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 60885,
+    "title": "ООО «ЯрКамп-Кострома»",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_3_f9847562t9878062_589",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно по 29.03, кроме 31.12",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Кострома, ж/д вокзал",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9847562",
+        "codes": {
+          "yandex": "s9847562"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 22:10:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Зарубино",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9652579",
+        "codes": {
+          "yandex": "s9652579"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 22:28:00",
+      "arrival": "2025-03-13 22:27:00",
+      "duration": 1080.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ярославль, автовокзал",
+        "short_title": null,
+        "popular_title": "Ярославский автовокзал",
+        "code": "s9623448",
+        "codes": {
+          "yandex": "s9623448"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 23:55:00",
+      "arrival": "2025-03-13 23:54:00",
+      "duration": 6300.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ростов Великий, кассовый пункт",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9865678",
+        "codes": {
+          "yandex": "s9865678"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 00:50:00",
+      "arrival": "2025-03-14 00:49:00",
+      "duration": 9600.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Петровское",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600347",
+        "codes": {
+          "yandex": "s9600347"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 01:15:00",
+      "arrival": "2025-03-14 01:14:00",
+      "duration": 11100.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Переславль-Залесский",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600344",
+        "codes": {
+          "yandex": "s9600344"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 02:20:00",
+      "arrival": "2025-03-14 02:19:00",
+      "duration": 15000.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "м. Щёлковская",
+        "short_title": null,
+        "popular_title": "м. Щёлковская",
+        "code": "s9878062",
+        "codes": {
+          "yandex": "s9878062"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-14 04:25:00",
+      "duration": 22500.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "22:10"
+}

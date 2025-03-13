@@ -1,0 +1,287 @@
+{
+  "number": "922С",
+  "title": "Гагра — Сочи",
+  "short_title": "Гагра — Сочи",
+  "express_type": null,
+  "transport_type": "train",
+  "carrier": {
+    "code": 4240,
+    "title": "РЖД/ДОСС",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "922S_1_2",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": "«Ласточка»",
+    "code": "lastdal",
+    "color": "#CC6600"
+  },
+  "days": "17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30 апреля, 1, 2, 3, 4, 5, 6 мая, …",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Гагра",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9620224",
+        "codes": {
+          "yandex": "s9620224",
+          "esr": "574304",
+          "express": "4200379"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-17 13:26:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Гагрыпш",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9637568",
+        "codes": {
+          "yandex": "s9637568",
+          "esr": "574314",
+          "express": "4200302"
+        },
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-17 13:34:00",
+      "arrival": "2025-04-17 13:33:00",
+      "duration": 480.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Абаата",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9637567",
+        "codes": {
+          "yandex": "s9637567",
+          "esr": "574329",
+          "express": "4200301"
+        },
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-17 13:42:00",
+      "arrival": "2025-04-17 13:41:00",
+      "duration": 960.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Цандрыпш",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9620222",
+        "codes": {
+          "yandex": "s9620222",
+          "esr": "574403",
+          "express": "4200377"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-17 14:26:00",
+      "arrival": "2025-04-17 13:56:00",
+      "duration": 3600.0,
+      "stop_time": 1800,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Имеретинский курорт (Олимпийский парк)",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9812789",
+        "codes": {
+          "yandex": "s9812789",
+          "esr": "001881",
+          "express": "2064308"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-17 15:48:00",
+      "arrival": "2025-04-17 15:46:00",
+      "duration": 8520.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Адлер",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9613054",
+        "codes": {
+          "yandex": "s9613054",
+          "esr": "532805",
+          "express": "2064150"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-17 16:08:00",
+      "arrival": "2025-04-17 15:58:00",
+      "duration": 9720.0,
+      "stop_time": 600,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Аэропорт Сочи",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9882415",
+        "codes": {
+          "yandex": "s9882415",
+          "esr": "532720",
+          "express": "2064166"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-17 16:29:00",
+      "arrival": "2025-04-17 16:17:00",
+      "duration": 10980.0,
+      "stop_time": 720,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Адлер",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9613054",
+        "codes": {
+          "yandex": "s9613054",
+          "esr": "532805",
+          "express": "2064150"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-17 16:59:00",
+      "arrival": "2025-04-17 16:39:00",
+      "duration": 12780.0,
+      "stop_time": 1200,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Хоста",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9612922",
+        "codes": {
+          "yandex": "s9612922",
+          "esr": "532839",
+          "express": "2064010"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-17 17:13:00",
+      "arrival": "2025-04-17 17:12:00",
+      "duration": 13620.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Мацеста",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9612976",
+        "codes": {
+          "yandex": "s9612976",
+          "esr": "532858",
+          "express": "2064064"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-17 17:23:00",
+      "arrival": "2025-04-17 17:22:00",
+      "duration": 14220.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Сочи",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9613034",
+        "codes": {
+          "yandex": "s9613034",
+          "esr": "532909",
+          "express": "2064130"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": null,
+      "arrival": "2025-04-17 17:33:00",
+      "duration": 14820.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-04-17",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "13:26"
+}

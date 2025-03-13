@@ -1,0 +1,79 @@
+{
+  "uid": "5N-228_250319_c80_12",
+  "number": "5N 228",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "19:20",
+  "start_date": "2025-03-19",
+  "days": "19, 26 марта",
+  "except_days": "",
+  "title": "Казань — Москва",
+  "short_title": "Казань — Москва",
+  "carrier": {
+    "code": 80,
+    "title": "Smartavia",
+    "codes": {
+      "sirena": "5Н",
+      "iata": "5N",
+      "icao": "AUL"
+    }
+  },
+  "vehicle": "Boeing 737-800",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Казань",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600379",
+        "codes": {
+          "yandex": "s9600379",
+          "iata": "KZN",
+          "sirena": "ККЗ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-19 19:20:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "1"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Шереметьево",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600213",
+        "codes": {
+          "yandex": "s9600213",
+          "iata": "SVO",
+          "sirena": "ШРМ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-19 21:00:00",
+      "stop_time": null,
+      "duration": 6000,
+      "terminal": "D"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

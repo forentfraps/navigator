@@ -1,0 +1,77 @@
+{
+  "uid": "F3-457_250824_c61236_12",
+  "number": "F3 457",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "07:45",
+  "start_date": "2025-03-30",
+  "days": "30 марта, 2, 4, 6, 9, 11, 13, 16, 18, 20, 23, 25, 27, 30 апреля, 2, 4, 7, 9, 11, 14 мая, …",
+  "except_days": "",
+  "title": "Даммам — Биша",
+  "short_title": "Даммам — Биша",
+  "carrier": {
+    "code": 61236,
+    "title": "Flyadeal Airlines",
+    "codes": {
+      "sirena": null,
+      "iata": "F3",
+      "icao": null
+    }
+  },
+  "vehicle": "Airbus А320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Кинг Фахд",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9624502",
+        "codes": {
+          "yandex": "s9624502",
+          "iata": "DMM"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-30 07:45:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Калъат-Биша",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9628204",
+        "codes": {
+          "yandex": "s9628204",
+          "iata": "BHH"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-30 09:45:00",
+      "stop_time": null,
+      "duration": 7200,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

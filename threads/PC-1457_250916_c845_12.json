@@ -1,0 +1,81 @@
+{
+  "uid": "PC-1457_250916_c845_12",
+  "number": "PC 1457",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "04:55",
+  "start_date": "2025-09-16",
+  "days": "ежедневно с 16.09 по 25.10",
+  "except_days": "",
+  "title": "Москва — Бодрум",
+  "short_title": "Москва — Бодрум",
+  "carrier": {
+    "code": 845,
+    "title": "Pegasus",
+    "codes": {
+      "sirena": null,
+      "iata": "PC",
+      "icao": null
+    }
+  },
+  "vehicle": "Airbus А320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Внуково",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600215",
+        "codes": {
+          "yandex": "s9600215",
+          "esr": "180701",
+          "iata": "VKO",
+          "sirena": "ВНК",
+          "express": "2000714"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-09-16 04:55:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "A"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Милас",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600415",
+        "codes": {
+          "yandex": "s9600415",
+          "iata": "BJV",
+          "sirena": "БЙЖ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-09-16 09:10:00",
+      "stop_time": null,
+      "duration": 15300,
+      "terminal": "I"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

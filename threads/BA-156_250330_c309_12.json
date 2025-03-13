@@ -1,0 +1,79 @@
+{
+  "uid": "BA-156_250330_c309_12",
+  "number": "BA 156",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "08:20",
+  "start_date": "2025-03-30",
+  "days": "30 марта",
+  "except_days": "",
+  "title": "Эль-Кувейт — Лондон",
+  "short_title": "Эль-Кувейт — Лондон",
+  "carrier": {
+    "code": 309,
+    "title": "British Airways",
+    "codes": {
+      "sirena": null,
+      "iata": "BA",
+      "icao": "BAW"
+    }
+  },
+  "vehicle": "Boeing 787-900",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Кувейт",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9631552",
+        "codes": {
+          "yandex": "s9631552",
+          "iata": "KWI",
+          "sirena": "КВИ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-30 08:20:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "1"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Хитроу",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600378",
+        "codes": {
+          "yandex": "s9600378",
+          "iata": "LHR",
+          "sirena": "ЛХР"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-30 13:25:00",
+      "stop_time": null,
+      "duration": 25500,
+      "terminal": "5"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

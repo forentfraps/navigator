@@ -1,0 +1,78 @@
+{
+  "uid": "J9-405_250331_c1503_12",
+  "number": "J9 405",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "18:45",
+  "start_date": "2025-03-31",
+  "days": "пн, чт, сб с 31.03 по 28.08",
+  "except_days": "",
+  "title": "Эль-Кувейт — Кочин",
+  "short_title": "Эль-Кувейт — Кочин",
+  "carrier": {
+    "code": 1503,
+    "title": "Jazeera Airways",
+    "codes": {
+      "sirena": null,
+      "iata": "J9",
+      "icao": null
+    }
+  },
+  "vehicle": "Airbus A320 NEO",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Кувейт",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9631552",
+        "codes": {
+          "yandex": "s9631552",
+          "iata": "KWI",
+          "sirena": "КВИ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-31 18:45:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "5"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Кочин",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9625531",
+        "codes": {
+          "yandex": "s9625531",
+          "iata": "COK"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-04-01 02:15:00",
+      "stop_time": null,
+      "duration": 18000,
+      "terminal": "3"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

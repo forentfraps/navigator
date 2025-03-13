@@ -1,0 +1,241 @@
+{
+  "number": "698С",
+  "title": "Кавказская — Элиста",
+  "short_title": "Кавказская — Элиста",
+  "express_type": null,
+  "transport_type": "train",
+  "carrier": {
+    "code": 112,
+    "title": "РЖД/ФПК",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "698S_0_2",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "только 7, 15, 21, 29 июня, 5, 13, 19, 27 июля, 2, 10, 16, 24, 30 августа, 7, 13 сентября",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Кавказская",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9613064",
+        "codes": {
+          "yandex": "s9613064",
+          "esr": "520009",
+          "express": "2064160"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-06-07 05:42:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Темижбекская",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9613129",
+        "codes": {
+          "yandex": "s9613129",
+          "esr": "526306",
+          "express": "2064227"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-06-07 06:22:00",
+      "arrival": "2025-06-07 06:20:00",
+      "duration": 2400.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Расшеватка",
+        "short_title": null,
+        "popular_title": "",
+        "code": "s9613031",
+        "codes": {
+          "yandex": "s9613031",
+          "esr": "526503",
+          "express": "2064125"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-06-07 06:57:00",
+      "arrival": "2025-06-07 06:55:00",
+      "duration": 4500.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Передовая",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9613133",
+        "codes": {
+          "yandex": "s9613133",
+          "esr": "526607",
+          "express": "2064232"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-06-07 07:25:00",
+      "arrival": "2025-06-07 07:23:00",
+      "duration": 6180.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Изобильная",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9613176",
+        "codes": {
+          "yandex": "s9613176",
+          "esr": "526700",
+          "express": "2064275"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-06-07 07:48:00",
+      "arrival": "2025-06-07 07:46:00",
+      "duration": 7560.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Палагиада",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9613135",
+        "codes": {
+          "yandex": "s9613135",
+          "esr": "526908",
+          "express": "2064234"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-06-07 08:29:00",
+      "arrival": "2025-06-07 08:27:00",
+      "duration": 10020.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Светлоград",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9613145",
+        "codes": {
+          "yandex": "s9613145",
+          "esr": "527402",
+          "express": "2064244"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-06-07 10:19:00",
+      "arrival": "2025-06-07 09:57:00",
+      "duration": 16620.0,
+      "stop_time": 1320,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ипатово",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9613140",
+        "codes": {
+          "yandex": "s9613140",
+          "esr": "528301",
+          "express": "2064239"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-06-07 11:16:00",
+      "arrival": "2025-06-07 11:14:00",
+      "duration": 20040.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Элиста",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9613108",
+        "codes": {
+          "yandex": "s9613108",
+          "esr": "528706",
+          "express": "2064205"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": null,
+      "arrival": "2025-06-07 15:04:00",
+      "duration": 33720.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-06-07",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "05:42"
+}

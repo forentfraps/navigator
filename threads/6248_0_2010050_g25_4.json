@@ -1,0 +1,172 @@
+{
+  "number": "6248",
+  "title": "Иваново — Шуя",
+  "short_title": "Иваново — Шуя",
+  "express_type": null,
+  "transport_type": "suburban",
+  "carrier": {
+    "code": 2530,
+    "title": "Северная пригородная пассажирская компания",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "6248_0_2010050_g25_4",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": "Пригородный поезд",
+    "code": "suburban",
+    "color": "#CC6600"
+  },
+  "days": "ежедневно",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Иваново",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s2010050",
+        "codes": {
+          "yandex": "s2010050",
+          "esr": "318632",
+          "express": "2010050"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 19:48:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Иваново-Сорт.",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9604409",
+        "codes": {
+          "yandex": "s9604409",
+          "esr": "318609",
+          "express": "2010844"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 19:56:00",
+      "arrival": "2025-03-13 19:55:00",
+      "duration": 480.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Горино",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9604661",
+        "codes": {
+          "yandex": "s9604661",
+          "esr": "318806",
+          "express": "2011289"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 20:04:00",
+      "arrival": "2025-03-13 20:03:00",
+      "duration": 960.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Кохма",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9604222",
+        "codes": {
+          "yandex": "s9604222",
+          "esr": "318908",
+          "express": "2010301"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 20:12:00",
+      "arrival": "2025-03-13 20:11:00",
+      "duration": 1440.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ворожино",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9604662",
+        "codes": {
+          "yandex": "s9604662",
+          "esr": "318914",
+          "express": "2011290"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 20:25:00",
+      "arrival": "2025-03-13 20:21:00",
+      "duration": 2220.0,
+      "stop_time": 240,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Шуя",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9604223",
+        "codes": {
+          "yandex": "s9604223",
+          "esr": "319003",
+          "express": "2010302"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 20:35:00",
+      "duration": 2820.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "19:48"
+}

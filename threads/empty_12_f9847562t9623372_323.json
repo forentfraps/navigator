@@ -1,0 +1,160 @@
+{
+  "number": "6831",
+  "title": "Кострома - Иваново",
+  "short_title": "Кострома - Иваново",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 61655,
+    "title": "ООО \"Драйв-Авто\"",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_12_f9847562t9623372_323",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Кострома, ж/д вокзал",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9847562",
+        "codes": {
+          "yandex": "s9847562"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 10:55:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Волгореченск, автостанция",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600247",
+        "codes": {
+          "yandex": "s9600247"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 11:45:00",
+      "arrival": "2025-03-13 11:44:00",
+      "duration": 3000.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Приволжск, перекресток",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9656921",
+        "codes": {
+          "yandex": "s9656921"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 11:55:00",
+      "arrival": "2025-03-13 11:54:00",
+      "duration": 3600.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Фурманов, автостанция",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9637894",
+        "codes": {
+          "yandex": "s9637894"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 12:10:00",
+      "arrival": "2025-03-13 12:05:00",
+      "duration": 4500.0,
+      "stop_time": 300,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Иваново, ж/д вокзал",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9834072",
+        "codes": {
+          "yandex": "s9834072"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 12:55:00",
+      "arrival": "2025-03-13 12:54:00",
+      "duration": 7200.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Иваново, автовокзал",
+        "short_title": null,
+        "popular_title": "Автовокзал Иваново",
+        "code": "s9623372",
+        "codes": {
+          "yandex": "s9623372"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 13:10:00",
+      "duration": 8100.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "10:55"
+}

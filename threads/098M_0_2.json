@@ -1,0 +1,241 @@
+{
+  "number": "098М",
+  "title": "Курск — Орёл",
+  "short_title": "Курск — Орёл",
+  "express_type": null,
+  "transport_type": "train",
+  "carrier": {
+    "code": 112,
+    "title": "РЖД/ФПК",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "098M_0_2",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно с 01.04",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Курск",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600816",
+        "codes": {
+          "yandex": "s9600816",
+          "esr": "208201",
+          "express": "2000150"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-01 21:44:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Свобода",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600969",
+        "codes": {
+          "yandex": "s9600969",
+          "esr": "217408",
+          "express": "2000303"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-01 22:04:00",
+      "arrival": "2025-04-01 22:02:00",
+      "duration": 1200.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Золотухино",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600968",
+        "codes": {
+          "yandex": "s9600968",
+          "esr": "217304",
+          "express": "2000302"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-01 22:17:00",
+      "arrival": "2025-04-01 22:15:00",
+      "duration": 1980.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Возы",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600967",
+        "codes": {
+          "yandex": "s9600967",
+          "esr": "217200",
+          "express": "2000301"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-01 22:29:00",
+      "arrival": "2025-04-01 22:28:00",
+      "duration": 2700.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Поныри",
+        "short_title": null,
+        "popular_title": "",
+        "code": "s9600934",
+        "codes": {
+          "yandex": "s9600934",
+          "esr": "217107",
+          "express": "2000268"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-01 22:42:00",
+      "arrival": "2025-04-01 22:40:00",
+      "duration": 3480.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Малоархангельск",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600898",
+        "codes": {
+          "yandex": "s9600898",
+          "esr": "217003",
+          "express": "2000232"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-01 22:51:00",
+      "arrival": "2025-04-01 22:49:00",
+      "duration": 4020.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Глазуновка",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600897",
+        "codes": {
+          "yandex": "s9600897",
+          "esr": "216903",
+          "express": "2000231"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-01 23:06:00",
+      "arrival": "2025-04-01 23:04:00",
+      "duration": 4920.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Змиёвка",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600894",
+        "codes": {
+          "yandex": "s9600894",
+          "esr": "216800",
+          "express": "2000228"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-01 23:21:00",
+      "arrival": "2025-04-01 23:19:00",
+      "duration": 5820.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Орёл",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600806",
+        "codes": {
+          "yandex": "s9600806",
+          "esr": "216000",
+          "express": "2000140"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": null,
+      "arrival": "2025-04-01 23:48:00",
+      "duration": 7440.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-04-01",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "21:44"
+}

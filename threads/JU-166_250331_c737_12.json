@@ -1,0 +1,78 @@
+{
+  "uid": "JU-166_250331_c737_12",
+  "number": "JU 166",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "00:45",
+  "start_date": "2025-03-31",
+  "days": "31 марта, 3, 5, 7, 10, 12, 14, 17, 19, 21, 24, 26, 28 апреля, 1, 2, 3, 5, 8, 9, 10 мая, …",
+  "except_days": "",
+  "title": "Белград — Тирана",
+  "short_title": "Белград — Тирана",
+  "carrier": {
+    "code": 737,
+    "title": "Air Serbia",
+    "codes": {
+      "sirena": null,
+      "iata": "JU",
+      "icao": "JAT"
+    }
+  },
+  "vehicle": "ATR 72",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Белград",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623578",
+        "codes": {
+          "yandex": "s9623578",
+          "iata": "BEG",
+          "sirena": "БГА"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-31 00:45:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "2"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ринас",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623700",
+        "codes": {
+          "yandex": "s9623700",
+          "iata": "TIA"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-31 02:00:00",
+      "stop_time": null,
+      "duration": 4500,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

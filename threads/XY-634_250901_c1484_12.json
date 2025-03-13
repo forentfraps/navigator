@@ -1,0 +1,79 @@
+{
+  "uid": "XY-634_250901_c1484_12",
+  "number": "XY 634",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "14:15",
+  "start_date": "2025-09-01",
+  "days": "пн, чт, вс с 01.09 по 23.10",
+  "except_days": "",
+  "title": "Ташкент — Джидда",
+  "short_title": "Ташкент — Джидда",
+  "carrier": {
+    "code": 1484,
+    "title": "FlyNAS",
+    "codes": {
+      "sirena": null,
+      "iata": "XY",
+      "icao": null
+    }
+  },
+  "vehicle": "Airbus A320 NEO",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Ташкент",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600397",
+        "codes": {
+          "yandex": "s9600397",
+          "iata": "TAS",
+          "sirena": "ТАС"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-09-01 14:15:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "0"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Джидда",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623900",
+        "codes": {
+          "yandex": "s9623900",
+          "iata": "JED",
+          "sirena": "ДЖД"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-09-01 17:40:00",
+      "stop_time": null,
+      "duration": 19500,
+      "terminal": "1"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

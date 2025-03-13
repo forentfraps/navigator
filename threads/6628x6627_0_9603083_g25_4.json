@@ -1,0 +1,239 @@
+{
+  "number": "6628/6627",
+  "title": "Савёлово — Калязин",
+  "short_title": "Савёлово — Калязин",
+  "express_type": null,
+  "transport_type": "suburban",
+  "carrier": {
+    "code": 1846,
+    "title": "Московско-Тверская ППК",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "6628x6627_0_9603083_g25_4",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": "Пригородный поезд",
+    "code": "suburban",
+    "color": "#CC6600"
+  },
+  "days": "чт, вс",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Савёлово",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9603083",
+        "codes": {
+          "yandex": "s9603083",
+          "esr": "050300",
+          "express": "2004590"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 12:05:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Белый Городок",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9603040",
+        "codes": {
+          "yandex": "s9603040",
+          "esr": "050404",
+          "express": "2004547"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 12:24:00",
+      "arrival": "2025-03-13 12:23:00",
+      "duration": 1140.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "151 км",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9634123",
+        "codes": {
+          "yandex": "s9634123",
+          "esr": "611"
+        },
+        "station_type": "stop",
+        "station_type_name": "остановочный пункт",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 12:33:00",
+      "arrival": "2025-03-13 12:32:00",
+      "duration": 1680.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Стрельчиха",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9603041",
+        "codes": {
+          "yandex": "s9603041",
+          "esr": "050419",
+          "express": "2004548"
+        },
+        "station_type": "stop",
+        "station_type_name": "остановочный пункт",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 12:39:00",
+      "arrival": "2025-03-13 12:38:00",
+      "duration": 2040.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "163 км",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9885662",
+        "codes": {
+          "yandex": "s9885662",
+          "esr": "050480",
+          "express": "2005613"
+        },
+        "station_type": "stop",
+        "station_type_name": "остановочный пункт",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 12:54:00",
+      "arrival": "2025-03-13 12:53:00",
+      "duration": 2940.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Скнятино",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9603042",
+        "codes": {
+          "yandex": "s9603042",
+          "esr": "050423",
+          "express": "2004549"
+        },
+        "station_type": "stop",
+        "station_type_name": "остановочный пункт",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 12:59:00",
+      "arrival": "2025-03-13 12:58:00",
+      "duration": 3240.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Новокатово",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9602562",
+        "codes": {
+          "yandex": "s9602562",
+          "esr": "050438",
+          "express": "2004069"
+        },
+        "station_type": "stop",
+        "station_type_name": "остановочный пункт",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 13:12:00",
+      "arrival": "2025-03-13 13:11:00",
+      "duration": 4020.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "177 км",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9634124",
+        "codes": {
+          "yandex": "s9634124",
+          "esr": "050442"
+        },
+        "station_type": "stop",
+        "station_type_name": "остановочный пункт",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 13:18:00",
+      "arrival": "2025-03-13 13:17:00",
+      "duration": 4380.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Калязин",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9603103",
+        "codes": {
+          "yandex": "s9603103",
+          "esr": "050508",
+          "express": "2004610"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 13:31:00",
+      "duration": 5160.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "12:05"
+}

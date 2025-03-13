@@ -1,0 +1,78 @@
+{
+  "uid": "XQ-1702_250604_c334_12",
+  "number": "XQ 1702",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "03:55",
+  "start_date": "2025-06-04",
+  "days": "ср с 04.06 по 22.10",
+  "except_days": "",
+  "title": "Мерсин — Штутгарт",
+  "short_title": "Мерсин — Штутгарт",
+  "carrier": {
+    "code": 334,
+    "title": "SunExpress",
+    "codes": {
+      "sirena": null,
+      "iata": "XQ",
+      "icao": "SXS"
+    }
+  },
+  "vehicle": "Boeing 737-800",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Чукурова",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9887843",
+        "codes": {
+          "yandex": "s9887843",
+          "iata": "COV"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-06-04 03:55:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Штутгарт",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9625992",
+        "codes": {
+          "yandex": "s9625992",
+          "iata": "STR",
+          "sirena": "ШТР"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-06-04 06:45:00",
+      "stop_time": null,
+      "duration": 13800,
+      "terminal": "3"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

@@ -1,0 +1,79 @@
+{
+  "uid": "PC-1827_250929_c845_12",
+  "number": "PC 1827",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "01:00",
+  "start_date": "2025-07-07",
+  "days": "пн, чт, сб с 07.07 по 29.09",
+  "except_days": "",
+  "title": "Бейрут — Даламан",
+  "short_title": "Бейрут — Даламан",
+  "carrier": {
+    "code": 845,
+    "title": "Pegasus",
+    "codes": {
+      "sirena": null,
+      "iata": "PC",
+      "icao": null
+    }
+  },
+  "vehicle": "Airbus А320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Бейрут",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623595",
+        "codes": {
+          "yandex": "s9623595",
+          "iata": "BEY",
+          "sirena": "БЕУ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-07-07 01:00:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Даламан",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623966",
+        "codes": {
+          "yandex": "s9623966",
+          "iata": "DLM",
+          "sirena": "ДАН"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-07-07 02:30:00",
+      "stop_time": null,
+      "duration": 5400,
+      "terminal": "I"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

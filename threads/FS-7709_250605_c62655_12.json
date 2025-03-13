@@ -1,0 +1,79 @@
+{
+  "uid": "FS-7709_250605_c62655_12",
+  "number": "FS 7709",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "00:20",
+  "start_date": "2025-06-05",
+  "days": "чт с 05.06 по 28.08",
+  "except_days": "",
+  "title": "Актау — Алматы",
+  "short_title": "Актау — Алматы",
+  "carrier": {
+    "code": 62655,
+    "title": "FlyArystan",
+    "codes": {
+      "sirena": null,
+      "iata": "FS",
+      "icao": null
+    }
+  },
+  "vehicle": "Airbus А320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Актау",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623652",
+        "codes": {
+          "yandex": "s9623652",
+          "iata": "SCO",
+          "sirena": "ААУ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-06-05 00:20:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Алматы",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600392",
+        "codes": {
+          "yandex": "s9600392",
+          "iata": "ALA",
+          "sirena": "АЛА"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-06-05 03:20:00",
+      "stop_time": null,
+      "duration": 10800,
+      "terminal": "0"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

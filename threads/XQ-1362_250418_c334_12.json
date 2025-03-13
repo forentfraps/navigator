@@ -1,0 +1,78 @@
+{
+  "uid": "XQ-1362_250418_c334_12",
+  "number": "XQ 1362",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "15:25",
+  "start_date": "2025-04-18",
+  "days": "18 апреля",
+  "except_days": "",
+  "title": "Диярбакыр — Дюссельдорф",
+  "short_title": "Диярбакыр — Дюссельдорф",
+  "carrier": {
+    "code": 334,
+    "title": "SunExpress",
+    "codes": {
+      "sirena": null,
+      "iata": "XQ",
+      "icao": "SXS"
+    }
+  },
+  "vehicle": "Boeing 737-800",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Диярбакыр",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9630778",
+        "codes": {
+          "yandex": "s9630778",
+          "iata": "DIY"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-04-18 15:25:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Дюссельдорф",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623557",
+        "codes": {
+          "yandex": "s9623557",
+          "iata": "DUS",
+          "sirena": "ДУС"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-04-18 18:55:00",
+      "stop_time": null,
+      "duration": 16200,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

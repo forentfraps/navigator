@@ -1,0 +1,79 @@
+{
+  "uid": "VF-4069_251020_c60832_12",
+  "number": "VF 4069",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "05:10",
+  "start_date": "2025-06-02",
+  "days": "ежедневно с 02.06 по 25.10",
+  "except_days": "",
+  "title": "Даламан — Анкара",
+  "short_title": "Даламан — Анкара",
+  "carrier": {
+    "code": 60832,
+    "title": "Ajet",
+    "codes": {
+      "sirena": null,
+      "iata": "VF",
+      "icao": "TKJ"
+    }
+  },
+  "vehicle": "Boeing 737-800",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Даламан",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623966",
+        "codes": {
+          "yandex": "s9623966",
+          "iata": "DLM",
+          "sirena": "ДАН"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-06-02 05:10:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "D"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Эсенбога",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600434",
+        "codes": {
+          "yandex": "s9600434",
+          "iata": "ESB",
+          "sirena": "ЕСБ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-06-02 06:25:00",
+      "stop_time": null,
+      "duration": 4500,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

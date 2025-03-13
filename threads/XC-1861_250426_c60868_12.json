@@ -1,0 +1,78 @@
+{
+  "uid": "XC-1861_250426_c60868_12",
+  "number": "XC 1861",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "06:00",
+  "start_date": "2025-04-26",
+  "days": "сб с 26.04 по 28.06",
+  "except_days": "",
+  "title": "Газипаша — Дюссельдорф",
+  "short_title": "Газипаша — Дюссельдорф",
+  "carrier": {
+    "code": 60868,
+    "title": "Corendon Airlines",
+    "codes": {
+      "sirena": null,
+      "iata": "XC",
+      "icao": "CAI"
+    }
+  },
+  "vehicle": "Airbus A318/319/320/321",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Газипаша",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9655797",
+        "codes": {
+          "yandex": "s9655797",
+          "iata": "GZP"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-04-26 06:00:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Дюссельдорф",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623557",
+        "codes": {
+          "yandex": "s9623557",
+          "iata": "DUS",
+          "sirena": "ДУС"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-04-26 08:50:00",
+      "stop_time": null,
+      "duration": 13800,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

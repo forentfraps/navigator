@@ -1,0 +1,78 @@
+{
+  "uid": "5F-607_250624_c58662_12",
+  "number": "5F 607",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "06:00",
+  "start_date": "2025-06-24",
+  "days": "вт с 24.06 по 21.10",
+  "except_days": "",
+  "title": "Кишинёв — Бремен",
+  "short_title": "Кишинёв — Бремен",
+  "carrier": {
+    "code": 58662,
+    "title": "FLYONE",
+    "codes": {
+      "sirena": null,
+      "iata": "5F",
+      "icao": "FIA"
+    }
+  },
+  "vehicle": "Airbus А320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Кишинёв",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623535",
+        "codes": {
+          "yandex": "s9623535",
+          "iata": "RMO",
+          "sirena": "КШН"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-06-24 06:00:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Бремен",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9634177",
+        "codes": {
+          "yandex": "s9634177",
+          "iata": "BRE"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-06-24 07:40:00",
+      "stop_time": null,
+      "duration": 9600,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

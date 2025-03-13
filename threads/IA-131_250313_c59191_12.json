@@ -1,0 +1,78 @@
+{
+  "uid": "IA-131_250313_c59191_12",
+  "number": "IA 131",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "09:00",
+  "start_date": "2025-03-13",
+  "days": "ежедневно по 29.03",
+  "except_days": "",
+  "title": "Багдад — Бейрут",
+  "short_title": "Багдад — Бейрут",
+  "carrier": {
+    "code": 59191,
+    "title": "Iraqi Airways",
+    "codes": {
+      "sirena": null,
+      "iata": "IA",
+      "icao": "IAW"
+    }
+  },
+  "vehicle": "Airbus А320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Эль-Мутана",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9629658",
+        "codes": {
+          "yandex": "s9629658",
+          "iata": "BGW"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-13 09:00:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Бейрут",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623595",
+        "codes": {
+          "yandex": "s9623595",
+          "iata": "BEY",
+          "sirena": "БЕУ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-13 09:30:00",
+      "stop_time": null,
+      "duration": 5400,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

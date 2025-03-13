@@ -1,0 +1,265 @@
+{
+  "number": "239Б",
+  "title": "Полоцк — Москва",
+  "short_title": "Полоцк — Москва",
+  "express_type": null,
+  "transport_type": "train",
+  "carrier": {
+    "code": 114,
+    "title": "Беларуская Чыгунка",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "239B_0_2",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно с 28.04",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Полоцк",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9614178",
+        "codes": {
+          "yandex": "s9614178",
+          "esr": "161306",
+          "express": "2100190"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-28 18:30:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Шумилино",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9614025",
+        "codes": {
+          "yandex": "s9614025",
+          "esr": "160905",
+          "express": "2100037"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-28 19:23:00",
+      "arrival": "2025-04-28 19:21:00",
+      "duration": 3180.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Летцы",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9614545",
+        "codes": {
+          "yandex": "s9614545",
+          "esr": "160036",
+          "express": "2100610"
+        },
+        "station_type": "stop",
+        "station_type_name": "остановочный пункт",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-28 19:41:00",
+      "arrival": "2025-04-28 19:40:00",
+      "duration": 4260.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Витебск-Пасс.",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9614038",
+        "codes": {
+          "yandex": "s9614038",
+          "esr": "160002",
+          "express": "2100050"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-28 20:35:00",
+      "arrival": "2025-04-28 20:05:00",
+      "duration": 7500.0,
+      "stop_time": 1800,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Лиозно",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9614026",
+        "codes": {
+          "yandex": "s9614026",
+          "esr": "165701",
+          "express": "2100038"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-28 21:19:00",
+      "arrival": "2025-04-28 21:15:00",
+      "duration": 10140.0,
+      "stop_time": 240,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Рудня",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601489",
+        "codes": {
+          "yandex": "s9601489",
+          "esr": "171902",
+          "express": "2000860"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-28 21:46:00",
+      "arrival": "2025-04-28 21:42:00",
+      "duration": 11760.0,
+      "stop_time": 240,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Голынки",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601535",
+        "codes": {
+          "yandex": "s9601535",
+          "esr": "171702",
+          "express": "2000908"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-28 22:10:00",
+      "arrival": "2025-04-28 22:08:00",
+      "duration": 13200.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Смоленск",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600836",
+        "codes": {
+          "yandex": "s9600836",
+          "esr": "170108",
+          "express": "2000170"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-28 23:33:00",
+      "arrival": "2025-04-28 22:52:00",
+      "duration": 18180.0,
+      "stop_time": 2460,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Вязьма",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601461",
+        "codes": {
+          "yandex": "s9601461",
+          "esr": "174306",
+          "express": "2000830"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-29 02:09:00",
+      "arrival": "2025-04-29 01:43:00",
+      "duration": 27540.0,
+      "stop_time": 1560,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Москва (Белорусский вокзал)",
+        "short_title": "М-Белорусск.",
+        "popular_title": "Белорусский вокзал",
+        "code": "s2000006",
+        "codes": {
+          "yandex": "s2000006",
+          "esr": "198230",
+          "iata": "JQO",
+          "express": "2000006"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": null,
+      "arrival": "2025-04-29 05:44:00",
+      "duration": 40440.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-04-28",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "18:30"
+}

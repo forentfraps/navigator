@@ -1,0 +1,79 @@
+{
+  "uid": "U6-2642_251026_c30_12",
+  "number": "U6 2642",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "06:40",
+  "start_date": "2025-10-26",
+  "days": "26 октября",
+  "except_days": "",
+  "title": "Худжанд — Санкт-Петербург",
+  "short_title": "Худжанд — Санкт-Петербург",
+  "carrier": {
+    "code": 30,
+    "title": "Уральские авиалинии",
+    "codes": {
+      "sirena": "У6",
+      "iata": "U6",
+      "icao": null
+    }
+  },
+  "vehicle": null,
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Худжанд",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623565",
+        "codes": {
+          "yandex": "s9623565",
+          "iata": "LBD",
+          "sirena": "ХДТ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-10-26 06:40:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Пулково",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600366",
+        "codes": {
+          "yandex": "s9600366",
+          "iata": "LED",
+          "sirena": "ПЛК"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-10-26 10:00:00",
+      "stop_time": null,
+      "duration": 19200,
+      "terminal": "1"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

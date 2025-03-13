@@ -1,0 +1,79 @@
+{
+  "uid": "DV-793_250313_c47_12",
+  "number": "DV 793",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "11:50",
+  "start_date": "2025-03-13",
+  "days": "13, 17, 20, 24, 27 марта",
+  "except_days": "",
+  "title": "Тараз — Атырау",
+  "short_title": "Тараз — Атырау",
+  "carrier": {
+    "code": 47,
+    "title": "SCAT",
+    "codes": {
+      "sirena": "ДН",
+      "iata": "DV",
+      "icao": "VSV"
+    }
+  },
+  "vehicle": "Boeing 737-500",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Тараз",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9631733",
+        "codes": {
+          "yandex": "s9631733",
+          "iata": "DMB",
+          "sirena": "ДМБ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-13 11:50:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Атырау",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623633",
+        "codes": {
+          "yandex": "s9623633",
+          "iata": "GUW",
+          "sirena": "АТЫ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-13 14:20:00",
+      "stop_time": null,
+      "duration": 9000,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

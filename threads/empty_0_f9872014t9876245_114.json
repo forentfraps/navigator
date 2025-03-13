@@ -1,0 +1,160 @@
+{
+  "number": "",
+  "title": "Москва — Таганрог",
+  "short_title": "Москва — Таганрог",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 67319,
+    "title": "ООО «МЕРИДИАН»",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_0_f9872014t9876245_114",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Москва, автовокзал Северные ворота",
+        "short_title": null,
+        "popular_title": "Автовокзал Северные ворота",
+        "code": "s9872014",
+        "codes": {
+          "yandex": "s9872014"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 22:00:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Каменск-Шахтинский, автовокзал",
+        "short_title": null,
+        "popular_title": "Каменский автовокзал",
+        "code": "s9637067",
+        "codes": {
+          "yandex": "s9637067"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 10:30:00",
+      "arrival": "2025-03-14 10:29:00",
+      "duration": 45000.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Шахты, автовокзал",
+        "short_title": null,
+        "popular_title": "Шахтинский автовокзал",
+        "code": "s9637146",
+        "codes": {
+          "yandex": "s9637146"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 11:41:00",
+      "arrival": "2025-03-14 11:40:00",
+      "duration": 49260.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Новочеркасск, поворот с М4",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9852317",
+        "codes": {
+          "yandex": "s9852317"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 12:26:00",
+      "arrival": "2025-03-14 12:25:00",
+      "duration": 51960.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ростов-на-Дону, Главный автовокзал",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9868264",
+        "codes": {
+          "yandex": "s9868264"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 13:21:00",
+      "arrival": "2025-03-14 13:20:00",
+      "duration": 55260.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Таганрог, автовокзал",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9876245",
+        "codes": {
+          "yandex": "s9876245"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-14 15:30:00",
+      "duration": 63000.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "22:00"
+}

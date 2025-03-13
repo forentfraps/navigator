@@ -1,0 +1,118 @@
+{
+  "number": "",
+  "title": "Тверь — Торжок",
+  "short_title": "Тверь — Торжок",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 66273,
+    "title": "ООО \"Прогресс\"",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_13_f9857316t9851421_114",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Тверь, Ж/Д вокзал / проспект Чайковского",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9857316",
+        "codes": {
+          "yandex": "s9857316"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 13:15:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Полустово",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9844283",
+        "codes": {
+          "yandex": "s9844283"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 13:54:00",
+      "arrival": "2025-03-13 13:53:00",
+      "duration": 2340.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Мирный",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9844289",
+        "codes": {
+          "yandex": "s9844289"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 14:04:00",
+      "arrival": "2025-03-13 14:03:00",
+      "duration": 2940.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Торжок, Автоэкспресс",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9851421",
+        "codes": {
+          "yandex": "s9851421"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 14:20:00",
+      "duration": 3900.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "13:15"
+}

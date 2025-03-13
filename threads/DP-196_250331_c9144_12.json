@@ -1,0 +1,81 @@
+{
+  "uid": "DP-196_250331_c9144_12",
+  "number": "DP 196",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "15:50",
+  "start_date": "2025-03-31",
+  "days": "31 марта, 7, 14, 21 апреля",
+  "except_days": "",
+  "title": "Владикавказ — Москва",
+  "short_title": "Владикавказ — Москва",
+  "carrier": {
+    "code": 9144,
+    "title": "Победа",
+    "codes": {
+      "sirena": "ДР",
+      "iata": "DP",
+      "icao": null
+    }
+  },
+  "vehicle": "Boeing 737-800",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Беслан",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623319",
+        "codes": {
+          "yandex": "s9623319",
+          "iata": "OGZ",
+          "sirena": "ВЛА"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-31 15:50:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Внуково",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600215",
+        "codes": {
+          "yandex": "s9600215",
+          "esr": "180701",
+          "iata": "VKO",
+          "sirena": "ВНК",
+          "express": "2000714"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-31 18:50:00",
+      "stop_time": null,
+      "duration": 10800,
+      "terminal": "A"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

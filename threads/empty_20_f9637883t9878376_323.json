@@ -1,0 +1,160 @@
+{
+  "number": "5340",
+  "title": "Кинешма - Москва",
+  "short_title": "Кинешма - Москва",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 65785,
+    "title": "ИП Никитенко Наталья Вячеславовна",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_20_f9637883t9878376_323",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Кинешма, автостанция",
+        "short_title": null,
+        "popular_title": "автостанция Кинешма",
+        "code": "s9637883",
+        "codes": {
+          "yandex": "s9637883"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 13:00:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Вичуга, автостанция",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9637903",
+        "codes": {
+          "yandex": "s9637903"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 13:30:00",
+      "arrival": "2025-03-13 13:25:00",
+      "duration": 1800.0,
+      "stop_time": 300,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Родники",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9761496",
+        "codes": {
+          "yandex": "s9761496"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 14:00:00",
+      "arrival": "2025-03-13 13:55:00",
+      "duration": 3600.0,
+      "stop_time": 300,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Лакинск",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623102",
+        "codes": {
+          "yandex": "s9623102"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 17:20:00",
+      "arrival": "2025-03-13 17:19:00",
+      "duration": 15600.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Покров, трасса",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9804616",
+        "codes": {
+          "yandex": "s9804616"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 18:30:00",
+      "arrival": "2025-03-13 18:29:00",
+      "duration": 19800.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Центральный автовокзал",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9878376",
+        "codes": {
+          "yandex": "s9878376"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 20:30:00",
+      "duration": 27000.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "13:00"
+}

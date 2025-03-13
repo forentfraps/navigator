@@ -1,0 +1,55 @@
+{
+  "date": null,
+  "station": {
+    "type": "station",
+    "title": "Сухар",
+    "short_title": null,
+    "popular_title": null,
+    "code": "s9842445",
+    "station_type": "airport",
+    "station_type_name": "аэропорт",
+    "transport_type": "plane"
+  },
+  "event": "departure",
+  "pagination": {
+    "total": 1,
+    "limit": 100,
+    "offset": 0
+  },
+  "schedule": [
+    {
+      "thread": {
+        "number": "G9 256",
+        "title": "Сухар — Шарджа",
+        "short_title": "Сухар — Шарджа",
+        "carrier": {
+          "code": 351,
+          "title": "Air Arabia",
+          "codes": {
+            "sirena": null,
+            "iata": "G9",
+            "icao": "ABY"
+          }
+        },
+        "vehicle": "Airbus А320",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "G9-256_250331_c351_12"
+      },
+      "terminal": "NULL",
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "10:05",
+      "arrival": null,
+      "days": "пн, вт, ср, чт с 31.03 по 28.08"
+    }
+  ],
+  "interval_schedule": []
+}

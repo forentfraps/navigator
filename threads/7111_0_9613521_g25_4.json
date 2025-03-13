@@ -1,0 +1,310 @@
+{
+  "number": "7111",
+  "title": "Ростов-Западный — Кизитеринка",
+  "short_title": "Ростов-Западный — Кизитеринка",
+  "express_type": null,
+  "transport_type": "suburban",
+  "carrier": {
+    "code": 1369,
+    "title": "Северо-Кавказская ППК",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "7111_0_9613521_g25_4",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": "городская электричка",
+    "code": "city",
+    "color": "#0047ab"
+  },
+  "days": "по будням",
+  "except_days": "10, 11, 12, 13, 14, 17, 18, 19, 20, 21, 24, 25, 26, 27, 28, 31 марта, 1, 2, 3 апреля",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Ростов-Западный",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9613521",
+        "codes": {
+          "yandex": "s9613521",
+          "esr": "510401",
+          "express": "2064687"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-04 07:46:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "1337 км",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9613376",
+        "codes": {
+          "yandex": "s9613376",
+          "esr": "510242",
+          "express": "2064488"
+        },
+        "station_type": "stop",
+        "station_type_name": "остановочный пункт",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-04 07:51:00",
+      "arrival": "2025-04-04 07:50:00",
+      "duration": 300.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Темерник",
+        "short_title": null,
+        "popular_title": "",
+        "code": "s9613515",
+        "codes": {
+          "yandex": "s9613515",
+          "esr": "510238",
+          "express": "2064673"
+        },
+        "station_type": "stop",
+        "station_type_name": "остановочный пункт",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-04 07:57:00",
+      "arrival": "2025-04-04 07:56:00",
+      "duration": 660.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Рабочий Городок",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9613267",
+        "codes": {
+          "yandex": "s9613267",
+          "esr": "510149",
+          "express": "2064378"
+        },
+        "station_type": "stop",
+        "station_type_name": "остановочный пункт",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-04 08:08:00",
+      "arrival": "2025-04-04 08:07:00",
+      "duration": 1320.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Проспект Октября",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9634338",
+        "codes": {
+          "yandex": "s9634338",
+          "esr": "924",
+          "express": "2064301"
+        },
+        "station_type": "stop",
+        "station_type_name": "остановочный пункт",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-04 08:10:00",
+      "arrival": "2025-04-04 08:09:00",
+      "duration": 1440.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Микояна",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9634339",
+        "codes": {
+          "yandex": "s9634339",
+          "esr": "925",
+          "express": "2064302"
+        },
+        "station_type": "stop",
+        "station_type_name": "остановочный пункт",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-04 08:12:00",
+      "arrival": "2025-04-04 08:11:00",
+      "duration": 1560.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ростов-Тов.",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9612914",
+        "codes": {
+          "yandex": "s9612914",
+          "esr": "510100",
+          "express": "2064002"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-04 08:17:00",
+      "arrival": "2025-04-04 08:16:00",
+      "duration": 1860.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Сельмаш",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9613820",
+        "codes": {
+          "yandex": "s9613820",
+          "esr": "510115",
+          "express": "2065580"
+        },
+        "station_type": "stop",
+        "station_type_name": "остановочный пункт",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-04 08:20:00",
+      "arrival": "2025-04-04 08:19:00",
+      "duration": 2040.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Орджоникидзе",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9634290",
+        "codes": {
+          "yandex": "s9634290",
+          "esr": "910",
+          "express": "2064303"
+        },
+        "station_type": "stop",
+        "station_type_name": "остановочный пункт",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-04 08:23:00",
+      "arrival": "2025-04-04 08:22:00",
+      "duration": 2220.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Развилка",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9613652",
+        "codes": {
+          "yandex": "s9613652",
+          "esr": "510126",
+          "express": "2064903"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-04 08:27:00",
+      "arrival": "2025-04-04 08:26:00",
+      "duration": 2460.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Красный Аксай",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9613653",
+        "codes": {
+          "yandex": "s9613653",
+          "esr": "510134",
+          "express": "2064904"
+        },
+        "station_type": "stop",
+        "station_type_name": "остановочный пункт",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-04 08:29:00",
+      "arrival": "2025-04-04 08:28:00",
+      "duration": 2580.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Кизитеринка",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9613822",
+        "codes": {
+          "yandex": "s9613822",
+          "esr": "513607",
+          "express": "2065589"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": null,
+      "arrival": "2025-04-04 08:35:00",
+      "duration": 2940.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-04-04",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "07:46"
+}

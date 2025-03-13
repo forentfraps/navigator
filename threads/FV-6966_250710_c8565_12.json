@@ -1,0 +1,79 @@
+{
+  "uid": "FV-6966_250710_c8565_12",
+  "number": "FV 6966",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "11:25",
+  "start_date": "2025-07-10",
+  "days": "чт, сб с 10.07 по 30.08",
+  "except_days": "",
+  "title": "Сочи — Красноярск",
+  "short_title": "Сочи — Красноярск",
+  "carrier": {
+    "code": 8565,
+    "title": "Россия",
+    "codes": {
+      "sirena": "ФВ",
+      "iata": "FV",
+      "icao": null
+    }
+  },
+  "vehicle": "Boeing 737-800",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Сочи",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623547",
+        "codes": {
+          "yandex": "s9623547",
+          "iata": "AER",
+          "sirena": "СОЧ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-07-10 11:25:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Красноярск",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600376",
+        "codes": {
+          "yandex": "s9600376",
+          "iata": "KJA",
+          "sirena": "КЯА"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-07-10 20:50:00",
+      "stop_time": null,
+      "duration": 19500,
+      "terminal": "1"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

@@ -1,0 +1,195 @@
+{
+  "number": "7003",
+  "title": "Иваново — Кинешма",
+  "short_title": "Иваново — Кинешма",
+  "express_type": null,
+  "transport_type": "suburban",
+  "carrier": {
+    "code": 2530,
+    "title": "Северная пригородная пассажирская компания",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "7003_0_2010050_g25_4",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": "Пригородный поезд",
+    "code": "suburban",
+    "color": "#CC6600"
+  },
+  "days": "ежедневно",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Иваново",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s2010050",
+        "codes": {
+          "yandex": "s2010050",
+          "esr": "318632",
+          "express": "2010050"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 05:51:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Строкино",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9604683",
+        "codes": {
+          "yandex": "s9604683",
+          "esr": "316336",
+          "express": "2011329"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 06:02:00",
+      "arrival": "2025-03-13 06:01:00",
+      "duration": 660.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ермолино",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9604220",
+        "codes": {
+          "yandex": "s9604220",
+          "esr": "316302",
+          "express": "2010299"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 06:14:00",
+      "arrival": "2025-03-13 06:13:00",
+      "duration": 1380.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Каминский",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9604219",
+        "codes": {
+          "yandex": "s9604219",
+          "esr": "316355",
+          "express": "2010298"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 06:27:00",
+      "arrival": "2025-03-13 06:26:00",
+      "duration": 2160.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Горкино",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9604218",
+        "codes": {
+          "yandex": "s9604218",
+          "esr": "316507",
+          "express": "2010297"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 06:36:00",
+      "arrival": "2025-03-13 06:35:00",
+      "duration": 2700.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Вичуга",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9604217",
+        "codes": {
+          "yandex": "s9604217",
+          "esr": "316603",
+          "express": "2010296"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 06:54:00",
+      "arrival": "2025-03-13 06:53:00",
+      "duration": 3780.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Кинешма",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9603989",
+        "codes": {
+          "yandex": "s9603989",
+          "esr": "316707",
+          "express": "2010060"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 07:20:00",
+      "duration": 5340.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "05:51"
+}

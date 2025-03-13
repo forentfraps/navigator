@@ -1,0 +1,79 @@
+{
+  "uid": "FV-6617_250605_c8565_12",
+  "number": "FV 6617",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "13:45",
+  "start_date": "2025-06-05",
+  "days": "чт с 05.06 по 25.09",
+  "except_days": "",
+  "title": "Сочи — Ереван",
+  "short_title": "Сочи — Ереван",
+  "carrier": {
+    "code": 8565,
+    "title": "Россия",
+    "codes": {
+      "sirena": "ФВ",
+      "iata": "FV",
+      "icao": null
+    }
+  },
+  "vehicle": "Сухой Суперджет 100",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Сочи",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623547",
+        "codes": {
+          "yandex": "s9623547",
+          "iata": "AER",
+          "sirena": "СОЧ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-06-05 13:45:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Звартноц",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600369",
+        "codes": {
+          "yandex": "s9600369",
+          "iata": "EVN",
+          "sirena": "ЗВР"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-06-05 16:10:00",
+      "stop_time": null,
+      "duration": 5100,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

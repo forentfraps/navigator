@@ -1,0 +1,79 @@
+{
+  "uid": "TK-86_251024_c680_12",
+  "number": "TK 86",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "02:10",
+  "start_date": "2025-04-18",
+  "days": "ежедневно с 18.04 по 15.09, кроме 22.04, 24.04",
+  "except_days": "",
+  "title": "Стамбул — Осака",
+  "short_title": "Стамбул — Осака",
+  "carrier": {
+    "code": 680,
+    "title": "Turkish Airlines",
+    "codes": {
+      "sirena": null,
+      "iata": "TK",
+      "icao": "THY"
+    }
+  },
+  "vehicle": "Boeing 787-900",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Новый аэропорт Стамбул",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600421",
+        "codes": {
+          "yandex": "s9600421",
+          "iata": "IST",
+          "sirena": "ИСТ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-04-18 02:10:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Кансай",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600436",
+        "codes": {
+          "yandex": "s9600436",
+          "iata": "KIX",
+          "sirena": "КАЙ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-04-18 19:00:00",
+      "stop_time": null,
+      "duration": 39000,
+      "terminal": "1"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

@@ -1,0 +1,310 @@
+{
+  "number": "6908",
+  "title": "Новозыбков — Унеча",
+  "short_title": "Новозыбков — Унеча",
+  "express_type": null,
+  "transport_type": "suburban",
+  "carrier": {
+    "code": 66244,
+    "title": "Региональный Экспресс",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "6908_0_9601416_g25_4",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": "Пригородный поезд",
+    "code": "suburban",
+    "color": "#CC6600"
+  },
+  "days": "ежедневно",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Новозыбков",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601416",
+        "codes": {
+          "yandex": "s9601416",
+          "esr": "202205",
+          "express": "2000780"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 18:13:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "202 км",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9602096",
+        "codes": {
+          "yandex": "s9602096",
+          "esr": "202146",
+          "express": "2001914"
+        },
+        "station_type": "stop",
+        "station_type_name": "остановочный пункт",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 18:20:00",
+      "arrival": "2025-03-13 18:19:00",
+      "duration": 420.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Манюки",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9601417",
+        "codes": {
+          "yandex": "s9601417",
+          "esr": "202135",
+          "express": "2000781"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 18:27:00",
+      "arrival": "2025-03-13 18:26:00",
+      "duration": 840.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "187 км",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9602098",
+        "codes": {
+          "yandex": "s9602098",
+          "esr": "202120",
+          "express": "2001916"
+        },
+        "station_type": "stop",
+        "station_type_name": "остановочный пункт",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 18:34:00",
+      "arrival": "2025-03-13 18:33:00",
+      "duration": 1260.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Туросна",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9601111",
+        "codes": {
+          "yandex": "s9601111",
+          "esr": "202116",
+          "express": "2000449"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 18:42:00",
+      "arrival": "2025-03-13 18:41:00",
+      "duration": 1740.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Клинцы",
+        "short_title": null,
+        "popular_title": "",
+        "code": "s9601637",
+        "codes": {
+          "yandex": "s9601637",
+          "esr": "202101",
+          "express": "2001021"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 18:53:00",
+      "arrival": "2025-03-13 18:52:00",
+      "duration": 2400.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "164 км",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9601124",
+        "codes": {
+          "yandex": "s9601124",
+          "esr": "202050",
+          "express": "2000462"
+        },
+        "station_type": "stop",
+        "station_type_name": "остановочный пункт",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 19:02:00",
+      "arrival": "2025-03-13 19:01:00",
+      "duration": 2940.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Робчик",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9601110",
+        "codes": {
+          "yandex": "s9601110",
+          "esr": "202046",
+          "express": "2000448"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 19:13:00",
+      "arrival": "2025-03-13 19:07:00",
+      "duration": 3600.0,
+      "stop_time": 360,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "153 км",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9601942",
+        "codes": {
+          "yandex": "s9601942",
+          "esr": "202031",
+          "express": "2001419"
+        },
+        "station_type": "stop",
+        "station_type_name": "остановочный пункт",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 19:20:00",
+      "arrival": "2025-03-13 19:19:00",
+      "duration": 4020.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Песчаники",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9601109",
+        "codes": {
+          "yandex": "s9601109",
+          "esr": "202027",
+          "express": "2000447"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 19:26:00",
+      "arrival": "2025-03-13 19:25:00",
+      "duration": 4380.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "143 км",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9602471",
+        "codes": {
+          "yandex": "s9602471",
+          "esr": "202012",
+          "express": "2003974"
+        },
+        "station_type": "stop",
+        "station_type_name": "остановочный пункт",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 19:32:00",
+      "arrival": "2025-03-13 19:31:00",
+      "duration": 4740.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Унеча",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601092",
+        "codes": {
+          "yandex": "s9601092",
+          "esr": "202008",
+          "express": "2000430"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 19:39:00",
+      "duration": 5160.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "18:13"
+}

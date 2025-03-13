@@ -1,0 +1,80 @@
+{
+  "uid": "RT-9443_250314_c56935_12",
+  "number": "RT 9443",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "16:00",
+  "start_date": "2025-03-14",
+  "days": "14 марта",
+  "except_days": "",
+  "title": "Самара — Махачкала",
+  "short_title": "Самара — Махачкала",
+  "carrier": {
+    "code": 56935,
+    "title": "ЮВТ Аэро",
+    "codes": {
+      "sirena": "ЮВ",
+      "iata": "RT",
+      "icao": null
+    }
+  },
+  "vehicle": "Bombardier CRJ200",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Курумоч",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600380",
+        "codes": {
+          "yandex": "s9600380",
+          "esr": "453",
+          "iata": "KUF",
+          "sirena": "СКЧ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-14 16:00:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Уйташ",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623330",
+        "codes": {
+          "yandex": "s9623330",
+          "iata": "MCX",
+          "sirena": "МХЛ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-14 17:30:00",
+      "stop_time": null,
+      "duration": 9000,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

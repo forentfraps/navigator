@@ -1,0 +1,118 @@
+{
+  "number": "",
+  "title": "Ростов-на-Дону — Волгодонск",
+  "short_title": "Ростов-на-Дону — Волгодонск",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 64946,
+    "title": "ООО ВПАТП-1",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_5_f9868264t9637069_168",
+  "vehicle": "Mersedes (19), кв819 61",
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Ростов-на-Дону, Главный автовокзал",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9868264",
+        "codes": {
+          "yandex": "s9868264"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 13:05:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Багаевская,  пост ДПС",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9804436",
+        "codes": {
+          "yandex": "s9804436"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 14:11:00",
+      "arrival": "2025-03-13 14:10:00",
+      "duration": 3960.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Семикаракорск, автовокзал",
+        "short_title": "",
+        "popular_title": "Семикаракорский автовокзал",
+        "code": "s9804224",
+        "codes": {
+          "yandex": "s9804224"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 14:56:00",
+      "arrival": "2025-03-13 14:55:00",
+      "duration": 6660.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Волгодонск",
+        "short_title": null,
+        "popular_title": "Автовокзал Волгодонск",
+        "code": "s9637069",
+        "codes": {
+          "yandex": "s9637069"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 17:00:00",
+      "duration": 14100.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "13:05"
+}

@@ -1,0 +1,517 @@
+{
+  "number": "5/6",
+  "title": "Полигон — Автостанция Старая Коломна",
+  "short_title": "Полигон — Автостанция Старая Коломна",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 1836,
+    "title": "ГУП МО \"МОСТРАНСАВТО\"",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "5x6_0_9742676_4",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": "Автобус",
+    "code": "bus",
+    "color": "#ff0000"
+  },
+  "days": "13, 14, 17, 18, 19, 20, 21, 24, 25, 26, 27, 28, 31 марта, 1, 2, 3, 4, 7, 8, 9 апреля, …",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Полигон",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9742676",
+        "codes": {
+          "yandex": "s9742676"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 23:45:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Щуровская больница",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9742672",
+        "codes": {
+          "yandex": "s9742672"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 23:47:00",
+      "arrival": "2025-03-13 23:46:00",
+      "duration": 120.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Улица Крупской",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9742624",
+        "codes": {
+          "yandex": "s9742624"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 23:47:00",
+      "arrival": "2025-03-13 23:46:00",
+      "duration": 120.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Улица Крупской, поворот",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9862801",
+        "codes": {
+          "yandex": "s9862801"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 23:48:00",
+      "arrival": "2025-03-13 23:47:00",
+      "duration": 180.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Улица Бирюкова",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9742702",
+        "codes": {
+          "yandex": "s9742702"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 23:50:00",
+      "arrival": "2025-03-13 23:49:00",
+      "duration": 300.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Школьная улица",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9742694",
+        "codes": {
+          "yandex": "s9742694"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 23:51:00",
+      "arrival": "2025-03-13 23:50:00",
+      "duration": 360.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Поляны",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9742633",
+        "codes": {
+          "yandex": "s9742633"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 23:52:00",
+      "arrival": "2025-03-13 23:51:00",
+      "duration": 420.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Школьная улица",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9742694",
+        "codes": {
+          "yandex": "s9742694"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 23:53:00",
+      "arrival": "2025-03-13 23:52:00",
+      "duration": 480.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Улица Бирюкова",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9742702",
+        "codes": {
+          "yandex": "s9742702"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 23:54:00",
+      "arrival": "2025-03-13 23:53:00",
+      "duration": 540.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Улица Крупской, поворот",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9862801",
+        "codes": {
+          "yandex": "s9862801"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 23:55:00",
+      "arrival": "2025-03-13 23:54:00",
+      "duration": 600.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "ДК Цементников",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9742683",
+        "codes": {
+          "yandex": "s9742683"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 23:56:00",
+      "arrival": "2025-03-13 23:55:00",
+      "duration": 660.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Музыкальная школа № 2",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9742685",
+        "codes": {
+          "yandex": "s9742685"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 23:57:00",
+      "arrival": "2025-03-13 23:56:00",
+      "duration": 720.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Цемзавод",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9742634",
+        "codes": {
+          "yandex": "s9742634"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 23:58:00",
+      "arrival": "2025-03-13 23:57:00",
+      "duration": 780.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Церковь Пресвятой Троицы",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9742669",
+        "codes": {
+          "yandex": "s9742669"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 23:59:00",
+      "arrival": "2025-03-13 23:58:00",
+      "duration": 840.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Бочманово",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9742664",
+        "codes": {
+          "yandex": "s9742664"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 00:03:00",
+      "arrival": "2025-03-14 00:02:00",
+      "duration": 1080.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Политехнический институт",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9742693",
+        "codes": {
+          "yandex": "s9742693"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 00:05:00",
+      "arrival": "2025-03-14 00:04:00",
+      "duration": 1200.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Голутвин",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9800900",
+        "codes": {
+          "yandex": "s9800900"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 00:07:00",
+      "arrival": "2025-03-14 00:06:00",
+      "duration": 1320.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Завод Тепловозостроитель",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9742713",
+        "codes": {
+          "yandex": "s9742713"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 00:08:00",
+      "arrival": "2025-03-14 00:07:00",
+      "duration": 1380.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "ДК им. Куйбышева",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9742692",
+        "codes": {
+          "yandex": "s9742692"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 00:09:00",
+      "arrival": "2025-03-14 00:08:00",
+      "duration": 1440.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Городская больница",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9742684",
+        "codes": {
+          "yandex": "s9742684"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 00:11:00",
+      "arrival": "2025-03-14 00:10:00",
+      "duration": 1560.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Музей боевой славы",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9742700",
+        "codes": {
+          "yandex": "s9742700"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 00:12:00",
+      "arrival": "2025-03-14 00:11:00",
+      "duration": 1620.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Уманская улица",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9742623",
+        "codes": {
+          "yandex": "s9742623"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 00:14:00",
+      "arrival": "2025-03-14 00:13:00",
+      "duration": 1740.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Автостанция Старая Коломна",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9742674",
+        "codes": {
+          "yandex": "s9742674"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-14 00:16:00",
+      "duration": 1860.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "23:45"
+}

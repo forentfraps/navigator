@@ -1,0 +1,81 @@
+{
+  "uid": "3L-750_250313_c1386_12",
+  "number": "3L 750",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "01:15",
+  "start_date": "2025-03-13",
+  "days": "13, 20 марта",
+  "except_days": "",
+  "title": "Абу-Даби — Москва",
+  "short_title": "Абу-Даби — Москва",
+  "carrier": {
+    "code": 1386,
+    "title": "Air Arabia Abu Dhabi",
+    "codes": {
+      "sirena": null,
+      "iata": "3L",
+      "icao": null
+    }
+  },
+  "vehicle": "Airbus А320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Абу-Даби",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9624402",
+        "codes": {
+          "yandex": "s9624402",
+          "iata": "AUH",
+          "sirena": "АУХ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-13 01:15:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "A"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Домодедово",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600216",
+        "codes": {
+          "yandex": "s9600216",
+          "esr": "193114",
+          "iata": "DME",
+          "sirena": "ДМД",
+          "express": "2001305"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-13 06:10:00",
+      "stop_time": null,
+      "duration": 21300,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

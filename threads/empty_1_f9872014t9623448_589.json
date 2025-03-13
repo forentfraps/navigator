@@ -1,0 +1,139 @@
+{
+  "number": "057",
+  "title": "Москва - Ярославль",
+  "short_title": "Москва - Ярославль",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 60711,
+    "title": "ООО \"ФИНВАЛ\"",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_1_f9872014t9623448_589",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно по 29.03, кроме 01.01",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Москва, автовокзал Северные ворота",
+        "short_title": null,
+        "popular_title": "Автовокзал Северные ворота",
+        "code": "s9872014",
+        "codes": {
+          "yandex": "s9872014"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 07:30:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Переславль-Залесский",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600344",
+        "codes": {
+          "yandex": "s9600344"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 09:32:00",
+      "arrival": "2025-03-13 09:31:00",
+      "duration": 7320.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Слободка",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9868286",
+        "codes": {
+          "yandex": "s9868286"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 10:07:00",
+      "arrival": "2025-03-13 10:06:00",
+      "duration": 9420.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ростов Великий, кассовый пункт",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9865678",
+        "codes": {
+          "yandex": "s9865678"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 10:32:00",
+      "arrival": "2025-03-13 10:31:00",
+      "duration": 10920.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ярославль, автовокзал",
+        "short_title": null,
+        "popular_title": "Ярославский автовокзал",
+        "code": "s9623448",
+        "codes": {
+          "yandex": "s9623448"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 12:30:00",
+      "duration": 18000.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "07:30"
+}

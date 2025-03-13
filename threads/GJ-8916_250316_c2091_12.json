@@ -1,0 +1,78 @@
+{
+  "uid": "GJ-8916_250316_c2091_12",
+  "number": "GJ 8916",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "13:55",
+  "start_date": "2025-03-16",
+  "days": "16 марта",
+  "except_days": "",
+  "title": "Бишкек — Сиань",
+  "short_title": "Бишкек — Сиань",
+  "carrier": {
+    "code": 2091,
+    "title": "Zhejiang Loong Airlines",
+    "codes": {
+      "sirena": null,
+      "iata": "GJ",
+      "icao": null
+    }
+  },
+  "vehicle": "Airbus А321",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Манас",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623580",
+        "codes": {
+          "yandex": "s9623580",
+          "iata": "FRU",
+          "sirena": "БИШ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-16 13:55:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Сиань",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9631698",
+        "codes": {
+          "yandex": "s9631698",
+          "iata": "XIY"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-16 20:10:00",
+      "stop_time": null,
+      "duration": 15300,
+      "terminal": "5"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

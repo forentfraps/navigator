@@ -1,0 +1,149 @@
+{
+  "number": "742Р",
+  "title": "Иваново — Нижний Новгород",
+  "short_title": "Иваново — Нижний Новгород",
+  "express_type": null,
+  "transport_type": "train",
+  "carrier": {
+    "code": 4240,
+    "title": "РЖД/ДОСС",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "742R_2_2",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": "«Ласточка»",
+    "code": "lastdal",
+    "color": "#CC6600"
+  },
+  "days": "ежедневно с 12.05",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Иваново",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s2010050",
+        "codes": {
+          "yandex": "s2010050",
+          "esr": "318632",
+          "express": "2010050"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-05-12 06:47:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Шуя",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9604223",
+        "codes": {
+          "yandex": "s9604223",
+          "esr": "319003",
+          "express": "2010302"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-05-12 07:14:00",
+      "arrival": "2025-05-12 07:13:00",
+      "duration": 1620.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ковров-1",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9612156",
+        "codes": {
+          "yandex": "s9612156",
+          "esr": "263105",
+          "express": "2060350"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-05-12 08:20:00",
+      "arrival": "2025-05-12 08:00:00",
+      "duration": 5580.0,
+      "stop_time": 1200,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Дзержинск",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9612225",
+        "codes": {
+          "yandex": "s9612225",
+          "esr": "264704",
+          "express": "2060420"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-05-12 09:41:00",
+      "arrival": "2025-05-12 09:39:00",
+      "duration": 10440.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Нижний Новгород (Московский вокзал)",
+        "short_title": "Н.Новгород-мск.",
+        "popular_title": "Московский вокзал",
+        "code": "s9612089",
+        "codes": {
+          "yandex": "s9612089",
+          "esr": "260200",
+          "express": "2060001"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": null,
+      "arrival": "2025-05-12 10:05:00",
+      "duration": 11880.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-05-12",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "06:47"
+}

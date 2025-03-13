@@ -1,0 +1,121 @@
+{
+  "date": null,
+  "station": {
+    "type": "station",
+    "title": "Аль Асад",
+    "short_title": "",
+    "popular_title": "",
+    "code": "s9635497",
+    "station_type": "airport",
+    "station_type_name": "аэропорт",
+    "transport_type": "plane"
+  },
+  "event": "departure",
+  "pagination": {
+    "total": 3,
+    "limit": 100,
+    "offset": 0
+  },
+  "schedule": [
+    {
+      "thread": {
+        "number": "UD 1562",
+        "title": "Аль Асад — Дубай",
+        "short_title": "Аль Асад — Дубай",
+        "carrier": {
+          "code": 1463,
+          "title": "Hex'air",
+          "codes": {
+            "sirena": null,
+            "iata": "UD",
+            "icao": null
+          }
+        },
+        "vehicle": "Boeing 737",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "UD-1562_250318_c1463_12"
+      },
+      "terminal": "NULL",
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "10:15",
+      "arrival": null,
+      "days": "вт по 12.08"
+    },
+    {
+      "thread": {
+        "number": "UD 1562",
+        "title": "Аль Асад — Эрбил",
+        "short_title": "Аль Асад — Эрбил",
+        "carrier": {
+          "code": 1463,
+          "title": "Hex'air",
+          "codes": {
+            "sirena": null,
+            "iata": "UD",
+            "icao": null
+          }
+        },
+        "vehicle": "Boeing 737",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "UD-1562_250314_c1463_12"
+      },
+      "terminal": "NULL",
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "12:00",
+      "arrival": null,
+      "days": "пт по 08.08"
+    },
+    {
+      "thread": {
+        "number": "UD 1564",
+        "title": "Аль Асад — Эрбил",
+        "short_title": "Аль Асад — Эрбил",
+        "carrier": {
+          "code": 1463,
+          "title": "Hex'air",
+          "codes": {
+            "sirena": null,
+            "iata": "UD",
+            "icao": null
+          }
+        },
+        "vehicle": "Boeing 737",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "UD-1564_250318_c1463_12"
+      },
+      "terminal": "NULL",
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "16:30",
+      "arrival": null,
+      "days": "вт по 12.08"
+    }
+  ],
+  "interval_schedule": []
+}

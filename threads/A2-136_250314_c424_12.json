@@ -1,0 +1,77 @@
+{
+  "uid": "A2-136_250314_c424_12",
+  "number": "A2 136",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "18:30",
+  "start_date": "2025-03-12",
+  "days": "пн, ср, пт по 28.03",
+  "except_days": "",
+  "title": "Бухарест — Яссы",
+  "short_title": "Бухарест — Яссы",
+  "carrier": {
+    "code": 424,
+    "title": "Astra Airlines",
+    "codes": {
+      "sirena": null,
+      "iata": "A2",
+      "icao": "AZI"
+    }
+  },
+  "vehicle": "Airbus A220-300",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Отопени",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600438",
+        "codes": {
+          "yandex": "s9600438",
+          "iata": "OTP"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-12 18:30:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Яссы",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9625184",
+        "codes": {
+          "yandex": "s9625184",
+          "iata": "IAS"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-12 19:25:00",
+      "stop_time": null,
+      "duration": 3300,
+      "terminal": "3"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

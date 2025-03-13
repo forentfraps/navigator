@@ -1,0 +1,264 @@
+{
+  "number": "025Г",
+  "title": "Ижевск — Москва",
+  "short_title": "Ижевск — Москва",
+  "express_type": null,
+  "transport_type": "train",
+  "carrier": {
+    "code": 112,
+    "title": "РЖД/ФПК",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "025G_0_2",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Ижевск",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9612140",
+        "codes": {
+          "yandex": "s9612140",
+          "esr": "255409",
+          "express": "2060150"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 18:06:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Агрыз-1",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9612336",
+        "codes": {
+          "yandex": "s9612336",
+          "esr": "254905",
+          "express": "2060533"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 17:48:00",
+      "arrival": "2025-03-13 17:46:00",
+      "duration": 2520.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Можга",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9612353",
+        "codes": {
+          "yandex": "s9612353",
+          "esr": "254604",
+          "express": "2060550"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 19:40:00",
+      "arrival": "2025-03-13 19:38:00",
+      "duration": 5640.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Кизнер",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9612329",
+        "codes": {
+          "yandex": "s9612329",
+          "esr": "254203",
+          "express": "2060526"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 20:29:00",
+      "arrival": "2025-03-13 20:27:00",
+      "duration": 8580.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Вятские Поляны",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9612171",
+        "codes": {
+          "yandex": "s9612171",
+          "esr": "253809",
+          "express": "2060365"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 20:12:00",
+      "arrival": "2025-03-13 20:10:00",
+      "duration": 11160.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Казань-2 (Восстание-Пасс.)",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9612620",
+        "codes": {
+          "yandex": "s9612620",
+          "esr": "250919",
+          "express": "2060961"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 22:17:00",
+      "arrival": "2025-03-13 22:12:00",
+      "duration": 18660.0,
+      "stop_time": 300,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Канаш",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9612431",
+        "codes": {
+          "yandex": "s9612431",
+          "esr": "248105",
+          "express": "2060630"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-14 00:22:00",
+      "arrival": "2025-03-14 00:07:00",
+      "duration": 26160.0,
+      "stop_time": 900,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Муром-1",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9612176",
+        "codes": {
+          "yandex": "s9612176",
+          "esr": "240000",
+          "express": "2060370"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-14 05:06:00",
+      "arrival": "2025-03-14 05:04:00",
+      "duration": 43200.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Вековка",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9612500",
+        "codes": {
+          "yandex": "s9612500",
+          "esr": "241604",
+          "express": "2060712"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-14 06:16:00",
+      "arrival": "2025-03-14 06:04:00",
+      "duration": 47400.0,
+      "stop_time": 720,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Москва (Казанский вокзал)",
+        "short_title": "М-Казанская",
+        "popular_title": "Казанский вокзал",
+        "code": "s2000003",
+        "codes": {
+          "yandex": "s2000003",
+          "esr": "194013",
+          "express": "2000003"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": null,
+      "arrival": "2025-03-14 09:23:00",
+      "duration": 58620.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "18:06"
+}

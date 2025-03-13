@@ -1,0 +1,78 @@
+{
+  "uid": "GS-7942_250408_c1587_12",
+  "number": "GS 7942",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "12:15",
+  "start_date": "2025-04-08",
+  "days": "вт, пт с 08.04 по 29.08",
+  "except_days": "",
+  "title": "Москва — Чунцин",
+  "short_title": "Москва — Чунцин",
+  "carrier": {
+    "code": 1587,
+    "title": "TianJin Airlines",
+    "codes": {
+      "sirena": null,
+      "iata": "GS",
+      "icao": null
+    }
+  },
+  "vehicle": "Airbus А330-200",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Шереметьево",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600213",
+        "codes": {
+          "yandex": "s9600213",
+          "iata": "SVO",
+          "sirena": "ШРМ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-04-08 12:15:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "C"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Чунцин",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9632080",
+        "codes": {
+          "yandex": "s9632080",
+          "iata": "CKG"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-04-09 01:20:00",
+      "stop_time": null,
+      "duration": 29100,
+      "terminal": "3"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

@@ -1,0 +1,125 @@
+{
+  "uid": "U6-664_250524_c30_12",
+  "number": "U6 664",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "11:05",
+  "start_date": "2025-05-24",
+  "days": "сб с 24.05 по 11.10",
+  "except_days": "",
+  "title": "Южно-Сахалинск — Санкт-Петербург",
+  "short_title": "Южно-Сахалинск — Санкт-Петербург",
+  "carrier": {
+    "code": 30,
+    "title": "Уральские авиалинии",
+    "codes": {
+      "sirena": "У6",
+      "iata": "U6",
+      "icao": null
+    }
+  },
+  "vehicle": null,
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Южно-Сахалинск",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623425",
+        "codes": {
+          "yandex": "s9623425",
+          "iata": "UUS",
+          "sirena": "ЮЖХ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-05-24 11:05:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Кневичи",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9626399",
+        "codes": {
+          "yandex": "s9626399",
+          "iata": "VVO",
+          "sirena": "ВВО"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-05-24 12:45:00",
+      "arrival": "2025-05-24 11:50:00",
+      "stop_time": 3300,
+      "duration": 9600,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Кольцово",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600370",
+        "codes": {
+          "yandex": "s9600370",
+          "iata": "SVX",
+          "sirena": "ЕКБ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-05-24 17:30:00",
+      "arrival": "2025-05-24 15:20:00",
+      "stop_time": 7800,
+      "duration": 44700,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Пулково",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600366",
+        "codes": {
+          "yandex": "s9600366",
+          "iata": "LED",
+          "sirena": "ПЛК"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-05-24 18:25:00",
+      "stop_time": null,
+      "duration": 55200,
+      "terminal": "1"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

@@ -1,0 +1,78 @@
+{
+  "uid": "SU-204_250314_c26_12",
+  "number": "SU 204",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "21:05",
+  "start_date": "2025-03-12",
+  "days": "12, 14, 24 марта",
+  "except_days": "",
+  "title": "Москва — Пекин",
+  "short_title": "Москва — Пекин",
+  "carrier": {
+    "code": 26,
+    "title": "Аэрофлот",
+    "codes": {
+      "sirena": "СУ",
+      "iata": "SU",
+      "icao": "AFL"
+    }
+  },
+  "vehicle": "Airbus A350-900",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Шереметьево",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600213",
+        "codes": {
+          "yandex": "s9600213",
+          "iata": "SVO",
+          "sirena": "ШРМ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-12 21:05:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "C"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Дасин",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9872384",
+        "codes": {
+          "yandex": "s9872384",
+          "iata": "PKX"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-13 09:50:00",
+      "stop_time": null,
+      "duration": 27900,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

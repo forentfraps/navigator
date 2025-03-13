@@ -1,0 +1,78 @@
+{
+  "uid": "KC-336_250401_c142_12",
+  "number": "KC 336",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "08:45",
+  "start_date": "2025-04-01",
+  "days": "вт, ср, сб с 01.04 по 27.08",
+  "except_days": "",
+  "title": "Костанай — Астана",
+  "short_title": "Костанай — Астана",
+  "carrier": {
+    "code": 142,
+    "title": "Air Astana",
+    "codes": {
+      "sirena": "4Л",
+      "iata": "KC",
+      "icao": "KZR"
+    }
+  },
+  "vehicle": "Airbus А320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Наримановка",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623914",
+        "codes": {
+          "yandex": "s9623914",
+          "iata": "KSN"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-04-01 08:45:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Нурсултан Назарбаев",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623556",
+        "codes": {
+          "yandex": "s9623556",
+          "iata": "NQZ",
+          "sirena": "АКЛ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-04-01 10:10:00",
+      "stop_time": null,
+      "duration": 5100,
+      "terminal": "2"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

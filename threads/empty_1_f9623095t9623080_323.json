@@ -1,0 +1,139 @@
+{
+  "number": "6640",
+  "title": "Ковров - Владимир",
+  "short_title": "Ковров - Владимир",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 66130,
+    "title": "ИП Журавлёв Роман Николаевич",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_1_f9623095t9623080_323",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "пн, пт, сб, вс",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Ковров",
+        "short_title": "",
+        "popular_title": "Автовокзал Ковров",
+        "code": "s9623095",
+        "codes": {
+          "yandex": "s9623095"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 06:30:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Шуя, автостанция",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9637898",
+        "codes": {
+          "yandex": "s9637898"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 07:35:00",
+      "arrival": "2025-03-14 07:34:00",
+      "duration": 3900.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Иваново, автовокзал",
+        "short_title": null,
+        "popular_title": "Автовокзал Иваново",
+        "code": "s9623372",
+        "codes": {
+          "yandex": "s9623372"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 09:10:00",
+      "arrival": "2025-03-14 08:30:00",
+      "duration": 9600.0,
+      "stop_time": 2400,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Суздаль, поворот",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9746228",
+        "codes": {
+          "yandex": "s9746228"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 10:10:00",
+      "arrival": "2025-03-14 10:09:00",
+      "duration": 13200.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Владимир, автовокзал",
+        "short_title": null,
+        "popular_title": "автовокзал Владимир",
+        "code": "s9623080",
+        "codes": {
+          "yandex": "s9623080"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-14 11:10:00",
+      "duration": 16800.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-14",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "06:30"
+}

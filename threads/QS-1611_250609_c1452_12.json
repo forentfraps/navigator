@@ -1,0 +1,78 @@
+{
+  "uid": "QS-1611_250609_c1452_12",
+  "number": "QS 1611",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "15:45",
+  "start_date": "2025-06-09",
+  "days": "пн, чт с 09.06 по 25.09",
+  "except_days": "",
+  "title": "Ларнака — Кошице",
+  "short_title": "Ларнака — Кошице",
+  "carrier": {
+    "code": 1452,
+    "title": "Smart Wings",
+    "codes": {
+      "sirena": null,
+      "iata": "QS",
+      "icao": "TVS"
+    }
+  },
+  "vehicle": "Boeing 737-800",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Ларнака",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623584",
+        "codes": {
+          "yandex": "s9623584",
+          "iata": "LCA",
+          "sirena": "ЛРК"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-06-09 15:45:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Кошице",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623726",
+        "codes": {
+          "yandex": "s9623726",
+          "iata": "KSC"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-06-09 17:50:00",
+      "stop_time": null,
+      "duration": 11100,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

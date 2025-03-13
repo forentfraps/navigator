@@ -1,0 +1,77 @@
+{
+  "uid": "EP-3826_250315_c958_12",
+  "number": "EP 3826",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "05:30",
+  "start_date": "2025-03-15",
+  "days": "сб по 09.08",
+  "except_days": "",
+  "title": "Шираз — Ахваз",
+  "short_title": "Шираз — Ахваз",
+  "carrier": {
+    "code": 958,
+    "title": "Iran Aseman Airlines",
+    "codes": {
+      "sirena": null,
+      "iata": "EP",
+      "icao": "IRC"
+    }
+  },
+  "vehicle": "Fokker 100",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Шираз",
+        "short_title": "",
+        "popular_title": null,
+        "code": "s9630443",
+        "codes": {
+          "yandex": "s9630443",
+          "iata": "SYZ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-15 05:30:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ахваз",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9631865",
+        "codes": {
+          "yandex": "s9631865",
+          "iata": "AWZ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-15 06:35:00",
+      "stop_time": null,
+      "duration": 3900,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

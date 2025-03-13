@@ -1,0 +1,78 @@
+{
+  "uid": "FR-2540_250318_c1113_12",
+  "number": "FR 2540",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "06:10",
+  "start_date": "2025-03-11",
+  "days": "18, 25 марта, 28 октября, 4, 11, 18, 25 ноября, 2, 9, 16, 23, 30 декабря, 6 января",
+  "except_days": "",
+  "title": "Бухарест — Мадрид",
+  "short_title": "Бухарест — Мадрид",
+  "carrier": {
+    "code": 1113,
+    "title": "Ryanair",
+    "codes": {
+      "sirena": null,
+      "iata": "FR",
+      "icao": "RYR"
+    }
+  },
+  "vehicle": "Boeing 737-800",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Отопени",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600438",
+        "codes": {
+          "yandex": "s9600438",
+          "iata": "OTP"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-11 06:10:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Барахас",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623590",
+        "codes": {
+          "yandex": "s9623590",
+          "iata": "MAD",
+          "sirena": "МАД"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-11 09:20:00",
+      "stop_time": null,
+      "duration": 15000,
+      "terminal": "1"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

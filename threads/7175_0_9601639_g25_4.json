@@ -1,0 +1,218 @@
+{
+  "number": "7175",
+  "title": "Дубна — Москва (Савёловский вокзал)",
+  "short_title": "Дубна — М-Савёловская",
+  "express_type": "express",
+  "transport_type": "suburban",
+  "carrier": {
+    "code": 153,
+    "title": "Центральная пригородная пассажирская компания",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "7175_0_9601639_g25_4",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": "экспресс РЭКС",
+    "code": "rex",
+    "color": "#CC6600"
+  },
+  "days": "ежедневно",
+  "except_days": "10, 11, 12, 13, 17, 18, 19, 20, 24, 25, 26, 27 марта",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Дубна",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601639",
+        "codes": {
+          "yandex": "s9601639",
+          "esr": "239017",
+          "express": "2001026"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-14 21:34:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Большая Волга",
+        "short_title": "Бол. Волга",
+        "popular_title": "",
+        "code": "s9601720",
+        "codes": {
+          "yandex": "s9601720",
+          "esr": "239002",
+          "express": "2001131"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-14 21:45:00",
+      "arrival": "2025-03-14 21:44:00",
+      "duration": 660.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Вербилки",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600693",
+        "codes": {
+          "yandex": "s9600693",
+          "esr": "238809",
+          "express": "2000027"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-14 22:15:00",
+      "arrival": "2025-03-14 22:14:00",
+      "duration": 2460.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Дмитров",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600692",
+        "codes": {
+          "yandex": "s9600692",
+          "esr": "238404",
+          "express": "2000026"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-14 22:39:00",
+      "arrival": "2025-03-14 22:37:00",
+      "duration": 3900.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Лобня",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600781",
+        "codes": {
+          "yandex": "s9600781",
+          "esr": "237908",
+          "express": "2000115"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-14 23:08:00",
+      "arrival": "2025-03-14 23:07:00",
+      "duration": 5640.0,
+      "stop_time": 60,
+      "platform": "1 путь",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Долгопрудная",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600766",
+        "codes": {
+          "yandex": "s9600766",
+          "esr": "237825",
+          "express": "2000100"
+        },
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-14 23:21:00",
+      "arrival": "2025-03-14 23:20:00",
+      "duration": 6420.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Окружная",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601830",
+        "codes": {
+          "yandex": "s9601830",
+          "esr": "196023",
+          "express": "2001270"
+        },
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-14 23:38:00",
+      "arrival": "2025-03-14 23:37:00",
+      "duration": 7440.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Москва (Савёловский вокзал)",
+        "short_title": "М-Савёловская",
+        "popular_title": "Савёловский вокзал",
+        "code": "s2000009",
+        "codes": {
+          "yandex": "s2000009",
+          "esr": "196004",
+          "express": "2000009"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": null,
+      "arrival": "2025-03-14 23:51:00",
+      "duration": 8220.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-14",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "21:34"
+}

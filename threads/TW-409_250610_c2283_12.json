@@ -1,0 +1,102 @@
+{
+  "uid": "TW-409_250610_c2283_12",
+  "number": "TW 409",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "10:55",
+  "start_date": "2025-04-24",
+  "days": "24 апреля, 10, 12, 14, 17, 19, 21, 24, 26, 28 июня, 1, 3, 5, 8, 10, 12, 15, 17, 19, 22 июля, …",
+  "except_days": "",
+  "title": "Сеул — Загреб",
+  "short_title": "Сеул — Загреб",
+  "carrier": {
+    "code": 2283,
+    "title": "T'way air",
+    "codes": {
+      "sirena": null,
+      "iata": "TW",
+      "icao": null
+    }
+  },
+  "vehicle": "Airbus А330-300",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Инчеон",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600406",
+        "codes": {
+          "yandex": "s9600406",
+          "iata": "ICN",
+          "sirena": "ИЦН"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-04-24 10:55:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "1"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Манас",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623580",
+        "codes": {
+          "yandex": "s9623580",
+          "iata": "FRU",
+          "sirena": "БИШ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-04-24 16:55:00",
+      "arrival": "2025-04-24 15:05:00",
+      "stop_time": 6600,
+      "duration": 32400,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Загреб",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623704",
+        "codes": {
+          "yandex": "s9623704",
+          "iata": "ZAG",
+          "sirena": "ЗАГ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-04-24 19:55:00",
+      "stop_time": null,
+      "duration": 57600,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

@@ -1,0 +1,118 @@
+{
+  "number": "",
+  "title": "Порздни - Лух",
+  "short_title": "Порздни - Лух",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 64541,
+    "title": "ИП Лазарев Олег Витальевич",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_3_f9867051t9806616_323",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "вт, пт",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Порздни",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9867051",
+        "codes": {
+          "yandex": "s9867051"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 13:10:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Слободки",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9867052",
+        "codes": {
+          "yandex": "s9867052"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 13:20:00",
+      "arrival": "2025-03-14 13:19:00",
+      "duration": 600.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Благовещенье",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9833875",
+        "codes": {
+          "yandex": "s9833875"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 13:30:00",
+      "arrival": "2025-03-14 13:29:00",
+      "duration": 1200.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Лух",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9806616",
+        "codes": {
+          "yandex": "s9806616"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-14 13:45:00",
+      "duration": 2100.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-14",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "13:10"
+}

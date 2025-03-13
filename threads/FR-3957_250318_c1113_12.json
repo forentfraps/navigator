@@ -1,0 +1,78 @@
+{
+  "uid": "FR-3957_250318_c1113_12",
+  "number": "FR 3957",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "09:30",
+  "start_date": "2025-03-11",
+  "days": "18, 25 марта, 28 октября, 4, 11, 18, 25 ноября, 2, 9, 16, 23, 30 декабря, 6 января",
+  "except_days": "",
+  "title": "Бухарест — Рим",
+  "short_title": "Бухарест — Рим",
+  "carrier": {
+    "code": 1113,
+    "title": "Ryanair",
+    "codes": {
+      "sirena": null,
+      "iata": "FR",
+      "icao": "RYR"
+    }
+  },
+  "vehicle": "Boeing 737-800",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Отопени",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600438",
+        "codes": {
+          "yandex": "s9600438",
+          "iata": "OTP"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-11 09:30:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Чампино",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9624403",
+        "codes": {
+          "yandex": "s9624403",
+          "iata": "CIA",
+          "sirena": "ЦИА"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-11 10:40:00",
+      "stop_time": null,
+      "duration": 7800,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

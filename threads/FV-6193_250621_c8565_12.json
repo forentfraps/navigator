@@ -1,0 +1,79 @@
+{
+  "uid": "FV-6193_250621_c8565_12",
+  "number": "FV 6193",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "01:55",
+  "start_date": "2025-06-21",
+  "days": "ежедневно с 21.06 по 29.09",
+  "except_days": "",
+  "title": "Москва — Челябинск",
+  "short_title": "Москва — Челябинск",
+  "carrier": {
+    "code": 8565,
+    "title": "Россия",
+    "codes": {
+      "sirena": "ФВ",
+      "iata": "FV",
+      "icao": null
+    }
+  },
+  "vehicle": "Boeing 737-900",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Шереметьево",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600213",
+        "codes": {
+          "yandex": "s9600213",
+          "iata": "SVO",
+          "sirena": "ШРМ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-06-21 01:55:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "B"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Баландино",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623444",
+        "codes": {
+          "yandex": "s9623444",
+          "iata": "CEK",
+          "sirena": "ЧЛБ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-06-21 06:20:00",
+      "stop_time": null,
+      "duration": 8700,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

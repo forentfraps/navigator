@@ -1,0 +1,78 @@
+{
+  "uid": "SU-2152_250602_c26_12",
+  "number": "SU 2152",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "09:05",
+  "start_date": "2025-03-30",
+  "days": "30 марта, 1, 3, 6, 8, 10, 13, 15, 17, 20, 22, 24, 25, 27, 29 апреля, 1, 2, 4, 6, 8 мая, …",
+  "except_days": "",
+  "title": "Москва — Мерсин",
+  "short_title": "Москва — Мерсин",
+  "carrier": {
+    "code": 26,
+    "title": "Аэрофлот",
+    "codes": {
+      "sirena": "СУ",
+      "iata": "SU",
+      "icao": "AFL"
+    }
+  },
+  "vehicle": "Airbus A320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Шереметьево",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600213",
+        "codes": {
+          "yandex": "s9600213",
+          "iata": "SVO",
+          "sirena": "ШРМ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-30 09:05:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "C"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Чукурова",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9887843",
+        "codes": {
+          "yandex": "s9887843",
+          "iata": "COV"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-30 14:05:00",
+      "stop_time": null,
+      "duration": 18000,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

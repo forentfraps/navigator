@@ -1,0 +1,78 @@
+{
+  "uid": "SK-1782_250528_c316_12",
+  "number": "SK 1782",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "10:50",
+  "start_date": "2025-05-28",
+  "days": "28 мая",
+  "except_days": "",
+  "title": "Бухарест — Копенгаген",
+  "short_title": "Бухарест — Копенгаген",
+  "carrier": {
+    "code": 316,
+    "title": "Scandinavian Airlines",
+    "codes": {
+      "sirena": null,
+      "iata": "SK",
+      "icao": "SAS"
+    }
+  },
+  "vehicle": "Airbus A320 NEO",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Отопени",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600438",
+        "codes": {
+          "yandex": "s9600438",
+          "iata": "OTP"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-05-28 10:50:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Каструп",
+        "short_title": "",
+        "popular_title": "Каструп",
+        "code": "s9600450",
+        "codes": {
+          "yandex": "s9600450",
+          "iata": "CPH",
+          "sirena": "ЦПХ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-05-28 12:15:00",
+      "stop_time": null,
+      "duration": 8700,
+      "terminal": "3"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

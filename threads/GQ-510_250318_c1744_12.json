@@ -1,0 +1,78 @@
+{
+  "uid": "GQ-510_250318_c1744_12",
+  "number": "GQ 510",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "12:55",
+  "start_date": "2025-03-11",
+  "days": "18, 25 марта, 28 октября, 4, 11, 18, 25 ноября, 2, 9, 16, 23, 30 декабря, 6 января",
+  "except_days": "",
+  "title": "Салоники — Самос",
+  "short_title": "Салоники — Самос",
+  "carrier": {
+    "code": 1744,
+    "title": "Sky express",
+    "codes": {
+      "sirena": null,
+      "iata": "GQ",
+      "icao": null
+    }
+  },
+  "vehicle": "ATR 42/ATR 72  FR/IT",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Салоники",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623699",
+        "codes": {
+          "yandex": "s9623699",
+          "iata": "SKG",
+          "sirena": "СКГ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-11 12:55:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Самос",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623922",
+        "codes": {
+          "yandex": "s9623922",
+          "iata": "SMI"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-11 14:15:00",
+      "stop_time": null,
+      "duration": 4800,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

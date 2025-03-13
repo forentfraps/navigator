@@ -1,0 +1,78 @@
+{
+  "uid": "OU-317_250705_c2037_12",
+  "number": "OU 317",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "17:00",
+  "start_date": "2025-07-05",
+  "days": "сб с 05.07 по 25.10",
+  "except_days": "",
+  "title": "Бухарест — Загреб",
+  "short_title": "Бухарест — Загреб",
+  "carrier": {
+    "code": 2037,
+    "title": "Croatia Airlines",
+    "codes": {
+      "sirena": null,
+      "iata": "OU",
+      "icao": "CTN"
+    }
+  },
+  "vehicle": "Airbus A220-300",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Отопени",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600438",
+        "codes": {
+          "yandex": "s9600438",
+          "iata": "OTP"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-07-05 17:00:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Загреб",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623704",
+        "codes": {
+          "yandex": "s9623704",
+          "iata": "ZAG",
+          "sirena": "ЗАГ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-07-05 17:35:00",
+      "stop_time": null,
+      "duration": 5700,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

@@ -1,0 +1,154 @@
+{
+  "date": null,
+  "station": {
+    "type": "station",
+    "title": "Автокасса \"Архыз-Романтик\"",
+    "short_title": null,
+    "popular_title": null,
+    "code": "s9881286",
+    "station_type": "",
+    "station_type_name": "автостанция",
+    "transport_type": "bus"
+  },
+  "event": "departure",
+  "pagination": {
+    "total": 4,
+    "limit": 100,
+    "offset": 0
+  },
+  "schedule": [
+    {
+      "thread": {
+        "number": "584А",
+        "title": "Архыз — Минеральные Воды",
+        "short_title": "Архыз — Минеральные Воды",
+        "express_type": null,
+        "transport_type": "bus",
+        "carrier": {
+          "code": 65703,
+          "title": "АНО «Единая транспортная дирекция»",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "584A_0_2",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "",
+      "departure": "06:05",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "586А",
+        "title": "Архыз — Минеральные Воды",
+        "short_title": "Архыз — Минеральные Воды",
+        "express_type": null,
+        "transport_type": "bus",
+        "carrier": {
+          "code": 65703,
+          "title": "АНО «Единая транспортная дирекция»",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "586A_0_2",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "",
+      "departure": "10:30",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "",
+        "title": "Архыз — Таганрог",
+        "short_title": "Архыз — Таганрог",
+        "express_type": null,
+        "transport_type": "bus",
+        "carrier": {
+          "code": 67423,
+          "title": "Общество с ограниченной ответственностью МЕРИДИАН",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "empty_0_f9881286t9876245_168",
+        "vehicle": "ZHONG TONG (53), х582еу761",
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "",
+      "departure": "18:00",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "596А",
+        "title": "Архыз — Невинномысск",
+        "short_title": "Архыз — Невинномысск",
+        "express_type": null,
+        "transport_type": "bus",
+        "carrier": {
+          "code": 65703,
+          "title": "АНО «Единая транспортная дирекция»",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "596A_0_2",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "",
+      "departure": "18:35",
+      "arrival": null
+    }
+  ],
+  "interval_schedule": []
+}

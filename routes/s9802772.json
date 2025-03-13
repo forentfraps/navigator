@@ -1,0 +1,55 @@
+{
+  "date": null,
+  "station": {
+    "type": "station",
+    "title": "Швейная фабрика",
+    "short_title": null,
+    "popular_title": null,
+    "code": "s9802772",
+    "station_type": "bus_stop",
+    "station_type_name": "автобусная остановка",
+    "transport_type": "bus"
+  },
+  "event": "departure",
+  "pagination": {
+    "total": 1,
+    "limit": 100,
+    "offset": 0
+  },
+  "schedule": [
+    {
+      "thread": {
+        "number": "",
+        "title": "Березовский — Кемерово",
+        "short_title": "Березовский — Кемерово",
+        "express_type": null,
+        "transport_type": "bus",
+        "carrier": {
+          "code": 63643,
+          "title": "Кемеровская автоколонна №1237 ГП КО",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "empty_32_f9802539t9623379_168",
+        "vehicle": "ПАЗ 3205 М (21+10), т807еу142",
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно, кроме сб, вс",
+      "except_days": null,
+      "stops": "",
+      "departure": "08:56",
+      "arrival": "08:55"
+    }
+  ],
+  "interval_schedule": []
+}

@@ -1,0 +1,97 @@
+{
+  "number": "",
+  "title": "Воронеж — Белгород, автовокзал",
+  "short_title": "Воронеж — Белгород, автовокзал",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 59770,
+    "title": "ЗАО работников \"НП \"Экспресс-Липецк\"",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_19_f9623369t9623276_114",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "только 12, 14, 16, 18, 20, 22 марта",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Воронеж, Центральный автовокзал",
+        "short_title": null,
+        "popular_title": "Центральный автовокзал",
+        "code": "s9623369",
+        "codes": {
+          "yandex": "s9623369"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 09:20:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Старый Оскол, автовокзал",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9624017",
+        "codes": {
+          "yandex": "s9624017"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 11:30:00",
+      "arrival": "2025-03-14 11:29:00",
+      "duration": 7800.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Белгород, автовокзал",
+        "short_title": "",
+        "popular_title": "Автовокзал Белгород",
+        "code": "s9623276",
+        "codes": {
+          "yandex": "s9623276"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-14 14:15:00",
+      "duration": 17700.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-14",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "09:20"
+}

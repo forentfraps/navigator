@@ -1,0 +1,97 @@
+{
+  "number": "",
+  "title": "Кемерово — Тайга",
+  "short_title": "Кемерово — Тайга",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 63643,
+    "title": "Кемеровская автоколонна №1237 ГП КО",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_0_f9623379t9802535_168",
+  "vehicle": "НЕФАЗ М (44), ах09142",
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "пт",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Кемерово, автовокзал",
+        "short_title": null,
+        "popular_title": "автовокзал Кемерово",
+        "code": "s9623379",
+        "codes": {
+          "yandex": "s9623379"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 11:30:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Таловка, поворот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9802536",
+        "codes": {
+          "yandex": "s9802536"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 12:46:00",
+      "arrival": "2025-03-14 12:45:00",
+      "duration": 4560.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Тайга, автостанция",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9802535",
+        "codes": {
+          "yandex": "s9802535"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-14 13:15:00",
+      "duration": 6300.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-14",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "11:30"
+}

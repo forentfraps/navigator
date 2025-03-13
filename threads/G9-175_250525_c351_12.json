@@ -1,0 +1,78 @@
+{
+  "uid": "G9-175_250525_c351_12",
+  "number": "G9 175",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "12:25",
+  "start_date": "2025-03-30",
+  "days": "ежедневно с 30.03 по 27.08, кроме 30.05",
+  "except_days": "",
+  "title": "Шарджа — Медина",
+  "short_title": "Шарджа — Медина",
+  "carrier": {
+    "code": 351,
+    "title": "Air Arabia",
+    "codes": {
+      "sirena": null,
+      "iata": "G9",
+      "icao": "ABY"
+    }
+  },
+  "vehicle": "Airbus А320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Шарджа",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623802",
+        "codes": {
+          "yandex": "s9623802",
+          "iata": "SHJ",
+          "sirena": "СХЙ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-30 12:25:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Медина",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9625881",
+        "codes": {
+          "yandex": "s9625881",
+          "iata": "MED"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-30 14:05:00",
+      "stop_time": null,
+      "duration": 9600,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

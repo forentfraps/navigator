@@ -1,0 +1,118 @@
+{
+  "number": "",
+  "title": "Воронеж — Курск",
+  "short_title": "Воронеж — Курск",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 56836,
+    "title": "ООО \"ПЭЛ\"",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_14_f9623369t9623386_114",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Воронеж, Центральный автовокзал",
+        "short_title": null,
+        "popular_title": "Центральный автовокзал",
+        "code": "s9623369",
+        "codes": {
+          "yandex": "s9623369"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 16:40:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Горшечное, поворот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9763147",
+        "codes": {
+          "yandex": "s9763147"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 17:55:00",
+      "arrival": "2025-03-13 17:54:00",
+      "duration": 4500.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Тим, поворот",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9878480",
+        "codes": {
+          "yandex": "s9878480"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 19:00:00",
+      "arrival": "2025-03-13 18:55:00",
+      "duration": 8400.0,
+      "stop_time": 300,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Курск, автовокзал",
+        "short_title": null,
+        "popular_title": "Автовокзал Курск",
+        "code": "s9623386",
+        "codes": {
+          "yandex": "s9623386"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 20:30:00",
+      "duration": 13800.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "16:40"
+}

@@ -1,0 +1,139 @@
+{
+  "number": "",
+  "title": "Москва — Астрахань",
+  "short_title": "Москва — Астрахань",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 59390,
+    "title": "ООО \"Транс Лайн\"",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_2_f9876347t9623273_114",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Автовокзал Саларьево",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9876347",
+        "codes": {
+          "yandex": "s9876347"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 21:15:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Волжский, автовокзал",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9624111",
+        "codes": {
+          "yandex": "s9624111"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 09:15:00",
+      "arrival": "2025-03-14 09:14:00",
+      "duration": 43200.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Знаменск, поворот",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9878386",
+        "codes": {
+          "yandex": "s9878386"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 11:46:00",
+      "arrival": "2025-03-14 11:45:00",
+      "duration": 48660.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ахтубинск, остановка \"Автостанция\"",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9878387",
+        "codes": {
+          "yandex": "s9878387"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 12:45:00",
+      "arrival": "2025-03-14 12:35:00",
+      "duration": 52200.0,
+      "stop_time": 600,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Астрахань, автовокзал",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623273",
+        "codes": {
+          "yandex": "s9623273"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-14 17:15:00",
+      "duration": 68400.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "21:15"
+}

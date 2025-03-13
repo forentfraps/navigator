@@ -1,0 +1,79 @@
+{
+  "uid": "FH-1485_250525_c60850_12",
+  "number": "FH 1485",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "08:00",
+  "start_date": "2025-05-25",
+  "days": "вс с 25.05 по 28.09",
+  "except_days": "",
+  "title": "Даламан — Дюссельдорф",
+  "short_title": "Даламан — Дюссельдорф",
+  "carrier": {
+    "code": 60850,
+    "title": "Freebird Airlines",
+    "codes": {
+      "sirena": null,
+      "iata": "FH",
+      "icao": "FHY"
+    }
+  },
+  "vehicle": "Airbus А320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Даламан",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623966",
+        "codes": {
+          "yandex": "s9623966",
+          "iata": "DLM",
+          "sirena": "ДАН"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-05-25 08:00:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "0"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Дюссельдорф",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623557",
+        "codes": {
+          "yandex": "s9623557",
+          "iata": "DUS",
+          "sirena": "ДУС"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-05-25 10:45:00",
+      "stop_time": null,
+      "duration": 13500,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

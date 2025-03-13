@@ -1,0 +1,78 @@
+{
+  "uid": "LS-578_250721_c754_12",
+  "number": "LS 578",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "13:05",
+  "start_date": "2025-07-21",
+  "days": "21, 28 июля, 4, 11, 18, 25 августа",
+  "except_days": "",
+  "title": "Даламан — Ньюкасл",
+  "short_title": "Даламан — Ньюкасл",
+  "carrier": {
+    "code": 754,
+    "title": "Jet2.com",
+    "codes": {
+      "sirena": null,
+      "iata": "LS",
+      "icao": null
+    }
+  },
+  "vehicle": "Boeing 737-800",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Даламан",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623966",
+        "codes": {
+          "yandex": "s9623966",
+          "iata": "DLM",
+          "sirena": "ДАН"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-07-21 13:05:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "I"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ньюкасл",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9635022",
+        "codes": {
+          "yandex": "s9635022",
+          "iata": "NCL"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-07-21 15:40:00",
+      "stop_time": null,
+      "duration": 16500,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

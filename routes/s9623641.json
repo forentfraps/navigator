@@ -1,0 +1,1375 @@
+{
+  "date": null,
+  "station": {
+    "type": "station",
+    "title": "Фергана",
+    "short_title": null,
+    "popular_title": null,
+    "code": "s9623641",
+    "station_type": "airport",
+    "station_type_name": "аэропорт",
+    "transport_type": "plane"
+  },
+  "event": "departure",
+  "pagination": {
+    "total": 41,
+    "limit": 100,
+    "offset": 0
+  },
+  "schedule": [
+    {
+      "thread": {
+        "number": "S7 6324",
+        "title": "Фергана — Иркутск",
+        "short_title": "Фергана — Иркутск",
+        "carrier": {
+          "code": 23,
+          "title": "S7 Airlines",
+          "codes": {
+            "sirena": "С7",
+            "iata": "S7",
+            "icao": null
+          }
+        },
+        "vehicle": "Boeing 737-800",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "S7-6324_250314_c23_12"
+      },
+      "terminal": "NULL",
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "00:20",
+      "arrival": null,
+      "days": "14, 21, 28 марта"
+    },
+    {
+      "thread": {
+        "number": "S7 5562",
+        "title": "Фергана — Новосибирск",
+        "short_title": "Фергана — Новосибирск",
+        "carrier": {
+          "code": 23,
+          "title": "S7 Airlines",
+          "codes": {
+            "sirena": "С7",
+            "iata": "S7",
+            "icao": null
+          }
+        },
+        "vehicle": "Boeing 737-800",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "S7-5562_250405_c23_12"
+      },
+      "terminal": "NULL",
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "00:20",
+      "arrival": null,
+      "days": "сб с 05.04 по 24.05"
+    },
+    {
+      "thread": {
+        "number": "UT 790",
+        "title": "Фергана — Москва",
+        "short_title": "Фергана — Москва",
+        "carrier": {
+          "code": 29,
+          "title": "ЮТэйр",
+          "codes": {
+            "sirena": "ЮТ",
+            "iata": "UT",
+            "icao": "UTA"
+          }
+        },
+        "vehicle": "Boeing 737-800",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "UT-790_250404_c29_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "06:00",
+      "arrival": null,
+      "days": "пт с 04.04 по 29.08"
+    },
+    {
+      "thread": {
+        "number": "HY 635",
+        "title": "Фергана — Санкт-Петербург",
+        "short_title": "Фергана — Санкт-Петербург",
+        "carrier": {
+          "code": 35,
+          "title": "Uzbekistan Airways",
+          "codes": {
+            "sirena": "ХИ",
+            "iata": "HY",
+            "icao": "UZB"
+          }
+        },
+        "vehicle": "Airbus А320",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "HY-635_250401_c35_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "07:40",
+      "arrival": null,
+      "days": "вт с 01.04 по 26.08"
+    },
+    {
+      "thread": {
+        "number": "HY 635",
+        "title": "Фергана — Санкт-Петербург",
+        "short_title": "Фергана — Санкт-Петербург",
+        "carrier": {
+          "code": 35,
+          "title": "Uzbekistan Airways",
+          "codes": {
+            "sirena": "ХИ",
+            "iata": "HY",
+            "icao": "UZB"
+          }
+        },
+        "vehicle": "Airbus А320",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "HY-635_250314_c35_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "08:00",
+      "arrival": null,
+      "days": "14, 18, 21, 25, 28 марта"
+    },
+    {
+      "thread": {
+        "number": "HY 635",
+        "title": "Фергана — Санкт-Петербург",
+        "short_title": "Фергана — Санкт-Петербург",
+        "carrier": {
+          "code": 35,
+          "title": "Uzbekistan Airways",
+          "codes": {
+            "sirena": "ХИ",
+            "iata": "HY",
+            "icao": "UZB"
+          }
+        },
+        "vehicle": "Airbus А320",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "HY-635_250404_c35_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "08:25",
+      "arrival": null,
+      "days": "пт с 04.04 по 29.08"
+    },
+    {
+      "thread": {
+        "number": "HY 277",
+        "title": "Фергана — Стамбул",
+        "short_title": "Фергана — Стамбул",
+        "carrier": {
+          "code": 35,
+          "title": "Uzbekistan Airways",
+          "codes": {
+            "sirena": "ХИ",
+            "iata": "HY",
+            "icao": "UZB"
+          }
+        },
+        "vehicle": "Airbus А320",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "HY-277_250331_c35_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "08:40",
+      "arrival": null,
+      "days": "пн, ср, сб с 31.03 по 27.08"
+    },
+    {
+      "thread": {
+        "number": "HY 277",
+        "title": "Фергана — Стамбул",
+        "short_title": "Фергана — Стамбул",
+        "carrier": {
+          "code": 35,
+          "title": "Uzbekistan Airways",
+          "codes": {
+            "sirena": "ХИ",
+            "iata": "HY",
+            "icao": "UZB"
+          }
+        },
+        "vehicle": "Airbus А320",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "HY-277_250315_c35_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "08:50",
+      "arrival": null,
+      "days": "15, 19, 22, 26, 29 марта"
+    },
+    {
+      "thread": {
+        "number": "TK 261",
+        "title": "Фергана — Стамбул",
+        "short_title": "Фергана — Стамбул",
+        "carrier": {
+          "code": 680,
+          "title": "Turkish Airlines",
+          "codes": {
+            "sirena": null,
+            "iata": "TK",
+            "icao": "THY"
+          }
+        },
+        "vehicle": "Airbus А330-300",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "TK-261_250403_c680_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "09:20",
+      "arrival": null,
+      "days": "чт с 03.04 по 28.08"
+    },
+    {
+      "thread": {
+        "number": "HY 9669",
+        "title": "Фергана — Новосибирск",
+        "short_title": "Фергана — Новосибирск",
+        "carrier": {
+          "code": 35,
+          "title": "Uzbekistan Airways",
+          "codes": {
+            "sirena": "ХИ",
+            "iata": "HY",
+            "icao": "UZB"
+          }
+        },
+        "vehicle": "Airbus A320",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "HY-9669_250313_c35_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "10:05",
+      "arrival": null,
+      "days": "13, 16, 20, 23, 27, 30 марта, 1, 3, 6, 8, 10, 13, 15, 17, 20, 22, 24, 29 апреля, 1, 8 мая, …"
+    },
+    {
+      "thread": {
+        "number": "HY 9669",
+        "title": "Фергана — Новосибирск",
+        "short_title": "Фергана — Новосибирск",
+        "carrier": {
+          "code": 35,
+          "title": "Uzbekistan Airways",
+          "codes": {
+            "sirena": "ХИ",
+            "iata": "HY",
+            "icao": "UZB"
+          }
+        },
+        "vehicle": null,
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "HY-9669_250427_c35_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "10:05",
+      "arrival": null,
+      "days": "18, 25 марта, 27 апреля, 4, 6 мая, 1, 8, 29 июня, 13 июля"
+    },
+    {
+      "thread": {
+        "number": "HH 749",
+        "title": "Фергана — Санкт-Петербург",
+        "short_title": "Фергана — Санкт-Петербург",
+        "carrier": {
+          "code": 65494,
+          "title": "Qanot Sharq",
+          "codes": {
+            "sirena": null,
+            "iata": "HH",
+            "icao": null
+          }
+        },
+        "vehicle": "Airbus А320",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "HH-749_250315_c65494_12"
+      },
+      "terminal": "NULL",
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "11:00",
+      "arrival": null,
+      "days": "15, 22, 29 марта"
+    },
+    {
+      "thread": {
+        "number": "HH 749",
+        "title": "Фергана — Санкт-Петербург",
+        "short_title": "Фергана — Санкт-Петербург",
+        "carrier": {
+          "code": 65494,
+          "title": "Qanot Sharq",
+          "codes": {
+            "sirena": null,
+            "iata": "HH",
+            "icao": null
+          }
+        },
+        "vehicle": "Airbus А320",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "HH-749_250405_c65494_12"
+      },
+      "terminal": "NULL",
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "11:05",
+      "arrival": null,
+      "days": "сб с 05.04 по 30.08"
+    },
+    {
+      "thread": {
+        "number": "HY 9651",
+        "title": "Фергана — Казань",
+        "short_title": "Фергана — Казань",
+        "carrier": {
+          "code": 35,
+          "title": "Uzbekistan Airways",
+          "codes": {
+            "sirena": "ХИ",
+            "iata": "HY",
+            "icao": "UZB"
+          }
+        },
+        "vehicle": "Airbus A320",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "HY-9651_250314_c35_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "11:05",
+      "arrival": null,
+      "days": "14, 19, 21, 28 марта"
+    },
+    {
+      "thread": {
+        "number": "HY 9651",
+        "title": "Фергана — Казань",
+        "short_title": "Фергана — Казань",
+        "carrier": {
+          "code": 35,
+          "title": "Uzbekistan Airways",
+          "codes": {
+            "sirena": "ХИ",
+            "iata": "HY",
+            "icao": "UZB"
+          }
+        },
+        "vehicle": null,
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "HY-9651_250326_c35_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "11:05",
+      "arrival": null,
+      "days": "26 марта"
+    },
+    {
+      "thread": {
+        "number": "HY 9651",
+        "title": "Фергана — Казань",
+        "short_title": "Фергана — Казань",
+        "carrier": {
+          "code": 35,
+          "title": "Uzbekistan Airways",
+          "codes": {
+            "sirena": "ХИ",
+            "iata": "HY",
+            "icao": "UZB"
+          }
+        },
+        "vehicle": "Airbus A320",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "HY-9651_250402_c35_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "11:15",
+      "arrival": null,
+      "days": "ср с 02.04 по 27.08"
+    },
+    {
+      "thread": {
+        "number": "HY 9651",
+        "title": "Фергана — Казань",
+        "short_title": "Фергана — Казань",
+        "carrier": {
+          "code": 35,
+          "title": "Uzbekistan Airways",
+          "codes": {
+            "sirena": "ХИ",
+            "iata": "HY",
+            "icao": "UZB"
+          }
+        },
+        "vehicle": "Airbus A320",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "HY-9651_250725_c35_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "12:20",
+      "arrival": null,
+      "days": "4, 11, 18 апреля, 9, 16, 23 мая, 13, 20 июня, 25 июля, 1, 8, 15, 22, 29 августа, 5, 12, 19, 26 сентября, 3, 10 октября, …"
+    },
+    {
+      "thread": {
+        "number": "HY 9651",
+        "title": "Фергана — Казань",
+        "short_title": "Фергана — Казань",
+        "carrier": {
+          "code": 35,
+          "title": "Uzbekistan Airways",
+          "codes": {
+            "sirena": "ХИ",
+            "iata": "HY",
+            "icao": "UZB"
+          }
+        },
+        "vehicle": null,
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "HY-9651_250627_c35_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "12:20",
+      "arrival": null,
+      "days": "25 апреля, 2, 30 мая, 6, 27 июня, 4, 11, 18 июля"
+    },
+    {
+      "thread": {
+        "number": "U6 2168",
+        "title": "Фергана — Жуковский",
+        "short_title": "Фергана — Жуковский",
+        "carrier": {
+          "code": 30,
+          "title": "Уральские авиалинии",
+          "codes": {
+            "sirena": "У6",
+            "iata": "U6",
+            "icao": null
+          }
+        },
+        "vehicle": "Airbus А321",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "U6-2168_250313_c30_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "13:05",
+      "arrival": null,
+      "days": "пн, вт, чт, сб по 29.03"
+    },
+    {
+      "thread": {
+        "number": "U6 2168",
+        "title": "Фергана — Жуковский",
+        "short_title": "Фергана — Жуковский",
+        "carrier": {
+          "code": 30,
+          "title": "Уральские авиалинии",
+          "codes": {
+            "sirena": "У6",
+            "iata": "U6",
+            "icao": null
+          }
+        },
+        "vehicle": "Airbus А321",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "U6-2168_250331_c30_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "14:30",
+      "arrival": null,
+      "days": "пн с 31.03 по 25.08"
+    },
+    {
+      "thread": {
+        "number": "U6 2168",
+        "title": "Фергана — Жуковский",
+        "short_title": "Фергана — Жуковский",
+        "carrier": {
+          "code": 30,
+          "title": "Уральские авиалинии",
+          "codes": {
+            "sirena": "У6",
+            "iata": "U6",
+            "icao": null
+          }
+        },
+        "vehicle": "Airbus А321",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "U6-2168_250402_c30_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "14:50",
+      "arrival": null,
+      "days": "ср, пт с 02.04 по 29.08"
+    },
+    {
+      "thread": {
+        "number": "TK 261",
+        "title": "Фергана — Стамбул",
+        "short_title": "Фергана — Стамбул",
+        "carrier": {
+          "code": 680,
+          "title": "Turkish Airlines",
+          "codes": {
+            "sirena": null,
+            "iata": "TK",
+            "icao": "THY"
+          }
+        },
+        "vehicle": "Airbus А330-300",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "TK-261_250330_c680_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "15:20",
+      "arrival": null,
+      "days": "вс с 30.03 по 24.08"
+    },
+    {
+      "thread": {
+        "number": "HH 703",
+        "title": "Фергана — Москва",
+        "short_title": "Фергана — Москва",
+        "carrier": {
+          "code": 65494,
+          "title": "Qanot Sharq",
+          "codes": {
+            "sirena": null,
+            "iata": "HH",
+            "icao": null
+          }
+        },
+        "vehicle": "Airbus А320",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "HH-703_250331_c65494_12"
+      },
+      "terminal": "NULL",
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "15:40",
+      "arrival": null,
+      "days": "пн с 31.03 по 25.08"
+    },
+    {
+      "thread": {
+        "number": "S7 5562",
+        "title": "Фергана — Новосибирск",
+        "short_title": "Фергана — Новосибирск",
+        "carrier": {
+          "code": 23,
+          "title": "S7 Airlines",
+          "codes": {
+            "sirena": "С7",
+            "iata": "S7",
+            "icao": null
+          }
+        },
+        "vehicle": "Boeing 737-800",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "S7-5562_250319_c23_12"
+      },
+      "terminal": "NULL",
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "15:40",
+      "arrival": null,
+      "days": "19, 26 марта"
+    },
+    {
+      "thread": {
+        "number": "HH 703",
+        "title": "Фергана — Москва",
+        "short_title": "Фергана — Москва",
+        "carrier": {
+          "code": 65494,
+          "title": "Qanot Sharq",
+          "codes": {
+            "sirena": null,
+            "iata": "HH",
+            "icao": null
+          }
+        },
+        "vehicle": "Airbus А320",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "HH-703_250317_c65494_12"
+      },
+      "terminal": "NULL",
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "16:00",
+      "arrival": null,
+      "days": "17, 24 марта"
+    },
+    {
+      "thread": {
+        "number": "HY 9627",
+        "title": "Фергана — Москва",
+        "short_title": "Фергана — Москва",
+        "carrier": {
+          "code": 35,
+          "title": "Uzbekistan Airways",
+          "codes": {
+            "sirena": "ХИ",
+            "iata": "HY",
+            "icao": "UZB"
+          }
+        },
+        "vehicle": "Airbus A320",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "HY-9627_250313_c35_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "16:50",
+      "arrival": null,
+      "days": "ежедневно по 10.08"
+    },
+    {
+      "thread": {
+        "number": "UT 790",
+        "title": "Фергана — Москва",
+        "short_title": "Фергана — Москва",
+        "carrier": {
+          "code": 29,
+          "title": "ЮТэйр",
+          "codes": {
+            "sirena": "ЮТ",
+            "iata": "UT",
+            "icao": "UTA"
+          }
+        },
+        "vehicle": "Boeing 737-800",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "UT-790_250319_c29_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "17:50",
+      "arrival": null,
+      "days": "19, 26 марта"
+    },
+    {
+      "thread": {
+        "number": "HH 703",
+        "title": "Фергана — Москва",
+        "short_title": "Фергана — Москва",
+        "carrier": {
+          "code": 65494,
+          "title": "Qanot Sharq",
+          "codes": {
+            "sirena": null,
+            "iata": "HH",
+            "icao": null
+          }
+        },
+        "vehicle": "Airbus А320",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "HH-703_250321_c65494_12"
+      },
+      "terminal": "NULL",
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "18:30",
+      "arrival": null,
+      "days": "пт с 21.03 по 15.08"
+    },
+    {
+      "thread": {
+        "number": "HY 86",
+        "title": "Фергана — Ташкент",
+        "short_title": "Фергана — Ташкент",
+        "carrier": {
+          "code": 35,
+          "title": "Uzbekistan Airways",
+          "codes": {
+            "sirena": "ХИ",
+            "iata": "HY",
+            "icao": "UZB"
+          }
+        },
+        "vehicle": "Airbus A320",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "HY-86_250313_c35_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "18:35",
+      "arrival": null,
+      "days": "13, 16, 20, 23, 27, 30 марта, 1, 3, 6, 8, 10, 13, 15, 17, 20, 22, 24, 29 апреля, 1, 8 мая, …"
+    },
+    {
+      "thread": {
+        "number": "HY 86",
+        "title": "Фергана — Ташкент",
+        "short_title": "Фергана — Ташкент",
+        "carrier": {
+          "code": 35,
+          "title": "Uzbekistan Airways",
+          "codes": {
+            "sirena": "ХИ",
+            "iata": "HY",
+            "icao": "UZB"
+          }
+        },
+        "vehicle": null,
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "HY-86_250504_c35_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "18:35",
+      "arrival": null,
+      "days": "18, 25 марта, 27 апреля, 4, 6 мая, 1, 8, 29 июня, 13 июля"
+    },
+    {
+      "thread": {
+        "number": "U6 2142",
+        "title": "Фергана — Москва",
+        "short_title": "Фергана — Москва",
+        "carrier": {
+          "code": 30,
+          "title": "Уральские авиалинии",
+          "codes": {
+            "sirena": "У6",
+            "iata": "U6",
+            "icao": null
+          }
+        },
+        "vehicle": null,
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "U6-2142_250527_c30_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "19:20",
+      "arrival": null,
+      "days": "вт с 27.05 по 21.10"
+    },
+    {
+      "thread": {
+        "number": "U6 2142",
+        "title": "Фергана — Москва",
+        "short_title": "Фергана — Москва",
+        "carrier": {
+          "code": 30,
+          "title": "Уральские авиалинии",
+          "codes": {
+            "sirena": "У6",
+            "iata": "U6",
+            "icao": null
+          }
+        },
+        "vehicle": "Airbus А321",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "U6-2142_250401_c30_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "19:20",
+      "arrival": null,
+      "days": "вт с 01.04 по 20.05"
+    },
+    {
+      "thread": {
+        "number": "U6 2142",
+        "title": "Фергана — Москва",
+        "short_title": "Фергана — Москва",
+        "carrier": {
+          "code": 30,
+          "title": "Уральские авиалинии",
+          "codes": {
+            "sirena": "У6",
+            "iata": "U6",
+            "icao": null
+          }
+        },
+        "vehicle": "Airbus А321",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "U6-2142_250314_c30_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "19:30",
+      "arrival": null,
+      "days": "14, 21, 28 марта"
+    },
+    {
+      "thread": {
+        "number": "HY 86",
+        "title": "Фергана — Ташкент",
+        "short_title": "Фергана — Ташкент",
+        "carrier": {
+          "code": 35,
+          "title": "Uzbekistan Airways",
+          "codes": {
+            "sirena": "ХИ",
+            "iata": "HY",
+            "icao": "UZB"
+          }
+        },
+        "vehicle": "Airbus A320",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "HY-86_250328_c35_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "20:55",
+      "arrival": null,
+      "days": "14, 19, 21, 28 марта"
+    },
+    {
+      "thread": {
+        "number": "HY 86",
+        "title": "Фергана — Ташкент",
+        "short_title": "Фергана — Ташкент",
+        "carrier": {
+          "code": 35,
+          "title": "Uzbekistan Airways",
+          "codes": {
+            "sirena": "ХИ",
+            "iata": "HY",
+            "icao": "UZB"
+          }
+        },
+        "vehicle": null,
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "HY-86_250326_c35_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "20:55",
+      "arrival": null,
+      "days": "26 марта"
+    },
+    {
+      "thread": {
+        "number": "HY 86",
+        "title": "Фергана — Ташкент",
+        "short_title": "Фергана — Ташкент",
+        "carrier": {
+          "code": 35,
+          "title": "Uzbekistan Airways",
+          "codes": {
+            "sirena": "ХИ",
+            "iata": "HY",
+            "icao": "UZB"
+          }
+        },
+        "vehicle": "Airbus A320",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "HY-86_250402_c35_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "21:05",
+      "arrival": null,
+      "days": "ср с 02.04 по 27.08"
+    },
+    {
+      "thread": {
+        "number": "HY 82",
+        "title": "Фергана — Ташкент",
+        "short_title": "Фергана — Ташкент",
+        "carrier": {
+          "code": 35,
+          "title": "Uzbekistan Airways",
+          "codes": {
+            "sirena": "ХИ",
+            "iata": "HY",
+            "icao": "UZB"
+          }
+        },
+        "vehicle": "Airbus А320",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "HY-82_250402_c35_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "21:55",
+      "arrival": null,
+      "days": "ср, сб с 02.04 по 30.08"
+    },
+    {
+      "thread": {
+        "number": "HY 84",
+        "title": "Фергана — Ташкент",
+        "short_title": "Фергана — Ташкент",
+        "carrier": {
+          "code": 35,
+          "title": "Uzbekistan Airways",
+          "codes": {
+            "sirena": "ХИ",
+            "iata": "HY",
+            "icao": "UZB"
+          }
+        },
+        "vehicle": "Airbus А320",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "HY-84_250315_c35_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "22:05",
+      "arrival": null,
+      "days": "15, 19, 22, 26, 29 марта"
+    },
+    {
+      "thread": {
+        "number": "HY 86",
+        "title": "Фергана — Ташкент",
+        "short_title": "Фергана — Ташкент",
+        "carrier": {
+          "code": 35,
+          "title": "Uzbekistan Airways",
+          "codes": {
+            "sirena": "ХИ",
+            "iata": "HY",
+            "icao": "UZB"
+          }
+        },
+        "vehicle": "Airbus A320",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "HY-86_250404_c35_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "22:10",
+      "arrival": null,
+      "days": "4, 11, 18 апреля, 9, 16, 23 мая, 13, 20 июня, 25 июля, 1, 8, 15, 22, 29 августа, 5, 12, 19, 26 сентября, 3, 10 октября, …"
+    },
+    {
+      "thread": {
+        "number": "HY 86",
+        "title": "Фергана — Ташкент",
+        "short_title": "Фергана — Ташкент",
+        "carrier": {
+          "code": 35,
+          "title": "Uzbekistan Airways",
+          "codes": {
+            "sirena": "ХИ",
+            "iata": "HY",
+            "icao": "UZB"
+          }
+        },
+        "vehicle": null,
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "HY-86_250627_c35_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "22:10",
+      "arrival": null,
+      "days": "25 апреля, 2, 30 мая, 6, 27 июня, 4, 11, 18 июля"
+    },
+    {
+      "thread": {
+        "number": "S7 6330",
+        "title": "Фергана — Иркутск",
+        "short_title": "Фергана — Иркутск",
+        "carrier": {
+          "code": 23,
+          "title": "S7 Airlines",
+          "codes": {
+            "sirena": "С7",
+            "iata": "S7",
+            "icao": null
+          }
+        },
+        "vehicle": "Boeing 737-800",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "S7-6330_250404_c23_12"
+      },
+      "terminal": "NULL",
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "23:25",
+      "arrival": null,
+      "days": "пт с 04.04 по 29.08"
+    }
+  ],
+  "interval_schedule": []
+}

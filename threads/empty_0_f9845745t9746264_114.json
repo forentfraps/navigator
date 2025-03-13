@@ -1,0 +1,76 @@
+{
+  "number": "",
+  "title": "Москва — Сосновка",
+  "short_title": "Москва — Сосновка",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 58372,
+    "title": "ИП Попов Николай Яковлевич",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_0_f9845745t9746264_114",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Москва, автовокзал Южные ворота",
+        "short_title": null,
+        "popular_title": "Автовокзал Южные ворота",
+        "code": "s9845745",
+        "codes": {
+          "yandex": "s9845745"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 12:00:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Сосновка",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9746264",
+        "codes": {
+          "yandex": "s9746264"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 19:00:00",
+      "duration": 25200.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "12:00"
+}

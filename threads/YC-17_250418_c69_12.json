@@ -1,0 +1,79 @@
+{
+  "uid": "YC-17_250418_c69_12",
+  "number": "YC 17",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "09:40",
+  "start_date": "2025-03-12",
+  "days": "19 марта, 2, 4, 9, 16, 18, 23, 25, 30 апреля, 2, 7, 9, 14, 16, 21, 23, 28, 30 мая, 4, 11 июня, …",
+  "except_days": "",
+  "title": "Салехард — Ноябрьск",
+  "short_title": "Салехард — Ноябрьск",
+  "carrier": {
+    "code": 69,
+    "title": "Ямал",
+    "codes": {
+      "sirena": "ЛА",
+      "iata": "YC",
+      "icao": "LLM"
+    }
+  },
+  "vehicle": "Canadair regional jet",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Салехард",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623576",
+        "codes": {
+          "yandex": "s9623576",
+          "iata": "SLY",
+          "sirena": "СХД"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-12 09:40:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ноябрьск",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623575",
+        "codes": {
+          "yandex": "s9623575",
+          "iata": "NOJ",
+          "sirena": "НОЯ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-12 10:40:00",
+      "stop_time": null,
+      "duration": 3600,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

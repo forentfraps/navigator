@@ -1,0 +1,149 @@
+{
+  "number": "936Г",
+  "title": "Москва (Казанский вокзал) — Москва Казанская Тур",
+  "short_title": "Москва (Казанский вокзал) — Москва Казанская Тур",
+  "express_type": null,
+  "transport_type": "train",
+  "carrier": {
+    "code": 112,
+    "title": "РЖД/ФПК",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "936G_1_2",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": "туристический поезд",
+    "code": "tur",
+    "color": "#CC6600"
+  },
+  "days": "только 11 апреля",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Москва (Казанский вокзал)",
+        "short_title": "М-Казанская",
+        "popular_title": "Казанский вокзал",
+        "code": "s2000003",
+        "codes": {
+          "yandex": "s2000003",
+          "esr": "194013",
+          "express": "2000003"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-11 21:20:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Свияжск",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9612390",
+        "codes": {
+          "yandex": "s9612390",
+          "esr": "249004",
+          "express": "2060587"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-12 10:00:00",
+      "arrival": "2025-04-12 09:50:00",
+      "duration": 45600.0,
+      "stop_time": 600,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Казань-Пасс.",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623141",
+        "codes": {
+          "yandex": "s9623141",
+          "esr": "250302",
+          "sirena": "КНЖ",
+          "express": "2060500"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-13 00:10:00",
+      "arrival": "2025-04-12 11:22:00",
+      "duration": 96600.0,
+      "stop_time": 46080,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Йошкар-Ола",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9612396",
+        "codes": {
+          "yandex": "s9612396",
+          "esr": "252401",
+          "express": "2060593"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-13 20:45:00",
+      "arrival": "2025-04-13 07:00:00",
+      "duration": 170700.0,
+      "stop_time": 49500,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Москва Казанская Тур",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9879064",
+        "codes": {
+          "yandex": "s9879064",
+          "express": "2001109"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": null,
+      "arrival": "2025-04-14 11:35:00",
+      "duration": 224100.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-04-11",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "21:20"
+}

@@ -1,0 +1,77 @@
+{
+  "uid": "G9-869_250331_c351_12",
+  "number": "G9 869",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "08:35",
+  "start_date": "2025-03-31",
+  "days": "пн с 31.03 по 25.08",
+  "except_days": "",
+  "title": "Исламабад — Расал-Кауман",
+  "short_title": "Исламабад — Расал-Кауман",
+  "carrier": {
+    "code": 351,
+    "title": "Air Arabia",
+    "codes": {
+      "sirena": null,
+      "iata": "G9",
+      "icao": "ABY"
+    }
+  },
+  "vehicle": "Airbus А320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Исламабад",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9634163",
+        "codes": {
+          "yandex": "s9634163",
+          "iata": "ISB"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-31 08:35:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Рас-эль-Хайма",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9630292",
+        "codes": {
+          "yandex": "s9630292",
+          "iata": "RKT"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-31 10:40:00",
+      "stop_time": null,
+      "duration": 11100,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

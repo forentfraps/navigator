@@ -1,0 +1,139 @@
+{
+  "number": "",
+  "title": "Волгодонск — Шахты, автовокзал",
+  "short_title": "Волгодонск — Шахты, автовокзал",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 66788,
+    "title": "Общество с ограниченной ответственностью \"ВОЛГО ДОН\"",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_0_f9637069t9637146_168",
+  "vehicle": "FORD (18), кв839 61",
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Волгодонск",
+        "short_title": null,
+        "popular_title": "Автовокзал Волгодонск",
+        "code": "s9637069",
+        "codes": {
+          "yandex": "s9637069"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 07:00:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Цимлянск",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9637733",
+        "codes": {
+          "yandex": "s9637733"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 07:26:00",
+      "arrival": "2025-03-13 07:25:00",
+      "duration": 1560.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Константиновск",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9804434",
+        "codes": {
+          "yandex": "s9804434"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 08:51:00",
+      "arrival": "2025-03-13 08:50:00",
+      "duration": 6660.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Усть-Донецкий",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9804288",
+        "codes": {
+          "yandex": "s9804288"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 09:35:00",
+      "arrival": "2025-03-13 09:30:00",
+      "duration": 9300.0,
+      "stop_time": 300,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Шахты, автовокзал",
+        "short_title": null,
+        "popular_title": "Шахтинский автовокзал",
+        "code": "s9637146",
+        "codes": {
+          "yandex": "s9637146"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 11:00:00",
+      "duration": 14400.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "07:00"
+}

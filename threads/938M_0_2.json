@@ -1,0 +1,312 @@
+{
+  "number": "938М",
+  "title": "Москва (Ярославский вокзал) — Москва (Ленинградский вокзал)",
+  "short_title": "Москва (Ярославский вокзал) — Москва (Ленинградский вокзал)",
+  "express_type": null,
+  "transport_type": "train",
+  "carrier": {
+    "code": 112,
+    "title": "РЖД/ФПК",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "938M_0_2",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": "туристический поезд",
+    "code": "tur",
+    "color": "#CC6600"
+  },
+  "days": "только 21 мая",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Москва (Ярославский вокзал)",
+        "short_title": "М-Ярославск.",
+        "popular_title": "Ярославский вокзал",
+        "code": "s2000002",
+        "codes": {
+          "yandex": "s2000002",
+          "esr": "195506",
+          "express": "2000002"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-05-21 11:20:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ярославль-Главный",
+        "short_title": "",
+        "popular_title": "Ярославль-Главный",
+        "code": "s9603934",
+        "codes": {
+          "yandex": "s9603934",
+          "esr": "310005",
+          "sirena": "ЯРЖ",
+          "express": "2010001"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-05-21 15:20:00",
+      "arrival": "2025-05-21 15:15:00",
+      "duration": 14400.0,
+      "stop_time": 300,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Вологда-1",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9603962",
+        "codes": {
+          "yandex": "s9603962",
+          "esr": "300107",
+          "express": "2010030"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-05-21 19:50:00",
+      "arrival": "2025-05-21 19:30:00",
+      "duration": 30600.0,
+      "stop_time": 1200,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Архангельск-Город",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s2010400",
+        "codes": {
+          "yandex": "s2010400",
+          "esr": "290507",
+          "express": "2010400"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-05-22 22:10:00",
+      "arrival": "2025-05-22 08:50:00",
+      "duration": 125400.0,
+      "stop_time": 48000,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Малошуйка",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9604113",
+        "codes": {
+          "yandex": "s9604113",
+          "esr": "295801",
+          "express": "2010190"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-05-23 05:36:00",
+      "arrival": "2025-05-23 04:57:00",
+      "duration": 152160.0,
+      "stop_time": 2340,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Шижня",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9602856",
+        "codes": {
+          "yandex": "s9602856",
+          "esr": "012737",
+          "express": "2004363"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-05-23 11:33:00",
+      "arrival": "2025-05-23 11:21:00",
+      "duration": 173580.0,
+      "stop_time": 720,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Беломорск",
+        "short_title": null,
+        "popular_title": "",
+        "code": "s9603194",
+        "codes": {
+          "yandex": "s9603194",
+          "esr": "013000",
+          "express": "2004702"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-05-23 18:50:00",
+      "arrival": "2025-05-23 12:30:00",
+      "duration": 199800.0,
+      "stop_time": 22800,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Мурманск",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9602693",
+        "codes": {
+          "yandex": "s9602693",
+          "esr": "018409",
+          "express": "2004200"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-05-24 17:10:00",
+      "arrival": "2025-05-24 06:50:00",
+      "duration": 280200.0,
+      "stop_time": 37200,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Петрозаводск-Пасс.",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9602793",
+        "codes": {
+          "yandex": "s9602793",
+          "esr": "010002",
+          "sirena": "ПТЖ",
+          "express": "2004300"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-05-25 22:20:00",
+      "arrival": "2025-05-25 11:40:00",
+      "duration": 385200.0,
+      "stop_time": 38400,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Сортавала",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9602759",
+        "codes": {
+          "yandex": "s9602759",
+          "esr": "023708",
+          "express": "2004266"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-05-26 15:09:00",
+      "arrival": "2025-05-26 08:25:00",
+      "duration": 445740.0,
+      "stop_time": 24240,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Выборг",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9603175",
+        "codes": {
+          "yandex": "s9603175",
+          "esr": "020004",
+          "express": "2004682"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-05-26 23:43:00",
+      "arrival": "2025-05-26 17:45:00",
+      "duration": 476580.0,
+      "stop_time": 21480,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Москва (Ленинградский вокзал)",
+        "short_title": "М-Ленинградск",
+        "popular_title": "Ленинградский вокзал",
+        "code": "s2006004",
+        "codes": {
+          "yandex": "s2006004",
+          "esr": "060073",
+          "express": "2006004"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": null,
+      "arrival": "2025-05-27 10:26:00",
+      "duration": 515160.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-05-21",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "11:20"
+}

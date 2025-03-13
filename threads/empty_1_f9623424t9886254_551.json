@@ -1,0 +1,97 @@
+{
+  "number": "677",
+  "title": "Саратов - Белая Гора",
+  "short_title": "Саратов - Белая Гора",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 66526,
+    "title": "ИП Туранска Д.С.",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_1_f9623424t9886254_551",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно по 06.04",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Саратов, автовокзал",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623424",
+        "codes": {
+          "yandex": "s9623424"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 16:20:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Вольский Тракт, трасса",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9843314",
+        "codes": {
+          "yandex": "s9843314"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 16:40:00",
+      "arrival": "2025-03-13 16:39:00",
+      "duration": 1200.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Базарный Карабулак, КП",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9886254",
+        "codes": {
+          "yandex": "s9886254"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 18:19:00",
+      "duration": 7140.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "16:20"
+}

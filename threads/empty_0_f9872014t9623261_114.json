@@ -1,0 +1,118 @@
+{
+  "number": "",
+  "title": "Москва — Череповец",
+  "short_title": "Москва — Череповец",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 64644,
+    "title": "ООО \"Автолидер\" (Чебоксары)",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_0_f9872014t9623261_114",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Москва, автовокзал Северные ворота",
+        "short_title": null,
+        "popular_title": "Автовокзал Северные ворота",
+        "code": "s9872014",
+        "codes": {
+          "yandex": "s9872014"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 21:00:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ярославль, автовокзал",
+        "short_title": null,
+        "popular_title": "Ярославский автовокзал",
+        "code": "s9623448",
+        "codes": {
+          "yandex": "s9623448"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 00:55:00",
+      "arrival": "2025-03-14 00:54:00",
+      "duration": 14100.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Вологда, автовокзал",
+        "short_title": null,
+        "popular_title": "Автовокзал Вологда",
+        "code": "s9623246",
+        "codes": {
+          "yandex": "s9623246"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 04:10:00",
+      "arrival": "2025-03-14 03:55:00",
+      "duration": 25800.0,
+      "stop_time": 900,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Череповец, автовокзал",
+        "short_title": null,
+        "popular_title": "Автовокзал Череповец",
+        "code": "s9623261",
+        "codes": {
+          "yandex": "s9623261"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-14 05:55:00",
+      "duration": 32100.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "21:00"
+}

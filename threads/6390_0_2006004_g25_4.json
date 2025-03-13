@@ -1,0 +1,379 @@
+{
+  "number": "6390",
+  "title": "Москва (Ленинградский вокзал) — Зеленоград-Крюково",
+  "short_title": "М-Ленинградск — Зеленоград-Крюково",
+  "express_type": null,
+  "transport_type": "suburban",
+  "carrier": {
+    "code": 1846,
+    "title": "Московско-Тверская ППК",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "6390_0_2006004_g25_4",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": "Пригородный поезд",
+    "code": "suburban",
+    "color": "#CC6600"
+  },
+  "days": "ежедневно",
+  "except_days": "10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31 марта, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13 апреля",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Москва (Ленинградский вокзал)",
+        "short_title": "М-Ленинградск",
+        "popular_title": "Ленинградский вокзал",
+        "code": "s2006004",
+        "codes": {
+          "yandex": "s2006004",
+          "esr": "060073",
+          "express": "2006004"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-14 23:57:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Останкино",
+        "short_title": null,
+        "popular_title": "",
+        "code": "s9603505",
+        "codes": {
+          "yandex": "s9603505",
+          "esr": "060054",
+          "express": "2005110"
+        },
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-15 00:07:00",
+      "arrival": "2025-04-15 00:06:00",
+      "duration": 600.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Петровско-Разумовская",
+        "short_title": "П-Разумовское",
+        "popular_title": null,
+        "code": "s9603458",
+        "codes": {
+          "yandex": "s9603458",
+          "esr": "060048",
+          "express": "2005060"
+        },
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-15 00:10:00",
+      "arrival": "2025-04-15 00:09:00",
+      "duration": 780.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Лихоборы (бывш. НАТИ)",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9603256",
+        "codes": {
+          "yandex": "s9603256",
+          "esr": "060035",
+          "express": "2004764"
+        },
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-15 00:13:00",
+      "arrival": "2025-04-15 00:12:00",
+      "duration": 960.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Моссельмаш",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9603478",
+        "codes": {
+          "yandex": "s9603478",
+          "esr": "060020",
+          "express": "2005080"
+        },
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-15 00:16:00",
+      "arrival": "2025-04-15 00:15:00",
+      "duration": 1140.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Грачёвская (бывш. Ховрино)",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9603877",
+        "codes": {
+          "yandex": "s9603877",
+          "esr": "060001",
+          "express": "2006100"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-15 00:19:00",
+      "arrival": "2025-04-15 00:18:00",
+      "duration": 1320.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ховрино",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9878110",
+        "codes": {
+          "yandex": "s9878110",
+          "esr": "060088",
+          "express": "2005485"
+        },
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-15 00:22:00",
+      "arrival": "2025-04-15 00:21:00",
+      "duration": 1500.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Левобережная",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9603663",
+        "codes": {
+          "yandex": "s9603663",
+          "esr": "060016",
+          "express": "2005275"
+        },
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-15 00:24:00",
+      "arrival": "2025-04-15 00:23:00",
+      "duration": 1620.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Химки",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9603401",
+        "codes": {
+          "yandex": "s9603401",
+          "esr": "060302",
+          "express": "2005000"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-15 00:27:00",
+      "arrival": "2025-04-15 00:26:00",
+      "duration": 1800.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Молжаниново (бывш. Планерная)",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9603638",
+        "codes": {
+          "yandex": "s9603638",
+          "esr": "060317",
+          "express": "2005250"
+        },
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-15 00:33:00",
+      "arrival": "2025-04-15 00:32:00",
+      "duration": 2160.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Новоподрезково",
+        "short_title": "Н-Подрезково",
+        "popular_title": "",
+        "code": "s9603404",
+        "codes": {
+          "yandex": "s9603404",
+          "esr": "060321",
+          "express": "2005003"
+        },
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-15 00:36:00",
+      "arrival": "2025-04-15 00:35:00",
+      "duration": 2340.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Подрезково",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9603406",
+        "codes": {
+          "yandex": "s9603406",
+          "esr": "060336",
+          "express": "2005005"
+        },
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-15 00:39:00",
+      "arrival": "2025-04-15 00:38:00",
+      "duration": 2520.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Сходня",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9603486",
+        "codes": {
+          "yandex": "s9603486",
+          "esr": "060406",
+          "express": "2005090"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-15 00:42:00",
+      "arrival": "2025-04-15 00:41:00",
+      "duration": 2700.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Фирсановская",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9603604",
+        "codes": {
+          "yandex": "s9603604",
+          "esr": "060410",
+          "express": "2005215"
+        },
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-15 00:46:00",
+      "arrival": "2025-04-15 00:45:00",
+      "duration": 2940.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Зеленоград-Крюково",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600212",
+        "codes": {
+          "yandex": "s9600212",
+          "esr": "060500",
+          "express": "2006200"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": null,
+      "arrival": "2025-04-15 00:55:00",
+      "duration": 3480.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-04-14",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "23:57"
+}

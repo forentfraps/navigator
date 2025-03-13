@@ -1,0 +1,79 @@
+{
+  "uid": "IO-474_250319_c105_12",
+  "number": "IO 474",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "21:55",
+  "start_date": "2025-03-12",
+  "days": "12, 19, 26 марта",
+  "except_days": "",
+  "title": "Баку — Красноярск",
+  "short_title": "Баку — Красноярск",
+  "carrier": {
+    "code": 105,
+    "title": "ИрАэро",
+    "codes": {
+      "sirena": "РД",
+      "iata": "IO",
+      "icao": null
+    }
+  },
+  "vehicle": "Сухой Суперджет 100",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "им. Гейдара Алиева",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600387",
+        "codes": {
+          "yandex": "s9600387",
+          "iata": "GYD",
+          "sirena": "БАК"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-12 21:55:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "1"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Красноярск",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600376",
+        "codes": {
+          "yandex": "s9600376",
+          "iata": "KJA",
+          "sirena": "КЯА"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-13 05:55:00",
+      "stop_time": null,
+      "duration": 18000,
+      "terminal": "1"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

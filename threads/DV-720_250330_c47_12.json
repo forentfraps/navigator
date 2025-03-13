@@ -1,0 +1,79 @@
+{
+  "uid": "DV-720_250330_c47_12",
+  "number": "DV 720",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "09:20",
+  "start_date": "2025-03-30",
+  "days": "30, 31 марта",
+  "except_days": "",
+  "title": "Актобе — Алматы",
+  "short_title": "Актобе — Алматы",
+  "carrier": {
+    "code": 47,
+    "title": "SCAT",
+    "codes": {
+      "sirena": "ДН",
+      "iata": "DV",
+      "icao": "VSV"
+    }
+  },
+  "vehicle": "Boeing 737-300",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Актобе",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623835",
+        "codes": {
+          "yandex": "s9623835",
+          "iata": "AKX",
+          "sirena": "АКХ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-30 09:20:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Алматы",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600392",
+        "codes": {
+          "yandex": "s9600392",
+          "iata": "ALA",
+          "sirena": "АЛА"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-30 11:20:00",
+      "stop_time": null,
+      "duration": 7200,
+      "terminal": "1"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

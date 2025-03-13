@@ -1,0 +1,76 @@
+{
+  "number": "307",
+  "title": "Балаково - Новополеводино",
+  "short_title": "Балаково - Новополеводино",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 64465,
+    "title": "МУП \"Балаковоэлектротранс\"",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_5_f9623933t9842654_551",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "пн, вт, ср, чт по 03.04",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Балаково, автостанция",
+        "short_title": "",
+        "popular_title": "Балаковская автостанция",
+        "code": "s9623933",
+        "codes": {
+          "yandex": "s9623933"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 14:00:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Новополеводино",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9842654",
+        "codes": {
+          "yandex": "s9842654"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 15:30:00",
+      "duration": 5400.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "14:00"
+}

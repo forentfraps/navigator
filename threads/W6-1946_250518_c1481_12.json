@@ -1,0 +1,79 @@
+{
+  "uid": "W6-1946_250518_c1481_12",
+  "number": "W6 1946",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "05:20",
+  "start_date": "2025-05-18",
+  "days": "18, 25 мая",
+  "except_days": "",
+  "title": "Ларнака — Вильнюс",
+  "short_title": "Ларнака — Вильнюс",
+  "carrier": {
+    "code": 1481,
+    "title": "Wizz Air",
+    "codes": {
+      "sirena": null,
+      "iata": "W6",
+      "icao": "WAH"
+    }
+  },
+  "vehicle": "Airbus А321",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Ларнака",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623584",
+        "codes": {
+          "yandex": "s9623584",
+          "iata": "LCA",
+          "sirena": "ЛРК"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-05-18 05:20:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Вильнюс",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623592",
+        "codes": {
+          "yandex": "s9623592",
+          "iata": "VNO",
+          "sirena": "ВИЛ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-05-18 09:20:00",
+      "stop_time": null,
+      "duration": 14400,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

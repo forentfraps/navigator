@@ -1,0 +1,79 @@
+{
+  "uid": "K9-119_250313_c9995_12",
+  "number": "K9 119",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "05:00",
+  "start_date": "2025-03-13",
+  "days": "пн, вт, чт, сб по 31.03",
+  "except_days": "",
+  "title": "Бишкек — Ош",
+  "short_title": "Бишкек — Ош",
+  "carrier": {
+    "code": 9995,
+    "title": "TEZ Jet",
+    "codes": {
+      "sirena": "ДЖ",
+      "iata": "K9",
+      "icao": "TEZ"
+    }
+  },
+  "vehicle": "Boeing (Douglas) MD-83",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Манас",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623580",
+        "codes": {
+          "yandex": "s9623580",
+          "iata": "FRU",
+          "sirena": "БИШ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-13 05:00:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ош",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623570",
+        "codes": {
+          "yandex": "s9623570",
+          "iata": "OSS",
+          "sirena": "ОШШ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-13 05:40:00",
+      "stop_time": null,
+      "duration": 2400,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

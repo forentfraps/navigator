@@ -1,0 +1,79 @@
+{
+  "uid": "VF-61_250401_c60832_12",
+  "number": "VF 61",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "09:35",
+  "start_date": "2025-04-01",
+  "days": "вт с 01.04 по 26.08",
+  "except_days": "",
+  "title": "Стамбул — Бергамо",
+  "short_title": "Стамбул — Бергамо",
+  "carrier": {
+    "code": 60832,
+    "title": "Ajet",
+    "codes": {
+      "sirena": null,
+      "iata": "VF",
+      "icao": "TKJ"
+    }
+  },
+  "vehicle": "Airbus А321",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Сабиха Гёкчен",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600420",
+        "codes": {
+          "yandex": "s9600420",
+          "iata": "SAW",
+          "sirena": "СБХ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-04-01 09:35:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Орио Аль Серио",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600449",
+        "codes": {
+          "yandex": "s9600449",
+          "iata": "BGY",
+          "sirena": "БГМ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-04-01 11:30:00",
+      "stop_time": null,
+      "duration": 10500,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

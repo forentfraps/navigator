@@ -1,0 +1,76 @@
+{
+  "number": "2713",
+  "title": "Саратов - Камышин",
+  "short_title": "Саратов - Камышин",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 65656,
+    "title": "ИП Кадацкая В.А.",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_3_f9623424t9845843_551",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно по 06.04",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Саратов, автовокзал",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623424",
+        "codes": {
+          "yandex": "s9623424"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 16:30:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Камышин, автостанция «Ной»",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9845843",
+        "codes": {
+          "yandex": "s9845843"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 19:30:00",
+      "duration": 14400.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "16:30"
+}

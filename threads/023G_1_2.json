@@ -1,0 +1,288 @@
+{
+  "number": "023Г",
+  "title": "Казань — Москва",
+  "short_title": "Казань — Москва",
+  "express_type": null,
+  "transport_type": "train",
+  "carrier": {
+    "code": 112,
+    "title": "РЖД/ФПК",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "023G_1_2",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно с 26.04",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Казань-Пасс.",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623141",
+        "codes": {
+          "yandex": "s9623141",
+          "esr": "250302",
+          "sirena": "КНЖ",
+          "express": "2060500"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-26 18:11:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Зелёный Дол",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9612152",
+        "codes": {
+          "yandex": "s9612152",
+          "esr": "251201",
+          "express": "2060345"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-26 18:53:00",
+      "arrival": "2025-04-26 18:50:00",
+      "duration": 2520.0,
+      "stop_time": 180,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Урмары",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9612388",
+        "codes": {
+          "yandex": "s9612388",
+          "esr": "248800",
+          "express": "2060585"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-26 19:51:00",
+      "arrival": "2025-04-26 19:49:00",
+      "duration": 6000.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Канаш",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9612431",
+        "codes": {
+          "yandex": "s9612431",
+          "esr": "248105",
+          "express": "2060630"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-26 20:50:00",
+      "arrival": "2025-04-26 20:45:00",
+      "duration": 9540.0,
+      "stop_time": 300,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Шумерля",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9612236",
+        "codes": {
+          "yandex": "s9612236",
+          "esr": "245304",
+          "express": "2060431"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-26 21:54:00",
+      "arrival": "2025-04-26 21:52:00",
+      "duration": 13380.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Пильна",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9612233",
+        "codes": {
+          "yandex": "s9612233",
+          "esr": "245107",
+          "express": "2060428"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-26 22:23:00",
+      "arrival": "2025-04-26 22:21:00",
+      "duration": 15120.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Сергач",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9612215",
+        "codes": {
+          "yandex": "s9612215",
+          "esr": "245003",
+          "express": "2060410"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-26 22:50:00",
+      "arrival": "2025-04-26 22:48:00",
+      "duration": 16740.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Арзамас-2",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9612196",
+        "codes": {
+          "yandex": "s9612196",
+          "esr": "244208",
+          "express": "2060390"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-27 00:15:00",
+      "arrival": "2025-04-27 00:13:00",
+      "duration": 21840.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Навашино",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9612186",
+        "codes": {
+          "yandex": "s9612186",
+          "esr": "243607",
+          "express": "2060380"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-27 01:30:00",
+      "arrival": "2025-04-27 01:28:00",
+      "duration": 26340.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Муром-1",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9612176",
+        "codes": {
+          "yandex": "s9612176",
+          "esr": "240000",
+          "express": "2060370"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-27 01:46:00",
+      "arrival": "2025-04-27 01:44:00",
+      "duration": 27300.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Москва (Казанский вокзал)",
+        "short_title": "М-Казанская",
+        "popular_title": "Казанский вокзал",
+        "code": "s2000003",
+        "codes": {
+          "yandex": "s2000003",
+          "esr": "194013",
+          "express": "2000003"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": null,
+      "arrival": "2025-04-27 06:20:00",
+      "duration": 43740.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-04-26",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "18:11"
+}

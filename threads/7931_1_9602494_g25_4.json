@@ -1,0 +1,172 @@
+{
+  "number": "7931",
+  "title": "Санкт-Петербург (Московский вокзал) — Великий Новгород",
+  "short_title": "СПб-Моск. — Великий Новгород",
+  "express_type": "express",
+  "transport_type": "suburban",
+  "carrier": {
+    "code": 1332,
+    "title": "Северо-западная пригородная пассажирская компания",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "7931_1_9602494_g25_4",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": "«Ласточка» (билеты с указанием мест)",
+    "code": "lastdlx",
+    "color": "#CC6600"
+  },
+  "days": "только 19, 20 апреля",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Санкт-Петербург (Московский вокзал)",
+        "short_title": "СПб-Моск.",
+        "popular_title": "Московский вокзал",
+        "code": "s9602494",
+        "codes": {
+          "yandex": "s9602494",
+          "esr": "031812",
+          "express": "2004001"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-19 06:51:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Обухово",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9602655",
+        "codes": {
+          "yandex": "s9602655",
+          "esr": "031009",
+          "express": "2004162"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-19 07:04:00",
+      "arrival": "2025-04-19 07:03:00",
+      "duration": 780.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Колпино",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9602657",
+        "codes": {
+          "yandex": "s9602657",
+          "esr": "031600",
+          "express": "2004164"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-19 07:17:00",
+      "arrival": "2025-04-19 07:16:00",
+      "duration": 1560.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Саблино",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9602642",
+        "codes": {
+          "yandex": "s9602642",
+          "esr": "031333",
+          "express": "2004149"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-19 07:47:00",
+      "arrival": "2025-04-19 07:31:00",
+      "duration": 3360.0,
+      "stop_time": 960,
+      "platform": "3 путь",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Тосно",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9602641",
+        "codes": {
+          "yandex": "s9602641",
+          "esr": "031302",
+          "express": "2004148"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-19 08:00:00",
+      "arrival": "2025-04-19 07:59:00",
+      "duration": 4140.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Великий Новгород",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9602893",
+        "codes": {
+          "yandex": "s9602893",
+          "esr": "040101",
+          "express": "2004400"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": null,
+      "arrival": "2025-04-19 09:57:00",
+      "duration": 11160.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-04-19",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "06:51"
+}

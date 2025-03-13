@@ -1,0 +1,121 @@
+{
+  "date": null,
+  "station": {
+    "type": "station",
+    "title": "Даммам",
+    "short_title": null,
+    "popular_title": null,
+    "code": "s9635327",
+    "station_type": "airport",
+    "station_type_name": "аэропорт",
+    "transport_type": "plane"
+  },
+  "event": "departure",
+  "pagination": {
+    "total": 3,
+    "limit": 100,
+    "offset": 0
+  },
+  "schedule": [
+    {
+      "thread": {
+        "number": "J2 8206",
+        "title": "Даммам — Баку",
+        "short_title": "Даммам — Баку",
+        "carrier": {
+          "code": 100,
+          "title": "Азербайджан Хава Йоллары",
+          "codes": {
+            "sirena": null,
+            "iata": "J2",
+            "icao": "AHY"
+          }
+        },
+        "vehicle": "Airbus А320",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "J2-8206_250325_c100_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "00:20",
+      "arrival": null,
+      "days": "15, 18, 25, 29 марта, 28 октября, 1, 4, 8, 11, 15, 18, 22, 25, 29 ноября, 2, 6, 9, 13, 16, 20 декабря, …"
+    },
+    {
+      "thread": {
+        "number": "J2 8206",
+        "title": "Даммам — Баку",
+        "short_title": "Даммам — Баку",
+        "carrier": {
+          "code": 100,
+          "title": "Азербайджан Хава Йоллары",
+          "codes": {
+            "sirena": null,
+            "iata": "J2",
+            "icao": "AHY"
+          }
+        },
+        "vehicle": null,
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "J2-8206_250520_c100_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "00:30",
+      "arrival": null,
+      "days": "1, 5 апреля, 17, 20, 27, 31 мая, 7, 14, 28 июня, 5, 12, 19, 26 июля, 2, 9, 16, 23, 30 августа, 6, 13 сентября, …"
+    },
+    {
+      "thread": {
+        "number": "J2 8206",
+        "title": "Даммам — Баку",
+        "short_title": "Даммам — Баку",
+        "carrier": {
+          "code": 100,
+          "title": "Азербайджан Хава Йоллары",
+          "codes": {
+            "sirena": null,
+            "iata": "J2",
+            "icao": "AHY"
+          }
+        },
+        "vehicle": "Airbus А320",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "J2-8206_250603_c100_12"
+      },
+      "terminal": null,
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "00:30",
+      "arrival": null,
+      "days": "8, 12, 15, 19, 22, 26, 29 апреля, 3, 6, 10, 13, 24 мая, 3, 5, 10, 12, 17, 19, 21, 24 июня, …"
+    }
+  ],
+  "interval_schedule": []
+}

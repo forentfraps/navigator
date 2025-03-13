@@ -1,0 +1,79 @@
+{
+  "uid": "SZ-226_250313_c1266_12",
+  "number": "SZ 226",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "01:20",
+  "start_date": "2025-03-13",
+  "days": "13, 20, 27 марта",
+  "except_days": "",
+  "title": "Ташкент — Душанбе",
+  "short_title": "Ташкент — Душанбе",
+  "carrier": {
+    "code": 1266,
+    "title": "Сомон Эйр",
+    "codes": {
+      "sirena": "4Й",
+      "iata": "SZ",
+      "icao": "SMR"
+    }
+  },
+  "vehicle": "Boeing 737-800",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Ташкент",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600397",
+        "codes": {
+          "yandex": "s9600397",
+          "iata": "TAS",
+          "sirena": "ТАС"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-13 01:20:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "1"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Душанбе",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623534",
+        "codes": {
+          "yandex": "s9623534",
+          "iata": "DYU",
+          "sirena": "ДШБ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-13 02:10:00",
+      "stop_time": null,
+      "duration": 3000,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

@@ -1,0 +1,78 @@
+{
+  "uid": "KC-173_250314_c142_12",
+  "number": "KC 173",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "21:30",
+  "start_date": "2025-03-11",
+  "days": "11, 14, 16, 18, 21, 23 марта",
+  "except_days": "",
+  "title": "Астана — Фукуок",
+  "short_title": "Астана — Фукуок",
+  "carrier": {
+    "code": 142,
+    "title": "Air Astana",
+    "codes": {
+      "sirena": "4Л",
+      "iata": "KC",
+      "icao": "KZR"
+    }
+  },
+  "vehicle": "Airbus A320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Нурсултан Назарбаев",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623556",
+        "codes": {
+          "yandex": "s9623556",
+          "iata": "NQZ",
+          "sirena": "АКЛ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-11 21:30:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "1"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Фукуок",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9627221",
+        "codes": {
+          "yandex": "s9627221",
+          "iata": "PQC"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-12 07:45:00",
+      "stop_time": null,
+      "duration": 29700,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

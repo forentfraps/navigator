@@ -1,0 +1,244 @@
+{
+  "number": "521",
+  "title": "Иваново - Родники",
+  "short_title": "Иваново - Родники",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 66652,
+    "title": "ООО \"Транстерминал\"",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_24_f9834072t9761496_323",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Иваново, ж/д вокзал",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9834072",
+        "codes": {
+          "yandex": "s9834072"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 08:30:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Иваново, автовокзал",
+        "short_title": null,
+        "popular_title": "Автовокзал Иваново",
+        "code": "s9623372",
+        "codes": {
+          "yandex": "s9623372"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 08:50:00",
+      "arrival": "2025-03-13 08:49:00",
+      "duration": 1200.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Куликово",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9806546",
+        "codes": {
+          "yandex": "s9806546"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 09:21:00",
+      "arrival": "2025-03-13 09:20:00",
+      "duration": 3060.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Сидоровское",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9806654",
+        "codes": {
+          "yandex": "s9806654"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 09:26:00",
+      "arrival": "2025-03-13 09:25:00",
+      "duration": 3360.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Бураково",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9868108",
+        "codes": {
+          "yandex": "s9868108"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 09:31:00",
+      "arrival": "2025-03-13 09:30:00",
+      "duration": 3660.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Никульское",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9806656",
+        "codes": {
+          "yandex": "s9806656"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 09:34:00",
+      "arrival": "2025-03-13 09:33:00",
+      "duration": 3840.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Федорково, поворот",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9806657",
+        "codes": {
+          "yandex": "s9806657"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 09:36:00",
+      "arrival": "2025-03-13 09:35:00",
+      "duration": 3960.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Зименки, поворот",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9806658",
+        "codes": {
+          "yandex": "s9806658"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 09:38:00",
+      "arrival": "2025-03-13 09:37:00",
+      "duration": 4080.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Корцово",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9884085",
+        "codes": {
+          "yandex": "s9884085"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 09:41:00",
+      "arrival": "2025-03-13 09:40:00",
+      "duration": 4260.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Родники",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9761496",
+        "codes": {
+          "yandex": "s9761496"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 09:50:00",
+      "duration": 4800.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "08:30"
+}

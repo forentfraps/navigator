@@ -1,0 +1,79 @@
+{
+  "uid": "HY-639_250401_c35_12",
+  "number": "HY 639",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "08:20",
+  "start_date": "2025-04-01",
+  "days": "вт с 01.04 по 26.08",
+  "except_days": "",
+  "title": "Самарканд — Санкт-Петербург",
+  "short_title": "Самарканд — Санкт-Петербург",
+  "carrier": {
+    "code": 35,
+    "title": "Uzbekistan Airways",
+    "codes": {
+      "sirena": "ХИ",
+      "iata": "HY",
+      "icao": "UZB"
+    }
+  },
+  "vehicle": "Airbus А320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Самарканд",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623553",
+        "codes": {
+          "yandex": "s9623553",
+          "iata": "SKD",
+          "sirena": "СКД"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-04-01 08:20:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Пулково",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600366",
+        "codes": {
+          "yandex": "s9600366",
+          "iata": "LED",
+          "sirena": "ПЛК"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-04-01 11:30:00",
+      "stop_time": null,
+      "duration": 18600,
+      "terminal": "1"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

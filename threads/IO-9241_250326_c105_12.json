@@ -1,0 +1,79 @@
+{
+  "uid": "IO-9241_250326_c105_12",
+  "number": "IO 9241",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "08:30",
+  "start_date": "2025-03-26",
+  "days": "26 марта, 15 апреля",
+  "except_days": "",
+  "title": "Иркутск — Бодайбо",
+  "short_title": "Иркутск — Бодайбо",
+  "carrier": {
+    "code": 105,
+    "title": "ИрАэро",
+    "codes": {
+      "sirena": "РД",
+      "iata": "IO",
+      "icao": null
+    }
+  },
+  "vehicle": "АН-24",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Иркутск",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600174",
+        "codes": {
+          "yandex": "s9600174",
+          "iata": "IKT",
+          "sirena": "ИКТ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-26 08:30:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Бодайбо",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623687",
+        "codes": {
+          "yandex": "s9623687",
+          "iata": "ODO",
+          "sirena": "БДБ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-26 11:10:00",
+      "stop_time": null,
+      "duration": 9600,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

@@ -1,0 +1,79 @@
+{
+  "uid": "KV-9920_250318_c58204_12",
+  "number": "KV 9920",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "12:00",
+  "start_date": "2025-03-18",
+  "days": "18 марта",
+  "except_days": "",
+  "title": "Сургут — Уфа",
+  "short_title": "Сургут — Уфа",
+  "carrier": {
+    "code": 58204,
+    "title": "КрасАвиа",
+    "codes": {
+      "sirena": "ЭК",
+      "iata": "KV",
+      "icao": "SSJ"
+    }
+  },
+  "vehicle": "ЯК-42",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Сургут",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623563",
+        "codes": {
+          "yandex": "s9623563",
+          "iata": "SGC",
+          "sirena": "СУР"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-18 12:00:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Уфа",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600393",
+        "codes": {
+          "yandex": "s9600393",
+          "iata": "UFA",
+          "sirena": "УФА"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-18 14:20:00",
+      "stop_time": null,
+      "duration": 8400,
+      "terminal": "1"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

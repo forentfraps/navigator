@@ -1,0 +1,160 @@
+{
+  "number": "",
+  "title": "Белово — Тайга",
+  "short_title": "Белово — Тайга",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 63643,
+    "title": "Кемеровская автоколонна №1237 ГП КО",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_1_f9657036t9802535_168",
+  "vehicle": "ЛИАЗ-525636-01 М (44+20), ам72042",
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "пт",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Белово, автовокзал",
+        "short_title": null,
+        "popular_title": "Автовокзал Белово",
+        "code": "s9657036",
+        "codes": {
+          "yandex": "s9657036"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 11:20:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Полысаево",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9657232",
+        "codes": {
+          "yandex": "s9657232"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 11:51:00",
+      "arrival": "2025-03-14 11:50:00",
+      "duration": 1860.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ленинск-Кузнецкий, автовокзал",
+        "short_title": null,
+        "popular_title": "Автовокзал Ленинск-Кузнецкий",
+        "code": "s9657171",
+        "codes": {
+          "yandex": "s9657171"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 12:20:00",
+      "arrival": "2025-03-14 12:10:00",
+      "duration": 3600.0,
+      "stop_time": 600,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Кемерово, автовокзал",
+        "short_title": null,
+        "popular_title": "автовокзал Кемерово",
+        "code": "s9623379",
+        "codes": {
+          "yandex": "s9623379"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 14:05:00",
+      "arrival": "2025-03-14 13:50:00",
+      "duration": 9900.0,
+      "stop_time": 900,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Таловка, поворот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9802536",
+        "codes": {
+          "yandex": "s9802536"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 15:21:00",
+      "arrival": "2025-03-14 15:20:00",
+      "duration": 14460.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Тайга, автостанция",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9802535",
+        "codes": {
+          "yandex": "s9802535"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-14 16:05:00",
+      "duration": 17100.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-14",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "11:20"
+}

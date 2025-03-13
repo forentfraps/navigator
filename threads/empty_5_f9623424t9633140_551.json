@@ -1,0 +1,181 @@
+{
+  "number": "2397",
+  "title": "Саратов - Самара",
+  "short_title": "Саратов - Самара",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 60624,
+    "title": "ООО \"Транскомсервис\"",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_5_f9623424t9633140_551",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно по 06.04",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Саратов, автовокзал",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623424",
+        "codes": {
+          "yandex": "s9623424"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 06:40:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Маркс, автостанция",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9832941",
+        "codes": {
+          "yandex": "s9832941"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 08:00:00",
+      "arrival": "2025-03-13 07:59:00",
+      "duration": 4800.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Балаково, автокасса у фонтана",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9877694",
+        "codes": {
+          "yandex": "s9877694"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 09:30:00",
+      "arrival": "2025-03-13 09:29:00",
+      "duration": 10200.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Балаково, автостанция",
+        "short_title": "",
+        "popular_title": "Балаковская автостанция",
+        "code": "s9623933",
+        "codes": {
+          "yandex": "s9623933"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 10:00:00",
+      "arrival": "2025-03-13 09:59:00",
+      "duration": 12000.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Пугачев, автостанция",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9752412",
+        "codes": {
+          "yandex": "s9752412"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 11:30:00",
+      "arrival": "2025-03-13 11:29:00",
+      "duration": 17400.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ивантеевка",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9752411",
+        "codes": {
+          "yandex": "s9752411"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 12:35:00",
+      "arrival": "2025-03-13 12:34:00",
+      "duration": 21300.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Самара, Центральный автовокзал",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9633140",
+        "codes": {
+          "yandex": "s9633140"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 15:30:00",
+      "duration": 31800.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "06:40"
+}

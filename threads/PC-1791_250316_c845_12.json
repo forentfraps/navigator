@@ -1,0 +1,78 @@
+{
+  "uid": "PC-1791_250316_c845_12",
+  "number": "PC 1791",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "03:15",
+  "start_date": "2025-03-12",
+  "days": "12, 16, 19, 23, 26, 30 марта",
+  "except_days": "",
+  "title": "Баку — Измир",
+  "short_title": "Баку — Измир",
+  "carrier": {
+    "code": 845,
+    "title": "Pegasus",
+    "codes": {
+      "sirena": null,
+      "iata": "PC",
+      "icao": null
+    }
+  },
+  "vehicle": "Airbus А320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "им. Гейдара Алиева",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600387",
+        "codes": {
+          "yandex": "s9600387",
+          "iata": "GYD",
+          "sirena": "БАК"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-12 03:15:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "1"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Аднан Мендерес",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9628729",
+        "codes": {
+          "yandex": "s9628729",
+          "iata": "ADB"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-12 05:25:00",
+      "stop_time": null,
+      "duration": 11400,
+      "terminal": "D"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

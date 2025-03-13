@@ -1,0 +1,118 @@
+{
+  "number": "",
+  "title": "Москва — Рига",
+  "short_title": "Москва — Рига",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 60316,
+    "title": "ООО \"Норма-А\"",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_0_f9872014t9637819_114",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно по 26.10",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Москва, автовокзал Северные ворота",
+        "short_title": null,
+        "popular_title": "Автовокзал Северные ворота",
+        "code": "s9872014",
+        "codes": {
+          "yandex": "s9872014"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 17:15:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Резекне",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9813086",
+        "codes": {
+          "yandex": "s9813086"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 04:40:00",
+      "arrival": "2025-03-14 04:39:00",
+      "duration": 44700.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Екабпилс, автостанция",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9804539",
+        "codes": {
+          "yandex": "s9804539"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 07:10:00",
+      "arrival": "2025-03-14 07:05:00",
+      "duration": 53700.0,
+      "stop_time": 300,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Рига",
+        "short_title": null,
+        "popular_title": "Автовокзал Рига",
+        "code": "s9637819",
+        "codes": {
+          "yandex": "s9637819"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-14 08:45:00",
+      "duration": 59400.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "17:15"
+}

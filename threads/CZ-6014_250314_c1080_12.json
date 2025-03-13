@@ -1,0 +1,102 @@
+{
+  "uid": "CZ-6014_250314_c1080_12",
+  "number": "CZ 6014",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "01:30",
+  "start_date": "2025-03-14",
+  "days": "14 марта, 31 октября, 7, 14, 21, 28 ноября, 5, 12, 19, 26 декабря, 2 января",
+  "except_days": "",
+  "title": "Астана — Гуанчжоу",
+  "short_title": "Астана — Гуанчжоу",
+  "carrier": {
+    "code": 1080,
+    "title": "China Southern Airlines",
+    "codes": {
+      "sirena": null,
+      "iata": "CZ",
+      "icao": "CSN"
+    }
+  },
+  "vehicle": "Boeing 737-800",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Нурсултан Назарбаев",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623556",
+        "codes": {
+          "yandex": "s9623556",
+          "iata": "NQZ",
+          "sirena": "АКЛ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-14 01:30:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "1"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Урумчи",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623665",
+        "codes": {
+          "yandex": "s9623665",
+          "iata": "URC",
+          "sirena": "УРЧ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-14 08:45:00",
+      "arrival": "2025-03-14 07:00:00",
+      "stop_time": 6300,
+      "duration": 15300,
+      "terminal": "3"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Байюн",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9628644",
+        "codes": {
+          "yandex": "s9628644",
+          "iata": "CAN",
+          "sirena": "ГЧЖ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-14 14:00:00",
+      "stop_time": null,
+      "duration": 34200,
+      "terminal": "2"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

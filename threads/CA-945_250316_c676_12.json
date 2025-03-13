@@ -1,0 +1,100 @@
+{
+  "uid": "CA-945_250316_c676_12",
+  "number": "CA 945",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "14:30",
+  "start_date": "2025-03-16",
+  "days": "вт, чт, вс по 12.08, кроме 20.03, 27.03",
+  "except_days": "",
+  "title": "Пекин — Карачи",
+  "short_title": "Пекин — Карачи",
+  "carrier": {
+    "code": 676,
+    "title": "Air China",
+    "codes": {
+      "sirena": null,
+      "iata": "CA",
+      "icao": "CCA"
+    }
+  },
+  "vehicle": "Airbus А330-300",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Пекин",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600416",
+        "codes": {
+          "yandex": "s9600416",
+          "iata": "PEK",
+          "sirena": "ПЕК"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-16 14:30:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "3"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Исламабад",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9634163",
+        "codes": {
+          "yandex": "s9634163",
+          "iata": "ISB"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-16 19:30:00",
+      "arrival": "2025-03-16 18:00:00",
+      "stop_time": 5400,
+      "duration": 28800,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Хаид-Эль-Азам",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9625402",
+        "codes": {
+          "yandex": "s9625402",
+          "iata": "KHI"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-16 21:25:00",
+      "stop_time": null,
+      "duration": 35700,
+      "terminal": "0"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

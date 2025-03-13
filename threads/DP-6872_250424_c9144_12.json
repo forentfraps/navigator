@@ -1,0 +1,79 @@
+{
+  "uid": "DP-6872_250424_c9144_12",
+  "number": "DP 6872",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "11:00",
+  "start_date": "2025-04-24",
+  "days": "24 апреля",
+  "except_days": "",
+  "title": "Калининград — Москва",
+  "short_title": "Калининград — Москва",
+  "carrier": {
+    "code": 9144,
+    "title": "Победа",
+    "codes": {
+      "sirena": "ДР",
+      "iata": "DP",
+      "icao": null
+    }
+  },
+  "vehicle": "Boeing 737-800",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Храброво",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9631119",
+        "codes": {
+          "yandex": "s9631119",
+          "iata": "KGD",
+          "sirena": "КЛД"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-04-24 11:00:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Шереметьево",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600213",
+        "codes": {
+          "yandex": "s9600213",
+          "iata": "SVO",
+          "sirena": "ШРМ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-04-24 14:35:00",
+      "stop_time": null,
+      "duration": 9300,
+      "terminal": "D"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

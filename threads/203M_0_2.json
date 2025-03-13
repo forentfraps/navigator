@@ -1,0 +1,218 @@
+{
+  "number": "203М",
+  "title": "Москва — Новозыбков",
+  "short_title": "Москва — Новозыбков",
+  "express_type": null,
+  "transport_type": "train",
+  "carrier": {
+    "code": 112,
+    "title": "РЖД/ФПК",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "203M_0_2",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "только 1, 8 мая",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Москва (Киевский вокзал)",
+        "short_title": "М-Киевская",
+        "popular_title": "Киевский вокзал",
+        "code": "s2000007",
+        "codes": {
+          "yandex": "s2000007",
+          "esr": "198103",
+          "express": "2000007"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-05-01 00:40:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Калуга-Сергиев Скит (бывш. Калуга-2)",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s2000350",
+        "codes": {
+          "yandex": "s2000350",
+          "esr": "184401",
+          "express": "2000350"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-05-01 03:11:00",
+      "arrival": "2025-05-01 03:08:00",
+      "duration": 9060.0,
+      "stop_time": 180,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Сухиничи-Главные",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9601033",
+        "codes": {
+          "yandex": "s9601033",
+          "esr": "185207",
+          "express": "2000370"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-05-01 05:10:00",
+      "arrival": "2025-05-01 04:30:00",
+      "duration": 16200.0,
+      "stop_time": 2400,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Брянск-1-Орловский",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600826",
+        "codes": {
+          "yandex": "s9600826",
+          "esr": "200106",
+          "express": "2000160"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-05-01 07:57:00",
+      "arrival": "2025-05-01 06:58:00",
+      "duration": 26220.0,
+      "stop_time": 3540,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Почеп",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9601104",
+        "codes": {
+          "yandex": "s9601104",
+          "esr": "201700",
+          "express": "2000442"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-05-01 09:38:00",
+      "arrival": "2025-05-01 09:31:00",
+      "duration": 32280.0,
+      "stop_time": 420,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Унеча",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601092",
+        "codes": {
+          "yandex": "s9601092",
+          "esr": "202008",
+          "express": "2000430"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-05-01 10:31:00",
+      "arrival": "2025-05-01 10:28:00",
+      "duration": 35460.0,
+      "stop_time": 180,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Клинцы",
+        "short_title": null,
+        "popular_title": "",
+        "code": "s9601637",
+        "codes": {
+          "yandex": "s9601637",
+          "esr": "202101",
+          "express": "2001021"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-05-01 11:10:00",
+      "arrival": "2025-05-01 11:02:00",
+      "duration": 37800.0,
+      "stop_time": 480,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Новозыбков",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601416",
+        "codes": {
+          "yandex": "s9601416",
+          "esr": "202205",
+          "express": "2000780"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": null,
+      "arrival": "2025-05-01 11:48:00",
+      "duration": 40080.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-05-01",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "00:40"
+}

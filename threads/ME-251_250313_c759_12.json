@@ -1,0 +1,79 @@
+{
+  "uid": "ME-251_250313_c759_12",
+  "number": "ME 251",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "08:15",
+  "start_date": "2025-03-13",
+  "days": "13, 19, 20, 27, 28 марта, 30, 31 октября, 1, 6, 7, 8, 13, 14, 15, 20, 21, 22, 27, 28, 29 ноября, …",
+  "except_days": "",
+  "title": "Бейрут — Афины",
+  "short_title": "Бейрут — Афины",
+  "carrier": {
+    "code": 759,
+    "title": "Middle East Airlines",
+    "codes": {
+      "sirena": null,
+      "iata": "ME",
+      "icao": "MEA"
+    }
+  },
+  "vehicle": "Airbus A320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Бейрут",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623595",
+        "codes": {
+          "yandex": "s9623595",
+          "iata": "BEY",
+          "sirena": "БЕУ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-13 08:15:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Элефтериос Веницелос",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600431",
+        "codes": {
+          "yandex": "s9600431",
+          "iata": "ATH",
+          "sirena": "АТХ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-13 10:15:00",
+      "stop_time": null,
+      "duration": 7200,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

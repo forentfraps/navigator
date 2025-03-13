@@ -1,0 +1,160 @@
+{
+  "number": "250",
+  "title": "Александровка — Волово",
+  "short_title": "Александровка — Волово",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 67182,
+    "title": "Воловское АТП АО",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_0_f9885068t9761912_383",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно, кроме чт, сб",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Александровка",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9885068",
+        "codes": {
+          "yandex": "s9885068"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 07:50:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Алексеевка 2-я",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9885069",
+        "codes": {
+          "yandex": "s9885069"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 07:55:00",
+      "arrival": "2025-03-14 07:54:00",
+      "duration": 300.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Захаровка-1",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9885070",
+        "codes": {
+          "yandex": "s9885070"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 08:01:00",
+      "arrival": "2025-03-14 08:00:00",
+      "duration": 660.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Алексеевка",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9885071",
+        "codes": {
+          "yandex": "s9885071"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 08:10:00",
+      "arrival": "2025-03-14 08:09:00",
+      "duration": 1200.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Алексеевка, поворот",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9885072",
+        "codes": {
+          "yandex": "s9885072"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-14 08:13:00",
+      "arrival": "2025-03-14 08:12:00",
+      "duration": 1380.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Волово, автостанция",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9761912",
+        "codes": {
+          "yandex": "s9761912"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-14 08:25:00",
+      "duration": 2100.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-14",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "07:50"
+}

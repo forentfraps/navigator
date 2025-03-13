@@ -1,0 +1,454 @@
+{
+  "number": "2021",
+  "title": "Сергиев Посад — Фролово",
+  "short_title": "Сергиев Посад — Фролово",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 1836,
+    "title": "ГУП МО \"МОСТРАНСАВТО\"",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "2021_0_9742908_4",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": "Автобус",
+    "code": "bus",
+    "color": "#ff0000"
+  },
+  "days": "1, 2, 3, 4, 7, 8, 9, 10, 11, 16, 17, 18, 23, 24, 25, 30, 31 мая, 1, 6, 7 июня, …",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Сергиев Посад",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9742908",
+        "codes": {
+          "yandex": "s9742908"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-05-01 07:00:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Белый пруд",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9742918",
+        "codes": {
+          "yandex": "s9742918"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-05-01 07:04:00",
+      "arrival": "2025-05-01 07:03:00",
+      "duration": 240.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Дворец культуры",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9742884",
+        "codes": {
+          "yandex": "s9742884"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-05-01 07:05:00",
+      "arrival": "2025-05-01 07:04:00",
+      "duration": 300.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Бульвар Кузнецова",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9742899",
+        "codes": {
+          "yandex": "s9742899"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-05-01 07:06:00",
+      "arrival": "2025-05-01 07:05:00",
+      "duration": 360.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Микрорайон \"Углич\"",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9742846",
+        "codes": {
+          "yandex": "s9742846"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-05-01 07:07:00",
+      "arrival": "2025-05-01 07:06:00",
+      "duration": 420.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Молокозавод",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9742861",
+        "codes": {
+          "yandex": "s9742861"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-05-01 07:08:00",
+      "arrival": "2025-05-01 07:07:00",
+      "duration": 480.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "ЦРБ",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9742885",
+        "codes": {
+          "yandex": "s9742885"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-05-01 07:09:00",
+      "arrival": "2025-05-01 07:08:00",
+      "duration": 540.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "ТЦ \"Капитолий\"",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9742877",
+        "codes": {
+          "yandex": "s9742877"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-05-01 07:11:00",
+      "arrival": "2025-05-01 07:10:00",
+      "duration": 660.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Деулинский переезд",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9735656",
+        "codes": {
+          "yandex": "s9735656"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-05-01 07:12:00",
+      "arrival": "2025-05-01 07:11:00",
+      "duration": 720.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Деулино",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9735654",
+        "codes": {
+          "yandex": "s9735654"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-05-01 07:13:00",
+      "arrival": "2025-05-01 07:12:00",
+      "duration": 780.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Спасская церковь",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9735655",
+        "codes": {
+          "yandex": "s9735655"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-05-01 07:14:00",
+      "arrival": "2025-05-01 07:13:00",
+      "duration": 840.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Сады «Северянин»",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9743763",
+        "codes": {
+          "yandex": "s9743763"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-05-01 07:15:00",
+      "arrival": "2025-05-01 07:14:00",
+      "duration": 900.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Сады «Атмосфера»",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9743807",
+        "codes": {
+          "yandex": "s9743807"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-05-01 07:16:00",
+      "arrival": "2025-05-01 07:15:00",
+      "duration": 960.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Бубяково",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9743755",
+        "codes": {
+          "yandex": "s9743755"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-05-01 07:17:00",
+      "arrival": "2025-05-01 07:16:00",
+      "duration": 1020.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Сады \"Калина Красная\"",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9875526",
+        "codes": {
+          "yandex": "s9875526"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-05-01 07:19:00",
+      "arrival": "2025-05-01 07:18:00",
+      "duration": 1140.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Воронцово",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9745165",
+        "codes": {
+          "yandex": "s9745165"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-05-01 07:20:00",
+      "arrival": "2025-05-01 07:19:00",
+      "duration": 1200.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Сады \"Энтузиаст\"",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9885695",
+        "codes": {
+          "yandex": "s9885695"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-05-01 07:22:00",
+      "arrival": "2025-05-01 07:21:00",
+      "duration": 1320.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Захарьино",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9885696",
+        "codes": {
+          "yandex": "s9885696"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-05-01 07:25:00",
+      "arrival": "2025-05-01 07:24:00",
+      "duration": 1500.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Сады \"Мыловар\"",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9885697",
+        "codes": {
+          "yandex": "s9885697"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-05-01 07:27:00",
+      "arrival": "2025-05-01 07:26:00",
+      "duration": 1620.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Фролово",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9885698",
+        "codes": {
+          "yandex": "s9885698"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-05-01 07:29:00",
+      "duration": 1740.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-05-01",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "07:00"
+}

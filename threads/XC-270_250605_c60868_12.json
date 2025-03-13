@@ -1,0 +1,78 @@
+{
+  "uid": "XC-270_250605_c60868_12",
+  "number": "XC 270",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "17:00",
+  "start_date": "2025-06-05",
+  "days": "5, 12, 19, 26 июня",
+  "except_days": "",
+  "title": "Бухарест — Анталья",
+  "short_title": "Бухарест — Анталья",
+  "carrier": {
+    "code": 60868,
+    "title": "Corendon Airlines",
+    "codes": {
+      "sirena": null,
+      "iata": "XC",
+      "icao": "CAI"
+    }
+  },
+  "vehicle": "Boeing 737-800",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Отопени",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600438",
+        "codes": {
+          "yandex": "s9600438",
+          "iata": "OTP"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-06-05 17:00:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Анталья",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623581",
+        "codes": {
+          "yandex": "s9623581",
+          "iata": "AYT",
+          "sirena": "АЯТ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-06-05 18:50:00",
+      "stop_time": null,
+      "duration": 6600,
+      "terminal": "2"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

@@ -1,0 +1,139 @@
+{
+  "number": "",
+  "title": "Кемерово — Киселевск",
+  "short_title": "Кемерово — Киселевск",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 63643,
+    "title": "Кемеровская автоколонна №1237 ГП КО",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_3_f9623379t9657128_168",
+  "vehicle": "НЕФАЗ М (44), н566ка142",
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "вс",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Кемерово, автовокзал",
+        "short_title": null,
+        "popular_title": "автовокзал Кемерово",
+        "code": "s9623379",
+        "codes": {
+          "yandex": "s9623379"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-16 18:50:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Колмогоры",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9802713",
+        "codes": {
+          "yandex": "s9802713"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-16 20:21:00",
+      "arrival": "2025-03-16 20:20:00",
+      "duration": 5460.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Краснобродский, поворот",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9802757",
+        "codes": {
+          "yandex": "s9802757"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-16 21:21:00",
+      "arrival": "2025-03-16 21:20:00",
+      "duration": 9060.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Карагайла, поворот",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9803546",
+        "codes": {
+          "yandex": "s9803546"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-16 21:25:00",
+      "arrival": "2025-03-16 21:24:00",
+      "duration": 9300.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Киселевск, автовокзал",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9657128",
+        "codes": {
+          "yandex": "s9657128"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-16 21:55:00",
+      "duration": 11100.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-16",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "18:50"
+}

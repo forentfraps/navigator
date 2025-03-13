@@ -1,0 +1,78 @@
+{
+  "uid": "V7-2615_250408_c1464_12",
+  "number": "V7 2615",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "21:40",
+  "start_date": "2025-04-08",
+  "days": "вт с 08.04 по 02.09",
+  "except_days": "",
+  "title": "Варна — Лилль",
+  "short_title": "Варна — Лилль",
+  "carrier": {
+    "code": 1464,
+    "title": "Volotea",
+    "codes": {
+      "sirena": null,
+      "iata": "V7",
+      "icao": null
+    }
+  },
+  "vehicle": "Airbus А320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Варна",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623692",
+        "codes": {
+          "yandex": "s9623692",
+          "iata": "VAR",
+          "sirena": "ВАР"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-04-08 21:40:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Лекен",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9625741",
+        "codes": {
+          "yandex": "s9625741",
+          "iata": "LIL"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-04-08 23:55:00",
+      "stop_time": null,
+      "duration": 11700,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

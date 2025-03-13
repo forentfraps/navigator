@@ -1,0 +1,77 @@
+{
+  "uid": "IX-930_250327_c1590_12",
+  "number": "IX 930",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "18:30",
+  "start_date": "2025-03-27",
+  "days": "27 марта",
+  "except_days": "",
+  "title": "Даммам — Хайдарабад",
+  "short_title": "Даммам — Хайдарабад",
+  "carrier": {
+    "code": 1590,
+    "title": "Air india express",
+    "codes": {
+      "sirena": null,
+      "iata": "IX",
+      "icao": null
+    }
+  },
+  "vehicle": "Airbus А320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Кинг Фахд",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9624502",
+        "codes": {
+          "yandex": "s9624502",
+          "iata": "DMM"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-27 18:30:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Хайдарабат",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9625181",
+        "codes": {
+          "yandex": "s9625181",
+          "iata": "HYD"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-28 01:40:00",
+      "stop_time": null,
+      "duration": 16800,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

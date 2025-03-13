@@ -1,0 +1,79 @@
+{
+  "uid": "HY-9857_250319_c35_12",
+  "number": "HY 9857",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "19:20",
+  "start_date": "2025-03-12",
+  "days": "ср по 13.08",
+  "except_days": "",
+  "title": "Наманган — Уфа",
+  "short_title": "Наманган — Уфа",
+  "carrier": {
+    "code": 35,
+    "title": "Uzbekistan Airways",
+    "codes": {
+      "sirena": "ХИ",
+      "iata": "HY",
+      "icao": "UZB"
+    }
+  },
+  "vehicle": "Airbus A320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Наманган",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623544",
+        "codes": {
+          "yandex": "s9623544",
+          "iata": "NMA",
+          "sirena": "НМГ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-12 19:20:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Уфа",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600393",
+        "codes": {
+          "yandex": "s9600393",
+          "iata": "UFA",
+          "sirena": "УФА"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-12 22:45:00",
+      "stop_time": null,
+      "duration": 12300,
+      "terminal": "2"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

@@ -1,0 +1,97 @@
+{
+  "number": "",
+  "title": "Кемерово — Горно-Алтайск",
+  "short_title": "Кемерово — Горно-Алтайск",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 66980,
+    "title": "Общество с ограниченной ответственностью \"ГОРТРАНС\"",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_2_f9623379t9623327_168",
+  "vehicle": "KIA GRANDBIRD М (44), аа667 04",
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "сб",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Кемерово, автовокзал",
+        "short_title": null,
+        "popular_title": "автовокзал Кемерово",
+        "code": "s9623379",
+        "codes": {
+          "yandex": "s9623379"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-15 21:10:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Новокузнецк, автовокзал",
+        "short_title": null,
+        "popular_title": "Автовокзал Новокузнецк",
+        "code": "s9657201",
+        "codes": {
+          "yandex": "s9657201"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-16 02:29:00",
+      "arrival": "2025-03-16 02:28:00",
+      "duration": 19140.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Горно-Алтайск, автовокзал",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623327",
+        "codes": {
+          "yandex": "s9623327"
+        },
+        "station_type": "bus_station",
+        "station_type_name": "автовокзал",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-16 09:38:00",
+      "duration": 44880.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-15",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "21:10"
+}

@@ -1,0 +1,78 @@
+{
+  "uid": "TO-3429_250411_c2039_12",
+  "number": "TO 3429",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "19:50",
+  "start_date": "2025-04-11",
+  "days": "пт с 11.04 по 05.09",
+  "except_days": "",
+  "title": "Стамбул — Монпелье",
+  "short_title": "Стамбул — Монпелье",
+  "carrier": {
+    "code": 2039,
+    "title": "Transavia France",
+    "codes": {
+      "sirena": null,
+      "iata": "TO",
+      "icao": "TVF"
+    }
+  },
+  "vehicle": "Boeing 737-800",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Новый аэропорт Стамбул",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600421",
+        "codes": {
+          "yandex": "s9600421",
+          "iata": "IST",
+          "sirena": "ИСТ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-04-11 19:50:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "NULL"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Монпелье",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9628995",
+        "codes": {
+          "yandex": "s9628995",
+          "iata": "MPL"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-04-11 22:20:00",
+      "stop_time": null,
+      "duration": 12600,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

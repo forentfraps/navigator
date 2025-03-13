@@ -1,0 +1,78 @@
+{
+  "uid": "JD-496_250318_c1538_12",
+  "number": "JD 496",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "18:40",
+  "start_date": "2025-03-11",
+  "days": "11, 18, 25 марта",
+  "except_days": "",
+  "title": "Москва — Циндао",
+  "short_title": "Москва — Циндао",
+  "carrier": {
+    "code": 1538,
+    "title": "Beijing Capital Airlines",
+    "codes": {
+      "sirena": null,
+      "iata": "JD",
+      "icao": null
+    }
+  },
+  "vehicle": "Airbus А330",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Шереметьево",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600213",
+        "codes": {
+          "yandex": "s9600213",
+          "iata": "SVO",
+          "sirena": "ШРМ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-11 18:40:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "C"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Куаньдян",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9629192",
+        "codes": {
+          "yandex": "s9629192",
+          "iata": "TAO"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-12 08:00:00",
+      "stop_time": null,
+      "duration": 30000,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

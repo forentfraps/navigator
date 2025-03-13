@@ -1,0 +1,76 @@
+{
+  "number": "362",
+  "title": "Самойловка - Садовый - Голицыно",
+  "short_title": "Самойловка - Садовый - Голицыно",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 60644,
+    "title": "ООО \"Балашовский автобусный парк\"",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_3_f9842630t9842998_551",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "только 5, 12, 19, 26 марта, 2 апреля",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Самойловка",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9842630",
+        "codes": {
+          "yandex": "s9842630"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-19 14:00:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Голицино",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9842998",
+        "codes": {
+          "yandex": "s9842998"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-19 14:40:00",
+      "duration": 2400.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-19",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "14:00"
+}

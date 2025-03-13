@@ -1,0 +1,81 @@
+{
+  "uid": "6R-598_250330_c156_12",
+  "number": "6R 598",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "20:20",
+  "start_date": "2025-03-14",
+  "days": "14, 16, 21, 23, 28, 30 марта, 4, 6, 11, 13, 18, 20, 25, 27 апреля, 2, 4, 9, 11, 16, 18 мая, …",
+  "except_days": "",
+  "title": "Москва — Мирный",
+  "short_title": "Москва — Мирный",
+  "carrier": {
+    "code": 156,
+    "title": "Алроса",
+    "codes": {
+      "sirena": "ЯМ",
+      "iata": "6R",
+      "icao": "DRU"
+    }
+  },
+  "vehicle": "Boeing 737-800",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Внуково",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600215",
+        "codes": {
+          "yandex": "s9600215",
+          "esr": "180701",
+          "iata": "VKO",
+          "sirena": "ВНК",
+          "express": "2000714"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-14 20:20:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "A"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Мирный",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623628",
+        "codes": {
+          "yandex": "s9623628",
+          "iata": "MJZ",
+          "sirena": "МИР"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-15 08:00:00",
+      "stop_time": null,
+      "duration": 20400,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

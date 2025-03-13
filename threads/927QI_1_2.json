@@ -1,0 +1,149 @@
+{
+  "number": "927Ы",
+  "title": "Переславль-Залесский — Москва",
+  "short_title": "Переславль-Залесский — Москва",
+  "express_type": null,
+  "transport_type": "train",
+  "carrier": {
+    "code": 4240,
+    "title": "РЖД/ДОСС",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "927QI_1_2",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": "туристический поезд",
+    "code": "tur",
+    "color": "#CC6600"
+  },
+  "days": "15, 16, 22, 23, 29, 30 марта, 5, 6, 12, 13, 19, 20, 26, 27 апреля, 1, 2, 3, 4, 8, 9 мая, …",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Переславль",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623512",
+        "codes": {
+          "yandex": "s9623512",
+          "esr": "313501",
+          "express": "2010352"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-15 18:35:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Берендеево",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9604156",
+        "codes": {
+          "yandex": "s9604156",
+          "esr": "313408",
+          "express": "2010234"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-15 19:20:00",
+      "arrival": "2025-03-15 19:15:00",
+      "duration": 2700.0,
+      "stop_time": 300,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Александров-1",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601547",
+        "codes": {
+          "yandex": "s9601547",
+          "esr": "237007",
+          "express": "2000920"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-15 19:48:00",
+      "arrival": "2025-03-15 19:46:00",
+      "duration": 4380.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Сергиев Посад",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601389",
+        "codes": {
+          "yandex": "s9601389",
+          "esr": "236305",
+          "express": "2000753"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-15 20:27:00",
+      "arrival": "2025-03-15 20:25:00",
+      "duration": 6720.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Москва (Ярославский вокзал)",
+        "short_title": "М-Ярославск.",
+        "popular_title": "Ярославский вокзал",
+        "code": "s2000002",
+        "codes": {
+          "yandex": "s2000002",
+          "esr": "195506",
+          "express": "2000002"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": null,
+      "arrival": "2025-03-15 21:48:00",
+      "duration": 11580.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-15",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "18:35"
+}

@@ -1,0 +1,79 @@
+{
+  "uid": "EY-474_251025_c1111_12",
+  "number": "EY 474",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "21:05",
+  "start_date": "2025-10-25",
+  "days": "25 октября",
+  "except_days": "",
+  "title": "Абу-Даби — Джакарта",
+  "short_title": "Абу-Даби — Джакарта",
+  "carrier": {
+    "code": 1111,
+    "title": "Etihad Airways",
+    "codes": {
+      "sirena": null,
+      "iata": "EY",
+      "icao": "EFL"
+    }
+  },
+  "vehicle": "Boeing 787",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Абу-Даби",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9624402",
+        "codes": {
+          "yandex": "s9624402",
+          "iata": "AUH",
+          "sirena": "АУХ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-10-25 21:05:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "A"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Сукарно-Хатта",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9625270",
+        "codes": {
+          "yandex": "s9625270",
+          "iata": "CGK",
+          "sirena": "ЦГК"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-10-26 08:40:00",
+      "stop_time": null,
+      "duration": 30900,
+      "terminal": "3"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

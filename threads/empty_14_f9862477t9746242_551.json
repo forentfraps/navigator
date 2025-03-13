@@ -1,0 +1,370 @@
+{
+  "number": "103-1",
+  "title": "Никифоровка - Мичуринск",
+  "short_title": "Никифоровка - Мичуринск",
+  "express_type": null,
+  "transport_type": "bus",
+  "carrier": {
+    "code": 67538,
+    "title": "ИП Родионова О.В.",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "empty_14_f9862477t9746242_551",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно, кроме сб, вс по 04.04",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Станция Никифоровка",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9862477",
+        "codes": {
+          "yandex": "s9862477"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 09:30:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ж/д переезд",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9885588",
+        "codes": {
+          "yandex": "s9885588"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 09:33:00",
+      "arrival": "2025-03-13 09:32:00",
+      "duration": 180.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Школа",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9885589",
+        "codes": {
+          "yandex": "s9885589"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 09:36:00",
+      "arrival": "2025-03-13 09:35:00",
+      "duration": 360.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "М/р Сахарный завод",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9885591",
+        "codes": {
+          "yandex": "s9885591"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 09:39:00",
+      "arrival": "2025-03-13 09:38:00",
+      "duration": 540.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Церковь Иоанна Богослова",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9885590",
+        "codes": {
+          "yandex": "s9885590"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 09:42:00",
+      "arrival": "2025-03-13 09:41:00",
+      "duration": 720.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Восточная Старинка, поворот",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9863279",
+        "codes": {
+          "yandex": "s9863279"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 09:44:00",
+      "arrival": "2025-03-13 09:43:00",
+      "duration": 840.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Западная Старинка, поворот",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9863385",
+        "codes": {
+          "yandex": "s9863385"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 09:46:00",
+      "arrival": "2025-03-13 09:45:00",
+      "duration": 960.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Варваринский мост",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9885592",
+        "codes": {
+          "yandex": "s9885592"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 09:48:00",
+      "arrival": "2025-03-13 09:47:00",
+      "duration": 1080.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Заворонежское",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9881736",
+        "codes": {
+          "yandex": "s9881736"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 09:50:00",
+      "arrival": "2025-03-13 09:49:00",
+      "duration": 1200.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Спиртзавод",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9885593",
+        "codes": {
+          "yandex": "s9885593"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 09:53:00",
+      "arrival": "2025-03-13 09:52:00",
+      "duration": 1380.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Тамбовская улица",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9885594",
+        "codes": {
+          "yandex": "s9885594"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 09:56:00",
+      "arrival": "2025-03-13 09:55:00",
+      "duration": 1560.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Центральный рынок",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9885595",
+        "codes": {
+          "yandex": "s9885595"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 09:59:00",
+      "arrival": "2025-03-13 09:58:00",
+      "duration": 1740.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Гоголевская улица",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9885596",
+        "codes": {
+          "yandex": "s9885596"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 10:02:00",
+      "arrival": "2025-03-13 10:01:00",
+      "duration": 1920.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Полтавская улица",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9885597",
+        "codes": {
+          "yandex": "s9885597"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 10:05:00",
+      "arrival": "2025-03-13 10:04:00",
+      "duration": 2100.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Мичуринск, площадь Славы",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9867440",
+        "codes": {
+          "yandex": "s9867440"
+        },
+        "station_type": "bus_stop",
+        "station_type_name": "автобусная остановка",
+        "transport_type": "bus"
+      },
+      "departure": "2025-03-13 10:08:00",
+      "arrival": "2025-03-13 10:07:00",
+      "duration": 2280.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Мичуринск",
+        "short_title": null,
+        "popular_title": "Автовокзал Мичуринск",
+        "code": "s9746242",
+        "codes": {
+          "yandex": "s9746242"
+        },
+        "station_type": "",
+        "station_type_name": "автостанция",
+        "transport_type": "bus"
+      },
+      "departure": null,
+      "arrival": "2025-03-13 10:10:00",
+      "duration": 2400.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "09:30"
+}

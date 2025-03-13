@@ -1,0 +1,80 @@
+{
+  "uid": "FV-6945_250403_c8565_12",
+  "number": "FV 6945",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "20:45",
+  "start_date": "2025-04-03",
+  "days": "чт, сб с 03.04 по 30.08",
+  "except_days": "",
+  "title": "Волгоград — Ереван",
+  "short_title": "Волгоград — Ереван",
+  "carrier": {
+    "code": 8565,
+    "title": "Россия",
+    "codes": {
+      "sirena": "ФВ",
+      "iata": "FV",
+      "icao": null
+    }
+  },
+  "vehicle": "Airbus A319",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Гумрак",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600177",
+        "codes": {
+          "yandex": "s9600177",
+          "esr": "892",
+          "iata": "VOG",
+          "sirena": "ВГГ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-04-03 20:45:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "C"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Звартноц",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600369",
+        "codes": {
+          "yandex": "s9600369",
+          "iata": "EVN",
+          "sirena": "ЗВР"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-04-04 00:20:00",
+      "stop_time": null,
+      "duration": 9300,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

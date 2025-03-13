@@ -1,0 +1,187 @@
+{
+  "date": null,
+  "station": {
+    "type": "station",
+    "title": "Кокшетау",
+    "short_title": null,
+    "popular_title": null,
+    "code": "s9625541",
+    "station_type": "airport",
+    "station_type_name": "аэропорт",
+    "transport_type": "plane"
+  },
+  "event": "departure",
+  "pagination": {
+    "total": 5,
+    "limit": 100,
+    "offset": 0
+  },
+  "schedule": [
+    {
+      "thread": {
+        "number": "DV 789",
+        "title": "Кокшетау — Шымкент",
+        "short_title": "Кокшетау — Шымкент",
+        "carrier": {
+          "code": 47,
+          "title": "SCAT",
+          "codes": {
+            "sirena": "ДН",
+            "iata": "DV",
+            "icao": "VSV"
+          }
+        },
+        "vehicle": "Canadair regional jet",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "DV-789_250331_c47_12"
+      },
+      "terminal": "NULL",
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "10:15",
+      "arrival": null,
+      "days": "пн, чт с 31.03 по 12.05"
+    },
+    {
+      "thread": {
+        "number": "DV 781",
+        "title": "Кокшетау — Шымкент",
+        "short_title": "Кокшетау — Шымкент",
+        "carrier": {
+          "code": 47,
+          "title": "SCAT",
+          "codes": {
+            "sirena": "ДН",
+            "iata": "DV",
+            "icao": "VSV"
+          }
+        },
+        "vehicle": "Canadair regional jet",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "DV-781_250313_c47_12"
+      },
+      "terminal": "NULL",
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "10:15",
+      "arrival": null,
+      "days": "13, 17, 20, 24, 27 марта"
+    },
+    {
+      "thread": {
+        "number": "IQ 528",
+        "title": "Кокшетау — Алматы",
+        "short_title": "Кокшетау — Алматы",
+        "carrier": {
+          "code": 57734,
+          "title": "Qazaq Air",
+          "codes": {
+            "sirena": null,
+            "iata": "IQ",
+            "icao": "QAZ"
+          }
+        },
+        "vehicle": "DeHavilland Dash 8 Q400",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "IQ-528_250313_c57734_12"
+      },
+      "terminal": "NULL",
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "11:40",
+      "arrival": null,
+      "days": "13, 18, 25, 27 марта, 1, 3, 5, 8, 10, 12, 15, 17, 19, 22, 24, 26, 29 апреля, 1, 3, 6 мая, …"
+    },
+    {
+      "thread": {
+        "number": "DV 780",
+        "title": "Кокшетау — Актау",
+        "short_title": "Кокшетау — Актау",
+        "carrier": {
+          "code": 47,
+          "title": "SCAT",
+          "codes": {
+            "sirena": "ДН",
+            "iata": "DV",
+            "icao": "VSV"
+          }
+        },
+        "vehicle": "Canadair regional jet",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "DV-780_250313_c47_12"
+      },
+      "terminal": "NULL",
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "15:50",
+      "arrival": null,
+      "days": "13, 17, 20, 24, 27 марта"
+    },
+    {
+      "thread": {
+        "number": "DV 780",
+        "title": "Кокшетау — Актау",
+        "short_title": "Кокшетау — Актау",
+        "carrier": {
+          "code": 47,
+          "title": "SCAT",
+          "codes": {
+            "sirena": "ДН",
+            "iata": "DV",
+            "icao": "VSV"
+          }
+        },
+        "vehicle": "Canadair regional jet",
+        "transport_type": "plane",
+        "express_type": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "uid": "DV-780_250512_c47_12"
+      },
+      "terminal": "NULL",
+      "is_fuzzy": false,
+      "stops": "",
+      "platform": "",
+      "except_days": null,
+      "departure": "16:10",
+      "arrival": null,
+      "days": "пн, чт с 31.03 по 12.05"
+    }
+  ],
+  "interval_schedule": []
+}

@@ -1,0 +1,195 @@
+{
+  "number": "7110/7108",
+  "title": "Курск — Воронеж-1",
+  "short_title": "Курск — Воронеж-1",
+  "express_type": "express",
+  "transport_type": "suburban",
+  "carrier": {
+    "code": 2541,
+    "title": "ППК \"Черноземье\"",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "7110x7108_2_9600816_g25_4",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": "ускоренный (по обычным пригородным билетам)",
+    "code": "skor",
+    "color": "#CC6600"
+  },
+  "days": "только 14, 21, 28 марта, 4, 11, 18, 25 апреля",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Курск",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600816",
+        "codes": {
+          "yandex": "s9600816",
+          "esr": "208201",
+          "express": "2000150"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-14 19:19:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Щигры",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600990",
+        "codes": {
+          "yandex": "s9600990",
+          "esr": "209007",
+          "express": "2000324"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-14 20:12:00",
+      "arrival": "2025-03-14 20:11:00",
+      "duration": 3180.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Черемисиново",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600993",
+        "codes": {
+          "yandex": "s9600993",
+          "esr": "209204",
+          "express": "2000327"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-14 20:33:00",
+      "arrival": "2025-03-14 20:32:00",
+      "duration": 4440.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Мармыжи",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600995",
+        "codes": {
+          "yandex": "s9600995",
+          "esr": "209308",
+          "express": "2000329"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-14 20:49:00",
+      "arrival": "2025-03-14 20:48:00",
+      "duration": 5400.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Кшень",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600996",
+        "codes": {
+          "yandex": "s9600996",
+          "esr": "209401",
+          "express": "2000330"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-14 20:59:00",
+      "arrival": "2025-03-14 20:58:00",
+      "duration": 6000.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Касторная-Курская",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9605486",
+        "codes": {
+          "yandex": "s9605486",
+          "esr": "595503",
+          "express": "2015389"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-14 21:38:00",
+      "arrival": "2025-03-14 21:25:00",
+      "duration": 8340.0,
+      "stop_time": 780,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Воронеж-1",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s2014001",
+        "codes": {
+          "yandex": "s2014001",
+          "esr": "596506",
+          "express": "2014001"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": null,
+      "arrival": "2025-03-14 22:57:00",
+      "duration": 13080.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-14",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "19:19"
+}
