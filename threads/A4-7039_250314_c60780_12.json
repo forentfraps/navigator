@@ -1,0 +1,79 @@
+{
+  "uid": "A4-7039_250314_c60780_12",
+  "number": "A4 7039",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "10:30",
+  "start_date": "2025-03-12",
+  "days": "ср, пт, вс по 28.03",
+  "except_days": "",
+  "title": "Санкт-Петербург — Тбилиси",
+  "short_title": "Санкт-Петербург — Тбилиси",
+  "carrier": {
+    "code": 60780,
+    "title": "Азимут",
+    "codes": {
+      "sirena": "А4",
+      "iata": "A4",
+      "icao": null
+    }
+  },
+  "vehicle": "Сухой Суперджет 100",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Пулково",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600366",
+        "codes": {
+          "yandex": "s9600366",
+          "iata": "LED",
+          "sirena": "ПЛК"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-12 10:30:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "1"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Имени Шота Руставели",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623542",
+        "codes": {
+          "yandex": "s9623542",
+          "iata": "TBS",
+          "sirena": "ТБС"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-12 15:25:00",
+      "stop_time": null,
+      "duration": 14100,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

@@ -1,0 +1,79 @@
+{
+  "uid": "7R-241_250313_c96_12",
+  "number": "7R 241",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "07:20",
+  "start_date": "2025-03-13",
+  "days": "13, 14, 15, 17, 20, 21, 22, 24, 27, 28, 29 марта, 3, 4, 10, 11, 17, 18, 24, 25 апреля, 1 мая, …",
+  "except_days": "",
+  "title": "Санкт-Петербург — Нарьян-Мар",
+  "short_title": "Санкт-Петербург — Нарьян-Мар",
+  "carrier": {
+    "code": 96,
+    "title": "РусЛайн",
+    "codes": {
+      "sirena": "РГ",
+      "iata": "7R",
+      "icao": "RLU"
+    }
+  },
+  "vehicle": "Canadair regional jet",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Пулково",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600366",
+        "codes": {
+          "yandex": "s9600366",
+          "iata": "LED",
+          "sirena": "ПЛК"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-13 07:20:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "1"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Нарьян-Мар",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623602",
+        "codes": {
+          "yandex": "s9623602",
+          "iata": "NNM",
+          "sirena": "ННР"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-13 09:35:00",
+      "stop_time": null,
+      "duration": 8100,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

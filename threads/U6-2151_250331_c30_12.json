@@ -1,0 +1,79 @@
+{
+  "uid": "U6-2151_250331_c30_12",
+  "number": "U6 2151",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "08:05",
+  "start_date": "2025-03-31",
+  "days": "пн, ср с 31.03 по 27.08",
+  "except_days": "",
+  "title": "Санкт-Петербург — Бишкек",
+  "short_title": "Санкт-Петербург — Бишкек",
+  "carrier": {
+    "code": 30,
+    "title": "Уральские авиалинии",
+    "codes": {
+      "sirena": "У6",
+      "iata": "U6",
+      "icao": null
+    }
+  },
+  "vehicle": null,
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Пулково",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600366",
+        "codes": {
+          "yandex": "s9600366",
+          "iata": "LED",
+          "sirena": "ПЛК"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-31 08:05:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "1"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Манас",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623580",
+        "codes": {
+          "yandex": "s9623580",
+          "iata": "FRU",
+          "sirena": "БИШ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-31 15:45:00",
+      "stop_time": null,
+      "duration": 16800,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

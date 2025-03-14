@@ -1,0 +1,134 @@
+{
+  "date": null,
+  "station": {
+    "type": "station",
+    "title": "Метро «Звёздная» / Звёздная улица",
+    "short_title": null,
+    "popular_title": null,
+    "code": "s9885699",
+    "station_type": "bus_stop",
+    "station_type_name": "автобусная остановка",
+    "transport_type": "bus"
+  },
+  "event": "departure",
+  "pagination": {
+    "total": 4,
+    "limit": 100,
+    "offset": 0
+  },
+  "schedule": [],
+  "interval_schedule": [
+    {
+      "thread": {
+        "number": "34",
+        "title": "Санкт-Петербург — Старорусский проспект / Школьная улица",
+        "short_title": "Санкт-Петербург — Старорусский проспект / Школьная улица",
+        "express_type": null,
+        "transport_type": "bus",
+        "carrier": null,
+        "uid": "empty_0_f9811382t9878648_175",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "interval": {
+          "density": "интервал 8-18 мин.",
+          "begin_time": "05:31",
+          "end_time": "01:01"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": ""
+    },
+    {
+      "thread": {
+        "number": "179",
+        "title": "Санкт-Петербург — Павловск",
+        "short_title": "Санкт-Петербург — Павловск",
+        "express_type": null,
+        "transport_type": "bus",
+        "carrier": null,
+        "uid": "empty_1_f9885699t9814231_175",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "interval": {
+          "density": "интервал 12-23 мин.",
+          "begin_time": "05:55",
+          "end_time": "00:15"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": ""
+    },
+    {
+      "thread": {
+        "number": "281",
+        "title": "Санкт-Петербург, метро «Московские Ворота» — Старорусский проспект / Школьная улица",
+        "short_title": "Санкт-Петербург, метро «Московские Ворота» — Старорусский проспект / Школьная улица",
+        "express_type": null,
+        "transport_type": "bus",
+        "carrier": null,
+        "uid": "empty_1_f9813109t9878648_175",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "interval": {
+          "density": "интервал 12-19 мин.",
+          "begin_time": "05:55",
+          "end_time": "00:47"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": ""
+    },
+    {
+      "thread": {
+        "number": "192",
+        "title": "Санкт-Петербург — Колпино, Привокзальная площадь",
+        "short_title": "Санкт-Петербург — Колпино, Привокзальная площадь",
+        "express_type": null,
+        "transport_type": "bus",
+        "carrier": null,
+        "uid": "empty_0_f9811382t9768428_175",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "interval": {
+          "density": "интервал 12-22 мин.",
+          "begin_time": "06:25",
+          "end_time": "00:36"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": ""
+    }
+  ]
+}

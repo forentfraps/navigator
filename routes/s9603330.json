@@ -1,0 +1,88 @@
+{
+  "date": null,
+  "station": {
+    "type": "station",
+    "title": "Бусловская",
+    "short_title": null,
+    "popular_title": null,
+    "code": "s9603330",
+    "station_type": "station",
+    "station_type_name": "станция",
+    "transport_type": "train"
+  },
+  "event": "departure",
+  "pagination": {
+    "total": 2,
+    "limit": 100,
+    "offset": 0
+  },
+  "schedule": [
+    {
+      "thread": {
+        "number": "6742",
+        "title": "Бусловская — Выборг",
+        "short_title": "Бусловская — Выборг",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6742_0_9603330_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "08:28",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6752",
+        "title": "Бусловская — Выборг",
+        "short_title": "Бусловская — Выборг",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6752_0_9603330_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "19:58",
+      "arrival": null
+    }
+  ],
+  "interval_schedule": []
+}

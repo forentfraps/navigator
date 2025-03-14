@@ -1,0 +1,78 @@
+{
+  "date": null,
+  "station": {
+    "type": "station",
+    "title": "Улица Маршала Новикова / Проспект Испытателей",
+    "short_title": null,
+    "popular_title": null,
+    "code": "s9862189",
+    "station_type": "bus_stop",
+    "station_type_name": "автобусная остановка",
+    "transport_type": "bus"
+  },
+  "event": "departure",
+  "pagination": {
+    "total": 2,
+    "limit": 100,
+    "offset": 0
+  },
+  "schedule": [],
+  "interval_schedule": [
+    {
+      "thread": {
+        "number": "221",
+        "title": "Парголово, Северное кладбище — Санкт-Петербург",
+        "short_title": "Парголово, Северное кладбище — Санкт-Петербург",
+        "express_type": null,
+        "transport_type": "bus",
+        "carrier": null,
+        "uid": "empty_1_f9838171t9884222_175",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "interval": {
+          "density": "интервал 12-18 мин.",
+          "begin_time": "05:26",
+          "end_time": "00:15"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": ""
+    },
+    {
+      "thread": {
+        "number": "221",
+        "title": "Санкт-Петербург — Парголово, Северное кладбище",
+        "short_title": "Санкт-Петербург — Парголово, Северное кладбище",
+        "express_type": null,
+        "transport_type": "bus",
+        "carrier": null,
+        "uid": "empty_1_f9884222t9838171_175",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "interval": {
+          "density": "интервал 12-18 мин.",
+          "begin_time": "06:00",
+          "end_time": "00:25"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": ""
+    }
+  ]
+}

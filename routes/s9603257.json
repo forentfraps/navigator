@@ -1,0 +1,1639 @@
+{
+  "date": null,
+  "station": {
+    "type": "station",
+    "title": "Старая Деревня",
+    "short_title": "Стар. Деревня",
+    "popular_title": "",
+    "code": "s9603257",
+    "station_type": "platform",
+    "station_type_name": "платформа",
+    "transport_type": "train"
+  },
+  "event": "departure",
+  "pagination": {
+    "total": 49,
+    "limit": 100,
+    "offset": 0
+  },
+  "schedule": [
+    {
+      "thread": {
+        "number": "6054",
+        "title": "Белоостров — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Белоостров — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6054_0_9602724_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "06:03",
+      "arrival": "06:02"
+    },
+    {
+      "thread": {
+        "number": "6056",
+        "title": "Белоостров — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Белоостров — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6056_0_9602724_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "06:36",
+      "arrival": "06:35"
+    },
+    {
+      "thread": {
+        "number": "6001",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Белоостров",
+        "short_title": "СПб-Фин. — Белоостров",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6001_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Тарховка",
+      "departure": "06:45",
+      "arrival": "06:44"
+    },
+    {
+      "thread": {
+        "number": "6058",
+        "title": "Белоостров — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Белоостров — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6058_0_9602724_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "07:06",
+      "arrival": "07:05"
+    },
+    {
+      "thread": {
+        "number": "6003",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Белоостров",
+        "short_title": "СПб-Фин. — Белоостров",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6003_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "кроме: Горская",
+      "departure": "07:14",
+      "arrival": "07:13"
+    },
+    {
+      "thread": {
+        "number": "6060",
+        "title": "Белоостров — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Белоостров — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6060_0_9602724_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "07:36",
+      "arrival": "07:35"
+    },
+    {
+      "thread": {
+        "number": "6005",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Белоостров",
+        "short_title": "СПб-Фин. — Белоостров",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6005_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Тарховка",
+      "departure": "07:49",
+      "arrival": "07:48"
+    },
+    {
+      "thread": {
+        "number": "6062",
+        "title": "Белоостров — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Белоостров — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6062_0_9602724_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "08:11",
+      "arrival": "08:10"
+    },
+    {
+      "thread": {
+        "number": "6007",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Белоостров",
+        "short_title": "СПб-Фин. — Белоостров",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6007_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Горская",
+      "departure": "08:19",
+      "arrival": "08:18"
+    },
+    {
+      "thread": {
+        "number": "6063/6064",
+        "title": "Санкт-Петербург (Финляндский вокзал) (кольцо)",
+        "short_title": "СПб-Фин. (кольцо)",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6063x6064_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "08:40",
+      "arrival": "08:39"
+    },
+    {
+      "thread": {
+        "number": "6009",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Сестрорецк",
+        "short_title": "СПб-Фин. — Сестрорецк",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6009_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Тарховка",
+      "departure": "08:48",
+      "arrival": "08:47"
+    },
+    {
+      "thread": {
+        "number": "6066",
+        "title": "Белоостров — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Белоостров — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6066_0_9602724_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "09:09",
+      "arrival": "09:08"
+    },
+    {
+      "thread": {
+        "number": "6068",
+        "title": "Белоостров — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Белоостров — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6068_0_9602724_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "09:36",
+      "arrival": "09:35"
+    },
+    {
+      "thread": {
+        "number": "6011/6012",
+        "title": "Санкт-Петербург (Финляндский вокзал) (кольцо)",
+        "short_title": "СПб-Фин. (кольцо)",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6011x6012_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "09:52",
+      "arrival": "09:51"
+    },
+    {
+      "thread": {
+        "number": "6011",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Белоостров",
+        "short_title": "СПб-Фин. — Белоостров",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6011_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по выходным",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "09:52",
+      "arrival": "09:51"
+    },
+    {
+      "thread": {
+        "number": "6070",
+        "title": "Белоостров — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Белоостров — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6070_0_9602724_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "10:14",
+      "arrival": "10:13"
+    },
+    {
+      "thread": {
+        "number": "6072",
+        "title": "Сестрорецк — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Сестрорецк — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6072_0_9603510_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "10:37",
+      "arrival": "10:36"
+    },
+    {
+      "thread": {
+        "number": "6013",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Белоостров",
+        "short_title": "СПб-Фин. — Белоостров",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6013_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "10:59",
+      "arrival": "10:58"
+    },
+    {
+      "thread": {
+        "number": "6074",
+        "title": "Белоостров — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Белоостров — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6074_0_9602724_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "11:42",
+      "arrival": "11:41"
+    },
+    {
+      "thread": {
+        "number": "6015",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Сестрорецк",
+        "short_title": "СПб-Фин. — Сестрорецк",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6015_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "12:02",
+      "arrival": "12:01"
+    },
+    {
+      "thread": {
+        "number": "6015",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Белоостров",
+        "short_title": "СПб-Фин. — Белоостров",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6015_1_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по выходным с 19 апреля",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "12:02",
+      "arrival": "12:01"
+    },
+    {
+      "thread": {
+        "number": "6017",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Белоостров",
+        "short_title": "СПб-Фин. — Белоостров",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6017_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по выходным",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "12:53",
+      "arrival": "12:52"
+    },
+    {
+      "thread": {
+        "number": "6076",
+        "title": "Белоостров — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Белоостров — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6076_0_9602724_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по выходным",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "13:14",
+      "arrival": "13:13"
+    },
+    {
+      "thread": {
+        "number": "6019",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Белоостров",
+        "short_title": "СПб-Фин. — Белоостров",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6019_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "13:55",
+      "arrival": "13:54"
+    },
+    {
+      "thread": {
+        "number": "6078",
+        "title": "Белоостров — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Белоостров — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6078_0_9602724_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по выходным",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "14:18",
+      "arrival": "14:17"
+    },
+    {
+      "thread": {
+        "number": "6080",
+        "title": "Сестрорецк — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Сестрорецк — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6080_0_9603510_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "15:10",
+      "arrival": "15:09"
+    },
+    {
+      "thread": {
+        "number": "6080",
+        "title": "Белоостров — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Белоостров — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6080_0_9602724_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по выходным с 19 апреля",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "15:10",
+      "arrival": "15:09"
+    },
+    {
+      "thread": {
+        "number": "6023",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Сестрорецк",
+        "short_title": "СПб-Фин. — Сестрорецк",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6023_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "15:22",
+      "arrival": "15:21"
+    },
+    {
+      "thread": {
+        "number": "6082",
+        "title": "Белоостров — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Белоостров — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6082_0_9602724_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "16:04",
+      "arrival": "16:03"
+    },
+    {
+      "thread": {
+        "number": "6025/6026",
+        "title": "Санкт-Петербург (Финляндский вокзал) (кольцо)",
+        "short_title": "СПб-Фин. (кольцо)",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6025x6026_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "16:32",
+      "arrival": "16:31"
+    },
+    {
+      "thread": {
+        "number": "6027",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Белоостров",
+        "short_title": "СПб-Фин. — Белоостров",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6027_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "17:02",
+      "arrival": "17:01"
+    },
+    {
+      "thread": {
+        "number": "6084",
+        "title": "Белоостров — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Белоостров — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6084_0_9602724_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "17:23",
+      "arrival": "17:22"
+    },
+    {
+      "thread": {
+        "number": "6029",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Белоостров",
+        "short_title": "СПб-Фин. — Белоостров",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6029_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "17:32",
+      "arrival": "17:31"
+    },
+    {
+      "thread": {
+        "number": "6031",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Белоостров",
+        "short_title": "СПб-Фин. — Белоостров",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6031_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "18:02",
+      "arrival": "18:01"
+    },
+    {
+      "thread": {
+        "number": "6086",
+        "title": "Сестрорецк — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Сестрорецк — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6086_0_9603510_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "18:24",
+      "arrival": "18:23"
+    },
+    {
+      "thread": {
+        "number": "6033",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Белоостров",
+        "short_title": "СПб-Фин. — Белоостров",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6033_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "18:32",
+      "arrival": "18:31"
+    },
+    {
+      "thread": {
+        "number": "6035",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Белоостров",
+        "short_title": "СПб-Фин. — Белоостров",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6035_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "19:02",
+      "arrival": "19:01"
+    },
+    {
+      "thread": {
+        "number": "6088",
+        "title": "Белоостров — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Белоостров — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6088_0_9602724_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "19:23",
+      "arrival": "19:22"
+    },
+    {
+      "thread": {
+        "number": "6037",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Сестрорецк",
+        "short_title": "СПб-Фин. — Сестрорецк",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6037_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "19:32",
+      "arrival": "19:31"
+    },
+    {
+      "thread": {
+        "number": "6090",
+        "title": "Белоостров — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Белоостров — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6090_0_9602724_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "19:54",
+      "arrival": "19:53"
+    },
+    {
+      "thread": {
+        "number": "6039",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Белоостров",
+        "short_title": "СПб-Фин. — Белоостров",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6039_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "20:02",
+      "arrival": "20:01"
+    },
+    {
+      "thread": {
+        "number": "6092",
+        "title": "Белоостров — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Белоостров — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6092_0_9602724_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "20:24",
+      "arrival": "20:23"
+    },
+    {
+      "thread": {
+        "number": "6041/6042",
+        "title": "Санкт-Петербург (Финляндский вокзал) (кольцо)",
+        "short_title": "СПб-Фин. (кольцо)",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6041x6042_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "20:32",
+      "arrival": "20:31"
+    },
+    {
+      "thread": {
+        "number": "6094",
+        "title": "Белоостров — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Белоостров — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6094_0_9602724_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "20:55",
+      "arrival": "20:54"
+    },
+    {
+      "thread": {
+        "number": "6096",
+        "title": "Сестрорецк — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Сестрорецк — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6096_0_9603510_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "21:27",
+      "arrival": "21:26"
+    },
+    {
+      "thread": {
+        "number": "6098",
+        "title": "Белоостров — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Белоостров — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6098_0_9602724_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "22:00",
+      "arrival": "21:59"
+    },
+    {
+      "thread": {
+        "number": "6045",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Белоостров",
+        "short_title": "СПб-Фин. — Белоостров",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6045_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "22:27",
+      "arrival": "22:26"
+    },
+    {
+      "thread": {
+        "number": "6100",
+        "title": "Белоостров — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Белоостров — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6100_0_9602724_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "23:40",
+      "arrival": "23:39"
+    },
+    {
+      "thread": {
+        "number": "6049",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Белоостров",
+        "short_title": "СПб-Фин. — Белоостров",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6049_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "23:53",
+      "arrival": "23:52"
+    }
+  ],
+  "interval_schedule": []
+}

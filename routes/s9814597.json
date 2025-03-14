@@ -1,0 +1,78 @@
+{
+  "date": null,
+  "station": {
+    "type": "station",
+    "title": "Серебряков переулок",
+    "short_title": null,
+    "popular_title": null,
+    "code": "s9814597",
+    "station_type": "bus_stop",
+    "station_type_name": "автобусная остановка",
+    "transport_type": "bus"
+  },
+  "event": "departure",
+  "pagination": {
+    "total": 2,
+    "limit": 100,
+    "offset": 0
+  },
+  "schedule": [],
+  "interval_schedule": [
+    {
+      "thread": {
+        "number": "211",
+        "title": "Зеленогорск — Метро «Чёрная Речка»",
+        "short_title": "Зеленогорск — Метро «Чёрная Речка»",
+        "express_type": null,
+        "transport_type": "bus",
+        "carrier": null,
+        "uid": "empty_0_f9818692t9852979_175",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "interval": {
+          "density": "интервал 11-19 мин.",
+          "begin_time": "04:56",
+          "end_time": "00:01"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": ""
+    },
+    {
+      "thread": {
+        "number": "211",
+        "title": "Метро «Чёрная Речка» — Зеленогорск",
+        "short_title": "Метро «Чёрная Речка» — Зеленогорск",
+        "express_type": null,
+        "transport_type": "bus",
+        "carrier": null,
+        "uid": "empty_73_f9852979t9818692_175",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "interval": {
+          "density": "интервал 11-19 мин.",
+          "begin_time": "05:40",
+          "end_time": "00:40"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": ""
+    }
+  ]
+}

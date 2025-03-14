@@ -1,0 +1,176 @@
+{
+  "date": null,
+  "station": {
+    "type": "station",
+    "title": "Челябинская ул., 101",
+    "short_title": null,
+    "popular_title": null,
+    "code": "s9811354",
+    "station_type": "bus_stop",
+    "station_type_name": "автобусная остановка",
+    "transport_type": "bus"
+  },
+  "event": "departure",
+  "pagination": {
+    "total": 6,
+    "limit": 100,
+    "offset": 0
+  },
+  "schedule": [
+    {
+      "thread": {
+        "number": "622",
+        "title": "Заводской — Всеволожск",
+        "short_title": "Заводской — Всеволожск",
+        "express_type": null,
+        "transport_type": "bus",
+        "carrier": null,
+        "uid": "empty_0_f9817769t9843427_175",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно, кроме сб, вс",
+      "except_days": null,
+      "stops": "",
+      "departure": "09:00",
+      "arrival": "08:59"
+    },
+    {
+      "thread": {
+        "number": "622",
+        "title": "Санкт-Петербург, метро «Девяткино» (вост.) — Всеволожск",
+        "short_title": "Санкт-Петербург, метро «Девяткино» (вост.) — Всеволожск",
+        "express_type": null,
+        "transport_type": "bus",
+        "carrier": null,
+        "uid": "empty_2_f9837600t9843427_175",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно, кроме сб, вс",
+      "except_days": null,
+      "stops": "",
+      "departure": "11:00",
+      "arrival": "10:59"
+    },
+    {
+      "thread": {
+        "number": "622",
+        "title": "Санкт-Петербург, метро «Девяткино» (вост.) — Всеволожск",
+        "short_title": "Санкт-Петербург, метро «Девяткино» (вост.) — Всеволожск",
+        "express_type": null,
+        "transport_type": "bus",
+        "carrier": null,
+        "uid": "empty_4_f9837600t9843427_175",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно, кроме сб, вс",
+      "except_days": null,
+      "stops": "",
+      "departure": "13:00",
+      "arrival": "12:59"
+    },
+    {
+      "thread": {
+        "number": "622",
+        "title": "Санкт-Петербург, метро «Девяткино» (вост.) — Всеволожск",
+        "short_title": "Санкт-Петербург, метро «Девяткино» (вост.) — Всеволожск",
+        "express_type": null,
+        "transport_type": "bus",
+        "carrier": null,
+        "uid": "empty_5_f9837600t9843427_175",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно, кроме сб, вс",
+      "except_days": null,
+      "stops": "",
+      "departure": "13:35",
+      "arrival": "13:34"
+    },
+    {
+      "thread": {
+        "number": "622",
+        "title": "Санкт-Петербург, метро «Девяткино» (вост.) — Всеволожск",
+        "short_title": "Санкт-Петербург, метро «Девяткино» (вост.) — Всеволожск",
+        "express_type": null,
+        "transport_type": "bus",
+        "carrier": null,
+        "uid": "empty_8_f9837600t9843427_175",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно, кроме сб, вс",
+      "except_days": null,
+      "stops": "",
+      "departure": "17:35",
+      "arrival": "17:34"
+    }
+  ],
+  "interval_schedule": [
+    {
+      "thread": {
+        "number": "124",
+        "title": "Санкт-Петербург, Северный автовокзал — Проспект Наставников / Хасанская улица",
+        "short_title": "Санкт-Петербург, Северный автовокзал — Проспект Наставников / Хасанская улица",
+        "express_type": null,
+        "transport_type": "bus",
+        "carrier": null,
+        "uid": "empty_0_f9654496t9883053_175",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "interval": {
+          "density": "интервал 12-18 мин.",
+          "begin_time": "05:25",
+          "end_time": "00:00"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": ""
+    }
+  ]
+}

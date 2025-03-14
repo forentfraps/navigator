@@ -1,0 +1,3619 @@
+{
+  "date": null,
+  "station": {
+    "type": "station",
+    "title": "Ржевка",
+    "short_title": "",
+    "popular_title": "",
+    "code": "s9603491",
+    "station_type": "station",
+    "station_type_name": "станция",
+    "transport_type": "train"
+  },
+  "event": "departure",
+  "pagination": {
+    "total": 109,
+    "limit": 109,
+    "offset": 0
+  },
+  "schedule": [
+    {
+      "thread": {
+        "number": "6941",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Невская Дубровка",
+        "short_title": "СПб-Фин. — Нев. Дубровка",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6941_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Теплобетонная",
+      "departure": "00:07",
+      "arrival": "00:06"
+    },
+    {
+      "thread": {
+        "number": "6802",
+        "title": "Ладожское Озеро — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Ладож. Озеро — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6802_0_9603678_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "05:50",
+      "arrival": "05:49"
+    },
+    {
+      "thread": {
+        "number": "6803",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Мельничный Ручей",
+        "short_title": "СПб-Фин. — Мельн. Ручей",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6803_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "06:30",
+      "arrival": "06:29"
+    },
+    {
+      "thread": {
+        "number": "6904",
+        "title": "Невская Дубровка — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Нев. Дубровка — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6904_0_9603881_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "06:32",
+      "arrival": "06:31"
+    },
+    {
+      "thread": {
+        "number": "7125",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Мельничный Ручей",
+        "short_title": "СПб-Фин. — Мельн. Ручей",
+        "express_type": "express",
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "7125_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "«Ласточка»",
+          "code": "last",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "06:44",
+      "arrival": "06:43"
+    },
+    {
+      "thread": {
+        "number": "6602",
+        "title": "Мельничный Ручей — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Мельн. Ручей — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6602_0_9603449_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "06:49",
+      "arrival": "06:48"
+    },
+    {
+      "thread": {
+        "number": "6806",
+        "title": "Ладожское Озеро — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Ладож. Озеро — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6806_0_9603678_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "07:02",
+      "arrival": "07:01"
+    },
+    {
+      "thread": {
+        "number": "6903",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Невская Дубровка",
+        "short_title": "СПб-Фин. — Нев. Дубровка",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6903_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "07:04",
+      "arrival": "07:03"
+    },
+    {
+      "thread": {
+        "number": "7219",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Мельничный Ручей",
+        "short_title": "СПб-Фин. — Мельн. Ручей",
+        "express_type": "express",
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "7219_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "«Ласточка»",
+          "code": "last",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "Бернгардовка, Всеволожская, Мельничный Ручей",
+      "departure": "07:16",
+      "arrival": "07:15"
+    },
+    {
+      "thread": {
+        "number": "6808",
+        "title": "Мельничный Ручей — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Мельн. Ручей — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6808_0_9603449_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "07:19",
+      "arrival": "07:18"
+    },
+    {
+      "thread": {
+        "number": "6807",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Ладожское Озеро",
+        "short_title": "СПб-Фин. — Ладож. Озеро",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6807_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "07:31",
+      "arrival": "07:30"
+    },
+    {
+      "thread": {
+        "number": "6906",
+        "title": "Невская Дубровка — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Нев. Дубровка — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6906_0_9603881_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "07:34",
+      "arrival": "07:33"
+    },
+    {
+      "thread": {
+        "number": "6812",
+        "title": "Ладожское Озеро — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Ладож. Озеро — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6812_0_9603678_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "07:48",
+      "arrival": "07:47"
+    },
+    {
+      "thread": {
+        "number": "6905",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Кирпичный Завод",
+        "short_title": "СПб-Фин. — Кирпичный Зд",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6905_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "07:49",
+      "arrival": "07:48"
+    },
+    {
+      "thread": {
+        "number": "6607",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Мельничный Ручей",
+        "short_title": "СПб-Фин. — Мельн. Ручей",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6607_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "07:59",
+      "arrival": "07:58"
+    },
+    {
+      "thread": {
+        "number": "6908",
+        "title": "Петрокрепость — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Петрокрепость — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6908_0_9603409_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "08:02",
+      "arrival": "08:01"
+    },
+    {
+      "thread": {
+        "number": "6907",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Мельничный Ручей",
+        "short_title": "СПб-Фин. — Мельн. Ручей",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6907_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно по 18 апреля",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "08:10",
+      "arrival": "08:09"
+    },
+    {
+      "thread": {
+        "number": "6907",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Мельничный Ручей",
+        "short_title": "СПб-Фин. — Мельн. Ручей",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6907_1_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "кроме сб с 20 апреля",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "08:10",
+      "arrival": "08:09"
+    },
+    {
+      "thread": {
+        "number": "6907",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Петрокрепость",
+        "short_title": "СПб-Фин. — Петрокрепость",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6907_2_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "сб с 19 апреля",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "08:10",
+      "arrival": "08:09"
+    },
+    {
+      "thread": {
+        "number": "7220",
+        "title": "Мельничный Ручей — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Мельн. Ручей — СПб-Фин.",
+        "express_type": "express",
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "7220_0_9603449_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "«Ласточка»",
+          "code": "last",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "без остановок",
+      "departure": "08:16",
+      "arrival": "08:15"
+    },
+    {
+      "thread": {
+        "number": "7126",
+        "title": "Мельничный Ручей — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Мельн. Ручей — СПб-Фин.",
+        "express_type": "express",
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "7126_0_9603449_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "«Ласточка»",
+          "code": "last",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "08:37",
+      "arrival": "08:36"
+    },
+    {
+      "thread": {
+        "number": "6809",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Ладожское Озеро",
+        "short_title": "СПб-Фин. — Ладож. Озеро",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6809_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "08:38",
+      "arrival": "08:37"
+    },
+    {
+      "thread": {
+        "number": "6910",
+        "title": "Невская Дубровка — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Нев. Дубровка — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6910_0_9603881_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "08:48",
+      "arrival": "08:47"
+    },
+    {
+      "thread": {
+        "number": "7221",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Мельничный Ручей",
+        "short_title": "СПб-Фин. — Мельн. Ручей",
+        "express_type": "express",
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "7221_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "«Ласточка»",
+          "code": "last",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "Бернгардовка, Всеволожская, Мельничный Ручей",
+      "departure": "09:02",
+      "arrival": "09:01"
+    },
+    {
+      "thread": {
+        "number": "6816",
+        "title": "Ладожское Озеро — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Ладож. Озеро — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6816_0_9603678_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "09:03",
+      "arrival": "09:02"
+    },
+    {
+      "thread": {
+        "number": "6909",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Невская Дубровка",
+        "short_title": "СПб-Фин. — Нев. Дубровка",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6909_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "09:16",
+      "arrival": "09:15"
+    },
+    {
+      "thread": {
+        "number": "6618",
+        "title": "Мельничный Ручей — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Мельн. Ручей — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6618_0_9603449_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "09:19",
+      "arrival": "09:18"
+    },
+    {
+      "thread": {
+        "number": "6912",
+        "title": "Кирпичный Завод — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Кирпичный Зд — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6912_0_9603739_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "09:33",
+      "arrival": "09:32"
+    },
+    {
+      "thread": {
+        "number": "6811",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Ладожское Озеро",
+        "short_title": "СПб-Фин. — Ладож. Озеро",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6811_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "сб с 19 апреля",
+      "except_days": null,
+      "stops": "кроме: Болотистое (44 км)",
+      "departure": "09:40",
+      "arrival": "09:39"
+    },
+    {
+      "thread": {
+        "number": "6914",
+        "title": "Невская Дубровка — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Нев. Дубровка — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6914_0_9603881_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "09:47",
+      "arrival": "09:46"
+    },
+    {
+      "thread": {
+        "number": "7222",
+        "title": "Мельничный Ручей — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Мельн. Ручей — СПб-Фин.",
+        "express_type": "express",
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "7222_0_9603449_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "«Ласточка»",
+          "code": "last",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "без остановок",
+      "departure": "10:03",
+      "arrival": "10:02"
+    },
+    {
+      "thread": {
+        "number": "6911",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Невская Дубровка",
+        "short_title": "СПб-Фин. — Нев. Дубровка",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6911_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Теплобетонная",
+      "departure": "10:15",
+      "arrival": "10:14"
+    },
+    {
+      "thread": {
+        "number": "6818",
+        "title": "Ладожское Озеро — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Ладож. Озеро — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6818_0_9603678_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "10:16",
+      "arrival": "10:15"
+    },
+    {
+      "thread": {
+        "number": "6916",
+        "title": "Петрокрепость — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Петрокрепость — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6916_0_9603409_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "сб с 19 апреля",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "10:51",
+      "arrival": "10:50"
+    },
+    {
+      "thread": {
+        "number": "6817",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Ладожское Озеро",
+        "short_title": "СПб-Фин. — Ладож. Озеро",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6817_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "10:59",
+      "arrival": "10:58"
+    },
+    {
+      "thread": {
+        "number": "6822",
+        "title": "Мельничный Ручей — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Мельн. Ручей — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6822_0_9603449_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно по 18 апреля",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "11:19",
+      "arrival": "11:18"
+    },
+    {
+      "thread": {
+        "number": "6913",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Невская Дубровка",
+        "short_title": "СПб-Фин. — Нев. Дубровка",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6913_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": "20, 26 марта",
+      "stops": "везде",
+      "departure": "11:19",
+      "arrival": "11:18"
+    },
+    {
+      "thread": {
+        "number": "6913",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Петрокрепость",
+        "short_title": "СПб-Фин. — Петрокрепость",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6913_1_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "только 20 марта",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "11:19",
+      "arrival": "11:18"
+    },
+    {
+      "thread": {
+        "number": "6822",
+        "title": "Мельничный Ручей — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Мельн. Ручей — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6822_1_9603449_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "кроме сб с 20 апреля",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "11:19",
+      "arrival": "11:18"
+    },
+    {
+      "thread": {
+        "number": "6822",
+        "title": "Ладожское Озеро — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Ладож. Озеро — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6822_0_9603678_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "сб с 19 апреля",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "11:19",
+      "arrival": "11:18"
+    },
+    {
+      "thread": {
+        "number": "6830",
+        "title": "Ладожское Озеро — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Ладож. Озеро — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6830_1_9603678_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "только 11 марта",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "11:36",
+      "arrival": "11:35"
+    },
+    {
+      "thread": {
+        "number": "6918",
+        "title": "Невская Дубровка — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Нев. Дубровка — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6918_0_9603881_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "11:52",
+      "arrival": "11:51"
+    },
+    {
+      "thread": {
+        "number": "6819",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Ладожское Озеро",
+        "short_title": "СПб-Фин. — Ладож. Озеро",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6819_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "сб с 19 апреля",
+      "except_days": null,
+      "stops": "кроме: Болотистое (44 км)",
+      "departure": "12:05",
+      "arrival": "12:04"
+    },
+    {
+      "thread": {
+        "number": "6826",
+        "title": "Ладожское Озеро — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Ладож. Озеро — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6826_0_9603678_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "сб с 19 апреля",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "12:29",
+      "arrival": "12:28"
+    },
+    {
+      "thread": {
+        "number": "6917",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Петрокрепость",
+        "short_title": "СПб-Фин. — Петрокрепость",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6917_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по выходным",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "12:42",
+      "arrival": "12:41"
+    },
+    {
+      "thread": {
+        "number": "6913",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Невская Дубровка",
+        "short_title": "СПб-Фин. — Нев. Дубровка",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6913_2_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "только 26 марта",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "13:37",
+      "arrival": "13:36"
+    },
+    {
+      "thread": {
+        "number": "6823",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Ладожское Озеро",
+        "short_title": "СПб-Фин. — Ладож. Озеро",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6823_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": "13, 17, 18, 21 марта, 4 апреля",
+      "stops": "везде",
+      "departure": "13:45",
+      "arrival": "13:44"
+    },
+    {
+      "thread": {
+        "number": "6823",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Ладожское Озеро",
+        "short_title": "СПб-Фин. — Ладож. Озеро",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6823_3_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "только 21 марта",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "13:53",
+      "arrival": "13:52"
+    },
+    {
+      "thread": {
+        "number": "6830",
+        "title": "Ладожское Озеро — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Ладож. Озеро — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6830_0_9603678_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": "11, 13 марта",
+      "stops": "везде",
+      "departure": "14:18",
+      "arrival": "14:17"
+    },
+    {
+      "thread": {
+        "number": "6823",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Ладожское Озеро",
+        "short_title": "СПб-Фин. — Ладож. Озеро",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6823_1_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "только 13 марта",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "14:31",
+      "arrival": "14:30"
+    },
+    {
+      "thread": {
+        "number": "6823",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Ладожское Озеро",
+        "short_title": "СПб-Фин. — Ладож. Озеро",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6823_4_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "только 4 апреля",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "14:31",
+      "arrival": "14:30"
+    },
+    {
+      "thread": {
+        "number": "6922",
+        "title": "Невская Дубровка — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Нев. Дубровка — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6922_0_9603881_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по выходным",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "14:32",
+      "arrival": "14:31"
+    },
+    {
+      "thread": {
+        "number": "6823",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Ладожское Озеро",
+        "short_title": "СПб-Фин. — Ладож. Озеро",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6823_2_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "только 17, 18 марта",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "14:34",
+      "arrival": "14:33"
+    },
+    {
+      "thread": {
+        "number": "6921",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Невская Дубровка",
+        "short_title": "СПб-Фин. — Нев. Дубровка",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6921_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "14:45",
+      "arrival": "14:44"
+    },
+    {
+      "thread": {
+        "number": "6830",
+        "title": "Ладожское Озеро — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Ладож. Озеро — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6830_2_9603678_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "только 13 марта",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "15:06",
+      "arrival": "15:05"
+    },
+    {
+      "thread": {
+        "number": "6924",
+        "title": "Невская Дубровка — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Нев. Дубровка — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6924_0_9603881_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": "20 марта",
+      "stops": "везде",
+      "departure": "15:15",
+      "arrival": "15:14"
+    },
+    {
+      "thread": {
+        "number": "6924",
+        "title": "Петрокрепость — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Петрокрепость — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6924_0_9603409_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по выходным",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "15:15",
+      "arrival": "15:14"
+    },
+    {
+      "thread": {
+        "number": "6924",
+        "title": "Петрокрепость — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Петрокрепость — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6924_2_9603881_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "только 20 марта",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "15:15",
+      "arrival": "15:14"
+    },
+    {
+      "thread": {
+        "number": "6827",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Ладожское Озеро",
+        "short_title": "СПб-Фин. — Ладож. Озеро",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6827_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "15:32",
+      "arrival": "15:31"
+    },
+    {
+      "thread": {
+        "number": "6832",
+        "title": "Ладожское Озеро — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Ладож. Озеро — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6832_0_9603678_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": "13, 17, 18 марта, 4 апреля",
+      "stops": "везде",
+      "departure": "15:55",
+      "arrival": "15:54"
+    },
+    {
+      "thread": {
+        "number": "6832",
+        "title": "Ладожское Озеро — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Ладож. Озеро — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6832_3_9603678_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "только 4 апреля",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "16:04",
+      "arrival": "16:03"
+    },
+    {
+      "thread": {
+        "number": "6832",
+        "title": "Ладожское Озеро — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Ладож. Озеро — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6832_2_9603678_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "только 13 марта",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "16:06",
+      "arrival": "16:05"
+    },
+    {
+      "thread": {
+        "number": "6832",
+        "title": "Ладожское Озеро — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Ладож. Озеро — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6832_1_9603678_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "только 17, 18 марта",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "16:06",
+      "arrival": "16:05"
+    },
+    {
+      "thread": {
+        "number": "6923",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Петрокрепость",
+        "short_title": "СПб-Фин. — Петрокрепость",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6923_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням по 18 апреля",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "16:12",
+      "arrival": "16:11"
+    },
+    {
+      "thread": {
+        "number": "6923",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Мельничный Ручей",
+        "short_title": "СПб-Фин. — Мельн. Ручей",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6923_1_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по выходным по 13 апреля",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "16:12",
+      "arrival": "16:11"
+    },
+    {
+      "thread": {
+        "number": "6923",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Петрокрепость",
+        "short_title": "СПб-Фин. — Петрокрепость",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6923_2_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно с 19 апреля",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "16:12",
+      "arrival": "16:11"
+    },
+    {
+      "thread": {
+        "number": "6928",
+        "title": "Невская Дубровка — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Нев. Дубровка — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6928_0_9603881_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "16:24",
+      "arrival": "16:23"
+    },
+    {
+      "thread": {
+        "number": "6831",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Мельничный Ручей",
+        "short_title": "СПб-Фин. — Мельн. Ручей",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6831_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "16:44",
+      "arrival": "16:43"
+    },
+    {
+      "thread": {
+        "number": "6925",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Невская Дубровка",
+        "short_title": "СПб-Фин. — Нев. Дубровка",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6925_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Теплобетонная",
+      "departure": "17:00",
+      "arrival": "16:59"
+    },
+    {
+      "thread": {
+        "number": "6834",
+        "title": "Ладожское Озеро — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Ладож. Озеро — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6834_0_9603678_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "17:04",
+      "arrival": "17:03"
+    },
+    {
+      "thread": {
+        "number": "6633",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Мельничный Ручей",
+        "short_title": "СПб-Фин. — Мельн. Ручей",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6633_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "17:14",
+      "arrival": "17:13"
+    },
+    {
+      "thread": {
+        "number": "6835",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Ладожское Озеро",
+        "short_title": "СПб-Фин. — Ладож. Озеро",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6835_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "17:30",
+      "arrival": "17:29"
+    },
+    {
+      "thread": {
+        "number": "6836",
+        "title": "Мельничный Ручей — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Мельн. Ручей — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6836_0_9603449_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "17:38",
+      "arrival": "17:37"
+    },
+    {
+      "thread": {
+        "number": "6635",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Мельничный Ручей",
+        "short_title": "СПб-Фин. — Мельн. Ручей",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6635_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "17:44",
+      "arrival": "17:43"
+    },
+    {
+      "thread": {
+        "number": "6930",
+        "title": "Петрокрепость — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Петрокрепость — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6930_0_9603409_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням по 18 апреля",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "17:58",
+      "arrival": "17:57"
+    },
+    {
+      "thread": {
+        "number": "6930",
+        "title": "Мельничный Ручей — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Мельн. Ручей — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6930_0_9603449_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по выходным по 13 апреля",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "17:58",
+      "arrival": "17:57"
+    },
+    {
+      "thread": {
+        "number": "6930",
+        "title": "Петрокрепость — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Петрокрепость — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6930_1_9603409_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно с 19 апреля",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "17:58",
+      "arrival": "17:57"
+    },
+    {
+      "thread": {
+        "number": "6927",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Петрокрепость",
+        "short_title": "СПб-Фин. — Петрокрепость",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6927_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням по 18 апреля",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "18:00",
+      "arrival": "17:59"
+    },
+    {
+      "thread": {
+        "number": "6927",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Петрокрепость",
+        "short_title": "СПб-Фин. — Петрокрепость",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6927_1_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "кроме сб с 20 апреля",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "18:00",
+      "arrival": "17:59"
+    },
+    {
+      "thread": {
+        "number": "7223",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Мельничный Ручей",
+        "short_title": "СПб-Фин. — Мельн. Ручей",
+        "express_type": "express",
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "7223_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "«Ласточка»",
+          "code": "last",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "Бернгардовка, Всеволожская, Мельничный Ручей",
+      "departure": "18:11",
+      "arrival": "18:10"
+    },
+    {
+      "thread": {
+        "number": "6640",
+        "title": "Мельничный Ручей — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Мельн. Ручей — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6640_0_9603449_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "18:15",
+      "arrival": "18:14"
+    },
+    {
+      "thread": {
+        "number": "6929",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Невская Дубровка",
+        "short_title": "СПб-Фин. — Нев. Дубровка",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6929_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "18:30",
+      "arrival": "18:29"
+    },
+    {
+      "thread": {
+        "number": "6646",
+        "title": "Мельничный Ручей — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Мельн. Ручей — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6646_0_9603449_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "18:31",
+      "arrival": "18:30"
+    },
+    {
+      "thread": {
+        "number": "6932",
+        "title": "Невская Дубровка — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Нев. Дубровка — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6932_0_9603881_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "18:38",
+      "arrival": "18:37"
+    },
+    {
+      "thread": {
+        "number": "6931",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Мельничный Ручей",
+        "short_title": "СПб-Фин. — Мельн. Ручей",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6931_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "18:45",
+      "arrival": "18:44"
+    },
+    {
+      "thread": {
+        "number": "7224",
+        "title": "Мельничный Ручей — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Мельн. Ручей — СПб-Фин.",
+        "express_type": "express",
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "7224_0_9603449_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "«Ласточка»",
+          "code": "last",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "без остановок",
+      "departure": "18:58",
+      "arrival": "18:57"
+    },
+    {
+      "thread": {
+        "number": "6837",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Ладожское Озеро",
+        "short_title": "СПб-Фин. — Ладож. Озеро",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6837_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: 44 км",
+      "departure": "19:00",
+      "arrival": "18:59"
+    },
+    {
+      "thread": {
+        "number": "6844",
+        "title": "Ладожское Озеро — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Ладож. Озеро — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6844_0_9603678_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "19:09",
+      "arrival": "19:08"
+    },
+    {
+      "thread": {
+        "number": "6637",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Мельничный Ручей",
+        "short_title": "СПб-Фин. — Мельн. Ручей",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6637_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "19:15",
+      "arrival": "19:14"
+    },
+    {
+      "thread": {
+        "number": "6933",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Невская Дубровка",
+        "short_title": "СПб-Фин. — Нев. Дубровка",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6933_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Теплобетонная",
+      "departure": "19:29",
+      "arrival": "19:28"
+    },
+    {
+      "thread": {
+        "number": "7225",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Мельничный Ручей",
+        "short_title": "СПб-Фин. — Мельн. Ручей",
+        "express_type": "express",
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "7225_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "«Ласточка»",
+          "code": "last",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "Бернгардовка, Всеволожская, Мельничный Ручей",
+      "departure": "19:42",
+      "arrival": "19:41"
+    },
+    {
+      "thread": {
+        "number": "6648",
+        "title": "Мельничный Ручей — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Мельн. Ручей — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6648_0_9603449_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "19:47",
+      "arrival": "19:46"
+    },
+    {
+      "thread": {
+        "number": "6841",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Ладожское Озеро",
+        "short_title": "СПб-Фин. — Ладож. Озеро",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6841_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "20:00",
+      "arrival": "19:59"
+    },
+    {
+      "thread": {
+        "number": "6936",
+        "title": "Невская Дубровка — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Нев. Дубровка — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6936_0_9603881_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "20:09",
+      "arrival": "20:08"
+    },
+    {
+      "thread": {
+        "number": "6641",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Мельничный Ручей",
+        "short_title": "СПб-Фин. — Мельн. Ручей",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6641_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "20:15",
+      "arrival": "20:14"
+    },
+    {
+      "thread": {
+        "number": "6650",
+        "title": "Мельничный Ручей — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Мельн. Ручей — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6650_0_9603449_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "20:30",
+      "arrival": "20:27"
+    },
+    {
+      "thread": {
+        "number": "6846",
+        "title": "Ладожское Озеро — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Ладож. Озеро — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6846_0_9603678_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "20:35",
+      "arrival": "20:34"
+    },
+    {
+      "thread": {
+        "number": "6935",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Невская Дубровка",
+        "short_title": "СПб-Фин. — Нев. Дубровка",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6935_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "20:35",
+      "arrival": "20:34"
+    },
+    {
+      "thread": {
+        "number": "7226",
+        "title": "Мельничный Ручей — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Мельн. Ручей — СПб-Фин.",
+        "express_type": "express",
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "7226_0_9603449_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "«Ласточка»",
+          "code": "last",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "без остановок",
+      "departure": "20:42",
+      "arrival": "20:41"
+    },
+    {
+      "thread": {
+        "number": "6843",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Ладожское Озеро",
+        "short_title": "СПб-Фин. — Ладож. Озеро",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6843_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: 44 км",
+      "departure": "21:00",
+      "arrival": "20:59"
+    },
+    {
+      "thread": {
+        "number": "6938",
+        "title": "Петрокрепость — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Петрокрепость — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6938_0_9603409_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням по 18 апреля",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "21:11",
+      "arrival": "21:10"
+    },
+    {
+      "thread": {
+        "number": "6938",
+        "title": "Петрокрепость — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Петрокрепость — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6938_1_9603409_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "кроме сб с 20 апреля",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "21:11",
+      "arrival": "21:10"
+    },
+    {
+      "thread": {
+        "number": "6654",
+        "title": "Мельничный Ручей — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Мельн. Ручей — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6654_0_9603449_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "21:22",
+      "arrival": "21:21"
+    },
+    {
+      "thread": {
+        "number": "6937",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Невская Дубровка",
+        "short_title": "СПб-Фин. — Нев. Дубровка",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6937_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Теплобетонная",
+      "departure": "21:31",
+      "arrival": "21:30"
+    },
+    {
+      "thread": {
+        "number": "6850",
+        "title": "Ладожское Озеро — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Ладож. Озеро — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6850_0_9603678_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "21:34",
+      "arrival": "21:33"
+    },
+    {
+      "thread": {
+        "number": "6940",
+        "title": "Невская Дубровка — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Нев. Дубровка — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6940_0_9603881_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "22:10",
+      "arrival": "22:09"
+    },
+    {
+      "thread": {
+        "number": "6939",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Петрокрепость",
+        "short_title": "СПб-Фин. — Петрокрепость",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6939_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "22:32",
+      "arrival": "22:31"
+    },
+    {
+      "thread": {
+        "number": "6847",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Ладожское Озеро",
+        "short_title": "СПб-Фин. — Ладож. Озеро",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6847_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: 44 км",
+      "departure": "23:04",
+      "arrival": "23:03"
+    },
+    {
+      "thread": {
+        "number": "6942",
+        "title": "Невская Дубровка — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Нев. Дубровка — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6942_0_9603881_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "23:09",
+      "arrival": "23:08"
+    }
+  ],
+  "interval_schedule": []
+}

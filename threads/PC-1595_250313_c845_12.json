@@ -1,0 +1,79 @@
+{
+  "uid": "PC-1595_250313_c845_12",
+  "number": "PC 1595",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "02:55",
+  "start_date": "2025-03-13",
+  "days": "пн, вт, чт, сб по 29.03",
+  "except_days": "",
+  "title": "Санкт-Петербург — Анталья",
+  "short_title": "Санкт-Петербург — Анталья",
+  "carrier": {
+    "code": 845,
+    "title": "Pegasus",
+    "codes": {
+      "sirena": null,
+      "iata": "PC",
+      "icao": null
+    }
+  },
+  "vehicle": "Airbus А320",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Пулково",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600366",
+        "codes": {
+          "yandex": "s9600366",
+          "iata": "LED",
+          "sirena": "ПЛК"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-13 02:55:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "1"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Анталья",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623581",
+        "codes": {
+          "yandex": "s9623581",
+          "iata": "AYT",
+          "sirena": "АЯТ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-13 07:05:00",
+      "stop_time": null,
+      "duration": 15000,
+      "terminal": "2"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

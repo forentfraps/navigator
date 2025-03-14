@@ -1,0 +1,104 @@
+{
+  "number": "057А",
+  "title": "Санкт-Петербург — Москва",
+  "short_title": "Санкт-Петербург — Москва",
+  "express_type": null,
+  "transport_type": "train",
+  "carrier": {
+    "code": 112,
+    "title": "РЖД/ФПК",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "057A_8_2",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "ежедневно с 15.04, кроме 16.04, 18.04",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Санкт-Петербург (Московский вокзал)",
+        "short_title": "СПб-Моск.",
+        "popular_title": "Московский вокзал",
+        "code": "s9602494",
+        "codes": {
+          "yandex": "s9602494",
+          "esr": "031812",
+          "express": "2004001"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-15 21:10:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Тверь",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9603093",
+        "codes": {
+          "yandex": "s9603093",
+          "esr": "061502",
+          "sirena": "ТРЖ",
+          "express": "2004600"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-16 02:39:00",
+      "arrival": "2025-04-16 02:37:00",
+      "duration": 19740.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Москва (Киевский вокзал)",
+        "short_title": "М-Киевская",
+        "popular_title": "Киевский вокзал",
+        "code": "s2000007",
+        "codes": {
+          "yandex": "s2000007",
+          "esr": "198103",
+          "express": "2000007"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": null,
+      "arrival": "2025-04-16 05:50:00",
+      "duration": 31200.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-04-15",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "21:10"
+}

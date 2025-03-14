@@ -1,0 +1,78 @@
+{
+  "date": null,
+  "station": {
+    "type": "station",
+    "title": "Ул. Шувалова, 27",
+    "short_title": null,
+    "popular_title": null,
+    "code": "s9876593",
+    "station_type": "bus_stop",
+    "station_type_name": "автобусная остановка",
+    "transport_type": "bus"
+  },
+  "event": "departure",
+  "pagination": {
+    "total": 2,
+    "limit": 100,
+    "offset": 0
+  },
+  "schedule": [],
+  "interval_schedule": [
+    {
+      "thread": {
+        "number": "205А",
+        "title": "Мурино — Санкт-Петербург",
+        "short_title": "Мурино — Санкт-Петербург",
+        "express_type": null,
+        "transport_type": "bus",
+        "carrier": null,
+        "uid": "empty_1_f9878641t9838192_175",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "interval": {
+          "density": "интервал 10 мин.",
+          "begin_time": "05:20",
+          "end_time": "00:00"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": ""
+    },
+    {
+      "thread": {
+        "number": "668",
+        "title": "Ул. Шувалова, 27 — Санкт-Петербург, метро «Девяткино» (зап.)",
+        "short_title": "Ул. Шувалова, 27 — Санкт-Петербург, метро «Девяткино» (зап.)",
+        "express_type": null,
+        "transport_type": "bus",
+        "carrier": null,
+        "uid": "empty_1_f9876593t9837872_175",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "interval": {
+          "density": "интервал 10 мин.",
+          "begin_time": "06:00",
+          "end_time": "00:00"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": ""
+    }
+  ]
+}

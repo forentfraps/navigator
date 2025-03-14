@@ -1,0 +1,3718 @@
+{
+  "date": null,
+  "station": {
+    "type": "station",
+    "title": "Санкт-Петербург (Балтийский вокзал)",
+    "short_title": "СПб-Балт.",
+    "popular_title": "Балтийский вокзал",
+    "code": "s9602498",
+    "station_type": "train_station",
+    "station_type_name": "вокзал",
+    "transport_type": "train"
+  },
+  "event": "departure",
+  "pagination": {
+    "total": 112,
+    "limit": 112,
+    "offset": 0
+  },
+  "schedule": [
+    {
+      "thread": {
+        "number": "6511",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Ораниенбаум-1",
+        "short_title": "СПб-Балт. — Ораниенбаум-1",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6511_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "кроме: Электродепо",
+      "departure": "05:40",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6401",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Сиверская",
+        "short_title": "СПб-Балт. — Сиверская",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6401_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "кроме вс",
+      "except_days": null,
+      "stops": "кроме: Электродепо, Шоссейная",
+      "departure": "06:05",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "7203",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Калище",
+        "short_title": "СПб-Балт. — Калище",
+        "express_type": "express",
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "7203_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "«Ласточка»",
+          "code": "last",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Электродепо, Михайловская Дача (Красные Зори)",
+      "departure": "06:10",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "7113",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Ораниенбаум-1",
+        "short_title": "СПб-Балт. — Ораниенбаум-1",
+        "express_type": "express",
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "7113_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "«Ласточка»",
+          "code": "last",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "кроме: Электродепо",
+      "departure": "06:20",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6303/6304",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Гатчина-Варшавская",
+        "short_title": "СПб-Балт. — Гатчина-Варш",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6303x6304_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Электродепо",
+      "departure": "06:25",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6515",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Ораниенбаум-1",
+        "short_title": "СПб-Балт. — Ораниенбаум-1",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6515_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Электродепо",
+      "departure": "06:40",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6309",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Красное Село",
+        "short_title": "СПб-Балт. — Крас. Село",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6309_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "кроме: Электродепо, Скачки",
+      "departure": "06:45",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "809В",
+        "title": "Санкт-Петербург — Псков",
+        "short_title": "Санкт-Петербург — Псков",
+        "express_type": null,
+        "transport_type": "train",
+        "carrier": {
+          "code": 4240,
+          "title": "РЖД/ДОСС",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "809V_4_2",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "«Ласточка»",
+          "code": "lastdal",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "13, 14, 17, 18, 19, 20, 21, 24, 25, 26, 27, 28, 31 марта, 1, 2, 3, 4, 7, 8, 9 апреля, …",
+      "except_days": null,
+      "stops": "",
+      "departure": "06:55",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "839В",
+        "title": "Санкт-Петербург — Печоры-Псковские",
+        "short_title": "Санкт-Петербург — Печоры-Псковские",
+        "express_type": null,
+        "transport_type": "train",
+        "carrier": {
+          "code": 4240,
+          "title": "РЖД/ДОСС",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "839V_0_2",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "15, 16, 22, 23, 29, 30 марта, 5, 6, 12, 13, 19, 20, 26, 27 апреля, 1, 2, 3, 4, 8, 9 мая, …",
+      "except_days": null,
+      "stops": "",
+      "departure": "06:55",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6517",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Ораниенбаум-1",
+        "short_title": "СПб-Балт. — Ораниенбаум-1",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6517_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "кроме: Электродепо",
+      "departure": "07:00",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6673",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Сланцы",
+        "short_title": "СПб-Балт. — Сланцы",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6673_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "состав 2-3 вагона",
+          "code": "vag3",
+          "color": "#ff00ff"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "пн, пт, сб, вс",
+      "except_days": null,
+      "stops": "Ленинский Проспект, Аэропорт, Александровская, Татьянино, далее везде",
+      "departure": "07:05",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6311",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Красное Село",
+        "short_title": "СПб-Балт. — Крас. Село",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6311_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "кроме: Электродепо",
+      "departure": "07:10",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6105",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Луга-1",
+        "short_title": "СПб-Балт. — Луга-1",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6105_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Электродепо, Шоссейная, Кондакопшино, Лесное (29 км), Новое Мозино",
+      "departure": "07:15",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6313",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Гатчина-Балтийская",
+        "short_title": "СПб-Балт. — Гатчина-Балт",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6313_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "кроме: Электродепо",
+      "departure": "07:24",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "7207",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Калище",
+        "short_title": "СПб-Балт. — Калище",
+        "express_type": "express",
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "7207_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "«Ласточка»",
+          "code": "last",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Электродепо",
+      "departure": "07:30",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6415",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Сиверская",
+        "short_title": "СПб-Балт. — Сиверская",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6415_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Электродепо, Шоссейная",
+      "departure": "07:35",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6519",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Ораниенбаум-1",
+        "short_title": "СПб-Балт. — Ораниенбаум-1",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6519_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "кроме: Электродепо",
+      "departure": "07:40",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6317",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Гатчина-Балтийская",
+        "short_title": "СПб-Балт. — Гатчина-Балт",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6317_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Электродепо",
+      "departure": "07:51",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6521",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Ораниенбаум-1",
+        "short_title": "СПб-Балт. — Ораниенбаум-1",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6521_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Электродепо",
+      "departure": "08:00",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6321",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Красное Село",
+        "short_title": "СПб-Балт. — Крас. Село",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6321_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "кроме: Электродепо",
+      "departure": "08:12",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "7123",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Ораниенбаум-1",
+        "short_title": "СПб-Балт. — Ораниенбаум-1",
+        "express_type": "express",
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "7123_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "«Ласточка»",
+          "code": "last",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Электродепо, Михайловская Дача (Красные Зори), Мартышкино",
+      "departure": "08:25",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "7451",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Луга-1",
+        "short_title": "СПб-Балт. — Луга-1",
+        "express_type": "express",
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "7451_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "«Ласточка»",
+          "code": "last",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "Ленинский Проспект, Татьянино, Гатчина-Варшавская, Сиверская, Мшинская, Толмачёво, Луга-1",
+      "departure": "08:37",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6421",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Сиверская",
+        "short_title": "СПб-Балт. — Сиверская",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6421_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Электродепо, Шоссейная, Кондакопшино, Лесное (29 км), Старое Мозино, Новое Мозино",
+      "departure": "08:42",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6323",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Гатчина-Балтийская",
+        "short_title": "СПб-Балт. — Гатчина-Балт",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6323_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Электродепо",
+      "departure": "08:55",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6525",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Ораниенбаум-1",
+        "short_title": "СПб-Балт. — Ораниенбаум-1",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6525_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по выходным",
+      "except_days": null,
+      "stops": "кроме: Электродепо",
+      "departure": "09:05",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "7127",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Ораниенбаум-1",
+        "short_title": "СПб-Балт. — Ораниенбаум-1",
+        "express_type": "express",
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "7127_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "«Ласточка»",
+          "code": "last",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Электродепо",
+      "departure": "09:13",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "817В",
+        "title": "Санкт-Петербург — Псков",
+        "short_title": "Санкт-Петербург — Псков",
+        "express_type": null,
+        "transport_type": "train",
+        "carrier": {
+          "code": 4240,
+          "title": "РЖД/ДОСС",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "817V_0_2",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "«Ласточка»",
+          "code": "lastdal",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "только 1, 2, 3, 4, 8, 9, 10, 11 мая, 12, 13, 14, 15 июня, 1, 2, 3, 4 ноября",
+      "except_days": null,
+      "stops": "",
+      "departure": "09:30",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6113",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Луга-1",
+        "short_title": "СПб-Балт. — Луга-1",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6113_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Электродепо, Шоссейная, Антонины Петровой",
+      "departure": "09:36",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6611",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Калище",
+        "short_title": "СПб-Балт. — Калище",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6611_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": "11, 12, 13, 14, 17, 18, 19, 20, 21, 24, 25, 26, 27, 28, 31 марта",
+      "stops": "кроме: Электродепо",
+      "departure": "09:50",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6611",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Ораниенбаум-1",
+        "short_title": "СПб-Балт. — Ораниенбаум-1",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6611_1_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "только 11, 12, 13, 14, 17, 18, 19, 20, 21, 24, 25, 26, 27, 28, 31 марта",
+      "except_days": null,
+      "stops": "кроме: Электродепо",
+      "departure": "09:50",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6325",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Красное Село",
+        "short_title": "СПб-Балт. — Крас. Село",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6325_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "кроме: Электродепо",
+      "departure": "09:55",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6529",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Ораниенбаум-1",
+        "short_title": "СПб-Балт. — Ораниенбаум-1",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6529_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по выходным",
+      "except_days": null,
+      "stops": "кроме: Электродепо",
+      "departure": "10:25",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6115",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Луга-1",
+        "short_title": "СПб-Балт. — Луга-1",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6115_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по выходным",
+      "except_days": null,
+      "stops": "кроме: Электродепо, Шоссейная",
+      "departure": "10:30",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6427",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Сиверская",
+        "short_title": "СПб-Балт. — Сиверская",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6427_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "кроме: Электродепо, Шоссейная",
+      "departure": "10:30",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "7131",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Ораниенбаум-1",
+        "short_title": "СПб-Балт. — Ораниенбаум-1",
+        "express_type": "express",
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "7131_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "«Ласточка»",
+          "code": "last",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Электродепо, Михайловская Дача (Красные Зори)",
+      "departure": "10:45",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6329",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Гатчина-Балтийская",
+        "short_title": "СПб-Балт. — Гатчина-Балт",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6329_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Электродепо",
+      "departure": "10:55",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "7133",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Ораниенбаум-1",
+        "short_title": "СПб-Балт. — Ораниенбаум-1",
+        "express_type": "express",
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "7133_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "«Ласточка»",
+          "code": "last",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по выходным",
+      "except_days": null,
+      "stops": "кроме: Электродепо",
+      "departure": "11:15",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6431",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Сиверская",
+        "short_title": "СПб-Балт. — Сиверская",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6431_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по выходным",
+      "except_days": null,
+      "stops": "кроме: Электродепо, Предпортовая, Шоссейная, Кондакопшино, Верево, Старое Мозино, Новое Мозино",
+      "departure": "11:48",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "7137",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Ораниенбаум-1",
+        "short_title": "СПб-Балт. — Ораниенбаум-1",
+        "express_type": "express",
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "7137_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "«Ласточка»",
+          "code": "last",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по выходным",
+      "except_days": null,
+      "stops": "кроме: Электродепо, Михайловская Дача (Красные Зори)",
+      "departure": "12:04",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6333",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Гатчина-Балтийская",
+        "short_title": "СПб-Балт. — Гатчина-Балт",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6333_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по выходным",
+      "except_days": null,
+      "stops": "кроме: Электродепо",
+      "departure": "12:30",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6539",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Ораниенбаум-1",
+        "short_title": "СПб-Балт. — Ораниенбаум-1",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6539_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по выходным",
+      "except_days": null,
+      "stops": "кроме: Электродепо, Михайловская Дача (Красные Зори)",
+      "departure": "12:40",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "7151",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Ораниенбаум-1",
+        "short_title": "СПб-Балт. — Ораниенбаум-1",
+        "express_type": "express",
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "7151_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "«Ласточка»",
+          "code": "last",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Электродепо",
+      "departure": "13:10",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6337",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Красное Село",
+        "short_title": "СПб-Балт. — Крас. Село",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6337_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "кроме: Электродепо",
+      "departure": "13:25",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "7217",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Калище",
+        "short_title": "СПб-Балт. — Калище",
+        "express_type": "express",
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "7217_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "«Ласточка»",
+          "code": "last",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": "11, 12, 13, 14, 17, 18, 19, 20, 21, 24, 25, 26, 27, 28, 31 марта",
+      "stops": "Ленинский Проспект, Дачное, Лигово, Сосновая Поляна, Новый Петергоф, далее везде, кроме: Мартышкино, Карьер 75 км",
+      "departure": "13:30",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "7217",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Калище",
+        "short_title": "СПб-Балт. — Калище",
+        "express_type": "express",
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "7217_4_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "«Ласточка»",
+          "code": "last",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "только 11, 12, 13, 14, 17, 18, 19, 20, 21, 24, 25, 26, 27, 28, 31 марта",
+      "except_days": null,
+      "stops": "Ленинский Проспект, Дачное, Лигово, Сосновая Поляна, Новый Петергоф, далее везде, кроме: Мартышкино, Карьер 75 км",
+      "departure": "13:30",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "811В",
+        "title": "Санкт-Петербург — Псков",
+        "short_title": "Санкт-Петербург — Псков",
+        "express_type": null,
+        "transport_type": "train",
+        "carrier": {
+          "code": 4240,
+          "title": "РЖД/ДОСС",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "811V_2_2",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "«Ласточка»",
+          "code": "lastdal",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "13, 17, 18, 19, 20, 24, 25, 26, 27, 31 марта, 1, 2, 3, 7, 8, 9, 10, 14, 15, 16 апреля, …",
+      "except_days": null,
+      "stops": "",
+      "departure": "13:40",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "831Я",
+        "title": "Санкт-Петербург — Печоры-Псковские",
+        "short_title": "Санкт-Петербург — Печоры-Псковские",
+        "express_type": null,
+        "transport_type": "train",
+        "carrier": {
+          "code": 4240,
+          "title": "РЖД/ДОСС",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "831YA_2_2",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "«Ласточка»",
+          "code": "lastdal",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "14, 15, 16, 21, 22, 23, 28, 29, 30 марта, 4, 5, 6, 11, 12, 13, 18, 19, 20, 25, 26 апреля, …",
+      "except_days": null,
+      "stops": "",
+      "departure": "13:40",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6119",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Луга-1",
+        "short_title": "СПб-Балт. — Луга-1",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6119_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Электродепо, Шоссейная, Антонины Петровой",
+      "departure": "13:50",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6553",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Новый Петергоф",
+        "short_title": "СПб-Балт. — Н. Петергоф",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6553_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "кроме: Электродепо",
+      "departure": "14:05",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6447",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Сиверская",
+        "short_title": "СПб-Балт. — Сиверская",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6447_1_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "только 13, 17, 20, 24, 27, 31 марта",
+      "except_days": null,
+      "stops": "кроме: Электродепо, Шоссейная",
+      "departure": "14:10",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "7339",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Гатчина-Балтийская",
+        "short_title": "СПб-Балт. — Гатчина-Балт",
+        "express_type": "express",
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "7339_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "«Ласточка»",
+          "code": "last",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Электродепо",
+      "departure": "14:15",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6447",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Сиверская",
+        "short_title": "СПб-Балт. — Сиверская",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6447_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": "13, 17, 20, 24, 27, 31 марта",
+      "stops": "кроме: Электродепо, Шоссейная",
+      "departure": "14:20",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6555",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Ораниенбаум-1",
+        "short_title": "СПб-Балт. — Ораниенбаум-1",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6555_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Электродепо, Михайловская Дача (Красные Зори)",
+      "departure": "14:45",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "7453",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Луга-1",
+        "short_title": "СПб-Балт. — Луга-1",
+        "express_type": "express",
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "7453_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "«Ласточка»",
+          "code": "last",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно по 29 марта",
+      "except_days": null,
+      "stops": "Ленинский Проспект, Татьянино, Гатчина-Варшавская, Сиверская, Мшинская, Толмачёво, Луга-1",
+      "departure": "15:00",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "7453",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Луга-1",
+        "short_title": "СПб-Балт. — Луга-1",
+        "express_type": "express",
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "7453_3_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "«Ласточка»",
+          "code": "last",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно с 30 марта",
+      "except_days": null,
+      "stops": "Ленинский Проспект, Татьянино, Гатчина-Варшавская, Сиверская, Дивенская, Мшинская, Толмачёво, Луга-1",
+      "departure": "15:00",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6341",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Красное Село",
+        "short_title": "СПб-Балт. — Крас. Село",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6341_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "кроме: Электродепо",
+      "departure": "15:05",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6451",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Сиверская",
+        "short_title": "СПб-Балт. — Сиверская",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6451_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Электродепо, Шоссейная, Лесное (29 км)",
+      "departure": "15:15",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "7223",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Калище",
+        "short_title": "СПб-Балт. — Калище",
+        "express_type": "express",
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "7223_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "«Ласточка»",
+          "code": "last",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Электродепо, Михайловская Дача (Красные Зори)",
+      "departure": "15:40",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6343",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Гатчина-Балтийская",
+        "short_title": "СПб-Балт. — Гатчина-Балт",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6343_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Электродепо",
+      "departure": "15:55",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6561",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Ораниенбаум-1",
+        "short_title": "СПб-Балт. — Ораниенбаум-1",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6561_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Электродепо",
+      "departure": "16:00",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6125",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Луга-1",
+        "short_title": "СПб-Балт. — Луга-1",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6125_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Электродепо, Шоссейная, Лесное (29 км), Старое Мозино, Новое Мозино, Антонины Петровой",
+      "departure": "16:25",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "7165",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Ораниенбаум-1",
+        "short_title": "СПб-Балт. — Ораниенбаум-1",
+        "express_type": "express",
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "7165_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "«Ласточка»",
+          "code": "last",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Электродепо, Михайловская Дача (Красные Зори)",
+      "departure": "16:30",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6345",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Красное Село",
+        "short_title": "СПб-Балт. — Крас. Село",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6345_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "кроме: Электродепо",
+      "departure": "16:50",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6569",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Ораниенбаум-1",
+        "short_title": "СПб-Балт. — Ораниенбаум-1",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6569_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Электродепо",
+      "departure": "17:00",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6347",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Гатчина-Балтийская",
+        "short_title": "СПб-Балт. — Гатчина-Балт",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6347_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Электродепо",
+      "departure": "17:05",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6459",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Сиверская",
+        "short_title": "СПб-Балт. — Сиверская",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6459_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Электродепо, Шоссейная",
+      "departure": "17:10",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "7171",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Ораниенбаум-1",
+        "short_title": "СПб-Балт. — Ораниенбаум-1",
+        "express_type": "express",
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "7171_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "«Ласточка»",
+          "code": "last",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Электродепо",
+      "departure": "17:15",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6349",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Красное Село",
+        "short_title": "СПб-Балт. — Крас. Село",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6349_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "кроме: Электродепо",
+      "departure": "17:20",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6573",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Ораниенбаум-1",
+        "short_title": "СПб-Балт. — Ораниенбаум-1",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6573_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "кроме: Электродепо",
+      "departure": "17:30",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6351",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Красное Село",
+        "short_title": "СПб-Балт. — Крас. Село",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6351_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "кроме: Электродепо",
+      "departure": "17:35",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "7227",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Калище",
+        "short_title": "СПб-Балт. — Калище",
+        "express_type": "express",
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "7227_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "«Ласточка»",
+          "code": "last",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Электродепо",
+      "departure": "17:45",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6359",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Гатчина-Балтийская",
+        "short_title": "СПб-Балт. — Гатчина-Балт",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6359_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "кроме: Электродепо",
+      "departure": "17:50",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6131",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Луга-1",
+        "short_title": "СПб-Балт. — Луга-1",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6131_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Электродепо, Шоссейная, Кондакопшино, Лесное (29 км), Верево, Старое Мозино, Новое Мозино",
+      "departure": "17:55",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6575",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Ораниенбаум-1",
+        "short_title": "СПб-Балт. — Ораниенбаум-1",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6575_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "кроме: Электродепо, Михайловская Дача (Красные Зори)",
+      "departure": "18:00",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6361",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Красное Село",
+        "short_title": "СПб-Балт. — Крас. Село",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6361_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "кроме: Электродепо",
+      "departure": "18:05",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6629",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Лебяжье",
+        "short_title": "СПб-Балт. — Лебяжье",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6629_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Электродепо, Михайловская Дача (Красные Зори)",
+      "departure": "18:15",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6363",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Гатчина-Балтийская",
+        "short_title": "СПб-Балт. — Гатчина-Балт",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6363_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Электродепо",
+      "departure": "18:20",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6475",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Сиверская",
+        "short_title": "СПб-Балт. — Сиверская",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6475_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Электродепо, Шоссейная",
+      "departure": "18:25",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6579",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Ораниенбаум-1",
+        "short_title": "СПб-Балт. — Ораниенбаум-1",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6579_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "кроме: Электродепо",
+      "departure": "18:30",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6365",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Красное Село",
+        "short_title": "СПб-Балт. — Крас. Село",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6365_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "кроме: Электродепо",
+      "departure": "18:35",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6661",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Ивангород",
+        "short_title": "СПб-Балт. — Ивангород",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6661_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "состав 2-3 вагона",
+          "code": "vag3",
+          "color": "#ff00ff"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "Броневая, Ленинский Проспект, Аэропорт, Александровская, Татьянино, далее везде, кроме: Сала",
+      "departure": "18:40",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6581",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Ораниенбаум-1",
+        "short_title": "СПб-Балт. — Ораниенбаум-1",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6581_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Электродепо",
+      "departure": "18:45",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6367/6368",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Гатчина-Варшавская",
+        "short_title": "СПб-Балт. — Гатчина-Варш",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6367x6368_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Электродепо",
+      "departure": "18:50",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6583",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Ораниенбаум-1",
+        "short_title": "СПб-Балт. — Ораниенбаум-1",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6583_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "кроме: Электродепо, Михайловская Дача (Красные Зори)",
+      "departure": "19:00",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "7231",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Калище",
+        "short_title": "СПб-Балт. — Калище",
+        "express_type": "express",
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "7231_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "«Ласточка»",
+          "code": "last",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Электродепо",
+      "departure": "19:15",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "7455",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Луга-1",
+        "short_title": "СПб-Балт. — Луга-1",
+        "express_type": "express",
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "7455_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "«Ласточка»",
+          "code": "last",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "Ленинский Проспект, Татьянино, Гатчина-Варшавская, Сиверская, Мшинская, Толмачёво, Луга-1",
+      "departure": "19:20",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6371",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Красное Село",
+        "short_title": "СПб-Балт. — Крас. Село",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6371_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "кроме: Электродепо",
+      "departure": "19:25",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6585",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Ораниенбаум-1",
+        "short_title": "СПб-Балт. — Ораниенбаум-1",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6585_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "кроме: Электродепо",
+      "departure": "19:30",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6135",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Луга-1",
+        "short_title": "СПб-Балт. — Луга-1",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6135_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Электродепо, Шоссейная, Антонины Петровой",
+      "departure": "19:38",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6685",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Волосово",
+        "short_title": "СПб-Балт. — Волосово",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6685_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по будням",
+      "except_days": null,
+      "stops": "кроме: Электродепо, Гатчина-Тов.-Балтийская, Гатчина-Варшавская, Роговицы",
+      "departure": "19:55",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6373",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Гатчина-Балтийская",
+        "short_title": "СПб-Балт. — Гатчина-Балт",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6373_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по выходным",
+      "except_days": null,
+      "stops": "кроме: Электродепо",
+      "departure": "19:55",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "7187",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Ораниенбаум-1",
+        "short_title": "СПб-Балт. — Ораниенбаум-1",
+        "express_type": "express",
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "7187_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "«Ласточка»",
+          "code": "last",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "кроме вс",
+      "except_days": null,
+      "stops": "кроме: Электродепо",
+      "departure": "20:10",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6587",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Ораниенбаум-1",
+        "short_title": "СПб-Балт. — Ораниенбаум-1",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6587_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "вс",
+      "except_days": null,
+      "stops": "кроме: Электродепо",
+      "departure": "20:10",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "813В",
+        "title": "Санкт-Петербург — Псков",
+        "short_title": "Санкт-Петербург — Псков",
+        "express_type": null,
+        "transport_type": "train",
+        "carrier": {
+          "code": 4240,
+          "title": "РЖД/ДОСС",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "813V_1_2",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "«Ласточка»",
+          "code": "lastdal",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно, кроме 28.04, 29.04, 30.04",
+      "except_days": null,
+      "stops": "",
+      "departure": "20:20",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "813В",
+        "title": "Санкт-Петербург — Псков",
+        "short_title": "Санкт-Петербург — Псков",
+        "express_type": null,
+        "transport_type": "train",
+        "carrier": {
+          "code": 4240,
+          "title": "РЖД/ДОСС",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "813V_3_2",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "«Ласточка»",
+          "code": "lastdal",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "только 28, 29, 30 апреля",
+      "except_days": null,
+      "stops": "",
+      "departure": "20:20",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6477",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Сиверская",
+        "short_title": "СПб-Балт. — Сиверская",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6477_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Электродепо, Шоссейная",
+      "departure": "20:30",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6375",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Гатчина-Балтийская",
+        "short_title": "СПб-Балт. — Гатчина-Балт",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6375_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "кроме пт, сб",
+      "except_days": null,
+      "stops": "кроме: Электродепо",
+      "departure": "20:35",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "7191",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Ораниенбаум-1",
+        "short_title": "СПб-Балт. — Ораниенбаум-1",
+        "express_type": "express",
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "7191_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "«Ласточка»",
+          "code": "last",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Электродепо",
+      "departure": "20:40",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6139",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Луга-1",
+        "short_title": "СПб-Балт. — Луга-1",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6139_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": "17, 24, 31 марта",
+      "stops": "кроме: Электродепо, Шоссейная, Лесное (29 км), Антонины Петровой",
+      "departure": "21:10",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6139",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Луга-1",
+        "short_title": "СПб-Балт. — Луга-1",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6139_1_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "только 17, 24, 31 марта",
+      "except_days": null,
+      "stops": "кроме: Электродепо, Шоссейная, Лесное (29 км), Антонины Петровой",
+      "departure": "21:10",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6377",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Гатчина-Балтийская",
+        "short_title": "СПб-Балт. — Гатчина-Балт",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6377_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Электродепо",
+      "departure": "21:15",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6635",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Калище",
+        "short_title": "СПб-Балт. — Калище",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6635_2_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Электродепо, Михайловская Дача (Красные Зори), Карьер 75 км",
+      "departure": "21:30",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6637",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Калище",
+        "short_title": "СПб-Балт. — Калище",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6637_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Электродепо, Михайловская Дача (Красные Зори), Карьер 75 км",
+      "departure": "22:00",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6379",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Гатчина-Балтийская",
+        "short_title": "СПб-Балт. — Гатчина-Балт",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6379_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Электродепо",
+      "departure": "22:05",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6485",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Сиверская",
+        "short_title": "СПб-Балт. — Сиверская",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6485_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Электродепо, Шоссейная",
+      "departure": "22:20",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6381",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Красное Село",
+        "short_title": "СПб-Балт. — Крас. Село",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6381_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Электродепо",
+      "departure": "22:45",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "7239",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Калище",
+        "short_title": "СПб-Балт. — Калище",
+        "express_type": "express",
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "7239_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "«Ласточка»",
+          "code": "last",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Электродепо, Михайловская Дача (Красные Зори), Карьер 75 км",
+      "departure": "23:05",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6141",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Луга-1",
+        "short_title": "СПб-Балт. — Луга-1",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6141_1_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "только 17, 24, 31 марта",
+      "except_days": null,
+      "stops": "кроме: Электродепо, Шоссейная, Антонины Петровой",
+      "departure": "23:15",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6383",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Гатчина-Балтийская",
+        "short_title": "СПб-Балт. — Гатчина-Балт",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6383_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Электродепо",
+      "departure": "23:25",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "815Р",
+        "title": "Санкт-Петербург — Псков",
+        "short_title": "Санкт-Петербург — Псков",
+        "express_type": null,
+        "transport_type": "train",
+        "carrier": {
+          "code": 4240,
+          "title": "РЖД/ДОСС",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "815R_2_2",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "«Ласточка»",
+          "code": "lastdal",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "чт, пт, сб",
+      "except_days": null,
+      "stops": "",
+      "departure": "23:40",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6141",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Луга-1",
+        "short_title": "СПб-Балт. — Луга-1",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6141_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": "17, 24, 31 марта",
+      "stops": "кроме: Электродепо, Шоссейная, Антонины Петровой",
+      "departure": "23:45",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "6595",
+        "title": "Санкт-Петербург (Балтийский вокзал) — Ораниенбаум-1",
+        "short_title": "СПб-Балт. — Ораниенбаум-1",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6595_0_9602498_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "кроме: Электродепо, Михайловская Дача (Красные Зори)",
+      "departure": "23:55",
+      "arrival": null
+    }
+  ],
+  "interval_schedule": []
+}

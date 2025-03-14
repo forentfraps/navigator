@@ -1,0 +1,79 @@
+{
+  "uid": "YK-882_250404_c140_12",
+  "number": "YK 882",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "10:40",
+  "start_date": "2025-04-04",
+  "days": "пт с 04.04 по 29.08",
+  "except_days": "",
+  "title": "Санкт-Петербург — Ош",
+  "short_title": "Санкт-Петербург — Ош",
+  "carrier": {
+    "code": 140,
+    "title": "Avia Traffic Company",
+    "codes": {
+      "sirena": "ТФ",
+      "iata": "YK",
+      "icao": "AVJ"
+    }
+  },
+  "vehicle": "Boeing 737-300",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Пулково",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600366",
+        "codes": {
+          "yandex": "s9600366",
+          "iata": "LED",
+          "sirena": "ПЛК"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-04-04 10:40:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "1"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Ош",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623570",
+        "codes": {
+          "yandex": "s9623570",
+          "iata": "OSS",
+          "sirena": "ОШШ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-04-04 19:00:00",
+      "stop_time": null,
+      "duration": 19200,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

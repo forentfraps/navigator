@@ -1,0 +1,81 @@
+{
+  "uid": "FV-6185_250926_c8565_12",
+  "number": "FV 6185",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "21:00",
+  "start_date": "2025-03-30",
+  "days": "ежедневно с 30.03 по 27.08",
+  "except_days": "",
+  "title": "Санкт-Петербург — Москва",
+  "short_title": "Санкт-Петербург — Москва",
+  "carrier": {
+    "code": 8565,
+    "title": "Россия",
+    "codes": {
+      "sirena": "ФВ",
+      "iata": "FV",
+      "icao": null
+    }
+  },
+  "vehicle": "Сухой Суперджет 100",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Пулково",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600366",
+        "codes": {
+          "yandex": "s9600366",
+          "iata": "LED",
+          "sirena": "ПЛК"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-30 21:00:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "1"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Внуково",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600215",
+        "codes": {
+          "yandex": "s9600215",
+          "esr": "180701",
+          "iata": "VKO",
+          "sirena": "ВНК",
+          "express": "2000714"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-30 22:30:00",
+      "stop_time": null,
+      "duration": 5400,
+      "terminal": "A"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

@@ -1,0 +1,162 @@
+{
+  "date": null,
+  "station": {
+    "type": "station",
+    "title": "Проспект Космонавтов / Дунайский проспект",
+    "short_title": null,
+    "popular_title": null,
+    "code": "s9818683",
+    "station_type": "bus_stop",
+    "station_type_name": "автобусная остановка",
+    "transport_type": "bus"
+  },
+  "event": "departure",
+  "pagination": {
+    "total": 5,
+    "limit": 100,
+    "offset": 0
+  },
+  "schedule": [],
+  "interval_schedule": [
+    {
+      "thread": {
+        "number": "388",
+        "title": "Славянка, Ростовская улица, 25 — Санкт-Петербург",
+        "short_title": "Славянка, Ростовская улица, 25 — Санкт-Петербург",
+        "express_type": null,
+        "transport_type": "bus",
+        "carrier": null,
+        "uid": "empty_0_f9838187t9811382_175",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "interval": {
+          "density": "интервал 8-13 мин.",
+          "begin_time": "04:55",
+          "end_time": "00:30"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": ""
+    },
+    {
+      "thread": {
+        "number": "190",
+        "title": "Старорусский проспект / Школьная улица — Санкт-Петербург",
+        "short_title": "Старорусский проспект / Школьная улица — Санкт-Петербург",
+        "express_type": null,
+        "transport_type": "bus",
+        "carrier": null,
+        "uid": "empty_2_f9878648t9811382_175",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "interval": {
+          "density": "интервал 4-15 мин.",
+          "begin_time": "05:00",
+          "end_time": "23:34"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": ""
+    },
+    {
+      "thread": {
+        "number": "196",
+        "title": "Улица Веры Слуцкой / Заводской проспект — Санкт-Петербург",
+        "short_title": "Улица Веры Слуцкой / Заводской проспект — Санкт-Петербург",
+        "express_type": null,
+        "transport_type": "bus",
+        "carrier": null,
+        "uid": "empty_1_f9818505t9811382_175",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "interval": {
+          "density": "интервал 7-12 мин.",
+          "begin_time": "05:16",
+          "end_time": "00:06"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": ""
+    },
+    {
+      "thread": {
+        "number": "186",
+        "title": "Пушкин — Санкт-Петербург",
+        "short_title": "Пушкин — Санкт-Петербург",
+        "express_type": null,
+        "transport_type": "bus",
+        "carrier": null,
+        "uid": "empty_0_f9811963t9811382_175",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "interval": {
+          "density": "интервал 12-21 мин.",
+          "begin_time": "05:32",
+          "end_time": "00:19"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": ""
+    },
+    {
+      "thread": {
+        "number": "186",
+        "title": "Санкт-Петербург — Пушкин",
+        "short_title": "Санкт-Петербург — Пушкин",
+        "express_type": null,
+        "transport_type": "bus",
+        "carrier": null,
+        "uid": "empty_1_f9811382t9811963_175",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "interval": {
+          "density": "интервал 12-21 мин.",
+          "begin_time": "05:51",
+          "end_time": "00:51"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": ""
+    }
+  ]
+}

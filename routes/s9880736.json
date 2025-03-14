@@ -1,0 +1,134 @@
+{
+  "date": null,
+  "station": {
+    "type": "station",
+    "title": "Ручьёвский проспект",
+    "short_title": null,
+    "popular_title": null,
+    "code": "s9880736",
+    "station_type": "bus_stop",
+    "station_type_name": "автобусная остановка",
+    "transport_type": "bus"
+  },
+  "event": "departure",
+  "pagination": {
+    "total": 4,
+    "limit": 100,
+    "offset": 0
+  },
+  "schedule": [],
+  "interval_schedule": [
+    {
+      "thread": {
+        "number": "678",
+        "title": "Мурино — Санкт-Петербург",
+        "short_title": "Мурино — Санкт-Петербург",
+        "express_type": null,
+        "transport_type": "bus",
+        "carrier": null,
+        "uid": "empty_1_f9880734t9853062_175",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "interval": {
+          "density": "интервал 8-20 мин.",
+          "begin_time": "06:00",
+          "end_time": "22:00"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": ""
+    },
+    {
+      "thread": {
+        "number": "668А",
+        "title": "ЖК \"Цвета радуги\" — Санкт-Петербург, метро «Девяткино» (зап.)",
+        "short_title": "ЖК \"Цвета радуги\" — Санкт-Петербург, метро «Девяткино» (зап.)",
+        "express_type": null,
+        "transport_type": "bus",
+        "carrier": null,
+        "uid": "empty_0_f9880734t9837872_175",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "interval": {
+          "density": "интервал 15 мин.",
+          "begin_time": "06:00",
+          "end_time": "23:30"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": ""
+    },
+    {
+      "thread": {
+        "number": "678",
+        "title": "Санкт-Петербург — Мурино",
+        "short_title": "Санкт-Петербург — Мурино",
+        "express_type": null,
+        "transport_type": "bus",
+        "carrier": null,
+        "uid": "empty_1_f9853062t9880734_175",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "interval": {
+          "density": "интервал 8-20 мин.",
+          "begin_time": "06:10",
+          "end_time": "23:00"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": ""
+    },
+    {
+      "thread": {
+        "number": "668А",
+        "title": "Санкт-Петербург, метро «Девяткино» (зап.) — ЖК \"Цвета радуги\"",
+        "short_title": "Санкт-Петербург, метро «Девяткино» (зап.) — ЖК \"Цвета радуги\"",
+        "express_type": null,
+        "transport_type": "bus",
+        "carrier": null,
+        "uid": "empty_0_f9837872t9880734_175",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "interval": {
+          "density": "интервал 15 мин.",
+          "begin_time": "06:10",
+          "end_time": "23:30"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": ""
+    }
+  ]
+}

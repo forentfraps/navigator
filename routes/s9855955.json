@@ -1,0 +1,78 @@
+{
+  "date": null,
+  "station": {
+    "type": "station",
+    "title": "Кудрово, ТК \"Лента\"",
+    "short_title": null,
+    "popular_title": null,
+    "code": "s9855955",
+    "station_type": "bus_stop",
+    "station_type_name": "автобусная остановка",
+    "transport_type": "bus"
+  },
+  "event": "departure",
+  "pagination": {
+    "total": 2,
+    "limit": 100,
+    "offset": 0
+  },
+  "schedule": [],
+  "interval_schedule": [
+    {
+      "thread": {
+        "number": "692",
+        "title": "Кудрово — Санкт-Петербург, метро «Улица Дыбенко»",
+        "short_title": "Кудрово — Санкт-Петербург, метро «Улица Дыбенко»",
+        "express_type": null,
+        "transport_type": "bus",
+        "carrier": null,
+        "uid": "empty_0_f9870802t9838024_175",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "interval": {
+          "density": "интервал 8-11 мин.",
+          "begin_time": "05:45",
+          "end_time": "23:41"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": ""
+    },
+    {
+      "thread": {
+        "number": "492А",
+        "title": "Санкт-Петербург, метро «Улица Дыбенко» — Кудрово",
+        "short_title": "Санкт-Петербург, метро «Улица Дыбенко» — Кудрово",
+        "express_type": null,
+        "transport_type": "bus",
+        "carrier": null,
+        "uid": "empty_1_f9838024t9869995_175",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "interval": {
+          "density": "интервал 30 мин.",
+          "begin_time": "06:30",
+          "end_time": "21:00"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": ""
+    }
+  ]
+}

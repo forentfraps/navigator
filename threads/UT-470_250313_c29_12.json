@@ -1,0 +1,79 @@
+{
+  "uid": "UT-470_250313_c29_12",
+  "number": "UT 470",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "23:20",
+  "start_date": "2025-03-13",
+  "days": "13, 14, 17, 19, 20, 21, 24, 26, 27, 28, 31 марта, 2, 3, 4, 7, 9, 10, 11, 14, 16 апреля, …",
+  "except_days": "",
+  "title": "Санкт-Петербург — Сургут",
+  "short_title": "Санкт-Петербург — Сургут",
+  "carrier": {
+    "code": 29,
+    "title": "ЮТэйр",
+    "codes": {
+      "sirena": "ЮТ",
+      "iata": "UT",
+      "icao": "UTA"
+    }
+  },
+  "vehicle": "Boeing 737-800",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Пулково",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600366",
+        "codes": {
+          "yandex": "s9600366",
+          "iata": "LED",
+          "sirena": "ПЛК"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-13 23:20:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "1"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Сургут",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623563",
+        "codes": {
+          "yandex": "s9623563",
+          "iata": "SGC",
+          "sirena": "СУР"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-14 04:40:00",
+      "stop_time": null,
+      "duration": 12000,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

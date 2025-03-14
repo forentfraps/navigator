@@ -1,0 +1,79 @@
+{
+  "uid": "S7-5002_250612_c23_12",
+  "number": "S7 5002",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "20:50",
+  "start_date": "2025-06-12",
+  "days": "ежедневно с 12.06 по 25.10",
+  "except_days": "",
+  "title": "Санкт-Петербург — Новосибирск",
+  "short_title": "Санкт-Петербург — Новосибирск",
+  "carrier": {
+    "code": 23,
+    "title": "S7 Airlines",
+    "codes": {
+      "sirena": "С7",
+      "iata": "S7",
+      "icao": null
+    }
+  },
+  "vehicle": "Airbus А321",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Пулково",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600366",
+        "codes": {
+          "yandex": "s9600366",
+          "iata": "LED",
+          "sirena": "ПЛК"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-06-12 20:50:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "1"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Толмачёво",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600374",
+        "codes": {
+          "yandex": "s9600374",
+          "iata": "OVB",
+          "sirena": "ТЛЧ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-06-13 05:05:00",
+      "stop_time": null,
+      "duration": 15300,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

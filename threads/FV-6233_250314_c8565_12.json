@@ -1,0 +1,80 @@
+{
+  "uid": "FV-6233_250314_c8565_12",
+  "number": "FV 6233",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "09:55",
+  "start_date": "2025-03-12",
+  "days": "12, 14, 19, 21, 26, 28 марта",
+  "except_days": "",
+  "title": "Санкт-Петербург — Самара",
+  "short_title": "Санкт-Петербург — Самара",
+  "carrier": {
+    "code": 8565,
+    "title": "Россия",
+    "codes": {
+      "sirena": "ФВ",
+      "iata": "FV",
+      "icao": null
+    }
+  },
+  "vehicle": "Airbus A319",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Пулково",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600366",
+        "codes": {
+          "yandex": "s9600366",
+          "iata": "LED",
+          "sirena": "ПЛК"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-12 09:55:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "1"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Курумоч",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600380",
+        "codes": {
+          "yandex": "s9600380",
+          "esr": "453",
+          "iata": "KUF",
+          "sirena": "СКЧ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-12 13:20:00",
+      "stop_time": null,
+      "duration": 8700,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

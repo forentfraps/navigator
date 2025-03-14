@@ -1,0 +1,78 @@
+{
+  "date": null,
+  "station": {
+    "type": "station",
+    "title": "Гражданский проспект, 131 / Гражданский проспект, 124",
+    "short_title": null,
+    "popular_title": null,
+    "code": "s9859387",
+    "station_type": "bus_stop",
+    "station_type_name": "автобусная остановка",
+    "transport_type": "bus"
+  },
+  "event": "departure",
+  "pagination": {
+    "total": 2,
+    "limit": 100,
+    "offset": 0
+  },
+  "schedule": [],
+  "interval_schedule": [
+    {
+      "thread": {
+        "number": "205",
+        "title": "Новое Девяткино — Санкт-Петербург",
+        "short_title": "Новое Девяткино — Санкт-Петербург",
+        "express_type": null,
+        "transport_type": "bus",
+        "carrier": null,
+        "uid": "empty_0_f9813877t9838192_175",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "interval": {
+          "density": "интервал 10-20 мин.",
+          "begin_time": "05:30",
+          "end_time": "23:00"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": ""
+    },
+    {
+      "thread": {
+        "number": "205",
+        "title": "Санкт-Петербург — Новое Девяткино",
+        "short_title": "Санкт-Петербург — Новое Девяткино",
+        "express_type": null,
+        "transport_type": "bus",
+        "carrier": null,
+        "uid": "empty_1_f9838192t9813877_175",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "interval": {
+          "density": "интервал 10-20 мин.",
+          "begin_time": "06:00",
+          "end_time": "23:20"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": ""
+    }
+  ]
+}

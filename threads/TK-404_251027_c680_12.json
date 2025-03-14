@@ -1,0 +1,79 @@
+{
+  "uid": "TK-404_251027_c680_12",
+  "number": "TK 404",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "00:40",
+  "start_date": "2025-10-27",
+  "days": "пн, вт, чт, сб с 27.10",
+  "except_days": "",
+  "title": "Санкт-Петербург — Стамбул",
+  "short_title": "Санкт-Петербург — Стамбул",
+  "carrier": {
+    "code": 680,
+    "title": "Turkish Airlines",
+    "codes": {
+      "sirena": null,
+      "iata": "TK",
+      "icao": "THY"
+    }
+  },
+  "vehicle": "Airbus A321",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Пулково",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600366",
+        "codes": {
+          "yandex": "s9600366",
+          "iata": "LED",
+          "sirena": "ПЛК"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-10-27 00:40:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "1"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Новый аэропорт Стамбул",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600421",
+        "codes": {
+          "yandex": "s9600421",
+          "iata": "IST",
+          "sirena": "ИСТ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-10-27 04:40:00",
+      "stop_time": null,
+      "duration": 14400,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

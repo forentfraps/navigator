@@ -1,0 +1,173 @@
+{
+  "number": "7902",
+  "title": "Выборг — Санкт-Петербург (Финляндский вокзал)",
+  "short_title": "Выборг — СПб-Фин.",
+  "express_type": "express",
+  "transport_type": "suburban",
+  "carrier": {
+    "code": 1332,
+    "title": "Северо-западная пригородная пассажирская компания",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "7902_0_9603175_g25_4",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": "«Ласточка»",
+    "code": "last",
+    "color": "#CC6600"
+  },
+  "days": "ежедневно",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Выборг",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9603175",
+        "codes": {
+          "yandex": "s9603175",
+          "esr": "020004",
+          "express": "2004682"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-14 06:58:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Каннельярви",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9603447",
+        "codes": {
+          "yandex": "s9603447",
+          "esr": "039602",
+          "express": "2005048"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-14 07:24:00",
+      "arrival": "2025-03-14 07:23:00",
+      "duration": 1560.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Рощино",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9603576",
+        "codes": {
+          "yandex": "s9603576",
+          "esr": "039405",
+          "express": "2005185"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-14 07:34:00",
+      "arrival": "2025-03-14 07:33:00",
+      "duration": 2160.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Зеленогорск",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9602725",
+        "codes": {
+          "yandex": "s9602725",
+          "esr": "039301",
+          "express": "2004232"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-14 07:40:00",
+      "arrival": "2025-03-14 07:39:00",
+      "duration": 2520.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Удельная",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9603463",
+        "codes": {
+          "yandex": "s9603463",
+          "esr": "038525",
+          "express": "2005065"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-14 08:01:00",
+      "arrival": "2025-03-14 08:00:00",
+      "duration": 3780.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "СПб-Фин.",
+        "popular_title": "Финляндский вокзал",
+        "code": "s9602497",
+        "codes": {
+          "yandex": "s9602497",
+          "esr": "038205",
+          "sirena": "СФЖ",
+          "express": "2004004"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": null,
+      "arrival": "2025-03-14 08:10:00",
+      "duration": 4320.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-14",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "06:58"
+}

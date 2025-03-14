@@ -1,0 +1,79 @@
+{
+  "uid": "F7-841_250323_c285_12",
+  "number": "F7 841",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "06:05",
+  "start_date": "2025-03-23",
+  "days": "23 марта",
+  "except_days": "",
+  "title": "Санкт-Петербург — Сочи",
+  "short_title": "Санкт-Петербург — Сочи",
+  "carrier": {
+    "code": 285,
+    "title": "I Fly",
+    "codes": {
+      "sirena": "ФЛ",
+      "iata": "F7",
+      "icao": "RSY"
+    }
+  },
+  "vehicle": "Airbus А330-300",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Пулково",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600366",
+        "codes": {
+          "yandex": "s9600366",
+          "iata": "LED",
+          "sirena": "ПЛК"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-23 06:05:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "1"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Сочи",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623547",
+        "codes": {
+          "yandex": "s9623547",
+          "iata": "AER",
+          "sirena": "СОЧ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-23 10:45:00",
+      "stop_time": null,
+      "duration": 16800,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

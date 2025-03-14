@@ -3,74 +3,70 @@
 from yapi import yAPI
 from lazygraph import LazyRouteGraph
 import a_star
+from datetime import datetime
 
-def print_path_with_cumulative(path, graph):
+def print_time_table_path(path, graph):
     """
-    For each edge, show cumulative cost from the start (in distance or time).
+    Pretty-print a path that includes actual departure/arrival times.
     """
     if not path:
         print("No path found.")
         return
 
-    cost_mode = graph.cost_mode  # 'distance' or 'time'
-    cumulative = 0.0
-
-    print("Reconstructed path:")
+    print("Reconstructed path with schedule times:")
     first_src = path[0][0]
-    print(f"Start at {first_src} (cumulative=0)")
+    print(f"Start at station code={first_src} ({graph._stations[first_src]['title']})")
 
-    for (src, dst, mode, route_info, dist_km, travel_time_sec) in path:
-        # The "cost" used in expansions:
-        cost_for_edge = dist_km if (cost_mode == "distance") else travel_time_sec
-        cumulative += cost_for_edge
-
-        if cost_mode == "time":
-            step_str = f"{cost_for_edge/60:.1f} min"
-            cumul_str = f"{cumulative/60:.1f} min total"
-        else:
-            step_str = f"{cost_for_edge:.2f} km"
-            cumul_str = f"{cumulative:.2f} km total"
+    prev_arrival = None
+    for (src, dst, mode, route_info, arrival_dt) in path:
         src_name = graph._stations[src]["title"]
         dst_name = graph._stations[dst]["title"]
 
-        print(f"  {src_name} -> {dst_name} via {mode} | edge cost={step_str}, {cumul_str}, route={route_info.get('title','')}")
+        if mode == "walk":
+            # For walking edges, we didn't store departure_time in route_info.
+            # The arrival_dt is the arrival at `dst`.
+            print(f"  Walk from {src_name} to {dst_name}, arrive at {arrival_dt}")
+        else:
+            # We have route_info with departure_time, arrival_time
+            dep_dt = route_info.get("departure_time", None)
+            arr_dt = route_info.get("arrival_time", None)
+            print(f"  {mode.upper()} {route_info.get('title','')} from {src_name} => {dst_name}")
+            print(f"      Depart: {dep_dt}, Arrive: {arr_dt}, We actually reach at {arrival_dt}")
 
-    if cost_mode == "time":
-        print(f"\nTotal travel time: {cumulative/60:.1f} min.")
-    else:
-        print(f"\nTotal distance: {cumulative:.2f} km.")
+    print("\nFinished at station code={path[-1][1]} arrival={path[-1][4]}")
 
 
 def main():
-    # 1) Create yAPI and graph
     api = yAPI(cache_file="resp.json")
-
-    # cost_mode can be "distance" or "time"
     graph = LazyRouteGraph(
-        api, stations_file="resp.json", 
-        routes_folder="routes", cost_mode="time", debug=False)
-
-    # 2) Suppose we found these settlement codes from search_settlements or known:
-    from_settlement_code = "c37"  # e.g., Rostov
-    to_settlement_code   = "c11435"   # e.g., Saint Petersburg
-
-    # 3) Collect all station codes for these settlements
-    from_stations = api.get_settlement_station_codes(from_settlement_code)
-    to_stations   = api.get_settlement_station_codes(to_settlement_code)
-    print("Len from stations: ", len(from_stations))
-    print("Len to stations: ", len(to_stations))
-
-    # 4) Call multi-settlement A*
-    path = a_star.a_star_search_settlements(
-        graph=graph,
-        start_stations=from_stations,
-        goal_stations=to_stations,
+        api, stations_file="resp.json",
+        routes_folder="routes",
+        cost_mode="time", 
         debug=False
     )
 
-    # 5) Print final results
-    print_path_with_cumulative(path, graph)
+    # Example: define from/to by settlement codes
+    from_settlement_code = "c969"       # Rostov e.g.
+    to_settlement_code   = "c39"    # St Petersburg e.g.
+    
+    from_stations = api.get_settlement_station_codes(from_settlement_code)
+    to_stations   = api.get_settlement_station_codes(to_settlement_code)
+
+    print("Len from_stations:", len(from_stations))
+    print("Len to_stations:", len(to_stations))
+
+    # We'll do earliest arrival search from now
+    departure_time = datetime.now()
+
+    path = a_star.time_table_search_settlements(
+        graph=graph,
+        start_stations=from_stations,
+        goal_stations=to_stations,
+        start_time=departure_time,
+        debug=False
+    )
+
+    print_time_table_path(path, graph)
 
 if __name__ == "__main__":
     main()
-

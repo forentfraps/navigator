@@ -1,0 +1,79 @@
+{
+  "uid": "N4-341_250328_c2543_12",
+  "number": "N4 341",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "01:30",
+  "start_date": "2025-03-14",
+  "days": "14, 28 марта",
+  "except_days": "",
+  "title": "Санкт-Петербург — Магнитогорск",
+  "short_title": "Санкт-Петербург — Магнитогорск",
+  "carrier": {
+    "code": 2543,
+    "title": "Nordwind",
+    "codes": {
+      "sirena": "КЛ",
+      "iata": "N4",
+      "icao": "NWS"
+    }
+  },
+  "vehicle": "Airbus А321",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Пулково",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600366",
+        "codes": {
+          "yandex": "s9600366",
+          "iata": "LED",
+          "sirena": "ПЛК"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-14 01:30:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "1"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Магнитогорск",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623625",
+        "codes": {
+          "yandex": "s9623625",
+          "iata": "MQF",
+          "sirena": "МГС"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-14 06:30:00",
+      "stop_time": null,
+      "duration": 10800,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

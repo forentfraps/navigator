@@ -1,0 +1,220 @@
+{
+  "date": null,
+  "station": {
+    "type": "station",
+    "title": "Ермилово",
+    "short_title": "",
+    "popular_title": "",
+    "code": "s9603685",
+    "station_type": "station",
+    "station_type_name": "станция",
+    "transport_type": "train"
+  },
+  "event": "departure",
+  "pagination": {
+    "total": 6,
+    "limit": 100,
+    "offset": 0
+  },
+  "schedule": [
+    {
+      "thread": {
+        "number": "6780",
+        "title": "Выборг — Зеленогорск",
+        "short_title": "Выборг — Зеленогорск",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6780_0_9603175_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "состав 2-3 вагона",
+          "code": "vag3",
+          "color": "#ff00ff"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "05:58",
+      "arrival": "05:57"
+    },
+    {
+      "thread": {
+        "number": "6785",
+        "title": "Зеленогорск — Выборг",
+        "short_title": "Зеленогорск — Выборг",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6785_0_9602725_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "состав 2-3 вагона",
+          "code": "vag3",
+          "color": "#ff00ff"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "10:10",
+      "arrival": "10:09"
+    },
+    {
+      "thread": {
+        "number": "6787",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Советский",
+        "short_title": "СПб-Фин. — Советский",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6787_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по выходным с 19 апреля",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "12:44",
+      "arrival": "12:43"
+    },
+    {
+      "thread": {
+        "number": "6792",
+        "title": "Советский — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Советский — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6792_0_9603710_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "по выходным с 19 апреля",
+      "except_days": null,
+      "stops": "до Зеленогорск везде, далее Белоостров, Удельная, Санкт-Петербург (Финляндский вокзал)",
+      "departure": "17:29",
+      "arrival": "17:28"
+    },
+    {
+      "thread": {
+        "number": "6786",
+        "title": "Выборг — Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "Выборг — СПб-Фин.",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6786_0_9603175_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "состав 2-3 вагона",
+          "code": "vag3",
+          "color": "#ff00ff"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "до Зеленогорск везде, далее Удельная, Санкт-Петербург (Финляндский вокзал)",
+      "departure": "18:57",
+      "arrival": "18:56"
+    },
+    {
+      "thread": {
+        "number": "6791",
+        "title": "Санкт-Петербург (Финляндский вокзал) — Выборг",
+        "short_title": "СПб-Фин. — Выборг",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 1332,
+          "title": "Северо-западная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          }
+        },
+        "uid": "6791_0_9602497_g25_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "состав 2-3 вагона",
+          "code": "vag3",
+          "color": "#ff00ff"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "везде",
+      "departure": "21:17",
+      "arrival": "21:16"
+    }
+  ],
+  "interval_schedule": []
+}

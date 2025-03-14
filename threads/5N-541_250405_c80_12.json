@@ -1,0 +1,79 @@
+{
+  "uid": "5N-541_250405_c80_12",
+  "number": "5N 541",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "10:20",
+  "start_date": "2025-04-05",
+  "days": "5, 6, 12, 13 апреля",
+  "except_days": "",
+  "title": "Санкт-Петербург — Минеральные Воды",
+  "short_title": "Санкт-Петербург — Минеральные Воды",
+  "carrier": {
+    "code": 80,
+    "title": "Smartavia",
+    "codes": {
+      "sirena": "5Н",
+      "iata": "5N",
+      "icao": "AUL"
+    }
+  },
+  "vehicle": "Boeing 737-800",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Пулково",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600366",
+        "codes": {
+          "yandex": "s9600366",
+          "iata": "LED",
+          "sirena": "ПЛК"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-04-05 10:20:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "1"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Минеральные Воды",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9623558",
+        "codes": {
+          "yandex": "s9623558",
+          "iata": "MRV",
+          "sirena": "МРВ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-04-05 14:15:00",
+      "stop_time": null,
+      "duration": 14100,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

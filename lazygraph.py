@@ -4,7 +4,7 @@ import os
 import math
 import json
 from datetime import datetime
-
+DATETIME_FMT = "%Y-%m-%d %H:%M:%S"
 def haversine_distance(lat1, lon1, lat2, lon2):
     """
     Return great-circle distance in km.
@@ -87,7 +87,14 @@ class LazyRouteGraph:
                         }
                         count_loaded += 1
         self._dprint(f"Loaded {count_loaded} stations from {self.stations_file}.")
-
+    def _parse_datetime(self, dt_str):
+        """Helper to parse 'YYYY-MM-DD HH:MM:SS' or return None."""
+        if not dt_str:
+            return None
+        try:
+            return datetime.strptime(dt_str, DATETIME_FMT)
+        except:
+            return None
     def station_distance(self, code_a, code_b):
         """
         Returns Haversine distance in km or inf if missing coords.
@@ -129,19 +136,20 @@ class LazyRouteGraph:
             thread = item.get("thread", {})
             uid = thread.get("uid")
             transport_type = thread.get("transport_type", "unknown")
-            route_info = {
+            route_info_base = {
                 "title": thread.get("title", ""),
-                "uid": uid,
-                "departure_time": item.get("departure"),
-                "arrival_time": item.get("arrival"),
+                "uid": uid
             }
 
             if not uid:
                 continue
 
+            # Once per thread UID, we load the full stop list
             if uid not in self._thread_used:
                 self._thread_used.add(uid)
                 thread_data = self.api.thread_stops(uid)
+                if (not thread_data):
+                    continue
                 stops = thread_data.get("stops", [])
                 self._dprint(f"Thread {uid} has {len(stops)} stops. Building edges...")
 
@@ -153,15 +161,24 @@ class LazyRouteGraph:
                     if not codeA or not codeB:
                         continue
 
+                    # parse times
+                    dep_str = stops[i].get("departure")
+                    arr_str = stops[i+1].get("arrival")
+                    dep_dt = self._parse_datetime(dep_str)
+                    arr_dt = self._parse_datetime(arr_str)
+
                     dist_km = self.station_distance(codeA, codeB)
                     travel_time_sec = self._compute_travel_time_sec(stops[i], stops[i+1])
+                    cost_value = dist_km if (self.cost_mode == "distance") else travel_time_sec
 
-                    # final "cost" depends on cost_mode
-                    cost_value = dist_km if (self.cost_mode=="distance") else travel_time_sec
+                    # Store a "route_info" that includes full departure/arrival datetimes
+                    route_info = dict(route_info_base)
+                    route_info["departure_time"] = dep_dt
+                    route_info["arrival_time"]   = arr_dt
 
                     edge = (
                         codeB,
-                        cost_value,      # the edge cost (time or dist)
+                        cost_value,          # numeric cost if ignoring schedules
                         transport_type,
                         route_info,
                         dist_km,
@@ -170,8 +187,7 @@ class LazyRouteGraph:
                     self._add_edge_to_adjacency(codeA, edge)
 
         # Return adjacency if it exists
-        return self._adj_cache.get(station_code, [])
-
+        return self._adj_cache.get(station_code, [])    
     def _compute_travel_time_sec(self, stopA, stopB):
         """
         Use departure from A & arrival at B, or durations, to compute travel time in seconds.

@@ -1,0 +1,50 @@
+{
+  "date": null,
+  "station": {
+    "type": "station",
+    "title": "Улица Анисимова, 4",
+    "short_title": null,
+    "popular_title": null,
+    "code": "s9838183",
+    "station_type": "bus_stop",
+    "station_type_name": "автобусная остановка",
+    "transport_type": "bus"
+  },
+  "event": "departure",
+  "pagination": {
+    "total": 1,
+    "limit": 100,
+    "offset": 0
+  },
+  "schedule": [],
+  "interval_schedule": [
+    {
+      "thread": {
+        "number": "328",
+        "title": "Санкт-Петербург, метро «Рыбацкое» / северная сторона — Комбинат строительных материалов",
+        "short_title": "Санкт-Петербург, метро «Рыбацкое» / северная сторона — Комбинат строительных материалов",
+        "express_type": null,
+        "transport_type": "bus",
+        "carrier": null,
+        "uid": "empty_1_f9811883t9819397_175",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "interval": {
+          "density": "интервал 13-23 мин.",
+          "begin_time": "05:31",
+          "end_time": "00:26"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": ""
+    }
+  ]
+}

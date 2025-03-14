@@ -1,0 +1,103 @@
+{
+  "number": "238А",
+  "title": "Выборг — Сортавала",
+  "short_title": "Выборг — Сортавала",
+  "express_type": null,
+  "transport_type": "train",
+  "carrier": {
+    "code": 112,
+    "title": "РЖД/ФПК",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "238A_1_2",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "сб, вс с 26.04, а ещё 01.05, 09.05",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Выборг",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9603175",
+        "codes": {
+          "yandex": "s9603175",
+          "esr": "020004",
+          "express": "2004682"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-26 10:00:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Яккима",
+        "short_title": null,
+        "popular_title": "",
+        "code": "s9602754",
+        "codes": {
+          "yandex": "s9602754",
+          "esr": "023604",
+          "express": "2004261"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-04-26 12:21:00",
+      "arrival": "2025-04-26 12:19:00",
+      "duration": 8460.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Сортавала",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9602759",
+        "codes": {
+          "yandex": "s9602759",
+          "esr": "023708",
+          "express": "2004266"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": null,
+      "arrival": "2025-04-26 12:58:00",
+      "duration": 10680.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-04-26",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "10:00"
+}

@@ -1,0 +1,195 @@
+{
+  "number": "815Р",
+  "title": "Санкт-Петербург — Псков",
+  "short_title": "Санкт-Петербург — Псков",
+  "express_type": null,
+  "transport_type": "train",
+  "carrier": {
+    "code": 4240,
+    "title": "РЖД/ДОСС",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "815R_2_2",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": "«Ласточка»",
+    "code": "lastdal",
+    "color": "#CC6600"
+  },
+  "days": "чт, пт, сб",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Санкт-Петербург (Балтийский вокзал)",
+        "short_title": "СПб-Балт.",
+        "popular_title": "Балтийский вокзал",
+        "code": "s9602498",
+        "codes": {
+          "yandex": "s9602498",
+          "esr": "036002",
+          "express": "2004005"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 23:40:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Аэропорт",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9603494",
+        "codes": {
+          "yandex": "s9603494",
+          "esr": "034825",
+          "express": "2005099"
+        },
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-13 23:53:00",
+      "arrival": "2025-03-13 23:52:00",
+      "duration": 780.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Гатчина-Варшавская",
+        "short_title": "Гатчина-Варш",
+        "popular_title": "",
+        "code": "s9603132",
+        "codes": {
+          "yandex": "s9603132",
+          "esr": "034026",
+          "express": "2004639"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-14 00:15:00",
+      "arrival": "2025-03-14 00:14:00",
+      "duration": 2100.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Луга-1",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9603129",
+        "codes": {
+          "yandex": "s9603129",
+          "esr": "072009",
+          "express": "2004636"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-14 01:29:00",
+      "arrival": "2025-03-14 01:09:00",
+      "duration": 6540.0,
+      "stop_time": 1200,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Плюсса",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9603037",
+        "codes": {
+          "yandex": "s9603037",
+          "esr": "071608",
+          "express": "2004544"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-14 02:04:00",
+      "arrival": "2025-03-14 02:03:00",
+      "duration": 8640.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Струги Красные",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9603036",
+        "codes": {
+          "yandex": "s9603036",
+          "esr": "071504",
+          "express": "2004543"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-14 02:21:00",
+      "arrival": "2025-03-14 02:20:00",
+      "duration": 9660.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Псков-Пасс.",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9602993",
+        "codes": {
+          "yandex": "s9602993",
+          "esr": "070605",
+          "express": "2004500"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": null,
+      "arrival": "2025-03-14 03:06:00",
+      "duration": 12360.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-13",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "23:40"
+}

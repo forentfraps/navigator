@@ -1,0 +1,79 @@
+{
+  "uid": "S7-6410_251026_c23_12",
+  "number": "S7 6410",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "12:25",
+  "start_date": "2025-10-26",
+  "days": "ежедневно с 26.10",
+  "except_days": "",
+  "title": "Санкт-Петербург — Иркутск",
+  "short_title": "Санкт-Петербург — Иркутск",
+  "carrier": {
+    "code": 23,
+    "title": "S7 Airlines",
+    "codes": {
+      "sirena": "С7",
+      "iata": "S7",
+      "icao": null
+    }
+  },
+  "vehicle": "Boeing 737-800",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Пулково",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600366",
+        "codes": {
+          "yandex": "s9600366",
+          "iata": "LED",
+          "sirena": "ПЛК"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-10-26 12:25:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "1"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Иркутск",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600174",
+        "codes": {
+          "yandex": "s9600174",
+          "iata": "IKT",
+          "sirena": "ИКТ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-10-26 23:25:00",
+      "stop_time": null,
+      "duration": 21600,
+      "terminal": "NULL"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

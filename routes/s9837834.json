@@ -1,0 +1,106 @@
+{
+  "date": null,
+  "station": {
+    "type": "station",
+    "title": "Улица Орджоникидзе",
+    "short_title": null,
+    "popular_title": null,
+    "code": "s9837834",
+    "station_type": "bus_stop",
+    "station_type_name": "автобусная остановка",
+    "transport_type": "bus"
+  },
+  "event": "departure",
+  "pagination": {
+    "total": 3,
+    "limit": 100,
+    "offset": 0
+  },
+  "schedule": [],
+  "interval_schedule": [
+    {
+      "thread": {
+        "number": "К18А",
+        "title": "Санкт-Петербург — Гатчина",
+        "short_title": "Санкт-Петербург — Гатчина",
+        "express_type": null,
+        "transport_type": "bus",
+        "carrier": null,
+        "uid": "empty_1_f9813122t9873608_175",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "interval": {
+          "density": "интервал 15 мин.",
+          "begin_time": "06:00",
+          "end_time": "23:00"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": ""
+    },
+    {
+      "thread": {
+        "number": "К18",
+        "title": "Санкт-Петербург — Гатчина",
+        "short_title": "Санкт-Петербург — Гатчина",
+        "express_type": null,
+        "transport_type": "bus",
+        "carrier": null,
+        "uid": "empty_0_f9813122t9872595_175",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "interval": {
+          "density": "интервал 15-40 мин.",
+          "begin_time": "06:30",
+          "end_time": "23:00"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": ""
+    },
+    {
+      "thread": {
+        "number": "К100",
+        "title": "Санкт-Петербург — Гатчина, Варшавский вокзал",
+        "short_title": "Санкт-Петербург — Гатчина, Варшавский вокзал",
+        "express_type": null,
+        "transport_type": "bus",
+        "carrier": null,
+        "uid": "empty_53_f9813122t9813051_175",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "interval": {
+          "density": "интервал 15 мин.",
+          "begin_time": "08:00",
+          "end_time": "23:30"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": ""
+    }
+  ]
+}

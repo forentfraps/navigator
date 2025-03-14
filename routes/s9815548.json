@@ -1,0 +1,97 @@
+{
+  "date": null,
+  "station": {
+    "type": "station",
+    "title": "Яшино",
+    "short_title": null,
+    "popular_title": null,
+    "code": "s9815548",
+    "station_type": "bus_stop",
+    "station_type_name": "автобусная остановка",
+    "transport_type": "bus"
+  },
+  "event": "departure",
+  "pagination": {
+    "total": 3,
+    "limit": 100,
+    "offset": 0
+  },
+  "schedule": [
+    {
+      "thread": {
+        "number": "146",
+        "title": "Яшино — Выборг",
+        "short_title": "Яшино — Выборг",
+        "express_type": null,
+        "transport_type": "bus",
+        "carrier": null,
+        "uid": "empty_1_f9815548t9637863_175",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "",
+      "departure": "08:35",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "146",
+        "title": "Яшино — Выборг",
+        "short_title": "Яшино — Выборг",
+        "express_type": null,
+        "transport_type": "bus",
+        "carrier": null,
+        "uid": "empty_2_f9815548t9637863_175",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "",
+      "departure": "14:50",
+      "arrival": null
+    },
+    {
+      "thread": {
+        "number": "146",
+        "title": "Яшино — Выборг",
+        "short_title": "Яшино — Выборг",
+        "express_type": null,
+        "transport_type": "bus",
+        "carrier": null,
+        "uid": "empty_4_f9815548t9637863_175",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "",
+      "departure": "19:40",
+      "arrival": null
+    }
+  ],
+  "interval_schedule": []
+}

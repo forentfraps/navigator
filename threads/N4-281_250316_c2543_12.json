@@ -1,0 +1,79 @@
+{
+  "uid": "N4-281_250316_c2543_12",
+  "number": "N4 281",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "07:15",
+  "start_date": "2025-03-16",
+  "days": "16, 23 марта",
+  "except_days": "",
+  "title": "Санкт-Петербург — Калининград",
+  "short_title": "Санкт-Петербург — Калининград",
+  "carrier": {
+    "code": 2543,
+    "title": "Nordwind",
+    "codes": {
+      "sirena": "КЛ",
+      "iata": "N4",
+      "icao": "NWS"
+    }
+  },
+  "vehicle": "Boeing 737-800",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Пулково",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600366",
+        "codes": {
+          "yandex": "s9600366",
+          "iata": "LED",
+          "sirena": "ПЛК"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-16 07:15:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "1"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Храброво",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9631119",
+        "codes": {
+          "yandex": "s9631119",
+          "iata": "KGD",
+          "sirena": "КЛД"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-16 08:20:00",
+      "stop_time": null,
+      "duration": 7500,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

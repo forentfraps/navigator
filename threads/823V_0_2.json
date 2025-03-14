@@ -1,0 +1,265 @@
+{
+  "number": "823В",
+  "title": "Санкт-Петербург — Хелюля",
+  "short_title": "Санкт-Петербург — Хелюля",
+  "express_type": null,
+  "transport_type": "train",
+  "carrier": {
+    "code": 4240,
+    "title": "РЖД/ДОСС",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "823V_0_2",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": "«Ласточка»",
+    "code": "lastdal",
+    "color": "#CC6600"
+  },
+  "days": "ежедневно",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Санкт-Петербург (Финляндский вокзал)",
+        "short_title": "СПб-Фин.",
+        "popular_title": "Финляндский вокзал",
+        "code": "s9602497",
+        "codes": {
+          "yandex": "s9602497",
+          "esr": "038205",
+          "sirena": "СФЖ",
+          "express": "2004004"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-14 19:25:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Выборг",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9603175",
+        "codes": {
+          "yandex": "s9603175",
+          "esr": "020004",
+          "express": "2004682"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-14 20:35:00",
+      "arrival": "2025-03-14 20:27:00",
+      "duration": 4200.0,
+      "stop_time": 480,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Каменногорск",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9603736",
+        "codes": {
+          "yandex": "s9603736",
+          "esr": "021702",
+          "express": "2005351"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-14 21:27:00",
+      "arrival": "2025-03-14 21:07:00",
+      "duration": 7320.0,
+      "stop_time": 1200,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Хийтола",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9602749",
+        "codes": {
+          "yandex": "s9602749",
+          "esr": "022404",
+          "express": "2004256"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-14 22:19:00",
+      "arrival": "2025-03-14 22:16:00",
+      "duration": 10440.0,
+      "stop_time": 180,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Элисенваара",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9602751",
+        "codes": {
+          "yandex": "s9602751",
+          "esr": "023202",
+          "express": "2004258"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-14 22:44:00",
+      "arrival": "2025-03-14 22:43:00",
+      "duration": 11940.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Яккима",
+        "short_title": null,
+        "popular_title": "",
+        "code": "s9602754",
+        "codes": {
+          "yandex": "s9602754",
+          "esr": "023604",
+          "express": "2004261"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-14 23:05:00",
+      "arrival": "2025-03-14 23:04:00",
+      "duration": 13200.0,
+      "stop_time": 60,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Сортавала",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9602759",
+        "codes": {
+          "yandex": "s9602759",
+          "esr": "023708",
+          "express": "2004266"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-14 23:40:00",
+      "arrival": "2025-03-14 23:35:00",
+      "duration": 15300.0,
+      "stop_time": 300,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Сортавала Центр",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9879178",
+        "codes": {
+          "yandex": "s9879178",
+          "esr": "001890",
+          "express": "2005563"
+        },
+        "station_type": "stop",
+        "station_type_name": "остановочный пункт",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-14 23:45:00",
+      "arrival": "2025-03-14 23:43:00",
+      "duration": 15600.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Морозная",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9886719",
+        "codes": {
+          "yandex": "s9886719",
+          "esr": "001994",
+          "express": "2006216"
+        },
+        "station_type": "stop",
+        "station_type_name": "остановочный пункт",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-14 23:53:00",
+      "arrival": "2025-03-14 23:51:00",
+      "duration": 16080.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Хелюля",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9602760",
+        "codes": {
+          "yandex": "s9602760",
+          "esr": "023801",
+          "express": "2004267"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": null,
+      "arrival": "2025-03-14 23:59:00",
+      "duration": 16440.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-14",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "19:25"
+}

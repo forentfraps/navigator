@@ -1,0 +1,78 @@
+{
+  "date": null,
+  "station": {
+    "type": "station",
+    "title": "Заводской проспект, 16",
+    "short_title": null,
+    "popular_title": null,
+    "code": "s9818527",
+    "station_type": "bus_stop",
+    "station_type_name": "автобусная остановка",
+    "transport_type": "bus"
+  },
+  "event": "departure",
+  "pagination": {
+    "total": 2,
+    "limit": 100,
+    "offset": 0
+  },
+  "schedule": [],
+  "interval_schedule": [
+    {
+      "thread": {
+        "number": "392",
+        "title": "Красноборская дорога — Улица Веры Слуцкой / Заводской проспект",
+        "short_title": "Красноборская дорога — Улица Веры Слуцкой / Заводской проспект",
+        "express_type": null,
+        "transport_type": "bus",
+        "carrier": null,
+        "uid": "empty_1_f9886734t9818505_175",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "interval": {
+          "density": "интервал 17-26 мин.",
+          "begin_time": "05:21",
+          "end_time": "00:21"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": ""
+    },
+    {
+      "thread": {
+        "number": "392",
+        "title": "Улица Веры Слуцкой / Заводской проспект — Красноборская дорога",
+        "short_title": "Улица Веры Слуцкой / Заводской проспект — Красноборская дорога",
+        "express_type": null,
+        "transport_type": "bus",
+        "carrier": null,
+        "uid": "empty_1_f9818505t9886734_175",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "interval": {
+          "density": "интервал 17-26 мин.",
+          "begin_time": "05:32",
+          "end_time": "00:32"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": ""
+    }
+  ]
+}

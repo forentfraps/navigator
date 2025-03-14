@@ -1,0 +1,380 @@
+{
+  "number": "249Б",
+  "title": "Санкт-Петербург — Минск",
+  "short_title": "Санкт-Петербург — Минск",
+  "express_type": null,
+  "transport_type": "train",
+  "carrier": {
+    "code": 112,
+    "title": "РЖД/ФПК",
+    "codes": {
+      "sirena": null,
+      "iata": null,
+      "icao": null
+    },
+    "offices": []
+  },
+  "uid": "249B_0_2",
+  "vehicle": null,
+  "transport_subtype": {
+    "title": null,
+    "code": null,
+    "color": null
+  },
+  "days": "только 7, 21, 28 марта",
+  "except_days": "",
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Санкт-Петербург (Витебский вокзал)",
+        "short_title": "СПБ-Вит.",
+        "popular_title": "Витебский вокзал",
+        "code": "s9602496",
+        "codes": {
+          "yandex": "s9602496",
+          "esr": "033061",
+          "sirena": "СВЖ",
+          "express": "2004003"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-21 20:45:00",
+      "arrival": null,
+      "duration": 0.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Уторгош",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9603101",
+        "codes": {
+          "yandex": "s9603101",
+          "esr": "058105",
+          "express": "2004608"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-21 23:25:00",
+      "arrival": "2025-03-21 23:22:00",
+      "duration": 9600.0,
+      "stop_time": 180,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Сольцы",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9603099",
+        "codes": {
+          "yandex": "s9603099",
+          "esr": "058001",
+          "express": "2004606"
+        },
+        "station_type": "train_station",
+        "station_type_name": "вокзал",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-21 23:43:00",
+      "arrival": "2025-03-21 23:41:00",
+      "duration": 10680.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Дно",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9603063",
+        "codes": {
+          "yandex": "s9603063",
+          "esr": "056701",
+          "express": "2004570"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-22 00:26:00",
+      "arrival": "2025-03-22 00:19:00",
+      "duration": 13260.0,
+      "stop_time": 420,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Дедовичи",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9603020",
+        "codes": {
+          "yandex": "s9603020",
+          "esr": "057403",
+          "express": "2004527"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-22 00:56:00",
+      "arrival": "2025-03-22 00:54:00",
+      "duration": 15060.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Новосокольники",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9603001",
+        "codes": {
+          "yandex": "s9603001",
+          "esr": "066602",
+          "express": "2004508"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-22 04:03:00",
+      "arrival": "2025-03-22 03:34:00",
+      "duration": 26280.0,
+      "stop_time": 1740,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Невель-2",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9603043",
+        "codes": {
+          "yandex": "s9603043",
+          "esr": "067104",
+          "express": "2004550"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-22 04:52:00",
+      "arrival": "2025-03-22 04:47:00",
+      "duration": 29220.0,
+      "stop_time": 300,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Витебск-Пасс.",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9614038",
+        "codes": {
+          "yandex": "s9614038",
+          "esr": "160002",
+          "express": "2100050"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-22 06:42:00",
+      "arrival": "2025-03-22 06:30:00",
+      "duration": 35820.0,
+      "stop_time": 720,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Орша-Центр.",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9614158",
+        "codes": {
+          "yandex": "s9614158",
+          "esr": "166403",
+          "express": "2100170"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-22 08:32:00",
+      "arrival": "2025-03-22 08:08:00",
+      "duration": 42420.0,
+      "stop_time": 1440,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Толочин",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9614002",
+        "codes": {
+          "yandex": "s9614002",
+          "esr": "142004",
+          "express": "2100014"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-22 09:02:00",
+      "arrival": "2025-03-22 09:00:00",
+      "duration": 44220.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Крупки",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9613999",
+        "codes": {
+          "yandex": "s9613999",
+          "esr": "141707",
+          "express": "2100011"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-22 09:35:00",
+      "arrival": "2025-03-22 09:33:00",
+      "duration": 46200.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Борисов",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9614291",
+        "codes": {
+          "yandex": "s9614291",
+          "esr": "141406",
+          "express": "2100305"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-22 10:03:00",
+      "arrival": "2025-03-22 10:01:00",
+      "duration": 47880.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Жодино",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9614133",
+        "codes": {
+          "yandex": "s9614133",
+          "esr": "141302",
+          "express": "2100145"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-22 10:18:00",
+      "arrival": "2025-03-22 10:16:00",
+      "duration": 48780.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Смолевичи",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9613995",
+        "codes": {
+          "yandex": "s9613995",
+          "esr": "141001",
+          "express": "2100007"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": "2025-03-22 10:36:00",
+      "arrival": "2025-03-22 10:34:00",
+      "duration": 49860.0,
+      "stop_time": 120,
+      "platform": "",
+      "terminal": null
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Минск-Пасс.",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9613989",
+        "codes": {
+          "yandex": "s9613989",
+          "esr": "140210",
+          "express": "2100001"
+        },
+        "station_type": "station",
+        "station_type_name": "станция",
+        "transport_type": "train"
+      },
+      "departure": null,
+      "arrival": "2025-03-22 11:08:00",
+      "duration": 51780.0,
+      "stop_time": null,
+      "platform": "",
+      "terminal": null
+    }
+  ],
+  "from": null,
+  "to": null,
+  "start_date": "2025-03-21",
+  "arrival_date": null,
+  "departure_date": null,
+  "start_time": "20:45"
+}

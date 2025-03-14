@@ -1,0 +1,97 @@
+{
+  "date": null,
+  "station": {
+    "type": "station",
+    "title": "Санкт-Петербург, метро «Бухарестская»",
+    "short_title": "",
+    "popular_title": "Метро «Бухарестская»",
+    "code": "s9811632",
+    "station_type": "bus_stop",
+    "station_type_name": "автобусная остановка",
+    "transport_type": "bus"
+  },
+  "event": "departure",
+  "pagination": {
+    "total": 3,
+    "limit": 100,
+    "offset": 0
+  },
+  "schedule": [
+    {
+      "thread": {
+        "number": "856",
+        "title": "Кириши — Санкт-Петербург, метро «Волковская»",
+        "short_title": "Кириши — Санкт-Петербург, метро «Волковская»",
+        "express_type": null,
+        "transport_type": "bus",
+        "carrier": null,
+        "uid": "empty_0_f9872498t9811631_175",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        }
+      },
+      "is_fuzzy": true,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "",
+      "departure": "10:30",
+      "arrival": "10:29"
+    },
+    {
+      "thread": {
+        "number": "856",
+        "title": "Кириши — Санкт-Петербург, метро «Волковская»",
+        "short_title": "Кириши — Санкт-Петербург, метро «Волковская»",
+        "express_type": null,
+        "transport_type": "bus",
+        "carrier": null,
+        "uid": "empty_5_f9872498t9811631_175",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        }
+      },
+      "is_fuzzy": true,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "",
+      "departure": "13:00",
+      "arrival": "12:59"
+    },
+    {
+      "thread": {
+        "number": "856",
+        "title": "Кириши — Санкт-Петербург, метро «Волковская»",
+        "short_title": "Кириши — Санкт-Петербург, метро «Волковская»",
+        "express_type": null,
+        "transport_type": "bus",
+        "carrier": null,
+        "uid": "empty_6_f9872498t9811631_175",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        }
+      },
+      "is_fuzzy": true,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": "",
+      "departure": "17:00",
+      "arrival": "16:59"
+    }
+  ],
+  "interval_schedule": []
+}

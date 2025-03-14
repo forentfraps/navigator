@@ -1,0 +1,79 @@
+{
+  "uid": "EO-3483_250316_c196_12",
+  "number": "EO 3483",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "19:45",
+  "start_date": "2025-03-16",
+  "days": "16 марта",
+  "except_days": "",
+  "title": "Санкт-Петербург — Пхукет",
+  "short_title": "Санкт-Петербург — Пхукет",
+  "carrier": {
+    "code": 196,
+    "title": "Ikar",
+    "codes": {
+      "sirena": "ЕО",
+      "iata": "EO",
+      "icao": "KAR"
+    }
+  },
+  "vehicle": "Boeing 777-200",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Пулково",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600366",
+        "codes": {
+          "yandex": "s9600366",
+          "iata": "LED",
+          "sirena": "ПЛК"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-16 19:45:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "1"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Пхукет",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9623774",
+        "codes": {
+          "yandex": "s9623774",
+          "iata": "HKT",
+          "sirena": "ХКТ"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-17 09:40:00",
+      "stop_time": null,
+      "duration": 35700,
+      "terminal": "I"
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

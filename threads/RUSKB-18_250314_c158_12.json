@@ -1,0 +1,79 @@
+{
+  "uid": "RUSKB-18_250314_c158_12",
+  "number": "КБ 18",
+  "express_type": null,
+  "transport_type": "plane",
+  "transport_subtype": {
+    "color": null,
+    "code": null,
+    "title": null
+  },
+  "start_time": "15:05",
+  "start_date": "2025-03-14",
+  "days": "пт, вс по 27.04",
+  "except_days": "",
+  "title": "Санкт-Петербург — Кострома",
+  "short_title": "Санкт-Петербург — Кострома",
+  "carrier": {
+    "code": 158,
+    "title": "Костромское авиапредприятие",
+    "codes": {
+      "sirena": "КБ",
+      "iata": null,
+      "icao": "KMW"
+    }
+  },
+  "vehicle": "АН-26",
+  "from": null,
+  "to": null,
+  "stops": [
+    {
+      "station": {
+        "type": "station",
+        "title": "Пулково",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9600366",
+        "codes": {
+          "yandex": "s9600366",
+          "iata": "LED",
+          "sirena": "ПЛК"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": "2025-03-14 15:05:00",
+      "arrival": null,
+      "stop_time": null,
+      "duration": 0,
+      "terminal": "1"
+    },
+    {
+      "station": {
+        "type": "station",
+        "title": "Кострома",
+        "short_title": null,
+        "popular_title": null,
+        "code": "s9600178",
+        "codes": {
+          "yandex": "s9600178",
+          "iata": "KMW",
+          "sirena": "КОР"
+        },
+        "station_type": "airport",
+        "station_type_name": "аэропорт",
+        "transport_type": "plane"
+      },
+      "platform": "",
+      "departure": null,
+      "arrival": "2025-03-14 17:05:00",
+      "stop_time": null,
+      "duration": 7200,
+      "terminal": null
+    }
+  ],
+  "departure_date": null,
+  "arrival_date": null
+}

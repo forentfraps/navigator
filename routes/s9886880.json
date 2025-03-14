@@ -1,0 +1,50 @@
+{
+  "date": null,
+  "station": {
+    "type": "station",
+    "title": "Санкт-Петербург, метро «Обухово»",
+    "short_title": null,
+    "popular_title": null,
+    "code": "s9886880",
+    "station_type": "bus_stop",
+    "station_type_name": "автобусная остановка",
+    "transport_type": "bus"
+  },
+  "event": "departure",
+  "pagination": {
+    "total": 1,
+    "limit": 100,
+    "offset": 0
+  },
+  "schedule": [],
+  "interval_schedule": [
+    {
+      "thread": {
+        "number": "693",
+        "title": "Санкт-Петербург — Новосаратовка",
+        "short_title": "Санкт-Петербург — Новосаратовка",
+        "express_type": null,
+        "transport_type": "bus",
+        "carrier": null,
+        "uid": "empty_1_f9886880t9886879_175",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "interval": {
+          "density": "интервал 20 мин.",
+          "begin_time": "06:30",
+          "end_time": "22:35"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": ""
+    }
+  ]
+}

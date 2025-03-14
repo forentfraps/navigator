@@ -1,0 +1,50 @@
+{
+  "date": null,
+  "station": {
+    "type": "station",
+    "title": "Железнодорожная улица, 56",
+    "short_title": "",
+    "popular_title": "",
+    "code": "s9812006",
+    "station_type": "bus_stop",
+    "station_type_name": "автобусная остановка",
+    "transport_type": "bus"
+  },
+  "event": "departure",
+  "pagination": {
+    "total": 1,
+    "limit": 100,
+    "offset": 0
+  },
+  "schedule": [],
+  "interval_schedule": [
+    {
+      "thread": {
+        "number": "375",
+        "title": "Железнодорожная улица — Славянка, Ростовская улица, 25",
+        "short_title": "Железнодорожная улица — Славянка, Ростовская улица, 25",
+        "express_type": null,
+        "transport_type": "bus",
+        "carrier": null,
+        "uid": "empty_0_f9811901t9838187_175",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "interval": {
+          "density": "интервал 10-26 мин.",
+          "begin_time": "07:31",
+          "end_time": "23:36"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": ""
+    }
+  ]
+}

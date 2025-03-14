@@ -3,6 +3,7 @@ import requests
 import json
 import os
 import glob
+import datetime
 
 class yAPI:
     def __init__(self, cache_file="resp.json", miss_cache_file="station_schedule_misses.json"):
@@ -123,96 +124,142 @@ class yAPI:
         print(f"Total settlements processed: {total_settlements}")
         return results
 
-    def station_schedule(self, station, date=None, direction=None, transport_types=None, offset=0, limit=100):
+    def station_schedule(
+        self,
+        station,
+        date=None,
+        direction=None,
+        transport_types=None,
+        offset=0,
+        limit=100,
+        max_day_lookahead=3
+    ):
         """
         Retrieves schedule (list of trips) for the specified station and
-        saves to "schedule.json" (overwrites each time).
-    
-        Pagination logic:
-          1) First, request with user-supplied limit/offset.
-          2) If 'pagination.total' > limit, automatically re-request with limit=total (and offset=0).
-             Then we combine schedule results or simply overwrite with that bigger set.
-    
-        Miss-cache logic:
-          - If station is in self._station_schedule_miss, return None immediately.
-          - On HTTP or general error, add station to miss cache, return None.
-    
+        tries multiple dates if:
+           - no explicit date given, OR
+           - the schedule is empty for the initial date.
+
+        We loop up to `max_day_lookahead` (default=3 days).
+        Merges all found schedules into a single data dict.
+
         Returns the final JSON data dict or None if not available.
         """
-    
-        # 1) Check if this station is in the "miss" set
         if station in self._station_schedule_miss:
             print(f"[station_schedule] Station {station} is in miss cache, returning None.")
             return None
-    
-        # 2) Build parameters
-        extraparams = f"&station={station}&offset={offset}&limit={limit}"
-        if date:
-            extraparams += f"&date={date}"
+
+        # If user did not provide date, start from "today"
+        # Or you might set default to tomorrow, etc.:
+        if not date:
+            date = datetime.date.today().strftime("%Y-%m-%d")
+
+        # We’ll accumulate all flights in one big ‘schedule’ list:
+        combined_data = None
+        day_count = 0
+
+        while day_count < max_day_lookahead:
+            current_date_str = (
+                datetime.datetime.strptime(date, "%Y-%m-%d") +
+                datetime.timedelta(days=day_count)
+            ).strftime("%Y-%m-%d")
+            print(f"[station_schedule] Attempting date={current_date_str} ...")
+
+            # -- do an actual request for that date --
+            single_day_data = self._fetch_station_schedule_once(
+                station=station,
+                date=current_date_str,
+                direction=direction,
+                transport_types=transport_types,
+                offset=offset,
+                limit=limit
+            )
+
+            # If request failed or returned None => break/skip
+            if not single_day_data:
+                print(f"[station_schedule] No data returned for {current_date_str}")
+                day_count += 1
+                continue
+
+            # If first successful day, store a copy to combined_data
+            if combined_data is None:
+                combined_data = single_day_data
+            else:
+                # Merge: combine "schedule" from single_day_data into combined_data
+                sched1 = combined_data.get("schedule", [])
+                sched2 = single_day_data.get("schedule", [])
+                sched_merged = sched1 + sched2
+                combined_data["schedule"] = sched_merged
+
+            day_count += 1
+
+            # If the user gave an explicit date, do NOT keep looping
+            # — unless you actually want to loop anyway. 
+            if date:
+                break
+
+        if combined_data:
+            # Save to schedule.json so lazygraph sees it, etc.
+            with open("schedule.json", "wb") as f:
+                f.write(json.dumps(combined_data, ensure_ascii=False, indent=2).encode("utf-8"))
+            return combined_data
+
+        # If we never got any schedules
+        print(f"[station_schedule] No schedules found for station={station} in {max_day_lookahead} days.")
+        return None
+
+    def _fetch_station_schedule_once(self, station, date, direction, transport_types, offset, limit):
+        """
+        Helper that does a single request for station-schedule on the given date
+        and handles pagination. If everything is good, returns the schedule data dict;
+        else returns None.
+        """
+        # Build params
+        extraparams = f"&station={station}&offset={offset}&limit={limit}&date={date}"
         if direction:
             extraparams += f"&direction={direction}"
         if transport_types:
             extraparams += f"&transport_types={transport_types}"
-    
-        # 3) Attempt the first request
+
         try:
             data_bytes = self.get("schedule", extraparams)
         except requests.HTTPError as e:
-            print(f"[station_schedule] HTTPError for station={station}, adding to miss cache. Error: {e}")
+            print(f"[station_schedule] HTTPError for station={station}, date={date}. Error: {e}")
             self._station_schedule_miss.add(station)
             self._save_miss_cache()
             return None
         except Exception as e:
-            print(f"[station_schedule] General error for station={station}, adding to miss cache. Error: {e}")
+            print(f"[station_schedule] General error for station={station}, date={date}. Error: {e}")
             self._station_schedule_miss.add(station)
             self._save_miss_cache()
             return None
-    
-        # 4) Parse the JSON
+
         data = json.loads(data_bytes)
-    
-        # Optional: check if data might contain an "error" key, or data['schedule'] is missing, etc.
-        # If so, you could also treat that as a miss, depending on your API usage.
-    
-        # 5) Pagination check
+        if not data.get("schedule"):
+            # Possibly empty schedule, no trips
+            return None
+
+        # pagination check
         pagination = data.get("pagination", {})
         total = pagination.get("total", 0)
         current_limit = pagination.get("limit", limit)
-        # If total > current_limit => we want to re-request with limit=total
         if total > current_limit:
-            print(f"[station_schedule] Found total={total} > limit={current_limit}, re-requesting with limit=total.")
-            # Build new extraparams with limit=total (and offset=0)
-            new_extraparams = f"&station={station}&offset=0&limit={total}"
-            if date:
-                new_extraparams += f"&date={date}"
+            # re-request with limit=total
+            new_extraparams = f"&station={station}&offset=0&limit={total}&date={date}"
             if direction:
                 new_extraparams += f"&direction={direction}"
             if transport_types:
                 new_extraparams += f"&transport_types={transport_types}"
-    
+
             try:
                 second_data_bytes = self.get("schedule", new_extraparams)
                 data2 = json.loads(second_data_bytes)
-                data = data2  # Overwrite the original 'data' with the bigger result
-                print(f"[station_schedule] Re-request with limit={total} succeeded, got all results.")
-            except requests.HTTPError as e:
-                print(f"[station_schedule] HTTPError in second request for station={station}, adding to miss cache. {e}")
-                self._station_schedule_miss.add(station)
-                self._save_miss_cache()
-                return None
+                return data2
             except Exception as e:
-                print(f"[station_schedule] General error in second request for station={station}, adding to miss cache. {e}")
-                self._station_schedule_miss.add(station)
-                self._save_miss_cache()
-                return None
-    
-        # 6) Write final data to "schedule.json" (your existing logic)
-        #    (Note: This overwrites schedule.json each time you call station_schedule)
-        with open("schedule.json", "wb") as f:
-            f.write(json.dumps(data, ensure_ascii=False, indent=2).encode("utf-8"))
-    
-        # 7) Return the final data dictionary
-        return data    
+                print(f"[station_schedule] Second fetch error: {e}")
+                return data
+        else:
+            return data
     def between2stations(self, code1, code2, date):
         """
         Retrieves route information between two stations based on their codes and the given date.

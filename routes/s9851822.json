@@ -1,0 +1,134 @@
+{
+  "date": null,
+  "station": {
+    "type": "station",
+    "title": "Улица Архитектора Данини / Малиновская улица",
+    "short_title": null,
+    "popular_title": null,
+    "code": "s9851822",
+    "station_type": "bus_stop",
+    "station_type_name": "автобусная остановка",
+    "transport_type": "bus"
+  },
+  "event": "departure",
+  "pagination": {
+    "total": 4,
+    "limit": 100,
+    "offset": 0
+  },
+  "schedule": [],
+  "interval_schedule": [
+    {
+      "thread": {
+        "number": "299",
+        "title": "Садоводство \"Павловское\" — Метро «Московская» / улица Типанова, Южная роща",
+        "short_title": "Садоводство \"Павловское\" — Метро «Московская» / улица Типанова, Южная роща",
+        "express_type": null,
+        "transport_type": "bus",
+        "carrier": null,
+        "uid": "empty_1_f9846106t9833299_175",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "interval": {
+          "density": "интервал 15-25 мин.",
+          "begin_time": "05:29",
+          "end_time": "00:29"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": ""
+    },
+    {
+      "thread": {
+        "number": "342",
+        "title": "Пушкин — Метро «Купчино», западная сторона",
+        "short_title": "Пушкин — Метро «Купчино», западная сторона",
+        "express_type": null,
+        "transport_type": "bus",
+        "carrier": null,
+        "uid": "empty_1_f9811913t9814339_175",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "interval": {
+          "density": "интервал 13-22 мин.",
+          "begin_time": "05:30",
+          "end_time": "00:00"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": ""
+    },
+    {
+      "thread": {
+        "number": "252",
+        "title": "Павловск — Санкт-Петербург",
+        "short_title": "Павловск — Санкт-Петербург",
+        "express_type": null,
+        "transport_type": "bus",
+        "carrier": null,
+        "uid": "empty_0_f9812104t9818112_175",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "interval": {
+          "density": "интервал 10-27 мин.",
+          "begin_time": "05:30",
+          "end_time": "23:50"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": ""
+    },
+    {
+      "thread": {
+        "number": "342",
+        "title": "Санкт-Петербург — Пушкин",
+        "short_title": "Санкт-Петербург — Пушкин",
+        "express_type": null,
+        "transport_type": "bus",
+        "carrier": null,
+        "uid": "empty_1_f9883679t9811913_175",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": null,
+          "code": null,
+          "color": null
+        },
+        "interval": {
+          "density": "интервал 13-22 мин.",
+          "begin_time": "06:34",
+          "end_time": "00:04"
+        }
+      },
+      "is_fuzzy": false,
+      "platform": "",
+      "terminal": null,
+      "days": "ежедневно",
+      "except_days": null,
+      "stops": ""
+    }
+  ]
+}
