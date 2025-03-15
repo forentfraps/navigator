@@ -1,72 +1,67 @@
-# main.py
 
-from yapi import yAPI
-from lazygraph import LazyRouteGraph
 import a_star
-from datetime import datetime
-
-def print_time_table_path(path, graph):
-    """
-    Pretty-print a path that includes actual departure/arrival times.
-    """
-    if not path:
-        print("No path found.")
-        return
-
-    print("Reconstructed path with schedule times:")
-    first_src = path[0][0]
-    print(f"Start at station code={first_src} ({graph._stations[first_src]['title']})")
-
-    prev_arrival = None
-    for (src, dst, mode, route_info, arrival_dt) in path:
-        src_name = graph._stations[src]["title"]
-        dst_name = graph._stations[dst]["title"]
-
-        if mode == "walk":
-            # For walking edges, we didn't store departure_time in route_info.
-            # The arrival_dt is the arrival at `dst`.
-            print(f"  Walk from {src_name} to {dst_name}, arrive at {arrival_dt}")
-        else:
-            # We have route_info with departure_time, arrival_time
-            dep_dt = route_info.get("departure_time", None)
-            arr_dt = route_info.get("arrival_time", None)
-            print(f"  {mode.upper()} {route_info.get('title','')} from {src_name} => {dst_name}")
-            print(f"      Depart: {dep_dt}, Arrive: {arr_dt}, We actually reach at {arrival_dt}")
-
-    print("\nFinished at station code={path[-1][1]} arrival={path[-1][4]}")
+from lazygraph import TransportGraph
+from yapi import yAPI
+from datetime import datetime, timezone, timedelta
 
 
 def main():
-    api = yAPI(cache_file="resp.json")
-    graph = LazyRouteGraph(
-        api, stations_file="resp.json",
-        routes_folder="routes",
-        cost_mode="time", 
-        debug=False
-    )
+    # neo_graph = Neo4jRouteGraph(
+    #     uri="bolt://localhost:7687",
+    #     user="neo4j",
+    #     password="secretgraph",
+    #     walk_distance_km=1.0,
+    #     cost_mode="time",
+    #     debug=False
+    # )
 
-    # Example: define from/to by settlement codes
-    from_settlement_code = "c969"       # Rostov e.g.
-    to_settlement_code   = "c39"    # St Petersburg e.g.
-    
+    transport_graph = TransportGraph(uri="bolt://localhost:7687", user="neo4j", password="secretgraph")
+
+
+    api = yAPI(cache_file="resp.json")
+    # api.populate_neo4j(transport_graph)
+    # return
+    from_settlement_code = "c66"   # Example: Moscow region?
+    to_settlement_code   = "c65"  # Example: Rostov?
+
     from_stations = api.get_settlement_station_codes(from_settlement_code)
     to_stations   = api.get_settlement_station_codes(to_settlement_code)
 
-    print("Len from_stations:", len(from_stations))
-    print("Len to_stations:", len(to_stations))
+    station_infos = api.fetch_station_info(set(from_stations + to_stations))
+    transport_graph.add_stations_bulk(station_infos)
 
-    # We'll do earliest arrival search from now
-    departure_time = datetime.now()
+    # input()
+    print("From stations:", len(from_stations))
+    print("To stations:", len(to_stations))
+
+    start_time= datetime.now() + timedelta(hours = 3)
 
     path = a_star.time_table_search_settlements(
-        graph=graph,
+        api,
+        transport_graph,
         start_stations=from_stations,
         goal_stations=to_stations,
-        start_time=departure_time,
-        debug=False
+        start_time=start_time,
+        debug=True
     )
 
-    print_time_table_path(path, graph)
+    if not path:
+        print("No path found.")
+    else:
+        for (src, dst, mode, route_info, arrival_dt) in path:
+            title_src = get_station_title(transport_graph, src)
+            title_dst = get_station_title(transport_graph, dst)
+            print(f"{mode.upper()} from {title_src} -> {title_dst}, arrive {arrival_dt}")
+
+    # neo_graph.close()
+
+def get_station_title(neo_graph, station_code):
+    with neo_graph.driver.session() as session:
+        res = session.run("""
+            MATCH (s:Station {yandex_code:$code}) RETURN s.title AS t
+        """, code=station_code).single()
+        return res["t"] if res else station_code
 
 if __name__ == "__main__":
     main()
+

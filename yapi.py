@@ -1,82 +1,138 @@
-#yapi.py
+import concurrent.futures
 import requests
 import json
 import os
-import glob
 import datetime
+import math
+
+
+def are_stations_within_distance(lat1, lon1, lat2, lon2, threshold_km):
+    """
+    Determine if two stations are within the threshold distance (in km) based on their latitude and longitude.
+    
+    Parameters:
+        lat1 (float): Latitude of the first station.
+        lon1 (float): Longitude of the first station.
+        lat2 (float): Latitude of the second station.
+        lon2 (float): Longitude of the second station.
+        threshold_km (float): Distance threshold in kilometers.
+    
+    Returns:
+        tuple: (is_within, distance) where is_within is True if the distance is less than or equal to threshold_km,
+               and distance is the computed distance in kilometers.
+    """
+    # Convert degrees to radians
+    lat1, lon1, lat2, lon2 = map(math.radians, [lat1, lon1, lat2, lon2])
+    
+    # Compute differences
+    dlat = lat2 - lat1
+    dlon = lon2 - lon1
+    
+    # Haversine formula
+    a = math.sin(dlat / 2) ** 2 + math.cos(lat1) * math.cos(lat2) * math.sin(dlon / 2) ** 2
+    c = 2 * math.asin(math.sqrt(a))
+    
+    # Earth's radius in kilometers (approx.)
+    earth_radius_km = 6371.0
+    distance = earth_radius_km * c
+    
+    return distance <= threshold_km, distance
 
 class yAPI:
     def __init__(self, cache_file="resp.json", miss_cache_file="station_schedule_misses.json"):
         self.url = "https://api.rasp.yandex.net/v3.0"
-        # API key as parameter (or via Authorization header)
+        # Your API key
         self.apikey = "apikey=70aafa03-0fdb-4aed-a88e-94972422528d"
         self.format = "format=json"
         self.lang = "lang=ru_RU"
         self.cache_file = cache_file
         self.miss_cache_file = miss_cache_file
-        # We'll load any previously saved "miss" stations from disk
         self._station_schedule_miss = set()
         self._load_miss_cache()
     
     def get(self, endpoint, extraparams=""):
         url = f"{self.url}/{endpoint}/?{self.apikey}&{self.format}&{self.lang}{extraparams}"
         resp = requests.get(url)
-        resp.raise_for_status()  # Raise an error if the request failed
+        resp.raise_for_status()
         return resp.content
+
     def _load_miss_cache(self):
-        """Load the 'miss' set from a JSON file if it exists."""
         if os.path.exists(self.miss_cache_file):
             try:
                 with open(self.miss_cache_file, "r", encoding="utf-8") as f:
                     data = json.load(f)
-                # data is presumably a list, we convert to a set for faster membership checks
                 self._station_schedule_miss = set(data)
-            except Exception as e:
-                print(f"Warning: failed to read {self.miss_cache_file}: {e}")
+            except:
+                pass
 
     def _save_miss_cache(self):
-        """Write the current _station_schedule_miss set to the JSON file."""
         try:
             with open(self.miss_cache_file, "w", encoding="utf-8") as f:
                 json.dump(list(self._station_schedule_miss), f, ensure_ascii=False, indent=2)
-        except Exception as e:
-            print(f"Warning: failed to write {self.miss_cache_file}: {e}")
+        except:
+            pass
 
     def stations_list(self):
-        """
-        Downloads the full stations list from the API and saves it to the cache file.
-        """
+        """ Downloads the full stations list from the API and saves to cache_file """
         data = self.get("stations_list")
         with open(self.cache_file, "wb") as f:
             f.write(data)
-    
+
     def get_stations_data(self, force_download=False):
-        """
-        Returns the parsed JSON data for stations.
-        If force_download is False and the cache file exists on the system,
-        the data is loaded from the file. Otherwise, it downloads from the API.
-        """
+        """ Return parsed JSON data for stations. """
         if force_download or not os.path.exists(self.cache_file):
             print("Downloading stations data...")
             self.stations_list()
         with open(self.cache_file, "r", encoding="utf-8") as f:
             data = json.load(f)
         return data
-    
+
     def search_stations(self, query, force_download=False):
-        """
-        Searches for stations where the station title includes the given query (case-insensitive).
-        Returns a list of matching stations with key details.
-        """
         data = self.get_stations_data(force_download=force_download)
         results = []
-        count = 0
         for country in data.get("countries", []):
             for region in country.get("regions", []):
                 for settlement in region.get("settlements", []):
                     for station in settlement.get("stations", []):
-                        count += 1
                         if query.lower() in station.get("title", "").lower():
+                            results.append({
+                                "title": station.get("title"),
+                                "yandex_code": station.get("codes", {}).get("yandex_code"),
+                                "esr_code": station.get("codes", {}).get("esr_code"),
+                                "latitude": station.get("latitude"),
+                                "longitude": station.get("longitude"),
+                                "transport_type": station.get("transport_type"),
+                                "station_type": station.get("station_type")
+                            })
+        return results
+    def populate_neo4j(self, transport_graph, force_download = False):
+        data = self.get_stations_data(force_download=force_download)
+        for country in data.get("countries", []):
+            for region in country.get("regions", []):
+                for settlement in region.get("settlements", []):
+                    for station in settlement.get("stations", []):
+                        station_info = {
+                            "title": station.get("title"),
+                            "yandex_code": station.get("codes", {}).get("yandex_code"),
+                            "esr_code": station.get("codes", {}).get("esr_code"),
+                            "latitude": station.get("latitude"),
+                            "longitude": station.get("longitude"),
+                            "transport_type": station.get("transport_type"),
+                            "station_type": station.get("station_type")
+                        }
+                        transport_graph.add_station_if_not_exists(station_info)
+        return
+    def fetch_station_info(self, station_ids, force_download = False):
+        data = self.get_stations_data(force_download=force_download)
+        station_infos = []
+        for country in data.get("countries", []):
+            for region in country.get("regions", []):
+                for settlement in region.get("settlements", []):
+                    for station in settlement.get("stations", []):
+
+                        code = station.get("codes", {}).get("yandex_code")
+                        if code in station_ids:
+    
                             station_info = {
                                 "title": station.get("title"),
                                 "yandex_code": station.get("codes", {}).get("yandex_code"),
@@ -86,42 +142,28 @@ class yAPI:
                                 "transport_type": station.get("transport_type"),
                                 "station_type": station.get("station_type")
                             }
-                            results.append(station_info)
-        print(count)
-        return results
+                            station_infos.append(station_info)
+
+        
+        return station_infos
+
+
 
     def search_settlements(self, query, force_download=False):
-        """
-        Searches for settlements where the settlement title includes the given query (case-insensitive).
-        Returns a list of matching settlements with key details.
-        
-        According to the API, a settlement contains:
-          - title: The name of the settlement.
-          - codes: An object with the Yandex code (key "yandex_code").
-          - stations: A list of station objects within the settlement.
-          
-        This implementation also includes the parent region and country names.
-        """
         data = self.get_stations_data(force_download=force_download)
         results = []
-        total_settlements = 0
-        
         for country in data.get("countries", []):
             country_title = country.get("title", "")
             for region in country.get("regions", []):
                 region_title = region.get("title", "")
                 for settlement in region.get("settlements", []):
-                    total_settlements += 1
                     if query.lower() in settlement.get("title", "").lower():
-                        settlement_info = {
+                        results.append({
                             "title": settlement.get("title"),
                             "yandex_code": settlement.get("codes", {}).get("yandex_code"),
                             "country": country_title,
-                            "region": region_title,
-                            # "stations": settlement.get("stations", [])
-                        }
-                        results.append(settlement_info)
-        print(f"Total settlements processed: {total_settlements}")
+                            "region": region_title
+                        })
         return results
 
     def station_schedule(
@@ -135,86 +177,34 @@ class yAPI:
         max_day_lookahead=3
     ):
         """
-        Retrieves schedule (list of trips) for the specified station and
-        tries multiple dates if:
-           - no explicit date given, OR
-           - the schedule is empty for the initial date.
-
-        We loop up to `max_day_lookahead` (default=3 days).
-        Merges all found schedules into a single data dict.
-
-        Returns the final JSON data dict or None if not available.
+        Retrieves schedule (list of trips) for the specified station.
+        Loops up to `max_day_lookahead` if no explicit date is given or if empty results.
+        Returns the final JSON data or None.
         """
         if station in self._station_schedule_miss:
             print(f"[station_schedule] Station {station} is in miss cache, returning None.")
             return None
 
-        # If user did not provide date, start from "today"
-        # Or you might set default to tomorrow, etc.:
+        if type(date)!= datetime.datetime:
+            date = datetime.datetime.fromtimestamp(date).strftime("%Y-%m-%d")
         if not date:
             date = datetime.date.today().strftime("%Y-%m-%d")
 
-        # We’ll accumulate all flights in one big ‘schedule’ list:
-        combined_data = None
-        day_count = 0
 
-        while day_count < max_day_lookahead:
-            current_date_str = (
-                datetime.datetime.strptime(date, "%Y-%m-%d") +
-                datetime.timedelta(days=day_count)
-            ).strftime("%Y-%m-%d")
-            print(f"[station_schedule] Attempting date={current_date_str} ...")
+        print(f"[station_schedule] Attempting date={date} ...")
 
-            # -- do an actual request for that date --
-            single_day_data = self._fetch_station_schedule_once(
-                station=station,
-                date=current_date_str,
-                direction=direction,
-                transport_types=transport_types,
-                offset=offset,
-                limit=limit
-            )
+        single_day_data = self._fetch_station_schedule_once(
+            station=station,
+            date=date,
+            direction=direction,
+            transport_types=transport_types,
+            offset=offset,
+            limit=limit
+        )
 
-            # If request failed or returned None => break/skip
-            if not single_day_data:
-                print(f"[station_schedule] No data returned for {current_date_str}")
-                day_count += 1
-                continue
-
-            # If first successful day, store a copy to combined_data
-            if combined_data is None:
-                combined_data = single_day_data
-            else:
-                # Merge: combine "schedule" from single_day_data into combined_data
-                sched1 = combined_data.get("schedule", [])
-                sched2 = single_day_data.get("schedule", [])
-                sched_merged = sched1 + sched2
-                combined_data["schedule"] = sched_merged
-
-            day_count += 1
-
-            # If the user gave an explicit date, do NOT keep looping
-            # — unless you actually want to loop anyway. 
-            if date:
-                break
-
-        if combined_data:
-            # Save to schedule.json so lazygraph sees it, etc.
-            with open("schedule.json", "wb") as f:
-                f.write(json.dumps(combined_data, ensure_ascii=False, indent=2).encode("utf-8"))
-            return combined_data
-
-        # If we never got any schedules
-        print(f"[station_schedule] No schedules found for station={station} in {max_day_lookahead} days.")
-        return None
+        return single_day_data
 
     def _fetch_station_schedule_once(self, station, date, direction, transport_types, offset, limit):
-        """
-        Helper that does a single request for station-schedule on the given date
-        and handles pagination. If everything is good, returns the schedule data dict;
-        else returns None.
-        """
-        # Build params
         extraparams = f"&station={station}&offset={offset}&limit={limit}&date={date}"
         if direction:
             extraparams += f"&direction={direction}"
@@ -223,81 +213,44 @@ class yAPI:
 
         try:
             data_bytes = self.get("schedule", extraparams)
-        except requests.HTTPError as e:
-            print(f"[station_schedule] HTTPError for station={station}, date={date}. Error: {e}")
+        except requests.HTTPError:
             self._station_schedule_miss.add(station)
             self._save_miss_cache()
             return None
-        except Exception as e:
-            print(f"[station_schedule] General error for station={station}, date={date}. Error: {e}")
-            self._station_schedule_miss.add(station)
-            self._save_miss_cache()
-            return None
-
         data = json.loads(data_bytes)
         if not data.get("schedule"):
-            # Possibly empty schedule, no trips
             return None
 
-        # pagination check
         pagination = data.get("pagination", {})
         total = pagination.get("total", 0)
         current_limit = pagination.get("limit", limit)
+
         if total > current_limit:
-            # re-request with limit=total
+            # re‐fetch with bigger limit
             new_extraparams = f"&station={station}&offset=0&limit={total}&date={date}"
             if direction:
                 new_extraparams += f"&direction={direction}"
             if transport_types:
                 new_extraparams += f"&transport_types={transport_types}"
-
             try:
                 second_data_bytes = self.get("schedule", new_extraparams)
-                data2 = json.loads(second_data_bytes)
-                return data2
-            except Exception as e:
-                print(f"[station_schedule] Second fetch error: {e}")
+                return json.loads(second_data_bytes)
+            except:
                 return data
-        else:
-            return data
+        return data
+
     def between2stations(self, code1, code2, date):
         """
-        Retrieves route information between two stations based on their codes and the given date.
-        The resulting JSON data is saved to "route.json".
+        Get route info between two stations. Return the JSON directly.
         """
-        data = self.get("search", f"&from={code1}&to={code2}&date={date}")
-        with open("route.json", "wb") as f:
-            f.write(data)
+        data_bytes = self.get("search", f"&from={code1}&to={code2}&date={date}")
+        return json.loads(data_bytes)
+
     def thread_stops(self, uid, date=None, from_code=None, to_code=None, show_systems="all"):
         """
-        Lazy-load from threads/<uid>.json if present, else call the API 
-        and save to that file. Then return the JSON.
+        Fetch the stops for a given thread (train/bus, etc.).
         """
-        # ensure folder
-        os.makedirs("threads", exist_ok=True)
-        filtered_uid = uid.replace("*", "")
-        #we cannot save a file with a * in its name sadly
-        uid_mask = filtered_uid.split("_")[0]
-
-        # optimisation since it otherwise downloads a lot of same threads but for slightly different dates
-        if uid_mask == "empty":
-            local_file = os.path.join("threads", f"{filtered_uid}.json")
-            if os.path.exists(local_file):
-                # already cached
-                with open(local_file, "r", encoding="utf-8") as f:
-                    return json.load(f)
-        else:
-            pattern = os.path.join("threads", f"{uid_mask}_*.json")
-            matching_files = glob.glob(pattern)
-            if matching_files:
-                local_file = matching_files[0]
-                if os.path.exists(local_file):
-                    with open(local_file, "r", encoding="utf-8") as f:
-                        return json.load(f)
-            else:
-                local_file = os.path.join("threads", f"{filtered_uid}.json")
-
-        # not cached, do the actual call
+        print(f"thread stops : {uid} date {date}")
         extraparams = f"&uid={uid}&show_systems={show_systems}"
         if date:
             extraparams += f"&date={date}"
@@ -305,70 +258,89 @@ class yAPI:
             extraparams += f"&from={from_code}"
         if to_code:
             extraparams += f"&to={to_code}"
-        print(f"[Q] thread {uid}")
 
         data_bytes = self.get("thread", extraparams)
-        data_json = json.loads(data_bytes)
-
-        # Save to disk for future calls
-        print(f"saving f{local_file}")
-        with open(local_file, "w", encoding="utf-8") as f:
-            json.dump(data_json, f, ensure_ascii=False, indent=2)
-
-        return data_json
-    def get_settlement_station_codes(self, settlement_yandex_code, force_download=False):
+        return json.loads(data_bytes)
+     
+    def bulk_thread_stops(self, queries, max_workers=100):
         """
-        Return a list of station 'yandex_code' values belonging to the settlement
-        whose settlement 'yandex_code' = settlement_yandex_code.
+        Query multiple thread stops concurrently using multithreading.
         
-        Example:
-          get_settlement_station_codes("c39") -> [ 's9601445', 's9601446', ... ]
+        Parameters:
+            queries (list): A list of dictionaries, each containing parameters for thread_stops.
+                            For example:
+                            [
+                                {'uid': 'uid1', 'date': '2025-03-15', 'from_code': 'AAA', 'to_code': 'BBB', 'show_systems': 'all'},
+                                {'uid': 'uid2', 'date': '2025-03-16', 'from_code': 'CCC', 'to_code': 'DDD', 'show_systems': 'all'},
+                                ...
+                            ]
+            max_workers (int): The maximum number of threads to run concurrently. Defaults to 10.
+        
+        Returns:
+            list: A list containing the result of each thread_stops call.
         """
-        data = self.get_stations_data(force_download=force_download)
-        stations_list = []
+        results = []
+        with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
+            # Map each query to a future
+            future_to_query = {executor.submit(self.thread_stops, **query): query for query in queries}
+            for future in concurrent.futures.as_completed(future_to_query):
+                query = future_to_query[future]
+                try:
+                    result = future.result()
+                    results.append(result)
+                except Exception as exc:
+                    # Handle exceptions if any individual thread_stops call fails.
+                    print(f"Query {query} generated an exception: {exc}")
+                    results.append(None)
+        return results
     
+    def walkable_stations(self,initial_station_info,threshold_km = 1.0, force_download = False):
+        data = self.get_stations_data(force_download=force_download)
+        walkable_stations = []
+        distances = []
+        compare_lon = initial_station_info["longitude"]
+        compare_lat= initial_station_info["latitude"]
+        if not compare_lon or not compare_lat:
+            return ([], [])
         for country in data.get("countries", []):
             for region in country.get("regions", []):
                 for settlement in region.get("settlements", []):
-                    # settlement code
-                    s_code = settlement.get("codes", {}).get("yandex_code", None)
-                    if s_code == settlement_yandex_code:
-                        # Found the settlement we want
-                        for station in settlement.get("stations", []):
-                            st_code = station.get("codes", {}).get("yandex_code")
-                            if st_code:
-                                stations_list.append(st_code)
-                        return stations_list
+                    for station in settlement.get("stations", []):
 
-        # If not found, we return an empty list
-        return stations_list
-# Example usage:
-if __name__ == '__main__':
-    api = yAPI()
+                        lat= station.get("latitude")
+                        lon = station.get("longitude")
+                        if (not lat) or (not lon) or (initial_station_info["yandex_code"] == station.get("codes", {}).get("yandex_code")):
+                            continue
+                        viable, distance = are_stations_within_distance(compare_lat, compare_lon, lat, lon, threshold_km)
+                        if viable:
     
-    # Example: Search for stations with a query (e.g., "Москва")
-    # query = input("Enter station search query: ")
-    #matching_stations = api.search_stations("Москва")
-    #
-    # if matching_stations:
-    #     print(f"Found {len(matching_stations)} matching station(s):")
-    #     for station in matching_stations:
-    #         print(f"Station: {station['title']}")
-    #         print(f"  Yandex Code: {station['yandex_code']}")
-    #         if station['esr_code']:
-    #             print(f"  ESR Code: {station['esr_code']}")
-    #         print(f"  Location: ({station['latitude']}, {station['longitude']})")
-    #         print(f"  Transport Type: {station['transport_type']}")
-    #         print(f"  Station Type: {station['station_type']}")
-    #         print("-" * 40)
-    # else:
-    #     print("No stations found matching your query.")
-    
-    matching_query = api.search_settlements(input("settlement name: "))
-    #c39 rostov
-    #c14 tver
-    #c969 viborb
+                            station_info = {
+                                "title": station.get("title"),
+                                "yandex_code": station.get("codes", {}).get("yandex_code"),
+                                "esr_code": station.get("codes", {}).get("esr_code"),
+                                "latitude": station.get("latitude"),
+                                "longitude": station.get("longitude"),
+                                "transport_type": station.get("transport_type"),
+                                "station_type": station.get("station_type")
+                            }
+                            
+                            distances.append(distance)
+                            walkable_stations.append(station_info)
+        return walkable_stations, distances
+     
+    def get_settlement_station_codes(self, settlement_yandex_code, force_download=False):
+        """
+        Return a list of station yandex_code for all stations in a given settlement.
+        """
+        data = self.get_stations_data(force_download=force_download)
+        for country in data.get("countries", []):
+            for region in country.get("regions", []):
+                for settlement in region.get("settlements", []):
+                    if settlement.get("codes", {}).get("yandex_code") == settlement_yandex_code:
+                        return [
+                            st.get("codes", {}).get("yandex_code")
+                            for st in settlement.get("stations", [])
+                            if st.get("codes", {}).get("yandex_code")
+                        ]
+        return []
 
-    # print(matching_query)
-    # Example usage of between2stations (existing functionality)
-    api.between2stations("c39", "c2", "2025-03-12")
