@@ -40,15 +40,15 @@ def query_all_settlement_schedules(api, force_download=False):
                     station_code = station.get("codes", {}).get("yandex_code")
                     title = station.get("title")
                     if not station_code:
-                        print("No yandex_code found for station, skipping...")
+                        logging.info("No yandex_code found for station, skipping...")
                         continue
     
-                    print(f"Querying schedule for {title}: {station_code}")
+                    logging.info(f"Querying schedule for {title}: {station_code}")
                     try:
                         if (not verify_integrity("routes/"+ station_code+".json")):
-                            print(f"Failed to find a valid code for {title} : {station_code}")
+                            logging.info(f"Failed to find a valid code for {title} : {station_code}")
                         else:
-                            print(f"skipping {station_code}")
+                            logging.info(f"skipping {station_code}")
                             continue
                         # Query the schedule with limit set to 250
                         schedule_data = api.station_schedule(station=station_code, limit=250)
@@ -58,7 +58,7 @@ def query_all_settlement_schedules(api, force_download=False):
                         with open(output_file, "w", encoding="utf-8") as f:
                             json.dump(schedule_data, f, ensure_ascii=False, indent=4)
                     except Exception as e:
-                        print(f"Failed to query schedule for station{station_code}: {e}")
+                        logging.info(f"Failed to query schedule for station{station_code}: {e}")
 
 
 if __name__ == "__main__":

@@ -8,7 +8,7 @@ def import_station_schedule_to_neo4j(api, neo_graph, station_code, date=None):
     """
     schedule_data = api.station_schedule(station_code, date=date)
     if not schedule_data:
-        print(f"No schedule data returned for {station_code}")
+        logging.info(f"No schedule data returned for {station_code}")
         return
 
     for item in schedule_data.get("schedule", []):
