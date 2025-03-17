@@ -12,4 +12,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Set the command to run your app; adjust the script as needed (for example, yapi.py)
-CMD ["python3", "-u", "graph_test.py"]
+# CMD ["python3", "-u", "main_cli.py"]
+# CMD ["echo 'Wait for the database startup then attach to the container'"]

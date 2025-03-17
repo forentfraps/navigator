@@ -8,6 +8,7 @@ import datetime
 import math
 import logging
 import csv
+from time import sleep
 
 def are_stations_within_distance(lat1, lon1, lat2, lon2, threshold_km):
     """
@@ -59,7 +60,6 @@ def generate_relationship_csv(station_infos, threshold_km, output_csv):
 class yAPI:
     def __init__(self, cache_file="resp.json", miss_cache_file="station_schedule_misses.json"):
         self.url = "https://api.rasp.yandex.net/v3.0"
-        # Your actual valid API key must go here. The value shown is for example only:
         self.apikey = "apikey=a8661682-f755-41cb-973f-e48ff8aa09d4"
         self.format = "format=json"
         self.lang = "lang=ru_RU"
@@ -70,7 +70,7 @@ class yAPI:
     
     def get(self, endpoint, extraparams=""):
         url = f"{self.url}/{endpoint}/?{self.apikey}&{self.format}&{self.lang}{extraparams}"
-        resp = requests.get(url)
+        resp = requests.get(url, timeout = 5)
         return resp.content
 
     def _load_miss_cache(self):
@@ -125,7 +125,9 @@ class yAPI:
 
     def populate_neo4j(self, transport_graph, force_download=False):
         """
-        Read all station data and insert them into Neo4j (nodes).
+        Read all station data and insert them into Neo4j (nodes). 
+        This was used once and everyone included regretted it, it should be done
+        via LOAD CSV and with said csvs, but mistakes were made...
         """
         data = self.get_stations_data(force_download=force_download)
         for country in data.get("countries", []):
@@ -357,10 +359,13 @@ class yAPI:
             extraparams += f"&to={to_code}"
 
         data_bytes = self.get("thread", extraparams)
-        data = json.loads(data_bytes)
+        try:
+            data = json.loads(data_bytes)
+        except:
+            return None
         return data
      
-    def bulk_thread_stops(self, queries, max_workers=20):
+    def bulk_thread_stops(self, queries, max_workers=5):
         """
         Query multiple thread_stops concurrently.
         queries = [ {'uid':'...', 'date':'...', 'from_code':'...', 'to_code':'...', ...}, ...]
@@ -373,11 +378,12 @@ class yAPI:
             for future in concurrent.futures.as_completed(future_to_query):
                 query = future_to_query[future]
                 try:
-                    result = future.result()
+                    result = future.result(timeout=5)
                     results.append(result)
                 except Exception as exc:
                     logging.info(f"Query {query} generated an exception: {exc}")
-                    results.append(None)
+                    sleep(10)
+
         return results
     
     def walkable_stations(self, initial_station_info, threshold_km=1.0, force_download=False):
