@@ -16,7 +16,7 @@
 
 1. Клонируйте репозиторий:
 
-`git clone github.com/forentfraps/navigator.git`
+`git clone https://github.com/forentfraps/navigator.git`
 
 
 `cd navigator`
