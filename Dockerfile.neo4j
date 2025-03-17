@@ -1,0 +1,12 @@
+FROM neo4j:latest
+
+# Copy your custom startup script into the image
+COPY neo4j.dump /backups/neo4j.dump
+COPY custom-entrypoint.sh /custom-entrypoint.sh
+RUN chmod +x /custom-entrypoint.sh
+
+# Override the entrypoint with your wrapper
+ENTRYPOINT ["/custom-entrypoint.sh"]
+# Default command is still "neo4j", so your script can
+# hand off properly at the end.
+CMD ["neo4j"]

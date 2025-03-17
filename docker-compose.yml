@@ -1,7 +1,9 @@
 
 services:
   neo4j:
-    image: neo4j:latest
+    build:
+      context: .
+      dockerfile: Dockerfile.neo4j
     ports:
       - "7474:7474"
       - "7687:7687"
@@ -21,8 +23,7 @@ services:
       NEO4J_PASSWORD: secretgraph
     stdin_open: true
     tty: true
-    # ports:
-    #   - "8000:8000"
 
 volumes:
   neo4j_data:
+
