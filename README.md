@@ -8,6 +8,8 @@
 1. Клонируйте репозиторий:
 
 `git clone github.com/forentfraps/navigator.git`
+
+
 `cd navigator`
 
 
